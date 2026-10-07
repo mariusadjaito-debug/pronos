@@ -102,6 +102,6 @@ ls.forEach(l=>{const b=document.createElement('button');b.textContent=l;b.setAtt
 fetch('predictions.json?'+Date.now()).then(r=>r.json()).then(d=>{M=d.matches;
 document.getElementById('upd').textContent=M.length?'Mis à jour le '+d.updated+' · '+M.length+' matchs dans les 7 prochains jours':'Aucun match trouvé pour les 7 prochains jours.';
 render()}).catch(()=>{document.getElementById('upd').textContent="Pas encore de données : lancez la mise à jour dans l'onglet Actions."});
-</script>
+EV.push(['r','Corners',9.5]);</script>
 </body>
 </html>
