@@ -17,7 +17,8 @@ LEAGUES = {
 }
 # clé, colonne domicile, colonne extérieur (tirs, cadrés, fautes, jaunes, hors-jeu)
 STATS = [("s", "HS", "AS"), ("c", "HST", "AST"), ("f", "HF", "AF"), ("k", "HY", "AY"), ("o", "HO", "AO")]
-STATS.append(("r", "HC", "AC"))ALIAS = {
+STATS.append(("r", "HC", "AC"))
+ALIAS = {
     "paris saint germain": "paris sg", "manchester united": "man united", "manchester city": "man city",
     "wolverhampton wanderers": "wolves", "tottenham hotspur": "tottenham", "nottingham forest": "nott m forest",
     "atletico madrid": "ath madrid", "athletic club": "ath bilbao", "espanyol": "espanol",
