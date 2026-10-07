@@ -11,7 +11,9 @@ LEAGUES = {
     "Premier League": ("E0", "PL"),
     "La Liga": ("SP1", "PD"),
     "Serie A": ("I1", "SA"),
-    "Bundesliga": ("D1", "BL1"),
+    "Bundesliga": ("D1", "BL1"),"Championship": ("E1", "ELC"),
+"Eredivisie": ("N1", "DED"),
+"Primeira Liga": ("P1", "PPL"),
 }
 # clé, colonne domicile, colonne extérieur (tirs, cadrés, fautes, jaunes, hors-jeu)
 STATS = [("s", "HS", "AS"), ("c", "HST", "AST"), ("f", "HF", "AF"), ("k", "HY", "AY"), ("o", "HO", "AO")]
