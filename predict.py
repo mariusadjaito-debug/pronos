@@ -45,6 +45,8 @@ ALIAS = {
     "internazionale milano": "inter", "borussia monchengladbach": "m gladbach",
     "eintracht frankfurt": "ein frankfurt", "bayern munchen": "bayern munich",
 }
+ALIAS.update({"stade rennais": "rennes", "athletic": "ath bilbao", "queens park rangers": "qpr", "nec": "nijmegen", "sporting clube braga": "sp braga", "sporting clube portugal": "sp lisbon", "vitoria": "guimaraes"})
+EXTRA.update({"Écosse Championship": "SC1", "Écosse League One": "SC2", "Écosse League Two": "SC3", "Conference": "EC"})
 STOP = {"fc", "afc", "cf", "ac", "sc", "ssc", "as", "ss", "rc", "ogc", "sv", "vfl", "vfb", "tsg", "fsv", "de", "club", "calcio", "balompie"}
 HALF_LIFE = 270  # jours : un match vieux de 270 jours compte moitié moins
 KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
