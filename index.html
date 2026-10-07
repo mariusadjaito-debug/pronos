@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pronos du jour</title>
 <style>
-:root{--bg:#f2f4ec;--card:#fff;--ink:#14231c;--mute:#5d6b63;--line:#d9dfd2;--home:#1f6b4a;--draw:#b9c2b2;--away:#c4572f;--gold:#c58a0c;--warn:#fff3d1;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f}}
-:root[data-theme="dark"]{--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f}
+:root{--bg:#f2f4ec;--card:#fff;--ink:#14231c;--mute:#5d6b63;--line:#d9dfd2;--home:#1f6b4a;--draw:#b9c2b2;--away:#c4572f;--gold:#c58a0c;--warn:#fff3d1;--ok:#15803d;--mid:#a16207;--bad:#b91c1c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f;--ok:#4ade80;--mid:#facc15;--bad:#f87171}}
+:root[data-theme="dark"]{--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f;--ok:#4ade80;--mid:#facc15;--bad:#f87171}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -27,21 +27,24 @@ h1{font-size:1.6rem;margin:4px 0 12px;letter-spacing:-.01em}
 .pct b{color:var(--ink)}
 .pick{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);gap:8px}
 .pick strong{font-size:.95rem}
-.conf{font-size:.85rem;white-space:nowrap}
-.conf::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
-.extra{display:flex;gap:14px;margin-top:8px;font-size:.85rem;color:var(--mute);flex-wrap:wrap}
-.extra b{color:var(--ink)}
+.ok{--c:var(--ok)}.mid{--c:var(--mid)}.bad{--c:var(--bad)}
+.b{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.78rem;font-weight:700;white-space:nowrap;color:var(--c);border:1px solid var(--c);background:color-mix(in srgb,var(--c) 14%,transparent)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--mute);margin-bottom:12px}
+.lg span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.extra{display:grid;gap:6px;margin-top:10px;font-size:.88rem;color:var(--ink)}
+.extra div{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .go{width:100%;margin-top:12px;border:0;border-radius:10px;background:var(--home);color:#fff;font:inherit;font-weight:600;padding:12px;cursor:pointer}
 .go:disabled{opacity:.7}
 .go:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 .ana{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
 .ana .st{color:var(--mute);font-size:.88rem;margin-bottom:4px}
-.row{display:grid;grid-template-columns:1.2fr .55fr .55fr 1.7fr;gap:6px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:.88rem}
+.row{display:grid;grid-template-columns:1.1fr .5fr .5fr 1.9fr;gap:6px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:.88rem}
 .row:last-child{border-bottom:0}
 .row.h{color:var(--mute);font-size:.78rem}
 .row .n{font-weight:600}
 .row .p b{display:block}
-.row .p span{color:var(--mute);font-size:.78rem}
+.row .p small{display:block;color:var(--mute);font-size:.78rem;margin-top:3px}
+.row .p .b{margin-top:3px}
 footer{color:var(--mute);font-size:.8rem;margin-top:18px}
 </style>
 </head>
@@ -49,9 +52,10 @@ footer{color:var(--mute);font-size:.8rem;margin-top:18px}
 <main>
 <h1>Pronos du jour</h1>
 <div class="warn" id="upd">Chargement des pronostics…</div>
+<div class="lg"><span class="ok">Sûr ou très sûr : 60 % et plus</span><span class="mid">Moyen : 52 à 59 %</span><span class="bad">Faible : moins de 52 %</span></div>
 <div class="chips" id="chips" role="group" aria-label="Filtrer par championnat"></div>
 <div id="list"></div>
-<footer>Probabilités calculées avec un modèle de Poisson à partir des buts attendus de chaque équipe. Ce sont des estimations, sans garantie de gain.</footer>
+<footer>Probabilités calculées avec un modèle de Poisson à partir des buts attendus de chaque équipe. Les couleurs indiquent le niveau de certitude du modèle. Ce sont des estimations, sans garantie de gain.</footer>
 </main>
 <script>
 let M=[];
@@ -64,19 +68,20 @@ for(let i=0;i<=8;i++)for(let j=0;j<=8;j++){const p=pois(i,x)*pois(j,y);
 if(i>j)h+=p;else if(i===j)d+=p;else a+=p;if(i+j>2)o+=p;if(i>0&&j>0)b+=p}
 const s=h+d+a;return{h:h/s,d:d/s,a:a/s,o:o/s,b:b/s}}
 const P=v=>Math.round(v*100)+'\u00a0%';
+const lv=p=>p>=.7?['ok','Très sûr']:p>=.6?['ok','Sûr']:p>=.52?['mid','Moyen']:['bad','Faible'];
+const chip=p=>{const [c,t]=lv(p);return `<span class="b ${c}">${P(p)} · ${t}</span>`};
 let cur='Tous';
 function card(m){
 const r=calc(m.x,m.y);const top=Math.max(r.h,r.d,r.a);
 const pick=top===r.h?'Victoire '+m.h:top===r.a?'Victoire '+m.a:'Match nul';
-const lvl=top>=.55?['Élevée','var(--home)']:top>=.45?['Moyenne','var(--gold)']:['Faible','var(--away)'];
 return `<article class="card" tabindex="0">
 <div class="top"><span>${m.l}</span><span>${T(m.d)}</span></div>
 <div class="teams">${m.h} – ${m.a}</div>
 <div class="bar" role="img" aria-label="Probabilités : ${m.h} ${P(r.h)}, nul ${P(r.d)}, ${m.a} ${P(r.a)}">
 <i style="width:${r.h*100}%;background:var(--home)"></i><i style="width:${r.d*100}%;background:var(--draw)"></i><i style="width:${r.a*100}%;background:var(--away)"></i></div>
 <div class="pct"><span>Domicile <b>${P(r.h)}</b></span><span>Nul <b>${P(r.d)}</b></span><span>Extérieur <b>${P(r.a)}</b></span></div>
-<div class="extra"><span>Plus de 2,5 buts <b>${P(r.o)}</b></span><span>Les deux marquent <b>${P(r.b)}</b></span></div>
-<div class="pick"><strong>${pick}</strong><span class="conf" style="--c:${lvl[1]}">Confiance ${lvl[0].toLowerCase()}</span></div>
+<div class="extra"><div><span>${r.o>=.5?'Plus':'Moins'} de 2,5 buts</span>${chip(Math.max(r.o,1-r.o))}</div><div><span>Les deux marquent : ${r.b>=.5?'oui':'non'}</span>${chip(Math.max(r.b,1-r.b))}</div></div>
+<div class="pick"><strong>${pick}</strong>${chip(top)}</div>
 <button class="go" onclick="analyse(${M.indexOf(m)},this)">Lancer l'analyse détaillée</button><div class="ana" hidden></div>
 </article>`}
 const over=(t,line)=>{let c=0;for(let k=0;k<=Math.floor(line);k++)c+=pois(k,t);return 1-c};
@@ -86,7 +91,7 @@ const m=M[i],box=btn.nextElementSibling;
 btn.disabled=true;btn.textContent='Analyse en cours…';
 setTimeout(()=>{
 const rows=EV.filter(([k])=>m.e[k]).map(([k,n,line])=>{const [a,b]=m.e[k],t=a+b,p=over(t,line),pl=p>=.5;
-return `<div class="row"><span class="n">${n}</span><span>${F(a)}</span><span>${F(b)}</span><span class="p"><b>${pl?'Plus':'Moins'} de ${String(line).replace('.',',')}</b><span>${P(pl?p:1-p)} · total ${F(t)}</span></span></div>`}).join('');
+return `<div class="row"><span class="n">${n}</span><span>${F(a)}</span><span>${F(b)}</span><span class="p"><b>${pl?'Plus':'Moins'} de ${String(line).replace('.',',')}</b>${chip(pl?p:1-p)}<small>total ${F(t)}</small></span></div>`}).join('');
 box.innerHTML=`<div class="st">Valeurs attendues pour ${m.h} – ${m.a}</div><div class="row h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}`;
 box.hidden=false;btn.disabled=false;btn.textContent="Relancer l'analyse"},700)}
 function render(){
