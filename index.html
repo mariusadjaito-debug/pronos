@@ -2,70 +2,91 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pronos du jour</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0b0d">
+<title>Pronos</title>
 <style>
-:root{--bg:#f2f4ec;--card:#fff;--ink:#14231c;--mute:#5d6b63;--line:#d9dfd2;--home:#1f6b4a;--draw:#b9c2b2;--away:#c4572f;--gold:#c58a0c;--warn:#fff3d1;--ok:#15803d;--mid:#a16207;--bad:#b91c1c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f;--ok:#4ade80;--mid:#facc15;--bad:#f87171}}
-:root[data-theme="dark"]{--bg:#0e1a14;--card:#16261d;--ink:#eaf0e6;--mute:#9bab9f;--line:#2a3d32;--home:#4cc08a;--draw:#51635a;--away:#e8825a;--gold:#e8b94a;--warn:#33290f;--ok:#4ade80;--mid:#facc15;--bad:#f87171}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-*,*::before,*::after{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:560px;margin:0 auto;padding:16px}
-h1{font-size:1.6rem;margin:4px 0 12px;letter-spacing:-.01em}
-.warn{background:var(--warn);border:1px solid var(--gold);border-radius:10px;padding:10px 12px;font-size:.9rem;margin-bottom:14px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
-.days{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}
-.chips button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;font:inherit;font-size:.9rem;cursor:pointer}
-.chips button[aria-pressed="true"]{background:var(--home);border-color:var(--home);color:#fff}
-.chips button:focus-visible,.card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
-.top{display:flex;justify-content:space-between;color:var(--mute);font-size:.85rem}
-.teams{font-size:1.1rem;font-weight:700;margin:6px 0 10px}
-.bar{display:flex;height:12px;border-radius:6px;overflow:hidden;gap:2px}
-.bar i{display:block;height:100%}
-.pct{display:flex;justify-content:space-between;font-size:.85rem;margin-top:6px;color:var(--mute)}
-.pct b{color:var(--ink)}
-.pick{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);gap:8px}
-.pick strong{font-size:.95rem}
+:root{--bg:#0a0b0d;--s1:#13151a;--s2:#1b1e24;--ln:#242830;--tx:#f3f4f6;--mu:#8a909b;--ok:#3ddc97;--mid:#f5c542;--bad:#ff6b6b;color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:560px;margin:0 auto;padding:calc(env(safe-area-inset-top,0px) + 18px) 16px calc(100px + env(safe-area-inset-bottom,0px))}
+button{font:inherit;cursor:pointer}button:focus-visible,summary:focus-visible{outline:2px solid var(--tx);outline-offset:2px}
+h1{font-size:1.9rem;font-weight:800;letter-spacing:-.03em;margin:0 0 2px}
+.meta{color:var(--mu);font-size:.8rem;margin-bottom:16px}
+.strip{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -16px 12px;padding:0 16px}
+.strip::-webkit-scrollbar{display:none}
+.day{flex:none;min-width:58px;padding:9px 10px;border-radius:16px;border:1px solid var(--ln);background:var(--s1);color:var(--mu);display:grid;justify-items:center;gap:1px}
+.day span{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em}.day b{font-size:1.25rem;color:var(--tx);line-height:1.15}.day i{font-style:normal;font-size:.68rem}
+.day[aria-pressed=true]{background:var(--tx);border-color:var(--tx);color:#4b5058}.day[aria-pressed=true] b{color:#0a0b0d}
+.chip{flex:none;padding:7px 14px;border-radius:999px;border:1px solid var(--ln);background:transparent;color:var(--mu);font-size:.85rem}
+.chip[aria-pressed=true]{color:var(--tx);border-color:var(--tx);background:var(--s2)}
+.lg{display:flex;flex-wrap:wrap;gap:4px 14px;color:var(--mu);font-size:.74rem;margin:2px 0 16px}
+.lg span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:6px}
 .ok{--c:var(--ok)}.mid{--c:var(--mid)}.bad{--c:var(--bad)}
-.b{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.78rem;font-weight:700;white-space:nowrap;color:var(--c);border:1px solid var(--c);background:color-mix(in srgb,var(--c) 14%,transparent)}
-.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--mute);margin-bottom:12px}
-.lg span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
-.extra{display:grid;gap:6px;margin-top:10px;font-size:.88rem;color:var(--ink)}
-.extra div{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.go{width:100%;margin-top:12px;border:0;border-radius:10px;background:var(--home);color:#fff;font:inherit;font-weight:600;padding:12px;cursor:pointer}
-.go:disabled{opacity:.7}
-.go:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-.ana{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
-.ana .st{color:var(--mute);font-size:.88rem;margin-bottom:4px}
-.row{display:grid;grid-template-columns:1.1fr .5fr .5fr 1.9fr;gap:6px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:.88rem}
-.row:last-child{border-bottom:0}
-.row.h{color:var(--mute);font-size:.78rem}
-.row .n{font-weight:600}
-.row .p b{display:block}
-.row .p small{display:block;color:var(--mute);font-size:.78rem;margin-top:3px}
-.row .p .b{margin-top:3px}
-.mk{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 0;font-size:.88rem}
-.mk>span:last-child{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px}
-.sc{padding:2px 8px;border-radius:999px;font-size:.78rem;font-weight:700;border:1px solid var(--line);background:var(--bg);white-space:nowrap}
-.note{color:var(--mute);font-size:.8rem;margin-top:8px}
-footer{color:var(--mute);font-size:.8rem;margin-top:18px}
+.card{background:var(--s1);border:1px solid var(--ln);border-radius:20px;padding:16px;margin-bottom:12px}
+.hd{display:flex;justify-content:space-between;color:var(--mu);font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;margin-bottom:14px}
+.vs{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;margin-bottom:16px}
+.tm{display:grid;justify-items:center;gap:8px;text-align:center;font-weight:600;font-size:.88rem;line-height:1.2}
+.av{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:.95rem}
+.ko{text-align:center;color:var(--mu);font-size:.68rem;text-transform:uppercase;letter-spacing:.05em}.ko b{display:block;color:var(--tx);font-size:1.2rem;letter-spacing:0;text-transform:none}
+.x3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.cl{background:var(--s2);border:1px solid transparent;border-radius:14px;padding:10px 0;text-align:center}
+.cl small{display:block;color:var(--mu);font-size:.7rem;font-weight:700}.cl b{font-size:1.2rem}
+.cl.top{border-color:var(--c);background:color-mix(in srgb,var(--c) 12%,var(--s2))}.cl.top b{color:var(--c)}
+.pk{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:14px}
+.pk small{display:block;color:var(--mu);font-size:.7rem;text-transform:uppercase;letter-spacing:.06em}.pk strong{font-size:.98rem}
+.tt{font-size:1.15rem;font-weight:700;margin-bottom:12px}
+.mkt{display:grid;gap:8px;margin-top:12px}
+.mr{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--s2);border-radius:12px;padding:10px 12px;font-size:.86rem}
+.mr>span:last-child{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px}
+.b{padding:3px 10px;border-radius:999px;font-size:.74rem;font-weight:700;white-space:nowrap;color:var(--c);background:color-mix(in srgb,var(--c) 16%,transparent)}
+.sc{padding:3px 9px;border-radius:999px;font-size:.74rem;font-weight:700;background:var(--ln);white-space:nowrap}
+.go{width:100%;margin-top:14px;padding:13px;border-radius:14px;border:0;background:var(--tx);color:#0a0b0d;font-weight:700}
+.go.ghost{background:var(--s2);color:var(--tx)}
+.ana{margin-top:14px;border-top:1px solid var(--ln);padding-top:12px}
+.st{color:var(--mu);font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;margin:12px 0 8px}.ana .st:first-child{margin-top:0}
+.row{display:grid;grid-template-columns:1.1fr .5fr .5fr 1.9fr;gap:6px;align-items:center;padding:9px 0;border-bottom:1px solid var(--ln);font-size:.86rem}
+.row:last-child{border-bottom:0}.row.h{color:var(--mu);font-size:.72rem}.row .n{font-weight:600}
+.row .p b{display:block}.row .p small{display:block;color:var(--mu);font-size:.74rem;margin-top:3px}.row .p .b{display:inline-block;margin-top:3px}
+.note{color:var(--mu);font-size:.76rem;margin-top:10px}
+summary{margin-top:12px;font-weight:600;list-style:none;cursor:pointer}
+.empty{color:var(--mu);text-align:center;padding:56px 20px;font-size:.92rem}.empty div{font-size:2.6rem;margin-bottom:10px}
+nav{position:fixed;left:0;right:0;bottom:0;z-index:10;display:flex;background:rgba(10,10,11,.96);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid #1d2026;padding:10px 0 calc(8px + env(safe-area-inset-bottom,0px))}
+nav button{flex:1;background:none;border:0;color:#6e7480;font-size:.76rem;font-weight:700;display:grid;justify-items:center;gap:4px}
+nav i{font-style:normal;font-size:1.7rem;line-height:1}nav button[aria-current=true]{color:#fff}
+.toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--tx);color:#0a0b0d;padding:10px 16px;border-radius:999px;font-weight:600;font-size:.84rem;z-index:20;opacity:0;pointer-events:none;transition:opacity .2s;white-space:nowrap}
+.toast.on{opacity:1}
 </style>
 </head>
 <body>
 <main>
-<h1>Pronos du jour</h1>
-<div class="warn" id="upd">Chargement des pronostics…</div>
-<div class="lg"><span class="ok">Sûr ou très sûr : 60 % et plus</span><span class="mid">Moyen : 52 à 59 %</span><span class="bad">Faible : moins de 52 %</span></div>
-<div class="chips days" id="days" role="group" aria-label="Calendrier : choisir un jour"></div>
-<div class="chips" id="chips" role="group" aria-label="Filtrer par championnat"></div>
+<section id="v-m">
+<h1>Matchs</h1>
+<div class="meta" id="upd">Chargement…</div>
+<div class="strip" id="days" role="group" aria-label="Calendrier"></div>
+<div class="strip" id="chips" role="group" aria-label="Championnats"></div>
+<div class="lg"><span class="ok">Sûr ou très sûr · 60 % et plus</span><span class="mid">Moyen · 52 à 59 %</span><span class="bad">Faible · moins de 52 %</span></div>
 <div id="list"></div>
-<footer>Probabilités calculées avec un modèle de Poisson à partir des buts attendus de chaque équipe. Les couleurs indiquent le niveau de certitude du modèle. Ce sont des estimations, sans garantie de gain.</footer>
+<div class="note">Estimations statistiques (modèle de Poisson), sans garantie de gain.</div>
+</section>
+<section id="v-a" hidden><h1>Analyses</h1><div class="meta">Tes matchs analysés, conservés 30 jours</div><div id="an"></div></section>
+<section id="v-p" hidden><h1>Palmarès</h1><div class="empty"><div>🏆</div>Bientôt disponible.<br>Nous définirons ensemble sa fonction.</div></section>
+<section id="v-g" hidden><h1>M.A</h1><div class="empty"><div>▣</div>Bientôt disponible.<br>Nous définirons ensemble sa fonction.</div></section>
+<section id="v-u" hidden><h1>Profil</h1><div class="empty"><div>♙</div>Bientôt disponible.<br>Nous définirons ensemble sa fonction.</div></section>
 </main>
+<div class="toast" id="toast" role="status"></div>
+<nav aria-label="Navigation">
+<button data-t="m" aria-current="true" onclick="show('m')"><i>⚽</i>Matchs</button>
+<button data-t="a" aria-current="false" onclick="show('a')"><i>✨</i>Analyses</button>
+<button data-t="p" aria-current="false" onclick="show('p')"><i>🏆</i>Palmarès</button>
+<button data-t="g" aria-current="false" onclick="show('g')"><i>▣</i>M.A</button>
+<button data-t="u" aria-current="false" onclick="show('u')"><i>♙</i>Profil</button>
+</nav>
 <script>
 let M=[],up='',cur='Tous',day=null;
+const $=id=>document.getElementById(id);
 const T=d=>new Date(d).toLocaleString('fr-FR',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+const HM=d=>new Date(d).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
 const K=d=>{const x=new Date(d);return x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0')};
 const EV=[['s','Tirs',24.5],['c','Tirs cadrés',8.5],['f','Fautes',24.5],['k','Cartons jaunes',4.5],['r','Corners',9.5],['o','Hors-jeu',3.5]];
 const fact=n=>n<2?1:n*fact(n-1);
@@ -78,50 +99,60 @@ return{h:h/s,d:d/s,a:a/s,o:o/s,b:b/s,g:g/s,w:w/s,sc:sc.slice(0,3)}}
 const P=v=>Math.round(v*100)+'\u00a0%';
 const lv=p=>p>=.7?['ok','Très sûr']:p>=.6?['ok','Sûr']:p>=.52?['mid','Moyen']:['bad','Faible'];
 const chip=p=>{const [c,t]=lv(p);return `<span class="b ${c}">${P(p)} · ${t}</span>`};
-function card(m){
-const r=calc(m.x,m.y);const top=Math.max(r.h,r.d,r.a);
-const pick=top===r.h?'Victoire '+m.h:top===r.a?'Victoire '+m.a:'Match nul';
-return `<article class="card" tabindex="0">
-<div class="top"><span>${m.l}</span><span>${T(m.d)}</span></div>
-<div class="teams">${m.h} – ${m.a}</div>
-<div class="bar" role="img" aria-label="Probabilités : ${m.h} ${P(r.h)}, nul ${P(r.d)}, ${m.a} ${P(r.a)}">
-<i style="width:${r.h*100}%;background:var(--home)"></i><i style="width:${r.d*100}%;background:var(--draw)"></i><i style="width:${r.a*100}%;background:var(--away)"></i></div>
-<div class="pct"><span>Domicile <b>${P(r.h)}</b></span><span>Nul <b>${P(r.d)}</b></span><span>Extérieur <b>${P(r.a)}</b></span></div>
-<div class="extra"><div><span>${r.o>=.5?'Plus':'Moins'} de 2,5 buts</span>${chip(Math.max(r.o,1-r.o))}</div><div><span>Les deux marquent : ${r.b>=.5?'oui':'non'}</span>${chip(Math.max(r.b,1-r.b))}</div></div>
-<div class="pick"><strong>${pick}</strong>${chip(top)}</div>
-<button class="go" onclick="analyse(${M.indexOf(m)},this)">Lancer l'analyse détaillée</button><div class="ana" hidden></div>
-</article>`}
+const hue=s=>{let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))%360;return h};
+const av=n=>{const h=hue(n),t=n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase();return `<span class="av" style="background:hsl(${h} 30% 20%);color:hsl(${h} 70% 78%)">${t}</span>`};
+const pk=m=>{const r=calc(m.x,m.y),t=Math.max(r.h,r.d,r.a);return [t===r.h?'Victoire '+m.h:t===r.a?'Victoire '+m.a:'Match nul',t,r]};
+const SK='pronos_analyses_v1',LIFE=30*864e5,idOf=m=>[m.l,m.h,m.a,m.d].join('|');
+const rd=()=>{try{return JSON.parse(localStorage.getItem(SK)||'[]').filter(e=>Date.now()-e.t<LIFE)}catch(e){return []}};
+const wr=a=>{try{localStorage.setItem(SK,JSON.stringify(a))}catch(e){}};
+const saved=m=>rd().some(e=>e.id===idOf(m));
+function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2800)}
 const over=(t,line)=>{let c=0;for(let k=0;k<=Math.floor(line);k++)c+=pois(k,t);return 1-c};
 const F=v=>v.toFixed(1).replace('.',',');
-function analyse(i,btn){
-const m=M[i],r=calc(m.x,m.y),box=btn.nextElementSibling;
-btn.disabled=true;btn.textContent='Analyse en cours…';
-setTimeout(()=>{
+function ana(m){const r=calc(m.x,m.y);
 const dc=[[m.h+' ou nul',r.h+r.d],['Nul ou '+m.a,r.d+r.a],[m.h+' ou '+m.a,r.h+r.a]].sort((u,v)=>v[1]-u[1])[0];
 const hc=(p,a,b)=>p>=.5?[a,p]:[b,1-p];
 const h1=hc(r.g,m.h+' -1,5',m.a+' +1,5'),h2=hc(r.w,m.h+' +1,5',m.a+' -1,5');
-const mk=(n,c)=>`<div class="mk"><span>${n}</span><span>${c}</span></div>`;
+const mk=(n,c)=>`<div class="mr"><span>${n}</span><span>${c}</span></div>`;
 const sc=r.sc.map(s=>`<span class="sc">${s[0]}-${s[1]} · ${P(s[2])}</span>`).join('');
 const rows=EV.filter(([k])=>m.e[k]).map(([k,n,line])=>{const [a,b]=m.e[k],t=a+b,p=over(t,line),pl=p>=.5;
 return `<div class="row"><span class="n">${n}</span><span>${F(a)}</span><span>${F(b)}</span><span class="p"><b>${pl?'Plus':'Moins'} de ${String(line).replace('.',',')}</b>${chip(pl?p:1-p)}<small>total ${F(t)}</small></span></div>`}).join('');
-box.innerHTML=`<div class="st">Marchés pour ${m.h} – ${m.a}</div>`+mk('Double chance : '+dc[0],chip(dc[1]))+mk('Handicap : '+h1[0],chip(h1[1]))+mk('Handicap : '+h2[0],chip(h2[1]))+mk('3 scores probables',sc)
-+(rows?`<div class="st" style="margin-top:10px">Statistiques attendues</div><div class="row h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}`:'')
-+`<div class="note">${m.e.o?'Touches':'Touches et hors-jeu'} : pas de données gratuites disponibles pour le moment.</div>`;
-box.hidden=false;btn.disabled=false;btn.textContent="Relancer l'analyse"},700)}
-function pick(id,items,sel,fn){const c=document.getElementById(id);c.innerHTML='';
-items.forEach(([v,t])=>{const b=document.createElement('button');b.textContent=t;b.setAttribute('aria-pressed',v===sel);b.onclick=()=>{fn(v);render()};c.appendChild(b)})}
+return `<div class="st">Marchés</div><div class="mkt">`+mk('Double chance : '+dc[0],chip(dc[1]))+mk('Handicap : '+h1[0],chip(h1[1]))+mk('Handicap : '+h2[0],chip(h2[1]))+mk('3 scores probables',sc)+`</div>`
++(rows?`<div class="st">Statistiques attendues</div><div class="row h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}`:'')
++`<div class="note">${m.e.o?'Touches':'Touches et hors-jeu'} : pas de données gratuites disponibles pour le moment.</div>`}
+function card(m){const [txt,top,r]=pk(m),c=lv(top)[0],seen=saved(m);
+const cell=(l,v)=>`<div class="cl${v===top?' top '+c:''}"><small>${l}</small><b>${P(v)}</b></div>`;
+return `<article class="card"><div class="hd"><span>${m.l}</span><span>${new Date(m.d).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})}</span></div>
+<div class="vs"><div class="tm">${av(m.h)}${m.h}</div><div class="ko"><b>${HM(m.d)}</b>coup d'envoi</div><div class="tm">${av(m.a)}${m.a}</div></div>
+<div class="x3">${cell('1',r.h)}${cell('N',r.d)}${cell('2',r.a)}</div>
+<div class="pk"><div><small>Pronostic</small><strong>${txt}</strong></div>${chip(top)}</div>
+<div class="mkt"><div class="mr"><span>${r.o>=.5?'Plus':'Moins'} de 2,5 buts</span>${chip(Math.max(r.o,1-r.o))}</div><div class="mr"><span>Les deux marquent : ${r.b>=.5?'oui':'non'}</span>${chip(Math.max(r.b,1-r.b))}</div></div>
+<button class="go${seen?' ghost':''}" onclick="analyse(${M.indexOf(m)},this)">${seen?"Voir l'analyse":'Analyser ce match'}</button><div class="ana" hidden></div></article>`}
+function analyse(i,btn){const m=M[i],box=btn.nextElementSibling;
+if(box.innerHTML){box.hidden=!box.hidden;btn.textContent=box.hidden?"Voir l'analyse":"Masquer l'analyse";return}
+box.innerHTML=ana(m);box.hidden=false;btn.textContent="Masquer l'analyse";btn.classList.add('ghost');
+const id=idOf(m),a=rd().filter(e=>e.id!==id);a.unshift({id,t:Date.now(),m});wr(a);toast("Analyse enregistrée dans l'onglet Analyses · 30 jours")}
+function renderAn(){const a=rd();wr(a);
+$('an').innerHTML=a.length?a.map((e,i)=>{const m=e.m,[txt,top]=pk(m),left=Math.max(1,Math.ceil((LIFE-(Date.now()-e.t))/864e5));
+return `<article class="card"><div class="hd"><span>${m.l}</span><span>expire dans ${left} j</span></div><div class="tt">${m.h} – ${m.a}</div><div class="pk"><div><small>${T(m.d)}</small><strong>${txt}</strong></div>${chip(top)}</div><details><summary>Voir l'analyse complète</summary><div class="ana">${ana(m)}</div></details><button class="go ghost" onclick="delAn(${i})">Supprimer</button></article>`}).join(''):`<div class="empty"><div>✨</div>Aucune analyse pour le moment.<br>Analyse un match depuis l'onglet Matchs : il sera conservé ici pendant 30 jours.</div>`}
+function delAn(i){const a=rd();a.splice(i,1);wr(a);renderAn()}
+function show(t){['m','a','p','g','u'].forEach(k=>$('v-'+k).hidden=k!==t);
+document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.t===t)));
+if(t==='a')renderAn();window.scrollTo(0,0)}
+function pick(id,items,sel,fn,cls){const c=$(id);c.innerHTML='';
+items.forEach(([v,h])=>{const b=document.createElement('button');b.className=cls;b.innerHTML=h;b.setAttribute('aria-pressed',String(v===sel));b.onclick=()=>{fn(v);render()};c.appendChild(b)})}
 function render(){
 const live=M.filter(m=>new Date(m.d)>Date.now()-108e5);
 const keys=[...new Set(live.map(m=>K(m.d)))].sort(),today=K(Date.now());
 if(day===null||(day!=='Tous'&&!keys.includes(day)))day=keys.includes(today)?today:'Tous';
-const lab=k=>new Date(live.find(m=>K(m.d)===k).d).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric'});
+const lab=k=>{const x=new Date(live.find(m=>K(m.d)===k).d);return `<span>${x.toLocaleDateString('fr-FR',{weekday:'short'})}</span><b>${x.getDate()}</b><i>${live.filter(m=>K(m.d)===k).length} matchs</i>`};
 const inDay=live.filter(m=>day==='Tous'||K(m.d)===day),ls=[...new Set(inDay.map(m=>m.l))];
 if(cur!=='Tous'&&!ls.includes(cur))cur='Tous';
-pick('days',[['Tous','Tous'],...keys.map(k=>[k,lab(k)+' · '+live.filter(m=>K(m.d)===k).length])],day,v=>day=v);
-pick('chips',[['Tous','Tous'],...ls.map(l=>[l,l])],cur,v=>cur=v);
-document.getElementById('list').innerHTML=inDay.filter(m=>cur==='Tous'||m.l===cur).map(card).join('')||'<p class="note">Aucun match ce jour-là.</p>';
-document.getElementById('upd').textContent=live.length?'Mis à jour le '+up+' · '+live.length+' matchs à venir · mise à jour automatique':'Aucun match trouvé pour le moment.'}
-function load(){fetch('predictions.json?'+Date.now()).then(r=>r.json()).then(d=>{if(d.updated!==up){M=d.matches;up=d.updated;render()}}).catch(()=>{if(!M.length)document.getElementById('upd').textContent="Pas encore de données : la première mise à jour automatique arrive bientôt."})}
+pick('days',[['Tous',`<span>Tous</span><b>${live.length}</b><i>matchs</i>`],...keys.map(k=>[k,lab(k)])],day,v=>day=v,'day');
+pick('chips',[['Tous','Tous'],...ls.map(l=>[l,l])],cur,v=>cur=v,'chip');
+$('list').innerHTML=inDay.filter(m=>cur==='Tous'||m.l===cur).map(card).join('')||'<div class="empty"><div>⚽</div>Aucun match ce jour-là.</div>';
+$('upd').textContent=live.length?'Mis à jour le '+up+' · actualisation automatique':'Aucun match trouvé pour le moment.'}
+function load(){fetch('predictions.json?'+Date.now()).then(r=>r.json()).then(d=>{if(d.updated!==up){M=d.matches;up=d.updated;render()}}).catch(()=>{if(!M.length)$('upd').textContent='Pas encore de données : la première mise à jour automatique arrive bientôt.'})}
 load();setInterval(load,6e5);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script>
 </body>
