@@ -4,6 +4,11 @@ import csv, io, json, os, re, unicodedata, urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from difflib import get_close_matches
+try:
+    from zoneinfo import ZoneInfo
+    UK = ZoneInfo("Europe/London")
+except Exception:
+    UK = timezone.utc
 
 # nom affiché : (code du fichier CSV football-data.co.uk, code football-data.org)
 LEAGUES = {
@@ -11,13 +16,28 @@ LEAGUES = {
     "Premier League": ("E0", "PL"),
     "La Liga": ("SP1", "PD"),
     "Serie A": ("I1", "SA"),
-    "Bundesliga": ("D1", "BL1"),"Championship": ("E1", "ELC"),
-"Eredivisie": ("N1", "DED"),
-"Primeira Liga": ("P1", "PPL"),
+    "Bundesliga": ("D1", "BL1"),
+    "Championship": ("E1", "ELC"),
+    "Eredivisie": ("N1", "DED"),
+    "Primeira Liga": ("P1", "PPL"),
 }
-# clé, colonne domicile, colonne extérieur (tirs, cadrés, fautes, jaunes, hors-jeu)
-STATS = [("s", "HS", "AS"), ("c", "HST", "AST"), ("f", "HF", "AF"), ("k", "HY", "AY"), ("o", "HO", "AO")]
-STATS.append(("r", "HC", "AC"))
+# championnats complémentaires (football-data.co.uk) : nom affiché : code du fichier, avec statistiques détaillées
+EXTRA = {
+    "Belgique": "B1", "Turquie": "T1", "Grèce": "G1", "Écosse": "SC0", "Ligue 2": "F2", "Serie B": "I2",
+    "La Liga 2": "SP2", "Bundesliga 2": "D2", "League One": "E2", "League Two": "E3",
+}
+# autres pays (résultats seulement, sans tirs ni fautes) : nom affiché : (code du fichier, pays dans le fichier)
+WORLD = {
+    "Danemark": ("DNK", "Denmark"), "Norvège": ("NOR", "Norway"), "Suède": ("SWE", "Sweden"),
+    "Autriche": ("AUT", "Austria"), "Suisse": ("SWZ", "Switzerland"), "Finlande": ("FIN", "Finland"),
+    "Pologne": ("POL", "Poland"), "Roumanie": ("ROU", "Romania"), "Russie": ("RUS", "Russia"),
+    "Irlande": ("IRL", "Ireland"), "Brésil": ("BRA", "Brazil"), "Argentine": ("ARG", "Argentina"),
+    "Mexique": ("MEX", "Mexico"), "États-Unis": ("USA", "USA"), "Japon": ("JPN", "Japan"), "Chine": ("CHN", "China"),
+}
+FX_URL = "https://www.football-data.co.uk/fixtures.csv"
+FX_NEW_URL = "https://www.football-data.co.uk/new_league_fixtures.csv"
+# clé, colonne domicile, colonne extérieur (tirs, cadrés, fautes, jaunes, hors-jeu, corners)
+STATS = [("s", "HS", "AS"), ("c", "HST", "AST"), ("f", "HF", "AF"), ("k", "HY", "AY"), ("o", "HO", "AO"), ("r", "HC", "AC")]
 ALIAS = {
     "paris saint germain": "paris sg", "manchester united": "man united", "manchester city": "man city",
     "wolverhampton wanderers": "wolves", "tottenham hotspur": "tottenham", "nottingham forest": "nott m forest",
@@ -124,46 +144,109 @@ def fixtures(code):
     except Exception as e:
         print(f"  ! calendrier indisponible : {e}")
         return []
-    return [m for m in data.get("matches", []) if m.get("status") in ("SCHEDULED", "TIMED")]
+    return [{"key": "", "d": m["utcDate"], "h": m["homeTeam"]["name"], "a": m["awayTeam"]["name"],
+             "hs": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
+             "as": m["awayTeam"].get("shortName") or m["awayTeam"]["name"]}
+            for m in data.get("matches", []) if m.get("status") in ("SCHEDULED", "TIMED")]
+
+
+def fixtures_csv(url):
+    """Prochains matchs publiés par football-data.co.uk (heures anglaises converties en UTC)."""
+    try:
+        text = fetch(url)
+    except Exception as e:
+        print(f"  ! fichier de matchs indisponible ({url.split('/')[-1]}) : {e}")
+        return []
+    res = []
+    for r in csv.DictReader(io.StringIO(text)):
+        h, a = r.get("HomeTeam") or r.get("Home"), r.get("AwayTeam") or r.get("Away")
+        d = parse_date(r.get("Date") or "")
+        if not (h and a and d):
+            continue
+        try:
+            hh, mm = [int(x) for x in (r.get("Time") or "").split(":")[:2]]
+        except ValueError:
+            hh, mm = 12, 0
+        local = datetime(d.year, d.month, d.day, hh, mm, tzinfo=UK)
+        res.append({"key": (r.get("Div") or r.get("Country") or "").strip().lower(),
+                    "d": local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "h": h, "a": a, "hs": h, "as": a})
+    print(f"{url.split('/')[-1]} : {len(res)} matchs, codes {sorted({m['key'] for m in res})}")
+    return res
+
+
+def load_world(code):
+    try:
+        text = fetch(f"https://www.football-data.co.uk/new/{code}.csv")
+    except Exception as e:
+        print(f"  ! fichier {code} indisponible : {e}")
+        return []
+    now, rows = datetime.now(timezone.utc), []
+    for r in csv.DictReader(io.StringIO(text)):
+        d = parse_date(r.get("Date") or "")
+        if d and (now - d).days < 1100 and r.get("Home") and num(r.get("HG")) is not None and num(r.get("AG")) is not None:
+            rows.append((d, {"HomeTeam": r["Home"], "AwayTeam": r["Away"], "FTHG": r["HG"], "FTAG": r["AG"]}))
+    return rows
+
+
+def build(league, hist, fx, out, now):
+    if not hist:
+        print("  ! aucune donnée historique")
+        return
+    known = {norm(t): t for _, r in hist for t in (r["HomeTeam"], r["AwayTeam"])}
+    models, missing = {}, []
+    for key, hc, ac in [("x", "FTHG", "FTAG")] + STATS:
+        data = []
+        for d, r in hist:
+            hv, av = num(r.get(hc)), num(r.get(ac))
+            if hv is not None and av is not None:
+                data.append((0.5 ** ((now - d).days / HALF_LIFE), r["HomeTeam"], r["AwayTeam"], hv, av))
+        if len(data) > 50:
+            models[key] = fit(data)
+        else:
+            missing.append(key)
+    if missing:
+        print("  - statistiques absentes :", ", ".join(missing))
+    if "x" not in models:
+        return
+    for m in fx:
+        dt = datetime.fromisoformat(m["d"].replace("Z", "+00:00"))
+        if not (now <= dt <= now + timedelta(days=7)):
+            continue
+        h, a = match_team(m["h"], known), match_team(m["a"], known)
+        if not h or not a:
+            print("  ? équipe inconnue :", m["h"], "/", m["a"])
+            continue
+
+        def pred(k):
+            mh, ma, att, dfn = models[k]
+            return [round(mh * att.get(h, 1) * dfn.get(a, 1), 2), round(ma * att.get(a, 1) * dfn.get(h, 1), 2)]
+
+        x, y = pred("x")
+        out.append({"l": league, "h": m["hs"], "a": m["as"], "d": m["d"], "x": x, "y": y,
+                    "e": {k: pred(k) for k in models if k != "x"}})
 
 
 def main():
     out, now = [], datetime.now(timezone.utc)
     for league, (div, code) in LEAGUES.items():
         print(league)
-        hist = load_history(div)
-        if not hist:
-            print("  ! aucune donnée historique")
-            continue
-        known = {norm(t): t for _, r in hist for t in (r["HomeTeam"], r["AwayTeam"])}
-        models = {}
-        for key, hc, ac in [("x", "FTHG", "FTAG")] + STATS:
-            data = []
-            for d, r in hist:
-                hv, av = num(r.get(hc)), num(r.get(ac))
-                if hv is not None and av is not None:
-                    data.append((0.5 ** ((now - d).days / HALF_LIFE), r["HomeTeam"], r["AwayTeam"], hv, av))
-            if len(data) > 50:
-                models[key] = fit(data)
-            else:
-                print(f"  - statistique {key} ignorée (données absentes)")
-        if "x" not in models:
-            continue
-        for m in fixtures(code):
-            h = match_team(m["homeTeam"]["name"], known)
-            a = match_team(m["awayTeam"]["name"], known)
-            if not h or not a:
-                print("  ? équipe inconnue :", m["homeTeam"]["name"], "/", m["awayTeam"]["name"])
-                continue
-
-            def pred(k):
-                mh, ma, att, dfn = models[k]
-                return [round(mh * att.get(h, 1) * dfn.get(a, 1), 2), round(ma * att.get(a, 1) * dfn.get(h, 1), 2)]
-
-            x, y = pred("x")
-            out.append({"l": league, "h": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
-                        "a": m["awayTeam"].get("shortName") or m["awayTeam"]["name"], "d": m["utcDate"],
-                        "x": x, "y": y, "e": {k: pred(k) for k in models if k != "x"}})
+        build(league, load_history(div), fixtures(code), out, now)
+    fx, fx_new = fixtures_csv(FX_URL), fixtures_csv(FX_NEW_URL)
+    for league, div in EXTRA.items():
+        print(league)
+        mine = [m for m in fx if m["key"] == div.lower()]
+        if mine:
+            build(league, load_history(div), mine, out, now)
+        else:
+            print("  - aucun match annoncé")
+    for league, (code, country) in WORLD.items():
+        print(league)
+        mine = [m for m in fx_new if m["key"] in (country.lower(), code.lower())]
+        if mine:
+            build(league, load_world(code), mine, out, now)
+        else:
+            print("  - aucun match annoncé")
     out.sort(key=lambda m: m["d"])
     with open("predictions.json", "w", encoding="utf-8") as f:
         json.dump({"updated": now.strftime("%d/%m/%Y %H:%M UTC"), "matches": out}, f, ensure_ascii=False, indent=1)
