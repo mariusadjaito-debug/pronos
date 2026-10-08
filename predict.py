@@ -1,6 +1,6 @@
 """Pronos : télécharge les données gratuites, calcule les pronostics, écrit predictions.json.
 Aucune installation nécessaire (bibliothèque standard Python uniquement)."""
-import csv, io, json, os, re, unicodedata, urllib.request
+import csv, io, json, os, re, time, unicodedata, urllib.parse, urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from difflib import get_close_matches
@@ -50,6 +50,13 @@ EXTRA.update({"Écosse Championship": "SC1", "Écosse League One": "SC2", "Écos
 STOP = {"fc", "afc", "cf", "ac", "sc", "ssc", "as", "ss", "rc", "ogc", "sv", "vfl", "vfb", "tsg", "fsv", "de", "club", "calcio", "balompie"}
 HALF_LIFE = 270  # jours : un match vieux de 270 jours compte moitié moins
 KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
+# pays de chaque championnat (aide à trouver le bon logo)
+COUNTRY = {"Belgique": "Belgium", "Turquie": "Turkey", "Grèce": "Greece", "Écosse": "Scotland", "Écosse Championship": "Scotland",
+           "Écosse League One": "Scotland", "Écosse League Two": "Scotland", "Ligue 2": "France", "Serie B": "Italy",
+           "La Liga 2": "Spain", "Bundesliga 2": "Germany", "League One": "England", "League Two": "England", "Conference": "England"}
+COUNTRY.update({l: ("United States" if c == "USA" else c) for l, (_, c) in WORLD.items()})
+SPORTSDB = "https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t="  # logos gratuits (30 recherches par minute)
+MAX_LOOKUPS = 20  # recherches de logos par lancement : le reste viendra aux lancements suivants
 
 
 def fetch(url, headers=None):
@@ -230,6 +237,49 @@ def build(league, hist, fx, out, now):
                     "hc": m.get("hc"), "ac": m.get("ac"), "e": {k: pred(k) for k in models if k != "x"}})
 
 
+def badge(name, country):
+    """Logo d'une équipe : URL, '' si introuvable, None en cas d'erreur temporaire."""
+    try:
+        data = json.loads(fetch(SPORTSDB + urllib.parse.quote(name)))
+    except Exception:
+        return None
+    teams = [t for t in (data.get("teams") or []) if t.get("strSport") == "Soccer"]
+    teams.sort(key=lambda t: t.get("strCountry") != country)
+    for t in teams:
+        url = t.get("strBadge") or t.get("strTeamBadge")
+        if url:
+            return url
+    return ""
+
+
+def add_crests(out):
+    """Ajoute le logo de chaque équipe (mémorisé dans predictions.json pour ne pas le rechercher deux fois)."""
+    try:
+        with open("predictions.json", encoding="utf-8") as f:
+            cache = json.load(f).get("crests", {})
+    except Exception:
+        cache = {}
+    for m in out:  # logos déjà fournis par football-data.org
+        for name, url in ((m["h"], m.get("hc")), (m["a"], m.get("ac"))):
+            if url:
+                cache[name.lower()] = url
+    todo = []
+    for m in out:
+        for name in (m["h"], m["a"]):
+            if name.lower() not in cache and (name, m["l"]) not in todo:
+                todo.append((name, m["l"]))
+    for name, league in todo[:MAX_LOOKUPS]:
+        url = badge(name, COUNTRY.get(league))
+        if url is not None:
+            cache[name.lower()] = url
+        time.sleep(2.2)
+    for m in out:
+        m["hc"] = m.get("hc") or cache.get(m["h"].lower()) or None
+        m["ac"] = m.get("ac") or cache.get(m["a"].lower()) or None
+    print(f"logos : {sum(1 for v in cache.values() if v)} trouvés, {len(todo)} équipes à chercher")
+    return cache
+
+
 def main():
     out, now = [], datetime.now(timezone.utc)
     for league, (div, code) in LEAGUES.items():
@@ -251,8 +301,9 @@ def main():
         else:
             print("  - aucun match annoncé")
     out.sort(key=lambda m: m["d"])
+    crests = add_crests(out)
     with open("predictions.json", "w", encoding="utf-8") as f:
-        json.dump({"updated": now.strftime("%d/%m/%Y %H:%M UTC"), "matches": out}, f, ensure_ascii=False, indent=1)
+        json.dump({"updated": now.strftime("%d/%m/%Y %H:%M UTC"), "matches": out, "crests": crests}, f, ensure_ascii=False, indent=1)
     print(len(out), "matchs écrits dans predictions.json")
 
 
