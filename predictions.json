@@ -1,34 +1,6 @@
 {
- "updated": "08/10/2026 14:07 UTC",
+ "updated": "08/10/2026 16:07 UTC",
  "matches": [
-  {
-   "l": "Finlande",
-   "h": "HJK",
-   "a": "VPS",
-   "d": "2026-10-08T15:00:00Z",
-   "x": 1.75,
-   "y": 1.1,
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/l0at7p1739030681.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/vpavez1578953729.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Finlande",
-   "h": "KuPS",
-   "a": "AC Oulu",
-   "d": "2026-10-08T16:00:00Z",
-   "x": 1.89,
-   "y": 0.71,
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/fj51wx1785822404.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
   {
    "l": "Roumanie",
    "h": "CFR Cluj",
