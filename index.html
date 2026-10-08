@@ -319,5 +319,6 @@ window._sea={draw,update,init,get q(){return qual}};
 M=arch().filter(vis);if(M.length)render(1);
 loadPred();loadScores();setInterval(loadPred,3e5);setInterval(loadScores,6e4);setInterval(()=>{if(!document.hidden)render()},3e4);document.addEventListener('visibilitychange',()=>{if(!document.hidden){loadPred();loadScores()}});
 </script>
+<div id="sp" style="position:fixed;inset:0;z-index:200;background:#05030c"></div><script src="m-adj.js"></script>
 </body>
 </html>
