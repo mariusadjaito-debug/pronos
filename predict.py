@@ -148,7 +148,8 @@ def fixtures(code):
         return []
     return [{"key": "", "d": m["utcDate"], "h": m["homeTeam"]["name"], "a": m["awayTeam"]["name"],
              "hs": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
-             "as": m["awayTeam"].get("shortName") or m["awayTeam"]["name"]}
+             "as": m["awayTeam"].get("shortName") or m["awayTeam"]["name"],
+             "hc": m["homeTeam"].get("crest"), "ac": m["awayTeam"].get("crest")}
             for m in data.get("matches", []) if m.get("status") in ("SCHEDULED", "TIMED")]
 
 
@@ -226,7 +227,7 @@ def build(league, hist, fx, out, now):
 
         x, y = pred("x")
         out.append({"l": league, "h": m["hs"], "a": m["as"], "d": m["d"], "x": x, "y": y,
-                    "e": {k: pred(k) for k in models if k != "x"}})
+                    "hc": m.get("hc"), "ac": m.get("ac"), "e": {k: pred(k) for k in models if k != "x"}})
 
 
 def main():
