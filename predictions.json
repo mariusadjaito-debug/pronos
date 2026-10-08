@@ -1,15 +1,6 @@
 {
- "updated": "08/10/2026 00:04 UTC",
+ "updated": "08/10/2026 01:22 UTC",
  "matches": [
-  {
-   "l": "Brésil",
-   "h": "Cruzeiro",
-   "a": "Sao Paulo",
-   "d": "2026-10-08T00:30:00Z",
-   "x": 1.52,
-   "y": 0.87,
-   "e": {}
-  },
   {
    "l": "Finlande",
    "h": "HJK",
@@ -17,6 +8,8 @@
    "d": "2026-10-08T15:00:00Z",
    "x": 1.75,
    "y": 1.1,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -26,6 +19,8 @@
    "d": "2026-10-08T16:00:00Z",
    "x": 1.89,
    "y": 0.71,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -35,6 +30,8 @@
    "d": "2026-10-08T17:30:00Z",
    "x": 1.62,
    "y": 1.12,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -44,6 +41,8 @@
    "d": "2026-10-08T19:00:00Z",
    "x": 1.79,
    "y": 0.83,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -53,6 +52,8 @@
    "d": "2026-10-08T22:30:00Z",
    "x": 1.11,
    "y": 1.69,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -62,6 +63,8 @@
    "d": "2026-10-08T23:00:00Z",
    "x": 1.53,
    "y": 0.97,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -71,6 +74,8 @@
    "d": "2026-10-09T00:30:00Z",
    "x": 1.99,
    "y": 0.98,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -80,6 +85,8 @@
    "d": "2026-10-09T00:30:00Z",
    "x": 1.92,
    "y": 0.77,
+   "hc": null,
+   "ac": null,
    "e": {}
   },
   {
@@ -89,6 +96,8 @@
    "d": "2026-10-09T17:45:00Z",
    "x": 1.09,
    "y": 1.22,
+   "hc": "https://crests.football-data.org/583.png",
+   "ac": "https://crests.football-data.org/5533.png",
    "e": {
     "s": [
      9.16,
@@ -119,6 +128,8 @@
    "d": "2026-10-09T18:00:00Z",
    "x": 3.08,
    "y": 1.23,
+   "hc": "https://crests.football-data.org/674.png",
+   "ac": "https://crests.football-data.org/673.png",
    "e": {
     "s": [
      20.8,
@@ -149,6 +160,8 @@
    "d": "2026-10-09T18:30:00Z",
    "x": 2.4,
    "y": 0.8,
+   "hc": "https://crests.football-data.org/4.png",
+   "ac": "https://crests.football-data.org/12.png",
    "e": {
     "s": [
      15.07,
@@ -179,6 +192,8 @@
    "d": "2026-10-09T18:45:00Z",
    "x": 1.57,
    "y": 1.32,
+   "hc": "https://crests.football-data.org/546.png",
+   "ac": "https://crests.football-data.org/523.png",
    "e": {
     "s": [
      16.65,
@@ -209,6 +224,8 @@
    "d": "2026-10-09T19:00:00Z",
    "x": 0.6,
    "y": 2.54,
+   "hc": "https://crests.football-data.org/84.png",
+   "ac": "https://crests.football-data.org/80.png",
    "e": {
     "s": [
      8.35,
@@ -239,6 +256,8 @@
    "d": "2026-10-09T19:00:00Z",
    "x": 2.96,
    "y": 1.14,
+   "hc": "https://crests.football-data.org/563.png",
+   "ac": "https://crests.football-data.org/69.png",
    "e": {
     "s": [
      15.68,
@@ -269,6 +288,8 @@
    "d": "2026-10-09T19:15:00Z",
    "x": 1.24,
    "y": 1.71,
+   "hc": "https://crests.football-data.org/5613.png",
+   "ac": "https://crests.football-data.org/498.png",
    "e": {
     "s": [
      9.84,
@@ -299,6 +320,8 @@
    "d": "2026-10-10T11:30:00Z",
    "x": 1.68,
    "y": 0.72,
+   "hc": "https://crests.football-data.org/57.png",
+   "ac": "https://crests.football-data.org/341.png",
    "e": {
     "s": [
      15.58,
@@ -329,6 +352,8 @@
    "d": "2026-10-10T11:30:00Z",
    "x": 1.15,
    "y": 1.01,
+   "hc": "https://crests.football-data.org/74.png",
+   "ac": "https://crests.football-data.org/332.png",
    "e": {
     "s": [
      12.58,
@@ -359,6 +384,8 @@
    "d": "2026-10-10T11:30:00Z",
    "x": 1.6,
    "y": 1.25,
+   "hc": "https://crests.football-data.org/72.png",
+   "ac": "https://crests.football-data.org/68.png",
    "e": {
     "s": [
      12.33,
@@ -389,6 +416,8 @@
    "d": "2026-10-10T11:30:00Z",
    "x": 1.05,
    "y": 1.11,
+   "hc": "https://crests.football-data.org/348.png",
+   "ac": "https://crests.football-data.org/387.png",
    "e": {
     "s": [
      12.16,
@@ -419,6 +448,8 @@
    "d": "2026-10-10T12:00:00Z",
    "x": 1.25,
    "y": 1.01,
+   "hc": "https://crests.football-data.org/87.png",
+   "ac": "https://crests.football-data.org/77.png",
    "e": {
     "s": [
      11.9,
@@ -449,6 +480,8 @@
    "d": "2026-10-10T13:00:00Z",
    "x": 1.17,
    "y": 1.29,
+   "hc": "https://crests.football-data.org/107.png",
+   "ac": "https://crests.football-data.org/99.png",
    "e": {
     "s": [
      12.56,
@@ -479,6 +512,8 @@
    "d": "2026-10-10T13:30:00Z",
    "x": 1.44,
    "y": 1.66,
+   "hc": "https://crests.football-data.org/15.png",
+   "ac": "https://crests.football-data.org/3.png",
    "e": {
     "s": [
      12.82,
@@ -509,6 +544,8 @@
    "d": "2026-10-10T13:30:00Z",
    "x": 1.17,
    "y": 1.44,
+   "hc": "https://crests.football-data.org/29.png",
+   "ac": "https://crests.football-data.org/10.png",
    "e": {
     "s": [
      13.38,
@@ -539,6 +576,8 @@
    "d": "2026-10-10T13:30:00Z",
    "x": 1.35,
    "y": 2.18,
+   "hc": "https://crests.football-data.org/28.png",
+   "ac": "https://crests.football-data.org/719.png",
    "e": {
     "s": [
      18.45,
@@ -569,6 +608,8 @@
    "d": "2026-10-10T13:30:00Z",
    "x": 2.16,
    "y": 1.13,
+   "hc": "https://crests.football-data.org/2.png",
+   "ac": "https://crests.football-data.org/7.png",
    "e": {
     "s": [
      17.79,
@@ -599,6 +640,8 @@
    "d": "2026-10-10T13:30:00Z",
    "x": 1.08,
    "y": 2.89,
+   "hc": "https://crests.football-data.org/16.png",
+   "ac": "https://crests.football-data.org/5.png",
    "e": {
     "s": [
      10.52,
@@ -629,6 +672,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.18,
    "y": 1.56,
+   "hc": "https://crests.football-data.org/71.png",
+   "ac": "https://crests.football-data.org/397.png",
    "e": {
     "s": [
      11.36,
@@ -659,6 +704,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.65,
    "y": 1.43,
+   "hc": "https://crests.football-data.org/61.png",
+   "ac": "https://crests.football-data.org/bournemouth.png",
    "e": {
     "s": [
      14.83,
@@ -689,6 +736,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.23,
    "y": 1.68,
+   "hc": "https://crests.football-data.org/349.png",
+   "ac": "https://crests.football-data.org/63.png",
    "e": {
     "s": [
      11.65,
@@ -719,6 +768,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.47,
    "y": 1.42,
+   "hc": "https://crests.football-data.org/58.png",
+   "ac": "https://crests.football-data.org/402.png",
    "e": {
     "s": [
      15.14,
@@ -749,6 +800,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.18,
    "y": 0.84,
+   "hc": "https://crests.football-data.org/356.png",
+   "ac": "https://crests.football-data.org/1126.png",
    "e": {
     "s": [
      15.68,
@@ -779,6 +832,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.01,
    "y": 1.26,
+   "hc": "https://crests.football-data.org/346.png",
+   "ac": "https://crests.football-data.org/328.png",
    "e": {
     "s": [
      13.06,
@@ -809,6 +864,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.5,
    "y": 1.3,
+   "hc": "https://crests.football-data.org/342.png",
+   "ac": "https://crests.football-data.org/404.png",
    "e": {
     "s": [
      12.7,
@@ -839,6 +896,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.43,
    "y": 0.94,
+   "hc": "https://crests.football-data.org/59.png",
+   "ac": "https://crests.football-data.org/715.png",
    "e": {
     "s": [
      12.54,
@@ -869,6 +928,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.53,
    "y": 1.32,
+   "hc": "https://crests.football-data.org/60.png",
+   "ac": "https://crests.football-data.org/70.png",
    "e": {
     "s": [
      14.25,
@@ -899,6 +960,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.12,
    "y": 1.42,
+   "hc": "https://crests.football-data.org/1081.png",
+   "ac": "https://crests.football-data.org/384.png",
    "e": {
     "s": [
      12.64,
@@ -929,6 +992,8 @@
    "d": "2026-10-10T14:00:00Z",
    "x": 1.77,
    "y": 1.64,
+   "hc": "https://crests.football-data.org/343.png",
+   "ac": "https://crests.football-data.org/76.png",
    "e": {
     "s": [
      15.38,
@@ -959,6 +1024,8 @@
    "d": "2026-10-10T14:15:00Z",
    "x": 1.14,
    "y": 1.46,
+   "hc": "https://crests.football-data.org/263.png",
+   "ac": "https://crests.football-data.org/78.png",
    "e": {
     "s": [
      12.04,
@@ -989,6 +1056,8 @@
    "d": "2026-10-10T14:30:00Z",
    "x": 2.06,
    "y": 1.19,
+   "hc": "https://crests.football-data.org/718.png",
+   "ac": "https://crests.football-data.org/6806.png",
    "e": {
     "s": [
      16.59,
@@ -1019,6 +1088,8 @@
    "d": "2026-10-10T14:30:00Z",
    "x": 0.76,
    "y": 1.26,
+   "hc": "https://crests.football-data.org/6618.png",
+   "ac": "https://crests.football-data.org/5530.png",
    "e": {
     "s": [
      8.6,
@@ -1049,6 +1120,8 @@
    "d": "2026-10-10T15:15:00Z",
    "x": 1.66,
    "y": 0.68,
+   "hc": "https://crests.football-data.org/521.png",
+   "ac": "https://crests.football-data.org/533.png",
    "e": {
     "s": [
      15.31,
@@ -1079,6 +1152,8 @@
    "d": "2026-10-10T16:00:00Z",
    "x": 2.41,
    "y": 0.71,
+   "hc": "https://crests.football-data.org/108.png",
+   "ac": "https://crests.football-data.org/112.png",
    "e": {
     "s": [
      21.38,
@@ -1109,6 +1184,8 @@
    "d": "2026-10-10T16:30:00Z",
    "x": 2.01,
    "y": 1.08,
+   "hc": "https://crests.football-data.org/66.png",
+   "ac": "https://crests.football-data.org/73.png",
    "e": {
     "s": [
      17.87,
@@ -1139,6 +1216,8 @@
    "d": "2026-10-10T16:30:00Z",
    "x": 2.3,
    "y": 0.52,
+   "hc": "https://crests.football-data.org/81.png",
+   "ac": "https://crests.football-data.org/82.png",
    "e": {
     "s": [
      18.42,
@@ -1169,6 +1248,8 @@
    "d": "2026-10-10T16:30:00Z",
    "x": 2.3,
    "y": 1.44,
+   "hc": "https://crests.football-data.org/721.png",
+   "ac": "https://crests.football-data.org/19.png",
    "e": {
     "s": [
      16.92,
@@ -1199,6 +1280,8 @@
    "d": "2026-10-10T16:45:00Z",
    "x": 2.0,
    "y": 1.28,
+   "hc": "https://crests.football-data.org/675.png",
+   "ac": "https://crests.football-data.org/682.png",
    "e": {
     "s": [
      15.05,
@@ -1229,6 +1312,8 @@
    "d": "2026-10-10T17:00:00Z",
    "x": 0.7,
    "y": 2.11,
+   "hc": "https://crests.football-data.org/5575.png",
+   "ac": "https://crests.football-data.org/503.png",
    "e": {
     "s": [
      9.43,
@@ -1259,6 +1344,8 @@
    "d": "2026-10-10T18:00:00Z",
    "x": 1.18,
    "y": 1.83,
+   "hc": "https://crests.football-data.org/1920.png",
+   "ac": "https://crests.football-data.org/666.png",
    "e": {
     "s": [
      10.27,
@@ -1289,6 +1376,8 @@
    "d": "2026-10-10T18:45:00Z",
    "x": 1.47,
    "y": 0.96,
+   "hc": "https://crests.football-data.org/512.png",
+   "ac": "https://crests.football-data.org/532.png",
    "e": {
     "s": [
      15.82,
@@ -1319,6 +1408,8 @@
    "d": "2026-10-10T18:45:00Z",
    "x": 1.26,
    "y": 1.25,
+   "hc": "https://crests.football-data.org/525.png",
+   "ac": "https://crests.football-data.org/1045.png",
    "e": {
     "s": [
      11.43,
@@ -1349,6 +1440,8 @@
    "d": "2026-10-10T18:45:00Z",
    "x": 2.8,
    "y": 1.05,
+   "hc": "https://crests.football-data.org/524.png",
+   "ac": "https://crests.football-data.org/535.png",
    "e": {
     "s": [
      23.19,
@@ -1379,6 +1472,8 @@
    "d": "2026-10-10T18:45:00Z",
    "x": 1.95,
    "y": 1.16,
+   "hc": "https://crests.football-data.org/548.png",
+   "ac": "https://crests.football-data.org/511.png",
    "e": {
     "s": [
      13.52,
@@ -1409,6 +1504,8 @@
    "d": "2026-10-10T18:45:00Z",
    "x": 1.16,
    "y": 1.14,
+   "hc": "https://crests.football-data.org/113.png",
+   "ac": "https://crests.football-data.org/470.png",
    "e": {
     "s": [
      21.23,
@@ -1439,6 +1536,8 @@
    "d": "2026-10-10T19:00:00Z",
    "x": 2.37,
    "y": 1.19,
+   "hc": "https://crests.football-data.org/86.png",
+   "ac": "https://crests.football-data.org/94.png",
    "e": {
     "s": [
      19.57,
@@ -1469,6 +1568,8 @@
    "d": "2026-10-10T19:00:00Z",
    "x": 2.15,
    "y": 1.28,
+   "hc": "https://crests.football-data.org/678.png",
+   "ac": "https://crests.football-data.org/1915.png",
    "e": {
     "s": [
      15.61,
@@ -1499,6 +1600,8 @@
    "d": "2026-10-10T19:30:00Z",
    "x": 1.8,
    "y": 1.08,
+   "hc": "https://crests.football-data.org/5527.png",
+   "ac": "https://crests.football-data.org/582.png",
    "e": {
     "s": [
      11.88,
@@ -1529,6 +1632,8 @@
    "d": "2026-10-11T10:15:00Z",
    "x": 2.43,
    "y": 0.94,
+   "hc": "https://crests.football-data.org/676.png",
+   "ac": "https://crests.football-data.org/672.png",
    "e": {
     "s": [
      20.19,
@@ -1559,6 +1664,8 @@
    "d": "2026-10-11T10:30:00Z",
    "x": 1.15,
    "y": 1.3,
+   "hc": "https://crests.football-data.org/7397.png",
+   "ac": "https://crests.football-data.org/100.png",
    "e": {
     "s": [
      13.67,
@@ -1589,6 +1696,8 @@
    "d": "2026-10-11T11:00:00Z",
    "x": 2.42,
    "y": 1.0,
+   "hc": "https://crests.football-data.org/340.png",
+   "ac": "https://crests.football-data.org/325.png",
    "e": {
     "s": [
      15.47,
@@ -1619,6 +1728,8 @@
    "d": "2026-10-11T12:00:00Z",
    "x": 1.49,
    "y": 1.41,
+   "hc": "https://crests.football-data.org/285.png",
+   "ac": "https://crests.football-data.org/558.png",
    "e": {
     "s": [
      12.22,
@@ -1649,6 +1760,8 @@
    "d": "2026-10-11T12:30:00Z",
    "x": 2.12,
    "y": 1.74,
+   "hc": "https://crests.football-data.org/684.png",
+   "ac": "https://crests.football-data.org/1909.png",
    "e": {
     "s": [
      13.44,
@@ -1679,6 +1792,8 @@
    "d": "2026-10-11T12:30:00Z",
    "x": 1.87,
    "y": 1.03,
+   "hc": "https://crests.football-data.org/1912.png",
+   "ac": "https://crests.football-data.org/680.png",
    "e": {
     "s": [
      13.89,
@@ -1709,6 +1824,8 @@
    "d": "2026-10-11T13:00:00Z",
    "x": 1.37,
    "y": 1.66,
+   "hc": "https://crests.football-data.org/522.png",
+   "ac": "https://crests.football-data.org/576.png",
    "e": {
     "s": [
      14.28,
@@ -1739,6 +1856,8 @@
    "d": "2026-10-11T13:00:00Z",
    "x": 1.14,
    "y": 0.79,
+   "hc": "https://crests.football-data.org/322.png",
+   "ac": "https://crests.football-data.org/62.png",
    "e": {
     "s": [
      14.48,
@@ -1769,6 +1888,8 @@
    "d": "2026-10-11T13:00:00Z",
    "x": 1.16,
    "y": 1.27,
+   "hc": "https://crests.football-data.org/354.png",
+   "ac": "https://crests.football-data.org/351.png",
    "e": {
     "s": [
      13.42,
@@ -1799,6 +1920,8 @@
    "d": "2026-10-11T13:00:00Z",
    "x": 0.82,
    "y": 1.33,
+   "hc": "https://crests.football-data.org/5890.png",
+   "ac": "https://crests.football-data.org/103.png",
    "e": {
     "s": [
      9.16,
@@ -1829,6 +1952,8 @@
    "d": "2026-10-11T13:00:00Z",
    "x": 2.01,
    "y": 0.89,
+   "hc": "https://crests.football-data.org/110.png",
+   "ac": "https://crests.football-data.org/5911.png",
    "e": {
     "s": [
      14.38,
@@ -1859,6 +1984,8 @@
    "d": "2026-10-11T13:30:00Z",
    "x": 1.81,
    "y": 1.5,
+   "hc": "https://crests.football-data.org/1.png",
+   "ac": "https://crests.football-data.org/18.png",
    "e": {
     "s": [
      17.82,
@@ -1889,6 +2016,8 @@
    "d": "2026-10-11T14:15:00Z",
    "x": 1.6,
    "y": 1.33,
+   "hc": "https://crests.football-data.org/92.png",
+   "ac": "https://crests.football-data.org/560.png",
    "e": {
     "s": [
      14.73,
@@ -1919,6 +2048,8 @@
    "d": "2026-10-11T14:30:00Z",
    "x": 1.26,
    "y": 1.24,
+   "hc": "https://crests.football-data.org/496.png",
+   "ac": "https://crests.football-data.org/5529.png",
    "e": {
     "s": [
      13.42,
@@ -1949,6 +2080,8 @@
    "d": "2026-10-11T14:45:00Z",
    "x": 1.54,
    "y": 1.3,
+   "hc": "https://crests.football-data.org/670.png",
+   "ac": "https://crests.football-data.org/677.png",
    "e": {
     "s": [
      12.38,
@@ -1979,6 +2112,8 @@
    "d": "2026-10-11T15:15:00Z",
    "x": 1.92,
    "y": 1.18,
+   "hc": "https://crests.football-data.org/529.png",
+   "ac": "https://crests.football-data.org/519.png",
    "e": {
     "s": [
      15.44,
@@ -2009,6 +2144,8 @@
    "d": "2026-10-11T15:30:00Z",
    "x": 1.39,
    "y": 1.66,
+   "hc": "https://crests.football-data.org/64.png",
+   "ac": "https://crests.football-data.org/65.png",
    "e": {
     "s": [
      13.44,
@@ -2039,6 +2176,8 @@
    "d": "2026-10-11T15:30:00Z",
    "x": 1.23,
    "y": 0.94,
+   "hc": "https://crests.football-data.org/17.png",
+   "ac": "https://crests.football-data.org/6.png",
    "e": {
     "s": [
      16.81,
@@ -2069,6 +2208,8 @@
    "d": "2026-10-11T16:00:00Z",
    "x": 1.12,
    "y": 1.57,
+   "hc": "https://crests.football-data.org/471.png",
+   "ac": "https://crests.football-data.org/98.png",
    "e": {
     "s": [
      12.19,
@@ -2099,6 +2240,8 @@
    "d": "2026-10-11T16:30:00Z",
    "x": 1.86,
    "y": 0.9,
+   "hc": "https://crests.football-data.org/90.png",
+   "ac": "https://crests.football-data.org/79.png",
    "e": {
     "s": [
      16.31,
@@ -2129,6 +2272,8 @@
    "d": "2026-10-11T17:00:00Z",
    "x": 2.55,
    "y": 0.7,
+   "hc": "https://crests.football-data.org/1903.png",
+   "ac": "https://crests.football-data.org/5543.png",
    "e": {
     "s": [
      15.5,
@@ -2159,6 +2304,8 @@
    "d": "2026-10-11T18:45:00Z",
    "x": 1.13,
    "y": 2.31,
+   "hc": "https://crests.football-data.org/531.png",
+   "ac": "https://crests.football-data.org/516.png",
    "e": {
     "s": [
      14.43,
@@ -2189,6 +2336,8 @@
    "d": "2026-10-11T18:45:00Z",
    "x": 0.82,
    "y": 1.47,
+   "hc": "https://crests.football-data.org/104.png",
+   "ac": "https://crests.football-data.org/109.png",
    "e": {
     "s": [
      9.98,
@@ -2219,6 +2368,8 @@
    "d": "2026-10-11T19:00:00Z",
    "x": 1.93,
    "y": 1.74,
+   "hc": "https://crests.football-data.org/5335.png",
+   "ac": "https://crests.football-data.org/95.png",
    "e": {
     "s": [
      12.17,
@@ -2249,6 +2400,8 @@
    "d": "2026-10-11T19:30:00Z",
    "x": 1.86,
    "y": 1.27,
+   "hc": "https://crests.football-data.org/712.png",
+   "ac": "https://crests.football-data.org/9136.png",
    "e": {
     "s": [
      13.45,
@@ -2279,6 +2432,8 @@
    "d": "2026-10-12T16:30:00Z",
    "x": 2.15,
    "y": 0.71,
+   "hc": "https://crests.football-data.org/102.png",
+   "ac": "https://crests.football-data.org/454.png",
    "e": {
     "s": [
      17.63,
@@ -2309,6 +2464,8 @@
    "d": "2026-10-12T18:45:00Z",
    "x": 1.31,
    "y": 1.38,
+   "hc": "https://crests.football-data.org/586.png",
+   "ac": "https://crests.football-data.org/115.png",
    "e": {
     "s": [
      13.66,
@@ -2339,6 +2496,8 @@
    "d": "2026-10-12T19:00:00Z",
    "x": 0.76,
    "y": 1.7,
+   "hc": "https://crests.football-data.org/1076.png",
+   "ac": "https://crests.football-data.org/67.png",
    "e": {
     "s": [
      13.74,
@@ -2369,6 +2528,8 @@
    "d": "2026-10-12T19:00:00Z",
    "x": 1.61,
    "y": 1.23,
+   "hc": "https://crests.football-data.org/88.png",
+   "ac": "https://crests.football-data.org/559.png",
    "e": {
     "s": [
      12.14,
@@ -2399,6 +2560,8 @@
    "d": "2026-10-12T19:15:00Z",
    "x": 1.49,
    "y": 0.77,
+   "hc": "https://crests.football-data.org/5531.png",
+   "ac": "https://crests.football-data.org/7822.png",
    "e": {
     "s": [
      13.69,
@@ -2429,6 +2592,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 2.81,
    "y": 1.2,
+   "hc": "https://crests.football-data.org/76.png",
+   "ac": "https://crests.football-data.org/60.png",
    "e": {
     "s": [
      16.28,
@@ -2459,6 +2624,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 1.38,
    "y": 1.08,
+   "hc": "https://crests.football-data.org/404.png",
+   "ac": "https://crests.football-data.org/74.png",
    "e": {
     "s": [
      10.79,
@@ -2489,6 +2656,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 1.41,
    "y": 1.05,
+   "hc": "https://crests.football-data.org/384.png",
+   "ac": "https://crests.football-data.org/72.png",
    "e": {
     "s": [
      14.07,
@@ -2519,6 +2688,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 1.31,
    "y": 1.14,
+   "hc": "https://crests.football-data.org/715.png",
+   "ac": "https://crests.football-data.org/346.png",
    "e": {
     "s": [
      16.64,
@@ -2549,6 +2720,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 1.45,
    "y": 0.72,
+   "hc": "https://crests.football-data.org/328.png",
+   "ac": "https://crests.football-data.org/348.png",
    "e": {
     "s": [
      18.1,
@@ -2579,6 +2752,8 @@
    "d": "2026-10-13T18:45:00Z",
    "x": 1.33,
    "y": 0.97,
+   "hc": "https://crests.football-data.org/387.png",
+   "ac": "https://crests.football-data.org/59.png",
    "e": {
     "s": [
      13.97,
@@ -2609,6 +2784,8 @@
    "d": "2026-10-13T19:00:00Z",
    "x": 1.62,
    "y": 0.93,
+   "hc": "https://crests.football-data.org/332.png",
+   "ac": "https://crests.football-data.org/1081.png",
    "e": {
     "s": [
      16.92,
@@ -2639,6 +2816,8 @@
    "d": "2026-10-13T19:00:00Z",
    "x": 1.18,
    "y": 1.46,
+   "hc": "https://crests.football-data.org/70.png",
+   "ac": "https://crests.football-data.org/343.png",
    "e": {
     "s": [
      10.83,
@@ -2669,6 +2848,8 @@
    "d": "2026-10-14T18:45:00Z",
    "x": 1.29,
    "y": 1.37,
+   "hc": "https://crests.football-data.org/325.png",
+   "ac": "https://crests.football-data.org/356.png",
    "e": {
     "s": [
      14.12,
@@ -2699,6 +2880,8 @@
    "d": "2026-10-14T18:45:00Z",
    "x": 1.62,
    "y": 1.92,
+   "hc": "https://crests.football-data.org/68.png",
+   "ac": "https://crests.football-data.org/340.png",
    "e": {
     "s": [
      15.18,
@@ -2729,6 +2912,8 @@
    "d": "2026-10-14T18:45:00Z",
    "x": 1.42,
    "y": 1.24,
+   "hc": "https://crests.football-data.org/69.png",
+   "ac": "https://crests.football-data.org/342.png",
    "e": {
     "s": [
      14.79,
@@ -2759,6 +2944,8 @@
    "d": "2026-10-14T19:00:00Z",
    "x": 1.07,
    "y": 1.7,
+   "hc": "https://crests.football-data.org/1126.png",
+   "ac": "https://crests.football-data.org/563.png",
    "e": {
     "s": [
      14.44,
