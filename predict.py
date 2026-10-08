@@ -50,6 +50,7 @@ EXTRA.update({"Écosse Championship": "SC1", "Écosse League One": "SC2", "Écos
 STOP = {"fc", "afc", "cf", "ac", "sc", "ssc", "as", "ss", "rc", "ogc", "sv", "vfl", "vfb", "tsg", "fsv", "de", "club", "calcio", "balompie"}
 HALF_LIFE = 270  # jours : un match vieux de 270 jours compte moitié moins
 KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
+STATE = {"SCHEDULED": "pre", "TIMED": "pre", "IN_PLAY": "live", "PAUSED": "live", "FINISHED": "fin"}  # état d'un match
 # pays de chaque championnat (aide à trouver le bon logo)
 COUNTRY = {"Belgique": "Belgium", "Turquie": "Turkey", "Grèce": "Greece", "Écosse": "Scotland", "Écosse Championship": "Scotland",
            "Écosse League One": "Scotland", "Écosse League Two": "Scotland", "Ligue 2": "France", "Serie B": "Italy",
@@ -147,17 +148,24 @@ def fixtures(code):
         return []
     a = datetime.now(timezone.utc)
     url = (f"https://api.football-data.org/v4/competitions/{code}/matches"
-           f"?dateFrom={a:%Y-%m-%d}&dateTo={a + timedelta(days=7):%Y-%m-%d}")
+           f"?dateFrom={a - timedelta(days=1):%Y-%m-%d}&dateTo={a + timedelta(days=7):%Y-%m-%d}")
     try:
         data = json.loads(fetch(url, {"X-Auth-Token": KEY}))
     except Exception as e:
         print(f"  ! calendrier indisponible : {e}")
         return []
-    return [{"key": "", "d": m["utcDate"], "h": m["homeTeam"]["name"], "a": m["awayTeam"]["name"],
-             "hs": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
-             "as": m["awayTeam"].get("shortName") or m["awayTeam"]["name"],
-             "hc": m["homeTeam"].get("crest"), "ac": m["awayTeam"].get("crest")}
-            for m in data.get("matches", []) if m.get("status") in ("SCHEDULED", "TIMED")]
+    res = []
+    for m in data.get("matches", []):
+        st = STATE.get(m.get("status"))
+        if not st:
+            continue
+        ft = (m.get("score") or {}).get("fullTime") or {}
+        res.append({"key": "", "d": m["utcDate"], "h": m["homeTeam"]["name"], "a": m["awayTeam"]["name"],
+                    "hs": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
+                    "as": m["awayTeam"].get("shortName") or m["awayTeam"]["name"],
+                    "hc": m["homeTeam"].get("crest"), "ac": m["awayTeam"].get("crest"),
+                    "i": m["id"], "st": st, "sc": None if st == "pre" else [ft.get("home"), ft.get("away")]})
+    return res
 
 
 def fixtures_csv(url):
@@ -221,7 +229,8 @@ def build(league, hist, fx, out, now):
         return
     for m in fx:
         dt = datetime.fromisoformat(m["d"].replace("Z", "+00:00"))
-        if not (now <= dt <= now + timedelta(days=7)):
+        lo = now - timedelta(hours=30) if m.get("st") else now  # matchs en cours ou terminés depuis moins de 30 h
+        if not (lo <= dt <= now + timedelta(days=7)):
             continue
         h, a = match_team(m["h"], known), match_team(m["a"], known)
         if not h or not a:
@@ -234,7 +243,8 @@ def build(league, hist, fx, out, now):
 
         x, y = pred("x")
         out.append({"l": league, "h": m["hs"], "a": m["as"], "d": m["d"], "x": x, "y": y,
-                    "hc": m.get("hc"), "ac": m.get("ac"), "e": {k: pred(k) for k in models if k != "x"}})
+                    "hc": m.get("hc"), "ac": m.get("ac"), "i": m.get("i"), "st": m.get("st", "pre"), "sc": m.get("sc"),
+                    "e": {k: pred(k) for k in models if k != "x"}})
 
 
 def badge(name, country):
