@@ -1,5 +1,5 @@
 {
- "updated": "09/10/2026 12:06 UTC",
+ "updated": "09/10/2026 14:07 UTC",
  "matches": [
   {
    "l": "Finlande",
@@ -2065,8 +2065,8 @@
      1.1
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/wod5cj1689630278.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/md7iqx1684129667.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2119,7 +2119,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/pdks3s1639600928.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2171,8 +2171,8 @@
      0.89
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/uwsyup1424033445.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/xurvtu1424033658.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2224,8 +2224,8 @@
      1.14
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/j103791655904826.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/0ai9i31694237091.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2277,8 +2277,8 @@
      0.74
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/a2tx7s1745193702.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/w3lw031675965943.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2330,8 +2330,8 @@
      0.8
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/r20v6x1713897058.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/rjf7dg1619096344.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2362,8 +2362,8 @@
      1.16
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/p0r1bj1654266974.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/bze3ex1738388987.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2447,8 +2447,8 @@
      0.94
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/4os8c01788968260.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/so4unb1658758422.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2500,7 +2500,7 @@
      0.88
     ]
    },
-   "hc": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/mla9x61678808018.png",
    "ac": null,
    "i": null,
    "st": "pre",
@@ -2553,8 +2553,8 @@
      0.84
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/bgqbo51714200086.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/7n07qf1702990302.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -15309,6 +15309,26 @@
   "osnabruck": "https://r2.thesportsdb.com/images/media/team/badge/tjs2611565193747.png",
   "dresden": "",
   "notts county": "https://r2.thesportsdb.com/images/media/team/badge/utqwvp1424032678.png",
-  "oxford": "https://r2.thesportsdb.com/images/media/team/badge/ru26hi1690091917.png"
+  "oxford": "https://r2.thesportsdb.com/images/media/team/badge/ru26hi1690091917.png",
+  "plymouth": "https://r2.thesportsdb.com/images/media/team/badge/wod5cj1689630278.png",
+  "afc wimbledon": "https://r2.thesportsdb.com/images/media/team/badge/md7iqx1684129667.png",
+  "oldham": "",
+  "accrington": "https://r2.thesportsdb.com/images/media/team/badge/pdks3s1639600928.png",
+  "swindon": "https://r2.thesportsdb.com/images/media/team/badge/uwsyup1424033445.png",
+  "crewe": "https://r2.thesportsdb.com/images/media/team/badge/xurvtu1424033658.png",
+  "altrincham": "https://r2.thesportsdb.com/images/media/team/badge/j103791655904826.png",
+  "aldershot": "https://r2.thesportsdb.com/images/media/team/badge/0ai9i31694237091.png",
+  "carlisle": "https://r2.thesportsdb.com/images/media/team/badge/a2tx7s1745193702.png",
+  "kidderminster": "https://r2.thesportsdb.com/images/media/team/badge/w3lw031675965943.png",
+  "chengdu rongcheng": "https://r2.thesportsdb.com/images/media/team/badge/r20v6x1713897058.png",
+  "tianjin jinmen tiger": "https://r2.thesportsdb.com/images/media/team/badge/rjf7dg1619096344.png",
+  "shanghai shenhua": "https://r2.thesportsdb.com/images/media/team/badge/p0r1bj1654266974.png",
+  "yunnan yukun": "https://r2.thesportsdb.com/images/media/team/badge/bze3ex1738388987.png",
+  "clermont": "https://r2.thesportsdb.com/images/media/team/badge/4os8c01788968260.png",
+  "red star": "https://r2.thesportsdb.com/images/media/team/badge/so4unb1658758422.png",
+  "nantes": "https://r2.thesportsdb.com/images/media/team/badge/mla9x61678808018.png",
+  "reims": "",
+  "cracovia": "https://r2.thesportsdb.com/images/media/team/badge/bgqbo51714200086.png",
+  "zaglebie": "https://r2.thesportsdb.com/images/media/team/badge/7n07qf1702990302.png"
  }
 }
