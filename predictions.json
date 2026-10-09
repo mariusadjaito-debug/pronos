@@ -1,5 +1,5 @@
 {
- "updated": "09/10/2026 18:05 UTC",
+ "updated": "09/10/2026 20:03 UTC",
  "matches": [
   {
    "l": "Primeira Liga",
@@ -29,10 +29,10 @@
    "hc": "https://crests.football-data.org/583.png",
    "ac": "https://crests.football-data.org/5533.png",
    "i": 567327,
-   "st": "live",
+   "st": "fin",
    "sc": [
     0,
-    0
+    1
    ],
    "e": {
     "s": [
@@ -85,9 +85,9 @@
    "hc": "https://crests.football-data.org/674.png",
    "ac": "https://crests.football-data.org/673.png",
    "i": 558881,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
+    2,
     0
    ],
    "e": {
@@ -141,8 +141,11 @@
    "hc": "https://crests.football-data.org/4.png",
    "ac": "https://crests.football-data.org/12.png",
    "i": 565820,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      15.07,
@@ -165,91 +168,6 @@
      3.33
     ]
    }
-  },
-  {
-   "l": "Serie B",
-   "h": "Avellino",
-   "a": "Sampdoria",
-   "d": "2026-10-09T18:30:00Z",
-   "x": 1.44,
-   "y": 0.76,
-   "f": {
-    "fh": "DVVND",
-    "fa": "NDDDV",
-    "h2": [
-     1,
-     0,
-     1,
-     2
-    ],
-    "at": [
-     0.91,
-     0.75
-    ],
-    "df": [
-     1.04,
-     1.0
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/swsu5p1579724964.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/pr6co21655592769.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     10.27,
-     13.53
-    ],
-    "c": [
-     3.52,
-     3.44
-    ],
-    "f": [
-     15.46,
-     16.23
-    ],
-    "k": [
-     2.19,
-     2.73
-    ],
-    "r": [
-     4.08,
-     4.59
-    ]
-   }
-  },
-  {
-   "l": "Pologne",
-   "h": "Rakow",
-   "a": "GKS Katowice",
-   "d": "2026-10-09T18:30:00Z",
-   "x": 1.59,
-   "y": 1.47,
-   "f": {
-    "fh": "DDVDD",
-    "fa": "VVDDV",
-    "h2": [
-     2,
-     0,
-     1,
-     4
-    ],
-    "at": [
-     1.1,
-     1.21
-    ],
-    "df": [
-     0.96,
-     0.96
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/vy8paa1579458598.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/zsva1p1626103599.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
   },
   {
    "l": "Ligue 1",
@@ -279,8 +197,11 @@
    "hc": "https://crests.football-data.org/546.png",
    "ac": "https://crests.football-data.org/523.png",
    "i": 559669,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      16.65,
@@ -303,144 +224,6 @@
      4.3
     ]
    }
-  },
-  {
-   "l": "Belgique",
-   "h": "Beveren",
-   "a": "Lommel SK",
-   "d": "2026-10-09T18:45:00Z",
-   "x": 1.03,
-   "y": 0.83,
-   "f": {
-    "fh": "DDVVD",
-    "fa": "VVDDN",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     0.8,
-     0.73
-    ],
-    "df": [
-     1.12,
-     0.77
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/w40kf11657733729.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/gj2c1v1658141968.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     17.11,
-     11.13
-    ],
-    "c": [
-     3.96,
-     2.98
-    ],
-    "f": [
-     9.44,
-     8.84
-    ],
-    "k": [
-     1.51,
-     1.01
-    ],
-    "r": [
-     6.48,
-     3.33
-    ]
-   }
-  },
-  {
-   "l": "Conference",
-   "h": "Sutton",
-   "a": "Boreham Wood",
-   "d": "2026-10-09T18:45:00Z",
-   "x": 1.01,
-   "y": 2.48,
-   "f": {
-    "fh": "VNNDN",
-    "fa": "VVVVV",
-    "h2": [
-     0,
-     0,
-     2,
-     2
-    ],
-    "at": [
-     0.85,
-     1.51
-    ],
-    "df": [
-     1.08,
-     0.85
-    ]
-   },
-   "hc": null,
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/8h5d4s1512067942.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     5.61,
-     6.95
-    ],
-    "c": [
-     2.97,
-     3.82
-    ],
-    "f": [
-     15.97,
-     10.64
-    ],
-    "k": [
-     2.02,
-     1.71
-    ],
-    "r": [
-     3.26,
-     4.15
-    ]
-   }
-  },
-  {
-   "l": "Irlande",
-   "h": "Shelbourne",
-   "a": "Sligo Rovers",
-   "d": "2026-10-09T18:45:00Z",
-   "x": 1.59,
-   "y": 0.63,
-   "f": {
-    "fh": "NDDVN",
-    "fa": "NDDDD",
-    "h2": [
-     5,
-     2,
-     0,
-     10
-    ],
-    "at": [
-     1.0,
-     0.73
-    ],
-    "df": [
-     0.91,
-     1.15
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/brh8t91579281545.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/1e9wvc1602256331.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
   },
   {
    "l": "La Liga",
@@ -470,8 +253,11 @@
    "hc": "https://crests.football-data.org/84.png",
    "ac": "https://crests.football-data.org/80.png",
    "i": 564706,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    1
+   ],
    "e": {
     "s": [
      8.35,
@@ -523,8 +309,11 @@
    "hc": "https://crests.football-data.org/563.png",
    "ac": "https://crests.football-data.org/69.png",
    "i": 561862,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    1
+   ],
    "e": {
     "s": [
      15.68,
@@ -576,8 +365,11 @@
    "hc": "https://crests.football-data.org/5613.png",
    "ac": "https://crests.football-data.org/498.png",
    "i": 567326,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      9.84,
@@ -3830,8 +3622,8 @@
      0.93
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/o4m2ci1596480474.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/wtxwyw1448759640.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3883,8 +3675,8 @@
      1.22
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/nbt2w91723705237.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/glbmdm1781719675.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3936,8 +3728,8 @@
      1.05
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/avi3bu1688678934.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/v977eh1681319466.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3990,7 +3782,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/wyqvwq1447531659.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4042,8 +3834,8 @@
      0.87
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/otewhc1761452845.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/lpi7qa1779778149.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4095,8 +3887,8 @@
      0.94
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/a9hv3n1689632800.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/vwwpry1424032525.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4148,8 +3940,8 @@
      0.92
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/txwuwp1424032712.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ivjidn1689630099.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4201,8 +3993,8 @@
      0.88
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ttsryu1448814163.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ttvpqt1424033597.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4254,8 +4046,8 @@
      0.94
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/s1ke3v1761710614.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/fbinsr1781739580.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4308,7 +4100,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/sqxvpp1424033506.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -14434,6 +14226,271 @@
      3.69
     ]
    }
+  },
+  {
+   "l": "Bundesliga",
+   "h": "Frankfurt",
+   "a": "1. FC Köln",
+   "d": "2026-10-16T18:30:00Z",
+   "x": 2.63,
+   "y": 1.53,
+   "f": {
+    "fh": "NNDVN",
+    "fa": "DVDND",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     1.13,
+     0.89
+    ],
+    "df": [
+     1.11,
+     1.17
+    ]
+   },
+   "hc": "https://crests.football-data.org/19.png",
+   "ac": "https://crests.football-data.org/1.png",
+   "i": 565828,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     14.43,
+     12.94
+    ],
+    "c": [
+     5.47,
+     4.51
+    ],
+    "f": [
+     9.69,
+     8.32
+    ],
+    "k": [
+     1.92,
+     1.94
+    ],
+    "r": [
+     5.95,
+     4.35
+    ]
+   }
+  },
+  {
+   "l": "Ligue 1",
+   "h": "Le Mans",
+   "a": "Toulouse",
+   "d": "2026-10-16T18:45:00Z",
+   "x": 1.87,
+   "y": 1.54,
+   "f": {
+    "fh": "NDNNV",
+    "fa": "DNDNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.19,
+     1.01
+    ],
+    "df": [
+     1.14,
+     0.96
+    ]
+   },
+   "hc": "https://crests.football-data.org/535.png",
+   "ac": "https://crests.football-data.org/511.png",
+   "i": 559661,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     11.52,
+     13.6
+    ],
+    "c": [
+     4.88,
+     4.41
+    ],
+    "f": [
+     13.18,
+     13.42
+    ],
+    "k": [
+     1.8,
+     2.57
+    ],
+    "r": [
+     3.35,
+     5.36
+    ]
+   }
+  },
+  {
+   "l": "Serie A",
+   "h": "Frosinone",
+   "a": "Sassuolo",
+   "d": "2026-10-16T18:45:00Z",
+   "x": 2.0,
+   "y": 0.9,
+   "f": {
+    "fh": "DVVNV",
+    "fa": "DVNVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.29,
+     1.07
+    ],
+    "df": [
+     0.73,
+     1.09
+    ]
+   },
+   "hc": "https://crests.football-data.org/470.png",
+   "ac": "https://crests.football-data.org/471.png",
+   "i": 558573,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     20.02,
+     15.86
+    ],
+    "c": [
+     6.75,
+     4.73
+    ],
+    "f": [
+     15.36,
+     12.01
+    ],
+    "k": [
+     2.19,
+     2.87
+    ],
+    "r": [
+     7.28,
+     5.4
+    ]
+   }
+  },
+  {
+   "l": "La Liga",
+   "h": "Deportivo",
+   "a": "Levante",
+   "d": "2026-10-16T19:00:00Z",
+   "x": 1.84,
+   "y": 1.03,
+   "f": {
+    "fh": "VVNDN",
+    "fa": "NVNDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.03,
+     1.0
+    ],
+    "df": [
+     0.94,
+     1.12
+    ]
+   },
+   "hc": "https://crests.football-data.org/560.png",
+   "ac": "https://crests.football-data.org/88.png",
+   "i": 564716,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     13.68,
+     12.25
+    ],
+    "c": [
+     5.13,
+     4.02
+    ],
+    "f": [
+     12.18,
+     11.16
+    ],
+    "k": [
+     1.92,
+     1.92
+    ],
+    "r": [
+     6.36,
+     4.24
+    ]
+   }
+  },
+  {
+   "l": "Championship",
+   "h": "Burnley",
+   "a": "Wolverhampton",
+   "d": "2026-10-16T19:00:00Z",
+   "x": 1.42,
+   "y": 1.63,
+   "f": {
+    "fh": "NDNDN",
+    "fa": "VDNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     1.5
+    ],
+    "df": [
+     0.87,
+     1.01
+    ]
+   },
+   "hc": "https://crests.football-data.org/328.png",
+   "ac": "https://crests.football-data.org/76.png",
+   "i": 561883,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     12.23,
+     12.58
+    ],
+    "c": [
+     3.94,
+     3.56
+    ],
+    "f": [
+     12.11,
+     13.04
+    ],
+    "k": [
+     2.35,
+     1.52
+    ],
+    "r": [
+     5.01,
+     4.4
+    ]
+   }
   }
  ],
  "crests": {
@@ -14748,6 +14805,26 @@
   "mansfield": "https://r2.thesportsdb.com/images/media/team/badge/c1fpes1761709071.png",
   "bromley": "https://r2.thesportsdb.com/images/media/team/badge/qq7kzz1661950278.png",
   "milton keynes dons": "https://r2.thesportsdb.com/images/media/team/badge/9hx41b1748524969.png",
-  "reading": "https://r2.thesportsdb.com/images/media/team/badge/tprvtu1448811527.png"
+  "reading": "https://r2.thesportsdb.com/images/media/team/badge/tprvtu1448811527.png",
+  "stevenage": "https://r2.thesportsdb.com/images/media/team/badge/o4m2ci1596480474.png",
+  "wigan": "https://r2.thesportsdb.com/images/media/team/badge/wtxwyw1448759640.png",
+  "stockport": "https://r2.thesportsdb.com/images/media/team/badge/nbt2w91723705237.png",
+  "barnsley": "https://r2.thesportsdb.com/images/media/team/badge/glbmdm1781719675.png",
+  "wycombe": "https://r2.thesportsdb.com/images/media/team/badge/avi3bu1688678934.png",
+  "luton": "https://r2.thesportsdb.com/images/media/team/badge/v977eh1681319466.png",
+  "bristol rvs": "",
+  "barnet": "https://r2.thesportsdb.com/images/media/team/badge/wyqvwq1447531659.png",
+  "cheltenham": "https://r2.thesportsdb.com/images/media/team/badge/otewhc1761452845.png",
+  "salford": "https://r2.thesportsdb.com/images/media/team/badge/lpi7qa1779778149.png",
+  "crawley town": "https://r2.thesportsdb.com/images/media/team/badge/a9hv3n1689632800.png",
+  "chesterfield": "https://r2.thesportsdb.com/images/media/team/badge/vwwpry1424032525.png",
+  "fleetwood town": "https://r2.thesportsdb.com/images/media/team/badge/txwuwp1424032712.png",
+  "walsall": "https://r2.thesportsdb.com/images/media/team/badge/ivjidn1689630099.png",
+  "newport county": "https://r2.thesportsdb.com/images/media/team/badge/ttsryu1448814163.png",
+  "colchester": "https://r2.thesportsdb.com/images/media/team/badge/ttvpqt1424033597.png",
+  "port vale": "https://r2.thesportsdb.com/images/media/team/badge/s1ke3v1761710614.png",
+  "grimsby": "https://r2.thesportsdb.com/images/media/team/badge/fbinsr1781739580.png",
+  "rotherham": "",
+  "gillingham": "https://r2.thesportsdb.com/images/media/team/badge/sqxvpp1424033506.png"
  }
 }
