@@ -1,102 +1,6 @@
 {
- "updated": "09/10/2026 14:07 UTC",
+ "updated": "09/10/2026 16:06 UTC",
  "matches": [
-  {
-   "l": "Finlande",
-   "h": "SJK",
-   "a": "Lahti",
-   "d": "2026-10-09T15:00:00Z",
-   "x": 1.28,
-   "y": 1.12,
-   "f": {
-    "fh": "DNNNV",
-    "fa": "VVVDN",
-    "h2": [
-     1,
-     0,
-     1,
-     4
-    ],
-    "at": [
-     1.15,
-     0.87
-    ],
-    "df": [
-     1.04,
-     0.77
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/rp0vdf1743652034.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/kmafvd1741054191.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Roumanie",
-   "h": "Corvinul",
-   "a": "FC Voluntari",
-   "d": "2026-10-09T15:00:00Z",
-   "x": 2.13,
-   "y": 0.69,
-   "f": {
-    "fh": "NNDDV",
-    "fa": "DNVDD",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     0.94,
-     0.93
-    ],
-    "df": [
-     0.75,
-     1.38
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/4xsvhl1690278556.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ar8p2o1770089409.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Pologne",
-   "h": "Wieczysta Krakow",
-   "a": "Wisla Plock",
-   "d": "2026-10-09T16:00:00Z",
-   "x": 1.71,
-   "y": 1.38,
-   "f": {
-    "fh": "DDNDN",
-    "fa": "DDNVV",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     1.11,
-     0.78
-    ],
-    "df": [
-     1.3,
-     0.9
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/sjv7bd1750699486.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/o1n52v1698554231.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
   {
    "l": "Bundesliga 2",
    "h": "Braunschweig",
@@ -2638,8 +2542,8 @@
      1.05
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/9fr3071601667898.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/7sepx01783701613.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2691,8 +2595,8 @@
      0.8
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/vz05y71679456608.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/96s34o1776827629.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2744,8 +2648,8 @@
      1.1
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/rvwtpt1426870819.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/9l00zr1677256723.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2797,8 +2701,8 @@
      0.8
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/c1ie6b1622561483.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/zi1tb01579708939.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2850,8 +2754,8 @@
      0.77
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/8fico41579725098.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/mi2bsf1579708272.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2903,8 +2807,8 @@
      0.92
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/c7yb5u1693457662.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/aojsvb1677257282.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2956,8 +2860,8 @@
      1.09
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/rwsrxq1420769503.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/nwr81l1639779730.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -2988,8 +2892,8 @@
      1.0
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/3pahks1639779139.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/yryyvr1429976751.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3868,8 +3772,8 @@
      0.91
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/0v6uv41656017321.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/auindn1771129464.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3921,8 +3825,8 @@
      0.87
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/orfh821655722356.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/qjys3z1684928969.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -15329,6 +15233,26 @@
   "nantes": "https://r2.thesportsdb.com/images/media/team/badge/mla9x61678808018.png",
   "reims": "",
   "cracovia": "https://r2.thesportsdb.com/images/media/team/badge/bgqbo51714200086.png",
-  "zaglebie": "https://r2.thesportsdb.com/images/media/team/badge/7n07qf1702990302.png"
+  "zaglebie": "https://r2.thesportsdb.com/images/media/team/badge/7n07qf1702990302.png",
+  "alanyaspor": "https://r2.thesportsdb.com/images/media/team/badge/9fr3071601667898.png",
+  "erzurumspor": "https://r2.thesportsdb.com/images/media/team/badge/7sepx01783701613.png",
+  "samsunspor": "https://r2.thesportsdb.com/images/media/team/badge/vz05y71679456608.png",
+  "trabzonspor": "https://r2.thesportsdb.com/images/media/team/badge/96s34o1776827629.png",
+  "benevento": "https://r2.thesportsdb.com/images/media/team/badge/rvwtpt1426870819.png",
+  "cesena": "https://r2.thesportsdb.com/images/media/team/badge/9l00zr1677256723.png",
+  "empoli": "https://r2.thesportsdb.com/images/media/team/badge/c1ie6b1622561483.png",
+  "palermo": "https://r2.thesportsdb.com/images/media/team/badge/zi1tb01579708939.png",
+  "sudtirol": "https://r2.thesportsdb.com/images/media/team/badge/8fico41579725098.png",
+  "ascoli": "https://r2.thesportsdb.com/images/media/team/badge/mi2bsf1579708272.png",
+  "virtus entella": "https://r2.thesportsdb.com/images/media/team/badge/c7yb5u1693457662.png",
+  "juve stabia": "https://r2.thesportsdb.com/images/media/team/badge/aojsvb1677257282.png",
+  "aik": "https://r2.thesportsdb.com/images/media/team/badge/rwsrxq1420769503.png",
+  "brommapojkarna": "https://r2.thesportsdb.com/images/media/team/badge/nwr81l1639779730.png",
+  "gais": "https://r2.thesportsdb.com/images/media/team/badge/3pahks1639779139.png",
+  "sirius": "https://r2.thesportsdb.com/images/media/team/badge/yryyvr1429976751.png",
+  "cercle brugge": "https://r2.thesportsdb.com/images/media/team/badge/0v6uv41656017321.png",
+  "anderlecht": "https://r2.thesportsdb.com/images/media/team/badge/auindn1771129464.png",
+  "dundee united": "https://r2.thesportsdb.com/images/media/team/badge/orfh821655722356.png",
+  "hibernian": "https://r2.thesportsdb.com/images/media/team/badge/qjys3z1684928969.png"
  }
 }
