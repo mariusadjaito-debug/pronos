@@ -1,293 +1,6 @@
 {
- "updated": "09/10/2026 16:06 UTC",
+ "updated": "09/10/2026 18:05 UTC",
  "matches": [
-  {
-   "l": "Bundesliga 2",
-   "h": "Braunschweig",
-   "a": "Holstein Kiel",
-   "d": "2026-10-09T16:30:00Z",
-   "x": 1.48,
-   "y": 1.37,
-   "f": {
-    "fh": "DDDND",
-    "fa": "NDNDN",
-    "h2": [
-     0,
-     1,
-     1,
-     2
-    ],
-    "at": [
-     0.84,
-     0.85
-    ],
-    "df": [
-     1.15,
-     0.98
-    ]
-   },
-   "hc": null,
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/1fpmgs1514394524.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     14.32,
-     12.01
-    ],
-    "c": [
-     4.5,
-     3.44
-    ],
-    "f": [
-     13.0,
-     14.91
-    ],
-    "k": [
-     2.6,
-     3.54
-    ],
-    "r": [
-     4.92,
-     5.94
-    ]
-   }
-  },
-  {
-   "l": "Bundesliga 2",
-   "h": "Heidenheim",
-   "a": "Kaiserslautern",
-   "d": "2026-10-09T16:30:00Z",
-   "x": 1.88,
-   "y": 1.35,
-   "f": {
-    "fh": "DVVVN",
-    "fa": "NVVDV",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     1.31,
-     0.93
-    ],
-    "df": [
-     1.23,
-     0.88
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/lbj7g01608236988.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/jghax31740165513.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     16.58,
-     14.05
-    ],
-    "c": [
-     6.5,
-     5.32
-    ],
-    "f": [
-     11.23,
-     10.29
-    ],
-    "k": [
-     1.87,
-     2.41
-    ],
-    "r": [
-     4.96,
-     5.61
-    ]
-   }
-  },
-  {
-   "l": "Turquie",
-   "h": "Galatasaray",
-   "a": "Kasimpasa",
-   "d": "2026-10-09T17:00:00Z",
-   "x": 2.15,
-   "y": 0.98,
-   "f": {
-    "fh": "VVVVD",
-    "fa": "VNNVN",
-    "h2": [
-     1,
-     1,
-     1,
-     4
-    ],
-    "at": [
-     1.63,
-     0.9
-    ],
-    "df": [
-     0.77,
-     0.95
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/uryxtp1448203236.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     18.0,
-     7.74
-    ],
-    "c": [
-     6.58,
-     2.36
-    ],
-    "f": [
-     12.76,
-     12.6
-    ],
-    "k": [
-     2.04,
-     2.75
-    ],
-    "r": [
-     6.86,
-     2.87
-    ]
-   }
-  },
-  {
-   "l": "Danemark",
-   "h": "Nordsjaelland",
-   "a": "Odense",
-   "d": "2026-10-09T17:00:00Z",
-   "x": 2.04,
-   "y": 1.03,
-   "f": {
-    "fh": "VDNVD",
-    "fa": "NNDVN",
-    "h2": [
-     1,
-     0,
-     1,
-     4
-    ],
-    "at": [
-     1.12,
-     0.88
-    ],
-    "df": [
-     0.83,
-     1.06
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/vem69p1657827704.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Norvège",
-   "h": "Brann",
-   "a": "Viking",
-   "d": "2026-10-09T17:00:00Z",
-   "x": 1.41,
-   "y": 1.78,
-   "f": {
-    "fh": "VNDDV",
-    "fa": "DVNVV",
-    "h2": [
-     1,
-     1,
-     2,
-     5
-    ],
-    "at": [
-     1.19,
-     1.57
-    ],
-    "df": [
-     0.89,
-     0.71
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ovuad71690695412.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Suède",
-   "h": "Goteborg",
-   "a": "Vasteras SK",
-   "d": "2026-10-09T17:00:00Z",
-   "x": 1.49,
-   "y": 1.44,
-   "f": {
-    "fh": "NVVVV",
-    "fa": "NVDVV",
-    "h2": [
-     1,
-     0,
-     0,
-     3
-    ],
-    "at": [
-     0.97,
-     1.03
-    ],
-    "df": [
-     1.05,
-     0.99
-    ]
-   },
-   "hc": null,
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/mscha61644586515.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Argentine",
-   "h": "Aldosivi",
-   "a": "Sarmiento Junin",
-   "d": "2026-10-09T17:30:00Z",
-   "x": 1.36,
-   "y": 1.35,
-   "f": {
-    "fh": "DVDVD",
-    "fa": "VDVND",
-    "h2": [
-     0,
-     1,
-     2,
-     3
-    ],
-    "at": [
-     0.81,
-     0.97
-    ],
-    "df": [
-     1.24,
-     1.21
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/xxofu71677634191.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
   {
    "l": "Primeira Liga",
    "h": "Moreirense",
@@ -316,8 +29,11 @@
    "hc": "https://crests.football-data.org/583.png",
    "ac": "https://crests.football-data.org/5533.png",
    "i": 567327,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      9.16,
@@ -369,8 +85,11 @@
    "hc": "https://crests.football-data.org/674.png",
    "ac": "https://crests.football-data.org/673.png",
    "i": 558881,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      20.8,
@@ -393,303 +112,6 @@
      3.48
     ]
    }
-  },
-  {
-   "l": "Ligue 2",
-   "h": "Dunkerque",
-   "a": "Annecy",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 1.28,
-   "y": 1.31,
-   "f": {
-    "fh": "DDNVD",
-    "fa": "DNVDD",
-    "h2": [
-     1,
-     1,
-     1,
-     4
-    ],
-    "at": [
-     1.14,
-     1.07
-    ],
-    "df": [
-     1.08,
-     0.93
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/3s4ne51750879372.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/h6981f1655120883.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     10.9,
-     9.03
-    ],
-    "c": [
-     3.7,
-     3.32
-    ],
-    "f": [
-     11.25,
-     15.9
-    ],
-    "k": [
-     1.48,
-     2.06
-    ],
-    "r": [
-     4.68,
-     3.69
-    ]
-   }
-  },
-  {
-   "l": "Ligue 2",
-   "h": "Montpellier",
-   "a": "Grenoble",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 1.24,
-   "y": 0.68,
-   "f": {
-    "fh": "VNDVN",
-    "fa": "DVDVN",
-    "h2": [
-     1,
-     1,
-     0,
-     2
-    ],
-    "at": [
-     0.87,
-     0.85
-    ],
-    "df": [
-     0.66,
-     0.95
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/8wn9x31750879448.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/x2hcpg1488227785.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     15.13,
-     9.65
-    ],
-    "c": [
-     5.38,
-     3.22
-    ],
-    "f": [
-     14.88,
-     15.04
-    ],
-    "k": [
-     1.68,
-     2.16
-    ],
-    "r": [
-     7.76,
-     2.96
-    ]
-   }
-  },
-  {
-   "l": "Ligue 2",
-   "h": "Nancy",
-   "a": "Guingamp",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 1.37,
-   "y": 1.48,
-   "f": {
-    "fh": "VVDDV",
-    "fa": "DNNVD",
-    "h2": [
-     0,
-     1,
-     1,
-     2
-    ],
-    "at": [
-     0.87,
-     1.04
-    ],
-    "df": [
-     1.08,
-     1.13
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ve39pj1547899643.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/5iihrp1590259631.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     13.42,
-     11.71
-    ],
-    "c": [
-     3.87,
-     4.03
-    ],
-    "f": [
-     15.93,
-     13.94
-    ],
-    "k": [
-     1.94,
-     1.94
-    ],
-    "r": [
-     4.0,
-     4.14
-    ]
-   }
-  },
-  {
-   "l": "Ligue 2",
-   "h": "Pau FC",
-   "a": "Laval",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 1.47,
-   "y": 1.01,
-   "f": {
-    "fh": "DNNDV",
-    "fa": "NDDDN",
-    "h2": [
-     2,
-     1,
-     0,
-     4
-    ],
-    "at": [
-     0.98,
-     0.82
-    ],
-    "df": [
-     1.26,
-     1.14
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/g1p2l71653308318.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/s6g8y81580152463.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     14.91,
-     8.75
-    ],
-    "c": [
-     4.89,
-     3.66
-    ],
-    "f": [
-     13.43,
-     14.4
-    ],
-    "k": [
-     2.06,
-     2.04
-    ],
-    "r": [
-     5.85,
-     4.26
-    ]
-   }
-  },
-  {
-   "l": "Ligue 2",
-   "h": "Sochaux",
-   "a": "Boulogne",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 0.56,
-   "y": 0.4,
-   "f": {
-    "fh": "VNNVN",
-    "fa": "NNNND",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     0.54,
-     0.68
-    ],
-    "df": [
-     0.65,
-     0.97
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ymsdjh1766618296.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/c7p39l1754278109.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {
-    "s": [
-     9.86,
-     11.34
-    ],
-    "c": [
-     3.01,
-     4.0
-    ],
-    "f": [
-     13.98,
-     15.3
-    ],
-    "k": [
-     1.25,
-     2.78
-    ],
-    "r": [
-     4.02,
-     4.82
-    ]
-   }
-  },
-  {
-   "l": "Roumanie",
-   "h": "Sepsi Sf. Gheorghe",
-   "a": "Dinamo Bucuresti",
-   "d": "2026-10-09T18:00:00Z",
-   "x": 0.82,
-   "y": 1.49,
-   "f": {
-    "fh": "NVDVD",
-    "fa": "VNVVV",
-    "h2": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "at": [
-     0.85,
-     1.46
-    ],
-    "df": [
-     0.92,
-     0.72
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ggoh1h1638479369.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/3x3m7i1782636831.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
   },
   {
    "l": "Bundesliga",
@@ -3878,8 +3300,8 @@
      1.11
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/w37ucy1685023169.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/tlei9x1750743461.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3931,8 +3353,8 @@
      0.99
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/v3eyvw1617287212.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/xvtuvv1447604452.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -3984,8 +3406,8 @@
      1.26
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/zgrbl21788969413.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ihxzq71785820059.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4037,8 +3459,8 @@
      1.03
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ebl8zx1781737432.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/g4d9bi1688678797.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4090,8 +3512,8 @@
      1.05
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/8yg4pc1783312507.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/utywru1448754934.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4144,7 +3566,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/dfjbwe1781738043.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4196,8 +3618,8 @@
      0.74
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/y11fin1677527513.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/m3km7p1781284189.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4249,7 +3671,7 @@
      1.18
     ]
    },
-   "hc": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/wo3udr1586957093.png",
    "ac": null,
    "i": null,
    "st": "pre",
@@ -4302,8 +3724,8 @@
      1.69
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/c1fpes1761709071.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/qq7kzz1661950278.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4355,8 +3777,8 @@
      0.97
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/9hx41b1748524969.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/tprvtu1448811527.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -14959,6 +14381,59 @@
      8.13
     ]
    }
+  },
+  {
+   "l": "Eredivisie",
+   "h": "Heerenveen",
+   "a": "Excelsior",
+   "d": "2026-10-16T18:00:00Z",
+   "x": 1.52,
+   "y": 1.41,
+   "f": {
+    "fh": "DNDNV",
+    "fa": "VVNDN",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.0,
+     1.0
+    ],
+    "df": [
+     0.9,
+     0.88
+    ]
+   },
+   "hc": "https://crests.football-data.org/673.png",
+   "ac": "https://crests.football-data.org/670.png",
+   "i": 558872,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     16.63,
+     11.5
+    ],
+    "c": [
+     5.51,
+     4.2
+    ],
+    "f": [
+     7.91,
+     10.97
+    ],
+    "k": [
+     0.96,
+     1.31
+    ],
+    "r": [
+     5.71,
+     3.69
+    ]
+   }
   }
  ],
  "crests": {
@@ -15253,6 +14728,26 @@
   "cercle brugge": "https://r2.thesportsdb.com/images/media/team/badge/0v6uv41656017321.png",
   "anderlecht": "https://r2.thesportsdb.com/images/media/team/badge/auindn1771129464.png",
   "dundee united": "https://r2.thesportsdb.com/images/media/team/badge/orfh821655722356.png",
-  "hibernian": "https://r2.thesportsdb.com/images/media/team/badge/qjys3z1684928969.png"
+  "hibernian": "https://r2.thesportsdb.com/images/media/team/badge/qjys3z1684928969.png",
+  "falkirk": "https://r2.thesportsdb.com/images/media/team/badge/w37ucy1685023169.png",
+  "dundee": "https://r2.thesportsdb.com/images/media/team/badge/tlei9x1750743461.png",
+  "hearts": "https://r2.thesportsdb.com/images/media/team/badge/v3eyvw1617287212.png",
+  "st mirren": "https://r2.thesportsdb.com/images/media/team/badge/xvtuvv1447604452.png",
+  "rangers": "https://r2.thesportsdb.com/images/media/team/badge/zgrbl21788969413.png",
+  "kilmarnock": "https://r2.thesportsdb.com/images/media/team/badge/ihxzq71785820059.png",
+  "bradford": "https://r2.thesportsdb.com/images/media/team/badge/ebl8zx1781737432.png",
+  "leyton orient": "https://r2.thesportsdb.com/images/media/team/badge/g4d9bi1688678797.png",
+  "cambridge": "https://r2.thesportsdb.com/images/media/team/badge/8yg4pc1783312507.png",
+  "blackpool": "https://r2.thesportsdb.com/images/media/team/badge/utywru1448754934.png",
+  "doncaster": "",
+  "burton": "https://r2.thesportsdb.com/images/media/team/badge/dfjbwe1781738043.png",
+  "huddersfield": "https://r2.thesportsdb.com/images/media/team/badge/y11fin1677527513.png",
+  "sheffield weds": "https://r2.thesportsdb.com/images/media/team/badge/m3km7p1781284189.png",
+  "leicester": "https://r2.thesportsdb.com/images/media/team/badge/wo3udr1586957093.png",
+  "peterboro": "",
+  "mansfield": "https://r2.thesportsdb.com/images/media/team/badge/c1fpes1761709071.png",
+  "bromley": "https://r2.thesportsdb.com/images/media/team/badge/qq7kzz1661950278.png",
+  "milton keynes dons": "https://r2.thesportsdb.com/images/media/team/badge/9hx41b1748524969.png",
+  "reading": "https://r2.thesportsdb.com/images/media/team/badge/tprvtu1448811527.png"
  }
 }
