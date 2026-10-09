@@ -1,102 +1,6 @@
 {
- "updated": "09/10/2026 10:30 UTC",
+ "updated": "09/10/2026 12:06 UTC",
  "matches": [
-  {
-   "l": "Chine",
-   "h": "Qingdao Hainiu",
-   "a": "Beijing Guoan",
-   "d": "2026-10-09T11:35:00Z",
-   "x": 1.1,
-   "y": 2.41,
-   "f": {
-    "fh": "DDDDD",
-    "fa": "VVNNN",
-    "h2": [
-     1,
-     1,
-     2,
-     5
-    ],
-    "at": [
-     0.84,
-     1.33
-    ],
-    "df": [
-     1.14,
-     0.83
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/qzq6nw1654864098.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/cdkguq1652626854.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Chine",
-   "h": "Shenzhen Xinpengcheng",
-   "a": "Henan Songshan Longmen",
-   "d": "2026-10-09T11:35:00Z",
-   "x": 1.29,
-   "y": 1.19,
-   "f": {
-    "fh": "DVNDN",
-    "fa": "DNNNN",
-    "h2": [
-     0,
-     0,
-     3,
-     5
-    ],
-    "at": [
-     0.83,
-     0.93
-    ],
-    "df": [
-     1.06,
-     0.86
-    ]
-   },
-   "hc": null,
-   "ac": null,
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
-  {
-   "l": "Chine",
-   "h": "Zhejiang Professional",
-   "a": "Shanghai Port",
-   "d": "2026-10-09T12:00:00Z",
-   "x": 1.85,
-   "y": 1.6,
-   "f": {
-    "fh": "DNVDV",
-    "fa": "VNVVN",
-    "h2": [
-     0,
-     2,
-     1,
-     5
-    ],
-    "at": [
-     1.24,
-     1.27
-    ],
-    "df": [
-     1.07,
-     0.81
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/dhlhdy1654266653.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/d9evs91776534441.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
   {
    "l": "Finlande",
    "h": "SJK",
@@ -1524,8 +1428,8 @@
      0.8
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/lh80fx1701423708.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/y64wy91523913186.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1556,8 +1460,8 @@
      0.91
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/a7oyde1706245108.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/rgeshm1578240000.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1588,8 +1492,8 @@
      0.93
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/g14m751590070801.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ts5p221590070816.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1620,7 +1524,7 @@
      1.04
     ]
    },
-   "hc": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/9ls6lr1698754779.png",
    "ac": null,
    "i": null,
    "st": "pre",
@@ -1652,8 +1556,8 @@
      0.79
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/5akmlf1590070888.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/99zl6k1590070905.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1684,8 +1588,8 @@
      0.92
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/5hnd1c1639569938.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/4fqdgh1783788571.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1737,8 +1641,8 @@
      1.25
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/5f3dyd1608236981.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/8ks84j1750352338.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1790,8 +1694,8 @@
      0.85
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/f2fuxs1532856216.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/tqpqqv1473454148.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -1843,7 +1747,7 @@
      1.12
     ]
    },
-   "hc": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/tjs2611565193747.png",
    "ac": null,
    "i": null,
    "st": "pre",
@@ -2108,8 +2012,8 @@
      0.93
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/utqwvp1424032678.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/ru26hi1690091917.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -15385,6 +15289,26 @@
   "union de santa fe": "",
   "defensa y justicia": "https://r2.thesportsdb.com/images/media/team/badge/3guvlh1775778978.png",
   "puebla": "https://r2.thesportsdb.com/images/media/team/badge/h0jgg51593451845.png",
-  "club leon": "https://r2.thesportsdb.com/images/media/team/badge/pc9gro1752393439.png"
+  "club leon": "https://r2.thesportsdb.com/images/media/team/badge/pc9gro1752393439.png",
+  "tigres uanl": "https://r2.thesportsdb.com/images/media/team/badge/lh80fx1701423708.png",
+  "toluca": "https://r2.thesportsdb.com/images/media/team/badge/y64wy91523913186.png",
+  "cerezo osaka": "https://r2.thesportsdb.com/images/media/team/badge/a7oyde1706245108.png",
+  "yokohama f. marinos": "https://r2.thesportsdb.com/images/media/team/badge/rgeshm1578240000.png",
+  "avispa fukuoka": "https://r2.thesportsdb.com/images/media/team/badge/g14m751590070801.png",
+  "okayama": "https://r2.thesportsdb.com/images/media/team/badge/ts5p221590070816.png",
+  "fc tokyo": "https://r2.thesportsdb.com/images/media/team/badge/9ls6lr1698754779.png",
+  "urawa reds": "",
+  "kyoto": "https://r2.thesportsdb.com/images/media/team/badge/5akmlf1590070888.png",
+  "machida": "https://r2.thesportsdb.com/images/media/team/badge/99zl6k1590070905.png",
+  "genclerbirligi": "https://r2.thesportsdb.com/images/media/team/badge/5hnd1c1639569938.png",
+  "amedspor": "https://r2.thesportsdb.com/images/media/team/badge/4fqdgh1783788571.png",
+  "darmstadt": "https://r2.thesportsdb.com/images/media/team/badge/5f3dyd1608236981.png",
+  "cottbus": "https://r2.thesportsdb.com/images/media/team/badge/8ks84j1750352338.png",
+  "magdeburg": "https://r2.thesportsdb.com/images/media/team/badge/f2fuxs1532856216.png",
+  "hannover": "https://r2.thesportsdb.com/images/media/team/badge/tqpqqv1473454148.png",
+  "osnabruck": "https://r2.thesportsdb.com/images/media/team/badge/tjs2611565193747.png",
+  "dresden": "",
+  "notts county": "https://r2.thesportsdb.com/images/media/team/badge/utqwvp1424032678.png",
+  "oxford": "https://r2.thesportsdb.com/images/media/team/badge/ru26hi1690091917.png"
  }
 }
