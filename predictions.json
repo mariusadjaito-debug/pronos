@@ -1,13 +1,31 @@
 {
- "updated": "09/10/2026 10:06 UTC",
+ "updated": "09/10/2026 10:30 UTC",
  "matches": [
   {
    "l": "Chine",
    "h": "Qingdao Hainiu",
    "a": "Beijing Guoan",
    "d": "2026-10-09T11:35:00Z",
-   "x": 1.26,
-   "y": 2.06,
+   "x": 1.1,
+   "y": 2.41,
+   "f": {
+    "fh": "DDDDD",
+    "fa": "VVNNN",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     0.84,
+     1.33
+    ],
+    "df": [
+     1.14,
+     0.83
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/qzq6nw1654864098.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/cdkguq1652626854.png",
    "i": null,
@@ -20,8 +38,26 @@
    "h": "Shenzhen Xinpengcheng",
    "a": "Henan Songshan Longmen",
    "d": "2026-10-09T11:35:00Z",
-   "x": 1.28,
-   "y": 1.34,
+   "x": 1.29,
+   "y": 1.19,
+   "f": {
+    "fh": "DVNDN",
+    "fa": "DNNNN",
+    "h2": [
+     0,
+     0,
+     3,
+     5
+    ],
+    "at": [
+     0.83,
+     0.93
+    ],
+    "df": [
+     1.06,
+     0.86
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -34,8 +70,26 @@
    "h": "Zhejiang Professional",
    "a": "Shanghai Port",
    "d": "2026-10-09T12:00:00Z",
-   "x": 1.81,
-   "y": 1.85,
+   "x": 1.85,
+   "y": 1.6,
+   "f": {
+    "fh": "DNVDV",
+    "fa": "VNVVN",
+    "h2": [
+     0,
+     2,
+     1,
+     5
+    ],
+    "at": [
+     1.24,
+     1.27
+    ],
+    "df": [
+     1.07,
+     0.81
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/dhlhdy1654266653.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/d9evs91776534441.png",
    "i": null,
@@ -48,8 +102,26 @@
    "h": "SJK",
    "a": "Lahti",
    "d": "2026-10-09T15:00:00Z",
-   "x": 1.33,
-   "y": 1.14,
+   "x": 1.28,
+   "y": 1.12,
+   "f": {
+    "fh": "DNNNV",
+    "fa": "VVVDN",
+    "h2": [
+     1,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.15,
+     0.87
+    ],
+    "df": [
+     1.04,
+     0.77
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/rp0vdf1743652034.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/kmafvd1741054191.png",
    "i": null,
@@ -62,8 +134,26 @@
    "h": "Corvinul",
    "a": "FC Voluntari",
    "d": "2026-10-09T15:00:00Z",
-   "x": 1.92,
-   "y": 0.72,
+   "x": 2.13,
+   "y": 0.69,
+   "f": {
+    "fh": "NNDDV",
+    "fa": "DNVDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.94,
+     0.93
+    ],
+    "df": [
+     0.75,
+     1.38
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/4xsvhl1690278556.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ar8p2o1770089409.png",
    "i": null,
@@ -76,8 +166,26 @@
    "h": "Wieczysta Krakow",
    "a": "Wisla Plock",
    "d": "2026-10-09T16:00:00Z",
-   "x": 1.57,
-   "y": 1.23,
+   "x": 1.71,
+   "y": 1.38,
+   "f": {
+    "fh": "DDNDN",
+    "fa": "DDNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.11,
+     0.78
+    ],
+    "df": [
+     1.3,
+     0.9
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/sjv7bd1750699486.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/o1n52v1698554231.png",
    "i": null,
@@ -90,8 +198,26 @@
    "h": "Braunschweig",
    "a": "Holstein Kiel",
    "d": "2026-10-09T16:30:00Z",
-   "x": 1.37,
-   "y": 1.32,
+   "x": 1.48,
+   "y": 1.37,
+   "f": {
+    "fh": "DDDND",
+    "fa": "NDNDN",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.84,
+     0.85
+    ],
+    "df": [
+     1.15,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/1fpmgs1514394524.png",
    "i": null,
@@ -125,8 +251,26 @@
    "h": "Heidenheim",
    "a": "Kaiserslautern",
    "d": "2026-10-09T16:30:00Z",
-   "x": 1.92,
-   "y": 1.55,
+   "x": 1.88,
+   "y": 1.35,
+   "f": {
+    "fh": "DVVVN",
+    "fa": "NVVDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.31,
+     0.93
+    ],
+    "df": [
+     1.23,
+     0.88
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/lbj7g01608236988.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/jghax31740165513.png",
    "i": null,
@@ -160,8 +304,26 @@
    "h": "Galatasaray",
    "a": "Kasimpasa",
    "d": "2026-10-09T17:00:00Z",
-   "x": 2.48,
-   "y": 0.84,
+   "x": 2.15,
+   "y": 0.98,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "VNNVN",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.63,
+     0.9
+    ],
+    "df": [
+     0.77,
+     0.95
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/uryxtp1448203236.png",
    "i": null,
@@ -195,8 +357,26 @@
    "h": "Nordsjaelland",
    "a": "Odense",
    "d": "2026-10-09T17:00:00Z",
-   "x": 1.92,
-   "y": 1.05,
+   "x": 2.04,
+   "y": 1.03,
+   "f": {
+    "fh": "VDNVD",
+    "fa": "NNDVN",
+    "h2": [
+     1,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.12,
+     0.88
+    ],
+    "df": [
+     0.83,
+     1.06
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/vem69p1657827704.png",
    "i": null,
@@ -209,8 +389,26 @@
    "h": "Brann",
    "a": "Viking",
    "d": "2026-10-09T17:00:00Z",
-   "x": 1.54,
-   "y": 1.9,
+   "x": 1.41,
+   "y": 1.78,
+   "f": {
+    "fh": "VNDDV",
+    "fa": "DVNVV",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     1.19,
+     1.57
+    ],
+    "df": [
+     0.89,
+     0.71
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ovuad71690695412.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
    "i": null,
@@ -224,7 +422,25 @@
    "a": "Vasteras SK",
    "d": "2026-10-09T17:00:00Z",
    "x": 1.49,
-   "y": 1.43,
+   "y": 1.44,
+   "f": {
+    "fh": "NVVVV",
+    "fa": "NVDVV",
+    "h2": [
+     1,
+     0,
+     0,
+     3
+    ],
+    "at": [
+     0.97,
+     1.03
+    ],
+    "df": [
+     1.05,
+     0.99
+    ]
+   },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/mscha61644586515.png",
    "i": null,
@@ -237,8 +453,26 @@
    "h": "Aldosivi",
    "a": "Sarmiento Junin",
    "d": "2026-10-09T17:30:00Z",
-   "x": 1.15,
-   "y": 1.09,
+   "x": 1.36,
+   "y": 1.35,
+   "f": {
+    "fh": "DVDVD",
+    "fa": "VDVND",
+    "h2": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "at": [
+     0.81,
+     0.97
+    ],
+    "df": [
+     1.24,
+     1.21
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/xxofu71677634191.png",
    "i": null,
@@ -251,8 +485,26 @@
    "h": "Moreirense",
    "a": "Gil Vicente",
    "d": "2026-10-09T17:45:00Z",
-   "x": 1.09,
-   "y": 1.22,
+   "x": 0.99,
+   "y": 1.2,
+   "f": {
+    "fh": "VDDVN",
+    "fa": "VNDDN",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.87,
+     0.89
+    ],
+    "df": [
+     1.11,
+     0.87
+    ]
+   },
    "hc": "https://crests.football-data.org/583.png",
    "ac": "https://crests.football-data.org/5533.png",
    "i": 567327,
@@ -286,8 +538,26 @@
    "h": "PSV",
    "a": "Heerenveen",
    "d": "2026-10-09T18:00:00Z",
-   "x": 3.08,
-   "y": 1.23,
+   "x": 3.4,
+   "y": 1.24,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "DNDNV",
+    "h2": [
+     3,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.94,
+     1.0
+    ],
+    "df": [
+     0.82,
+     0.9
+    ]
+   },
    "hc": "https://crests.football-data.org/674.png",
    "ac": "https://crests.football-data.org/673.png",
    "i": 558881,
@@ -321,8 +591,26 @@
    "h": "Dunkerque",
    "a": "Annecy",
    "d": "2026-10-09T18:00:00Z",
-   "x": 1.46,
-   "y": 1.38,
+   "x": 1.28,
+   "y": 1.31,
+   "f": {
+    "fh": "DDNVD",
+    "fa": "DNVDD",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.14,
+     1.07
+    ],
+    "df": [
+     1.08,
+     0.93
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/3s4ne51750879372.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/h6981f1655120883.png",
    "i": null,
@@ -356,8 +644,26 @@
    "h": "Montpellier",
    "a": "Grenoble",
    "d": "2026-10-09T18:00:00Z",
-   "x": 1.14,
-   "y": 0.67,
+   "x": 1.24,
+   "y": 0.68,
+   "f": {
+    "fh": "VNDVN",
+    "fa": "DVDVN",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.87,
+     0.85
+    ],
+    "df": [
+     0.66,
+     0.95
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/8wn9x31750879448.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/x2hcpg1488227785.png",
    "i": null,
@@ -391,8 +697,26 @@
    "h": "Nancy",
    "a": "Guingamp",
    "d": "2026-10-09T18:00:00Z",
-   "x": 1.35,
-   "y": 1.36,
+   "x": 1.37,
+   "y": 1.48,
+   "f": {
+    "fh": "VVDDV",
+    "fa": "DNNVD",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.87,
+     1.04
+    ],
+    "df": [
+     1.08,
+     1.13
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ve39pj1547899643.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/5iihrp1590259631.png",
    "i": null,
@@ -426,8 +750,26 @@
    "h": "Pau FC",
    "a": "Laval",
    "d": "2026-10-09T18:00:00Z",
-   "x": 1.53,
-   "y": 1.24,
+   "x": 1.47,
+   "y": 1.01,
+   "f": {
+    "fh": "DNNDV",
+    "fa": "NDDDN",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     0.98,
+     0.82
+    ],
+    "df": [
+     1.26,
+     1.14
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/g1p2l71653308318.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/s6g8y81580152463.png",
    "i": null,
@@ -461,8 +803,26 @@
    "h": "Sochaux",
    "a": "Boulogne",
    "d": "2026-10-09T18:00:00Z",
-   "x": 0.72,
-   "y": 0.52,
+   "x": 0.56,
+   "y": 0.4,
+   "f": {
+    "fh": "VNNVN",
+    "fa": "NNNND",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.54,
+     0.68
+    ],
+    "df": [
+     0.65,
+     0.97
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ymsdjh1766618296.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/c7p39l1754278109.png",
    "i": null,
@@ -496,10 +856,28 @@
    "h": "Sepsi Sf. Gheorghe",
    "a": "Dinamo Bucuresti",
    "d": "2026-10-09T18:00:00Z",
-   "x": 0.92,
-   "y": 1.38,
-   "hc": null,
-   "ac": null,
+   "x": 0.82,
+   "y": 1.49,
+   "f": {
+    "fh": "NVDVD",
+    "fa": "VNVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.85,
+     1.46
+    ],
+    "df": [
+     0.92,
+     0.72
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ggoh1h1638479369.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/3x3m7i1782636831.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -510,8 +888,26 @@
    "h": "Dortmund",
    "a": "Bremen",
    "d": "2026-10-09T18:30:00Z",
-   "x": 2.4,
-   "y": 0.8,
+   "x": 2.47,
+   "y": 0.65,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DDVNV",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.26,
+     0.82
+    ],
+    "df": [
+     0.67,
+     1.04
+    ]
+   },
    "hc": "https://crests.football-data.org/4.png",
    "ac": "https://crests.football-data.org/12.png",
    "i": 565820,
@@ -545,10 +941,28 @@
    "h": "Avellino",
    "a": "Sampdoria",
    "d": "2026-10-09T18:30:00Z",
-   "x": 1.33,
-   "y": 0.86,
-   "hc": null,
-   "ac": null,
+   "x": 1.44,
+   "y": 0.76,
+   "f": {
+    "fh": "DVVND",
+    "fa": "NDDDV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     0.91,
+     0.75
+    ],
+    "df": [
+     1.04,
+     1.0
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/swsu5p1579724964.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/pr6co21655592769.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -580,10 +994,28 @@
    "h": "Rakow",
    "a": "GKS Katowice",
    "d": "2026-10-09T18:30:00Z",
-   "x": 1.67,
-   "y": 1.4,
-   "hc": null,
-   "ac": null,
+   "x": 1.59,
+   "y": 1.47,
+   "f": {
+    "fh": "DDVDD",
+    "fa": "VVDDV",
+    "h2": [
+     2,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.1,
+     1.21
+    ],
+    "df": [
+     0.96,
+     0.96
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/vy8paa1579458598.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/zsva1p1626103599.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -594,8 +1026,26 @@
    "h": "RC Lens",
    "a": "Olympique Lyon",
    "d": "2026-10-09T18:45:00Z",
-   "x": 1.57,
-   "y": 1.32,
+   "x": 1.71,
+   "y": 1.09,
+   "f": {
+    "fh": "VDDND",
+    "fa": "VNVNV",
+    "h2": [
+     2,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.27,
+     1.24
+    ],
+    "df": [
+     0.82,
+     0.79
+    ]
+   },
    "hc": "https://crests.football-data.org/546.png",
    "ac": "https://crests.football-data.org/523.png",
    "i": 559669,
@@ -629,10 +1079,28 @@
    "h": "Beveren",
    "a": "Lommel SK",
    "d": "2026-10-09T18:45:00Z",
-   "x": 0.94,
-   "y": 1.02,
-   "hc": null,
-   "ac": null,
+   "x": 1.03,
+   "y": 0.83,
+   "f": {
+    "fh": "DDVVD",
+    "fa": "VVDDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.8,
+     0.73
+    ],
+    "df": [
+     1.12,
+     0.77
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/w40kf11657733729.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/gj2c1v1658141968.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -664,10 +1132,28 @@
    "h": "Sutton",
    "a": "Boreham Wood",
    "d": "2026-10-09T18:45:00Z",
-   "x": 1.15,
-   "y": 2.17,
+   "x": 1.01,
+   "y": 2.48,
+   "f": {
+    "fh": "VNNDN",
+    "fa": "VVVVV",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     0.85,
+     1.51
+    ],
+    "df": [
+     1.08,
+     0.85
+    ]
+   },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/8h5d4s1512067942.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -699,10 +1185,28 @@
    "h": "Shelbourne",
    "a": "Sligo Rovers",
    "d": "2026-10-09T18:45:00Z",
-   "x": 1.65,
-   "y": 0.8,
-   "hc": null,
-   "ac": null,
+   "x": 1.59,
+   "y": 0.63,
+   "f": {
+    "fh": "NDDVN",
+    "fa": "NDDDD",
+    "h2": [
+     5,
+     2,
+     0,
+     10
+    ],
+    "at": [
+     1.0,
+     0.73
+    ],
+    "df": [
+     0.91,
+     1.15
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/brh8t91579281545.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/1e9wvc1602256331.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -713,8 +1217,26 @@
    "h": "Málaga",
    "a": "Espanyol",
    "d": "2026-10-09T19:00:00Z",
-   "x": 0.6,
-   "y": 2.54,
+   "x": 0.56,
+   "y": 2.75,
+   "f": {
+    "fh": "DNNDD",
+    "fa": "VVVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.53,
+     2.04
+    ],
+    "df": [
+     1.06,
+     0.72
+    ]
+   },
    "hc": "https://crests.football-data.org/84.png",
    "ac": "https://crests.football-data.org/80.png",
    "i": 564706,
@@ -748,8 +1270,26 @@
    "h": "West Ham",
    "a": "QPR",
    "d": "2026-10-09T19:00:00Z",
-   "x": 2.96,
-   "y": 1.14,
+   "x": 3.02,
+   "y": 0.99,
+   "f": {
+    "fh": "VVVVN",
+    "fa": "VDNNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.83,
+     0.95
+    ],
+    "df": [
+     1.02,
+     1.11
+    ]
+   },
    "hc": "https://crests.football-data.org/563.png",
    "ac": "https://crests.football-data.org/69.png",
    "i": 561862,
@@ -783,8 +1323,26 @@
    "h": "Braga",
    "a": "Sporting CP",
    "d": "2026-10-09T19:15:00Z",
-   "x": 1.24,
-   "y": 1.71,
+   "x": 1.28,
+   "y": 1.62,
+   "f": {
+    "fh": "VVDVN",
+    "fa": "VVVNN",
+    "h2": [
+     0,
+     3,
+     1,
+     4
+    ],
+    "at": [
+     1.25,
+     1.84
+    ],
+    "df": [
+     0.76,
+     0.69
+    ]
+   },
    "hc": "https://crests.football-data.org/5613.png",
    "ac": "https://crests.football-data.org/498.png",
    "i": 567326,
@@ -818,10 +1376,28 @@
    "h": "Gimnasia L.P.",
    "a": "Atl. Tucuman",
    "d": "2026-10-09T21:00:00Z",
-   "x": 1.39,
-   "y": 0.87,
-   "hc": null,
-   "ac": null,
+   "x": 1.57,
+   "y": 0.9,
+   "f": {
+    "fh": "VVNNN",
+    "fa": "NVDDD",
+    "h2": [
+     3,
+     0,
+     1,
+     6
+    ],
+    "at": [
+     1.07,
+     0.9
+    ],
+    "df": [
+     1.07,
+     1.11
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/epmttr1678849271.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -832,10 +1408,28 @@
    "h": "Instituto",
    "a": "Boca Juniors",
    "d": "2026-10-09T22:30:00Z",
-   "x": 0.94,
-   "y": 1.27,
-   "hc": null,
-   "ac": null,
+   "x": 1.02,
+   "y": 1.52,
+   "f": {
+    "fh": "VDVVV",
+    "fa": "VNVVV",
+    "h2": [
+     0,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.09,
+     1.4
+    ],
+    "df": [
+     1.0,
+     0.73
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -846,10 +1440,28 @@
    "h": "Union de Santa Fe",
    "a": "Defensa y Justicia",
    "d": "2026-10-10T00:45:00Z",
-   "x": 1.68,
-   "y": 1.24,
+   "x": 1.62,
+   "y": 1.34,
+   "f": {
+    "fh": "VVDDD",
+    "fa": "VDVNV",
+    "h2": [
+     1,
+     2,
+     1,
+     6
+    ],
+    "at": [
+     1.23,
+     1.14
+    ],
+    "df": [
+     1.19,
+     1.16
+    ]
+   },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/3guvlh1775778978.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -860,10 +1472,28 @@
    "h": "Puebla",
    "a": "Club Leon",
    "d": "2026-10-10T01:00:00Z",
-   "x": 1.26,
-   "y": 1.24,
-   "hc": null,
-   "ac": null,
+   "x": 1.16,
+   "y": 1.13,
+   "f": {
+    "fh": "DVDND",
+    "fa": "NDVNV",
+    "h2": [
+     1,
+     0,
+     2,
+     6
+    ],
+    "at": [
+     0.72,
+     0.88
+    ],
+    "df": [
+     1.14,
+     1.07
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/h0jgg51593451845.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/pc9gro1752393439.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -874,8 +1504,26 @@
    "h": "Tigres UANL",
    "a": "Toluca",
    "d": "2026-10-10T03:00:00Z",
-   "x": 1.33,
-   "y": 1.28,
+   "x": 1.16,
+   "y": 1.07,
+   "f": {
+    "fh": "NNNDV",
+    "fa": "VVVDN",
+    "h2": [
+     3,
+     2,
+     3,
+     9
+    ],
+    "at": [
+     1.02,
+     1.35
+    ],
+    "df": [
+     0.77,
+     0.8
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -888,8 +1536,26 @@
    "h": "Cerezo Osaka",
    "a": "Yokohama F. Marinos",
    "d": "2026-10-10T05:00:00Z",
-   "x": 1.32,
-   "y": 1.56,
+   "x": 1.06,
+   "y": 1.48,
+   "f": {
+    "fh": "DVNDN",
+    "fa": "DNVNV",
+    "h2": [
+     1,
+     0,
+     1,
+     5
+    ],
+    "at": [
+     1.02,
+     1.18
+    ],
+    "df": [
+     1.1,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -902,8 +1568,26 @@
    "h": "Avispa Fukuoka",
    "a": "Okayama",
    "d": "2026-10-10T06:00:00Z",
-   "x": 1.03,
-   "y": 0.87,
+   "x": 1.17,
+   "y": 1.06,
+   "f": {
+    "fh": "DDNDD",
+    "fa": "DVVVD",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.78,
+     0.85
+    ],
+    "df": [
+     0.85,
+     0.93
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -916,8 +1600,26 @@
    "h": "FC Tokyo",
    "a": "Urawa Reds",
    "d": "2026-10-10T06:00:00Z",
-   "x": 1.52,
-   "y": 1.22,
+   "x": 1.9,
+   "y": 1.18,
+   "f": {
+    "fh": "VNVVV",
+    "fa": "VVVDV",
+    "h2": [
+     1,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.03,
+     1.16
+    ],
+    "df": [
+     0.88,
+     1.04
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -930,8 +1632,26 @@
    "h": "Kyoto",
    "a": "Machida",
    "d": "2026-10-10T10:00:00Z",
-   "x": 1.29,
-   "y": 1.55,
+   "x": 1.37,
+   "y": 1.75,
+   "f": {
+    "fh": "VNDDV",
+    "fa": "NVVND",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.14,
+     1.31
+    ],
+    "df": [
+     0.98,
+     0.79
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -944,8 +1664,26 @@
    "h": "Genclerbirligi",
    "a": "Amedspor",
    "d": "2026-10-10T10:30:00Z",
-   "x": 1.15,
-   "y": 2.17,
+   "x": 1.26,
+   "y": 2.29,
+   "f": {
+    "fh": "VNDDD",
+    "fa": "DVNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.78,
+     1.7
+    ],
+    "df": [
+     1.06,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -979,8 +1717,26 @@
    "h": "Darmstadt",
    "a": "Cottbus",
    "d": "2026-10-10T11:00:00Z",
-   "x": 2.06,
-   "y": 1.99,
+   "x": 1.95,
+   "y": 2.17,
+   "f": {
+    "fh": "DDDVD",
+    "fa": "DDNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.99,
+     1.39
+    ],
+    "df": [
+     1.05,
+     1.25
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1014,8 +1770,26 @@
    "h": "Magdeburg",
    "a": "Hannover",
    "d": "2026-10-10T11:00:00Z",
-   "x": 1.59,
-   "y": 1.47,
+   "x": 1.38,
+   "y": 1.52,
+   "f": {
+    "fh": "VVDVN",
+    "fa": "DVNDV",
+    "h2": [
+     0,
+     1,
+     3,
+     4
+    ],
+    "at": [
+     1.11,
+     1.0
+    ],
+    "df": [
+     1.09,
+     0.85
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1049,8 +1823,26 @@
    "h": "Osnabruck",
    "a": "Dresden",
    "d": "2026-10-10T11:00:00Z",
-   "x": 1.8,
-   "y": 1.69,
+   "x": 1.93,
+   "y": 1.76,
+   "f": {
+    "fh": "DVVDN",
+    "fa": "VDDND",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.96,
+     1.02
+    ],
+    "df": [
+     1.22,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1084,8 +1876,26 @@
    "h": "Arsenal",
    "a": "Leeds United",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.68,
-   "y": 0.72,
+   "x": 1.77,
+   "y": 0.64,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "VNNVN",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.29,
+     0.99
+    ],
+    "df": [
+     0.57,
+     0.86
+    ]
+   },
    "hc": "https://crests.football-data.org/57.png",
    "ac": "https://crests.football-data.org/341.png",
    "i": 560593,
@@ -1119,8 +1929,26 @@
    "h": "West Brom",
    "a": "Birmingham",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.15,
-   "y": 1.01,
+   "x": 0.99,
+   "y": 0.93,
+   "f": {
+    "fh": "NVVND",
+    "fa": "NNDVN",
+    "h2": [
+     0,
+     2,
+     0,
+     2
+    ],
+    "at": [
+     0.85,
+     0.97
+    ],
+    "df": [
+     0.88,
+     0.93
+    ]
+   },
    "hc": "https://crests.football-data.org/74.png",
    "ac": "https://crests.football-data.org/332.png",
    "i": 561857,
@@ -1154,8 +1982,26 @@
    "h": "Swansea",
    "a": "Norwich",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.6,
-   "y": 1.25,
+   "x": 1.76,
+   "y": 1.36,
+   "f": {
+    "fh": "VNDVV",
+    "fa": "DVVDD",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     0.99,
+     1.16
+    ],
+    "df": [
+     0.92,
+     1.11
+    ]
+   },
    "hc": "https://crests.football-data.org/72.png",
    "ac": "https://crests.football-data.org/68.png",
    "i": 561860,
@@ -1189,8 +2035,26 @@
    "h": "Charlton",
    "a": "Bristol City",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.05,
-   "y": 1.11,
+   "x": 0.82,
+   "y": 1.21,
+   "f": {
+    "fh": "NDNND",
+    "fa": "VVDDV",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.71,
+     0.97
+    ],
+    "df": [
+     0.98,
+     1.02
+    ]
+   },
    "hc": "https://crests.football-data.org/348.png",
    "ac": "https://crests.football-data.org/387.png",
    "i": 561863,
@@ -1224,8 +2088,26 @@
    "h": "Notts County",
    "a": "Oxford",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.12,
-   "y": 1.67,
+   "x": 1.09,
+   "y": 1.81,
+   "f": {
+    "fh": "VNNDD",
+    "fa": "VDVVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.82,
+     1.45
+    ],
+    "df": [
+     0.95,
+     0.93
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1259,8 +2141,26 @@
    "h": "Plymouth",
    "a": "AFC Wimbledon",
    "d": "2026-10-10T11:30:00Z",
-   "x": 2.07,
-   "y": 0.89,
+   "x": 2.06,
+   "y": 0.86,
+   "f": {
+    "fh": "VVVDV",
+    "fa": "DVVNN",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.28,
+     0.75
+    ],
+    "df": [
+     0.97,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1294,8 +2194,26 @@
    "h": "Oldham",
    "a": "Accrington",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.57,
+   "x": 1.5,
    "y": 0.92,
+   "f": {
+    "fh": "NDDDD",
+    "fa": "VDNNV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.03,
+     0.89
+    ],
+    "df": [
+     0.91,
+     1.08
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1329,8 +2247,26 @@
    "h": "Swindon",
    "a": "Crewe",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.4,
-   "y": 1.17,
+   "x": 1.37,
+   "y": 1.18,
+   "f": {
+    "fh": "VDDND",
+    "fa": "NNNNV",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.1,
+     0.98
+    ],
+    "df": [
+     1.05,
+     0.89
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1364,8 +2300,26 @@
    "h": "Altrincham",
    "a": "Aldershot",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.66,
+   "x": 1.62,
    "y": 1.28,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "NDVDD",
+    "h2": [
+     1,
+     0,
+     3,
+     4
+    ],
+    "at": [
+     0.91,
+     0.99
+    ],
+    "df": [
+     0.97,
+     1.14
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1399,8 +2353,26 @@
    "h": "Carlisle",
    "a": "Kidderminster",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.51,
-   "y": 1.01,
+   "x": 1.58,
+   "y": 1.12,
+   "f": {
+    "fh": "NDDVV",
+    "fa": "VNDDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.27,
+     0.85
+    ],
+    "df": [
+     0.89,
+     0.74
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1434,8 +2406,26 @@
    "h": "Chengdu Rongcheng",
    "a": "Tianjin Jinmen Tiger",
    "d": "2026-10-10T11:35:00Z",
-   "x": 1.8,
-   "y": 0.86,
+   "x": 1.62,
+   "y": 0.94,
+   "f": {
+    "fh": "DVDVN",
+    "fa": "DNNVV",
+    "h2": [
+     1,
+     0,
+     2,
+     5
+    ],
+    "at": [
+     1.25,
+     0.89
+    ],
+    "df": [
+     0.71,
+     0.8
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1448,8 +2438,26 @@
    "h": "Shanghai Shenhua",
    "a": "Yunnan Yukun",
    "d": "2026-10-10T11:35:00Z",
-   "x": 2.89,
-   "y": 1.63,
+   "x": 2.96,
+   "y": 2.06,
+   "f": {
+    "fh": "VDVDV",
+    "fa": "VVNDV",
+    "h2": [
+     1,
+     1,
+     1,
+     3
+    ],
+    "at": [
+     1.39,
+     1.29
+    ],
+    "df": [
+     0.94,
+     1.16
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1462,8 +2470,26 @@
    "h": "Rayo Vallecano",
    "a": "Athletic",
    "d": "2026-10-10T12:00:00Z",
-   "x": 1.25,
-   "y": 1.01,
+   "x": 1.33,
+   "y": 1.19,
+   "f": {
+    "fh": "DVDVN",
+    "fa": "DVVNN",
+    "h2": [
+     0,
+     1,
+     3,
+     4
+    ],
+    "at": [
+     0.91,
+     0.92
+    ],
+    "df": [
+     0.93,
+     0.87
+    ]
+   },
    "hc": "https://crests.football-data.org/87.png",
    "ac": "https://crests.football-data.org/77.png",
    "i": 564698,
@@ -1497,8 +2523,26 @@
    "h": "Clermont",
    "a": "Red Star",
    "d": "2026-10-10T12:00:00Z",
-   "x": 0.99,
-   "y": 1.14,
+   "x": 0.86,
+   "y": 1.07,
+   "f": {
+    "fh": "NNNNN",
+    "fa": "NDVVV",
+    "h2": [
+     0,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.77,
+     1.01
+    ],
+    "df": [
+     0.94,
+     0.94
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1532,8 +2576,26 @@
    "h": "Nantes",
    "a": "Reims",
    "d": "2026-10-10T12:00:00Z",
-   "x": 1.22,
-   "y": 2.3,
+   "x": 1.2,
+   "y": 2.84,
+   "f": {
+    "fh": "DNVDV",
+    "fa": "VVNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.01,
+     1.31
+    ],
+    "df": [
+     1.46,
+     0.88
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1567,8 +2629,26 @@
    "h": "Cracovia",
    "a": "Zaglebie",
    "d": "2026-10-10T12:45:00Z",
-   "x": 1.17,
-   "y": 1.02,
+   "x": 1.01,
+   "y": 0.99,
+   "f": {
+    "fh": "VDDDD",
+    "fa": "NNVVD",
+    "h2": [
+     1,
+     3,
+     0,
+     5
+    ],
+    "at": [
+     0.89,
+     0.86
+    ],
+    "df": [
+     0.97,
+     0.84
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1581,8 +2661,26 @@
    "h": "Genoa",
    "a": "Fiorentina",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.17,
-   "y": 1.29,
+   "x": 1.29,
+   "y": 1.43,
+   "f": {
+    "fh": "DDDND",
+    "fa": "DDDVN",
+    "h2": [
+     0,
+     2,
+     2,
+     4
+    ],
+    "at": [
+     0.84,
+     1.0
+    ],
+    "df": [
+     1.06,
+     1.06
+    ]
+   },
    "hc": "https://crests.football-data.org/107.png",
    "ac": "https://crests.football-data.org/99.png",
    "i": 558588,
@@ -1616,8 +2714,26 @@
    "h": "Alanyaspor",
    "a": "Erzurumspor",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.54,
-   "y": 0.59,
+   "x": 1.64,
+   "y": 0.52,
+   "f": {
+    "fh": "VDVNV",
+    "fa": "DNVDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.92,
+     0.57
+    ],
+    "df": [
+     0.86,
+     1.05
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1651,8 +2767,26 @@
    "h": "Samsunspor",
    "a": "Trabzonspor",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.26,
-   "y": 1.59,
+   "x": 1.05,
+   "y": 1.98,
+   "f": {
+    "fh": "VDDDD",
+    "fa": "VDVDV",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.99,
+     1.31
+    ],
+    "df": [
+     1.0,
+     0.8
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1686,8 +2820,26 @@
    "h": "Benevento",
    "a": "Cesena",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.57,
-   "y": 0.88,
+   "x": 1.72,
+   "y": 0.85,
+   "f": {
+    "fh": "DNDVV",
+    "fa": "NVNNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.98,
+     0.93
+    ],
+    "df": [
+     0.85,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1721,8 +2873,26 @@
    "h": "Empoli",
    "a": "Palermo",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.04,
-   "y": 1.43,
+   "x": 1.1,
+   "y": 1.48,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "VVVNV",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     0.89,
+     1.24
+    ],
+    "df": [
+     1.04,
+     0.8
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1756,8 +2926,26 @@
    "h": "Sudtirol",
    "a": "Ascoli",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.04,
-   "y": 1.13,
+   "x": 0.99,
+   "y": 0.93,
+   "f": {
+    "fh": "VNVNV",
+    "fa": "VNVDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.93,
+     1.06
+    ],
+    "df": [
+     0.97,
+     0.77
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1791,8 +2979,26 @@
    "h": "Virtus Entella",
    "a": "Juve Stabia",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.11,
-   "y": 0.94,
+   "x": 1.17,
+   "y": 0.85,
+   "f": {
+    "fh": "DDNVN",
+    "fa": "DVDNN",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.83,
+     0.86
+    ],
+    "df": [
+     0.98,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1826,8 +3032,26 @@
    "h": "AIK",
    "a": "Brommapojkarna",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.71,
-   "y": 1.21,
+   "x": 1.77,
+   "y": 1.35,
+   "f": {
+    "fh": "VNDND",
+    "fa": "VDVDD",
+    "h2": [
+     2,
+     1,
+     0,
+     5
+    ],
+    "at": [
+     1.01,
+     0.98
+    ],
+    "df": [
+     0.93,
+     1.09
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1840,8 +3064,26 @@
    "h": "GAIS",
    "a": "Sirius",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.5,
-   "y": 1.24,
+   "x": 1.51,
+   "y": 1.05,
+   "f": {
+    "fh": "DVNDV",
+    "fa": "DDVVV",
+    "h2": [
+     2,
+     0,
+     2,
+     5
+    ],
+    "at": [
+     0.96,
+     1.44
+    ],
+    "df": [
+     0.65,
+     1.0
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -1854,8 +3096,26 @@
    "h": "Mainz",
    "a": "Leverkusen",
    "d": "2026-10-10T13:30:00Z",
-   "x": 1.44,
-   "y": 1.66,
+   "x": 1.47,
+   "y": 1.7,
+   "f": {
+    "fh": "VNVDV",
+    "fa": "NDVNV",
+    "h2": [
+     0,
+     2,
+     2,
+     4
+    ],
+    "at": [
+     0.96,
+     1.25
+    ],
+    "df": [
+     0.91,
+     0.82
+    ]
+   },
    "hc": "https://crests.football-data.org/15.png",
    "ac": "https://crests.football-data.org/3.png",
    "i": 565812,
@@ -1889,8 +3149,26 @@
    "h": "SC Paderborn",
    "a": "Stuttgart",
    "d": "2026-10-10T13:30:00Z",
-   "x": 1.17,
-   "y": 1.44,
+   "x": 1.21,
+   "y": 1.53,
+   "f": {
+    "fh": "NDDV",
+    "fa": "NDVDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.69,
+     1.22
+    ],
+    "df": [
+     0.8,
+     0.92
+    ]
+   },
    "hc": "https://crests.football-data.org/29.png",
    "ac": "https://crests.football-data.org/10.png",
    "i": 565813,
@@ -1924,8 +3202,26 @@
    "h": "Union Berlin",
    "a": "Elversberg",
    "d": "2026-10-10T13:30:00Z",
-   "x": 1.35,
-   "y": 2.18,
+   "x": 1.57,
+   "y": 2.49,
+   "f": {
+    "fh": "VNDDD",
+    "fa": "VVDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.78,
+     1.3
+    ],
+    "df": [
+     1.15,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/28.png",
    "ac": "https://crests.football-data.org/719.png",
    "i": 565817,
@@ -1959,8 +3255,26 @@
    "h": "Hoffenheim",
    "a": "HSV",
    "d": "2026-10-10T13:30:00Z",
-   "x": 2.16,
-   "y": 1.13,
+   "x": 2.53,
+   "y": 1.05,
+   "f": {
+    "fh": "DDDVD",
+    "fa": "NDDDV",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.08,
+     0.71
+    ],
+    "df": [
+     1.09,
+     1.1
+    ]
+   },
    "hc": "https://crests.football-data.org/2.png",
    "ac": "https://crests.football-data.org/7.png",
    "i": 565818,
@@ -1994,8 +3308,26 @@
    "h": "Augsburg",
    "a": "Bayern",
    "d": "2026-10-10T13:30:00Z",
-   "x": 1.08,
-   "y": 2.89,
+   "x": 1.09,
+   "y": 2.69,
+   "f": {
+    "fh": "DVVND",
+    "fa": "VVNVV",
+    "h2": [
+     1,
+     0,
+     3,
+     4
+    ],
+    "at": [
+     0.9,
+     1.98
+    ],
+    "df": [
+     1.0,
+     0.66
+    ]
+   },
    "hc": "https://crests.football-data.org/16.png",
    "ac": "https://crests.football-data.org/5.png",
    "i": 565819,
@@ -2029,8 +3361,26 @@
    "h": "Sunderland",
    "a": "Brighton Hove",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.18,
-   "y": 1.56,
+   "x": 1.05,
+   "y": 1.59,
+   "f": {
+    "fh": "DVNDD",
+    "fa": "VDNVV",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.88,
+     1.27
+    ],
+    "df": [
+     0.96,
+     0.88
+    ]
+   },
    "hc": "https://crests.football-data.org/71.png",
    "ac": "https://crests.football-data.org/397.png",
    "i": 560592,
@@ -2064,8 +3414,26 @@
    "h": "Chelsea",
    "a": "Bournemouth",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.65,
-   "y": 1.43,
+   "x": 1.69,
+   "y": 1.58,
+   "f": {
+    "fh": "VVDND",
+    "fa": "DNNND",
+    "h2": [
+     0,
+     3,
+     0,
+     4
+    ],
+    "at": [
+     1.19,
+     1.1
+    ],
+    "df": [
+     1.01,
+     0.91
+    ]
+   },
    "hc": "https://crests.football-data.org/61.png",
    "ac": "https://crests.football-data.org/bournemouth.png",
    "i": 560595,
@@ -2099,8 +3467,26 @@
    "h": "Ipswich Town",
    "a": "Fulham",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.23,
-   "y": 1.68,
+   "x": 1.06,
+   "y": 1.73,
+   "f": {
+    "fh": "VDDVD",
+    "fa": "DDDNN",
+    "h2": [
+     0,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.86,
+     0.91
+    ],
+    "df": [
+     1.44,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/349.png",
    "ac": "https://crests.football-data.org/63.png",
    "i": 560599,
@@ -2134,8 +3520,26 @@
    "h": "Aston Villa",
    "a": "Brentford",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.47,
-   "y": 1.42,
+   "x": 1.21,
+   "y": 1.36,
+   "f": {
+    "fh": "DDNDV",
+    "fa": "VNNNV",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     1.08,
+     1.16
+    ],
+    "df": [
+     0.95,
+     0.9
+    ]
+   },
    "hc": "https://crests.football-data.org/58.png",
    "ac": "https://crests.football-data.org/402.png",
    "i": 560601,
@@ -2169,8 +3573,26 @@
    "h": "Sheffield Utd",
    "a": "Lincoln City",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.18,
-   "y": 0.84,
+   "x": 0.95,
+   "y": 0.99,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "NNVVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.03,
+     0.72
+    ],
+    "df": [
+     0.99,
+     0.79
+    ]
+   },
    "hc": "https://crests.football-data.org/356.png",
    "ac": "https://crests.football-data.org/1126.png",
    "i": 561858,
@@ -2204,8 +3626,26 @@
    "h": "Watford",
    "a": "Burnley",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.01,
+   "x": 0.95,
    "y": 1.26,
+   "f": {
+    "fh": "DDVDD",
+    "fa": "NDNDN",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     0.8,
+     1.02
+    ],
+    "df": [
+     1.06,
+     0.87
+    ]
+   },
    "hc": "https://crests.football-data.org/346.png",
    "ac": "https://crests.football-data.org/328.png",
    "i": 561861,
@@ -2239,8 +3679,26 @@
    "h": "Derby County",
    "a": "Wrexham",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.5,
-   "y": 1.3,
+   "x": 1.25,
+   "y": 1.32,
+   "f": {
+    "fh": "VDDDN",
+    "fa": "VNNDV",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.95,
+     1.07
+    ],
+    "df": [
+     1.03,
+     1.08
+    ]
+   },
    "hc": "https://crests.football-data.org/342.png",
    "ac": "https://crests.football-data.org/404.png",
    "i": 561864,
@@ -2274,8 +3732,26 @@
    "h": "Blackburn",
    "a": "Cardiff",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.43,
-   "y": 0.94,
+   "x": 1.55,
+   "y": 1.0,
+   "f": {
+    "fh": "NDDVN",
+    "fa": "DDNDV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     0.81,
+     0.85
+    ],
+    "df": [
+     0.94,
+     1.2
+    ]
+   },
    "hc": "https://crests.football-data.org/59.png",
    "ac": "https://crests.football-data.org/715.png",
    "i": 561865,
@@ -2309,8 +3785,26 @@
    "h": "Bolton",
    "a": "Stoke",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.53,
-   "y": 1.32,
+   "x": 1.47,
+   "y": 1.36,
+   "f": {
+    "fh": "DDDVV",
+    "fa": "VVNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     0.87
+    ],
+    "df": [
+     1.28,
+     1.03
+    ]
+   },
    "hc": "https://crests.football-data.org/60.png",
    "ac": "https://crests.football-data.org/70.png",
    "i": 561866,
@@ -2344,8 +3838,26 @@
    "h": "Preston NE",
    "a": "Millwall",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.12,
-   "y": 1.42,
+   "x": 1.11,
+   "y": 1.86,
+   "f": {
+    "fh": "DVDDN",
+    "fa": "DVDNN",
+    "h2": [
+     0,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.85,
+     1.05
+    ],
+    "df": [
+     1.14,
+     0.9
+    ]
+   },
    "hc": "https://crests.football-data.org/1081.png",
    "ac": "https://crests.football-data.org/384.png",
    "i": 561867,
@@ -2379,8 +3891,26 @@
    "h": "Middlesbrough",
    "a": "Wolverhampton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.77,
-   "y": 1.64,
+   "x": 1.93,
+   "y": 1.77,
+   "f": {
+    "fh": "NVVNN",
+    "fa": "VDNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.21,
+     1.5
+    ],
+    "df": [
+     0.93,
+     1.01
+    ]
+   },
    "hc": "https://crests.football-data.org/343.png",
    "ac": "https://crests.football-data.org/76.png",
    "i": 561868,
@@ -2414,8 +3944,26 @@
    "h": "Cercle Brugge",
    "a": "Anderlecht",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.41,
-   "y": 1.6,
+   "x": 1.22,
+   "y": 1.68,
+   "f": {
+    "fh": "DDDND",
+    "fa": "DVNVV",
+    "h2": [
+     1,
+     0,
+     3,
+     4
+    ],
+    "at": [
+     1.01,
+     1.07
+    ],
+    "df": [
+     1.21,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2449,8 +3997,26 @@
    "h": "Dundee United",
    "a": "Hibernian",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.23,
-   "y": 1.46,
+   "x": 1.31,
+   "y": 1.37,
+   "f": {
+    "fh": "DVDNV",
+    "fa": "VDDDN",
+    "h2": [
+     1,
+     3,
+     3,
+     7
+    ],
+    "at": [
+     0.91,
+     1.08
+    ],
+    "df": [
+     1.08,
+     0.87
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2484,8 +4050,26 @@
    "h": "Falkirk",
    "a": "Dundee",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.63,
-   "y": 1.23,
+   "x": 1.37,
+   "y": 1.07,
+   "f": {
+    "fh": "DDNVN",
+    "fa": "VDNDV",
+    "h2": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "at": [
+     0.95,
+     0.93
+    ],
+    "df": [
+     1.06,
+     1.11
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2520,7 +4104,25 @@
    "a": "St Mirren",
    "d": "2026-10-10T14:00:00Z",
    "x": 1.85,
-   "y": 0.67,
+   "y": 0.62,
+   "f": {
+    "fh": "VVVDN",
+    "fa": "NVDDD",
+    "h2": [
+     3,
+     1,
+     1,
+     6
+    ],
+    "at": [
+     1.2,
+     0.73
+    ],
+    "df": [
+     0.74,
+     0.99
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2554,8 +4156,26 @@
    "h": "Rangers",
    "a": "Kilmarnock",
    "d": "2026-10-10T14:00:00Z",
-   "x": 2.76,
-   "y": 0.89,
+   "x": 2.88,
+   "y": 0.65,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DDNVN",
+    "h2": [
+     5,
+     0,
+     1,
+     6
+    ],
+    "at": [
+     1.41,
+     0.92
+    ],
+    "df": [
+     0.77,
+     1.26
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2589,8 +4209,26 @@
    "h": "Bradford",
    "a": "Leyton Orient",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.34,
-   "y": 0.93,
+   "x": 1.18,
+   "y": 0.85,
+   "f": {
+    "fh": "DVVVN",
+    "fa": "VNDVD",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     0.88,
+     1.04
+    ],
+    "df": [
+     0.74,
+     1.03
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2624,8 +4262,26 @@
    "h": "Cambridge",
    "a": "Blackpool",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.45,
-   "y": 1.35,
+   "x": 1.75,
+   "y": 1.37,
+   "f": {
+    "fh": "VNVNN",
+    "fa": "VDDND",
+    "h2": [
+     0,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     0.94,
+     1.02
+    ],
+    "df": [
+     1.09,
+     1.05
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2659,8 +4315,26 @@
    "h": "Doncaster",
    "a": "Burton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.27,
-   "y": 1.17,
+   "x": 1.32,
+   "y": 1.13,
+   "f": {
+    "fh": "NNDDV",
+    "fa": "NDNVD",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.84,
+     0.9
+    ],
+    "df": [
+     1.07,
+     1.03
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2694,8 +4368,26 @@
    "h": "Huddersfield",
    "a": "Sheffield Weds",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.22,
-   "y": 1.42,
+   "x": 1.2,
+   "y": 1.39,
+   "f": {
+    "fh": "VNNDV",
+    "fa": "VVVNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.14,
+     1.21
+    ],
+    "df": [
+     0.97,
+     0.74
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2729,8 +4421,26 @@
    "h": "Leicester",
    "a": "Peterboro",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.7,
-   "y": 1.24,
+   "x": 1.66,
+   "y": 0.96,
+   "f": {
+    "fh": "NVDVN",
+    "fa": "NDNDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.99,
+     0.96
+    ],
+    "df": [
+     1.06,
+     1.18
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2764,8 +4474,26 @@
    "h": "Mansfield",
    "a": "Bromley",
    "d": "2026-10-10T14:00:00Z",
-   "x": 2.53,
-   "y": 1.05,
+   "x": 2.95,
+   "y": 1.2,
+   "f": {
+    "fh": "VDDNN",
+    "fa": "DDDNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     0.86
+    ],
+    "df": [
+     1.0,
+     1.69
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2799,8 +4527,26 @@
    "h": "Milton Keynes Dons",
    "a": "Reading",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.24,
+   "x": 1.07,
    "y": 1.43,
+   "f": {
+    "fh": "NDNNN",
+    "fa": "VDVNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.87,
+     1.15
+    ],
+    "df": [
+     1.02,
+     0.97
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2834,8 +4580,26 @@
    "h": "Stevenage",
    "a": "Wigan",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.11,
-   "y": 0.69,
+   "x": 1.33,
+   "y": 0.57,
+   "f": {
+    "fh": "NNVVD",
+    "fa": "DVDND",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     0.82,
+     0.72
+    ],
+    "df": [
+     0.79,
+     0.93
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2869,8 +4633,26 @@
    "h": "Stockport",
    "a": "Barnsley",
    "d": "2026-10-10T14:00:00Z",
-   "x": 2.2,
-   "y": 1.11,
+   "x": 2.4,
+   "y": 1.06,
+   "f": {
+    "fh": "DVDNV",
+    "fa": "VVDDN",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.24,
+     1.03
+    ],
+    "df": [
+     0.89,
+     1.22
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2904,8 +4686,26 @@
    "h": "Wycombe",
    "a": "Luton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.77,
-   "y": 1.44,
+   "x": 1.99,
+   "y": 1.81,
+   "f": {
+    "fh": "DNVVN",
+    "fa": "DVNDD",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     1.16,
+     1.18
+    ],
+    "df": [
+     1.0,
+     1.05
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2939,8 +4739,26 @@
    "h": "Bristol Rvs",
    "a": "Barnet",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.5,
-   "y": 1.7,
+   "x": 1.45,
+   "y": 1.82,
+   "f": {
+    "fh": "VDDVD",
+    "fa": "NNNVV",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     1.07,
+     1.37
+    ],
+    "df": [
+     1.1,
+     0.99
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -2974,8 +4792,26 @@
    "h": "Cheltenham",
    "a": "Salford",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.3,
-   "y": 1.51,
+   "x": 1.56,
+   "y": 1.68,
+   "f": {
+    "fh": "NVNVD",
+    "fa": "VNVVV",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.06,
+     1.06
+    ],
+    "df": [
+     1.25,
+     0.87
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3009,8 +4845,26 @@
    "h": "Crawley Town",
    "a": "Chesterfield",
    "d": "2026-10-10T14:00:00Z",
-   "x": 0.99,
-   "y": 1.61,
+   "x": 0.95,
+   "y": 1.81,
+   "f": {
+    "fh": "DNDDD",
+    "fa": "NVVDV",
+    "h2": [
+     0,
+     2,
+     0,
+     2
+    ],
+    "at": [
+     0.74,
+     1.2
+    ],
+    "df": [
+     1.19,
+     0.94
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3044,8 +4898,26 @@
    "h": "Fleetwood Town",
    "a": "Walsall",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.2,
-   "y": 1.12,
+   "x": 1.16,
+   "y": 1.23,
+   "f": {
+    "fh": "VNDDD",
+    "fa": "NNNVN",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     0.93,
+     1.03
+    ],
+    "df": [
+     0.96,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3079,8 +4951,26 @@
    "h": "Newport County",
    "a": "Colchester",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.11,
-   "y": 1.37,
+   "x": 1.09,
+   "y": 1.15,
+   "f": {
+    "fh": "DNNVN",
+    "fa": "DDNNN",
+    "h2": [
+     0,
+     1,
+     3,
+     4
+    ],
+    "at": [
+     0.89,
+     0.98
+    ],
+    "df": [
+     1.23,
+     0.88
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3114,8 +5004,26 @@
    "h": "Port Vale",
    "a": "Grimsby",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.13,
-   "y": 1.19,
+   "x": 1.05,
+   "y": 1.12,
+   "f": {
+    "fh": "NDDVD",
+    "fa": "NVVDD",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.85,
+     1.17
+    ],
+    "df": [
+     0.9,
+     0.94
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3149,8 +5057,26 @@
    "h": "Rotherham",
    "a": "Gillingham",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.52,
-   "y": 1.03,
+   "x": 1.44,
+   "y": 1.16,
+   "f": {
+    "fh": "DNVND",
+    "fa": "VVVDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.01,
+     0.85
+    ],
+    "df": [
+     1.07,
+     1.07
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3184,8 +5110,26 @@
    "h": "Shrewsbury",
    "a": "Exeter",
    "d": "2026-10-10T14:00:00Z",
-   "x": 0.63,
-   "y": 0.68,
+   "x": 0.67,
+   "y": 0.56,
+   "f": {
+    "fh": "DVNNV",
+    "fa": "NDNDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.77,
+     0.52
+    ],
+    "df": [
+     1.14,
+     0.58
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3219,8 +5163,26 @@
    "h": "Tranmere",
    "a": "Rochdale",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.3,
-   "y": 1.22,
+   "x": 1.09,
+   "y": 1.23,
+   "f": {
+    "fh": "VDNND",
+    "fa": "DNVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.91,
+     0.87
+    ],
+    "df": [
+     1.24,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3254,8 +5216,26 @@
    "h": "York",
    "a": "Northampton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.71,
-   "y": 0.51,
+   "x": 2.04,
+   "y": 0.46,
+   "f": {
+    "fh": "DNVDV",
+    "fa": "NNVDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.46,
+     0.45
+    ],
+    "df": [
+     0.99,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3289,8 +5269,26 @@
    "h": "Arbroath",
    "a": "Morton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.5,
-   "y": 0.89,
+   "x": 1.64,
+   "y": 0.9,
+   "f": {
+    "fh": "NDDVD",
+    "fa": "DDDDD",
+    "h2": [
+     1,
+     2,
+     2,
+     5
+    ],
+    "at": [
+     0.84,
+     0.81
+    ],
+    "df": [
+     1.06,
+     1.36
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3324,8 +5322,26 @@
    "h": "Ayr",
    "a": "Dunfermline",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.13,
-   "y": 1.06,
+   "x": 0.98,
+   "y": 1.05,
+   "f": {
+    "fh": "DDVDV",
+    "fa": "DVNVV",
+    "h2": [
+     5,
+     1,
+     2,
+     9
+    ],
+    "at": [
+     0.93,
+     0.94
+    ],
+    "df": [
+     1.09,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3359,8 +5375,26 @@
    "h": "Inverness C",
    "a": "Stenhousemuir",
    "d": "2026-10-10T14:00:00Z",
-   "x": 0.53,
-   "y": 1.19,
+   "x": 0.45,
+   "y": 1.25,
+   "f": {
+    "fh": "DDVNV",
+    "fa": "VVVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.05,
+     1.18
+    ],
+    "df": [
+     0.97,
+     0.39
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3394,8 +5428,26 @@
    "h": "Livingston",
    "a": "Partick",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.2,
-   "y": 0.87,
+   "x": 1.0,
+   "y": 0.82,
+   "f": {
+    "fh": "DVNVD",
+    "fa": "NVDNV",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     1.22,
+     1.02
+    ],
+    "df": [
+     0.82,
+     0.75
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3429,8 +5481,26 @@
    "h": "Raith Rvs",
    "a": "Queens Park",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.74,
+   "x": 2.12,
    "y": 0.73,
+   "f": {
+    "fh": "VVNDV",
+    "fa": "NVDDD",
+    "h2": [
+     5,
+     2,
+     2,
+     9
+    ],
+    "at": [
+     1.07,
+     0.73
+    ],
+    "df": [
+     0.95,
+     1.23
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3464,8 +5534,26 @@
    "h": "Alloa",
    "a": "Hamilton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.11,
-   "y": 1.26,
+   "x": 0.95,
+   "y": 1.16,
+   "f": {
+    "fh": "NNDDD",
+    "fa": "NVVVV",
+    "h2": [
+     2,
+     0,
+     3,
+     5
+    ],
+    "at": [
+     0.96,
+     1.15
+    ],
+    "df": [
+     0.9,
+     0.78
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3499,8 +5587,26 @@
    "h": "Cove Rangers",
    "a": "East Fife",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.5,
-   "y": 0.8,
+   "x": 1.19,
+   "y": 0.67,
+   "f": {
+    "fh": "DNDDD",
+    "fa": "NNNDD",
+    "h2": [
+     0,
+     1,
+     4,
+     5
+    ],
+    "at": [
+     0.9,
+     0.66
+    ],
+    "df": [
+     0.99,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3534,8 +5640,26 @@
    "h": "East Kilbride",
    "a": "Airdrie Utd",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.67,
-   "y": 0.75,
+   "x": 1.68,
+   "y": 0.73,
+   "f": {
+    "fh": "DDVVV",
+    "fa": "NDVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.3,
+     0.65
+    ],
+    "df": [
+     0.95,
+     0.86
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3569,8 +5693,26 @@
    "h": "Montrose",
    "a": "Ross County",
    "d": "2026-10-10T14:00:00Z",
-   "x": 0.92,
-   "y": 3.11,
+   "x": 1.04,
+   "y": 2.77,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "VNVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.99,
+     1.99
+    ],
+    "df": [
+     1.28,
+     0.62
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3604,8 +5746,26 @@
    "h": "Peterhead",
    "a": "Queen of Sth",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.65,
-   "y": 1.71,
+   "x": 1.74,
+   "y": 1.91,
+   "f": {
+    "fh": "NDDDD",
+    "fa": "VNDDV",
+    "h2": [
+     3,
+     1,
+     1,
+     5
+    ],
+    "at": [
+     0.86,
+     1.08
+    ],
+    "df": [
+     1.31,
+     1.29
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3639,8 +5799,26 @@
    "h": "Annan Athletic",
    "a": "Stranraer",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.06,
-   "y": 1.14,
+   "x": 0.94,
+   "y": 1.18,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "VVVVN",
+    "h2": [
+     3,
+     2,
+     0,
+     5
+    ],
+    "at": [
+     0.81,
+     0.9
+    ],
+    "df": [
+     0.98,
+     0.78
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3674,8 +5852,26 @@
    "h": "Clyde",
    "a": "Dumbarton",
    "d": "2026-10-10T14:00:00Z",
-   "x": 2.17,
-   "y": 1.03,
+   "x": 2.41,
+   "y": 0.95,
+   "f": {
+    "fh": "NVVND",
+    "fa": "DVDVV",
+    "h2": [
+     2,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     1.17,
+     0.82
+    ],
+    "df": [
+     0.96,
+     1.11
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3709,8 +5905,26 @@
    "h": "Edinburgh City",
    "a": "Spartans",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.57,
-   "y": 1.74,
+   "x": 1.81,
+   "y": 1.93,
+   "f": {
+    "fh": "NDVVN",
+    "fa": "NVVDD",
+    "h2": [
+     3,
+     2,
+     4,
+     9
+    ],
+    "at": [
+     1.02,
+     1.12
+    ],
+    "df": [
+     1.19,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3744,8 +5958,26 @@
    "h": "Forfar",
    "a": "Elgin",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.4,
-   "y": 1.32,
+   "x": 1.56,
+   "y": 1.6,
+   "f": {
+    "fh": "NDDVD",
+    "fa": "VDDDV",
+    "h2": [
+     3,
+     2,
+     3,
+     9
+    ],
+    "at": [
+     0.8,
+     1.15
+    ],
+    "df": [
+     0.88,
+     1.04
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3779,8 +6011,26 @@
    "h": "Stirling",
    "a": "Kelty Hearts",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.92,
-   "y": 1.57,
+   "x": 1.75,
+   "y": 1.56,
+   "f": {
+    "fh": "DDDNV",
+    "fa": "DVDDV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.9,
+     0.97
+    ],
+    "df": [
+     1.24,
+     1.28
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3814,8 +6064,26 @@
    "h": "Boston Utd",
    "a": "Southend",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.2,
-   "y": 1.75,
+   "x": 1.23,
+   "y": 2.18,
+   "f": {
+    "fh": "NVDND",
+    "fa": "VVDNV",
+    "h2": [
+     1,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     0.9,
+     1.26
+    ],
+    "df": [
+     1.04,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3849,8 +6117,26 @@
    "h": "Fylde",
    "a": "Scunthorpe",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.68,
-   "y": 1.53,
+   "x": 1.61,
+   "y": 1.43,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "VDDVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.03,
+     1.08
+    ],
+    "df": [
+     1.07,
+     1.03
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3884,8 +6170,26 @@
    "h": "Halifax",
    "a": "Gateshead",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.94,
-   "y": 0.9,
+   "x": 2.11,
+   "y": 0.71,
+   "f": {
+    "fh": "VNDNV",
+    "fa": "DDDDD",
+    "h2": [
+     2,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     0.95,
+     0.77
+    ],
+    "df": [
+     0.88,
+     1.28
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3919,8 +6223,26 @@
    "h": "Hornchurch",
    "a": "Eastleigh",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.43,
-   "y": 1.13,
+   "x": 1.3,
+   "y": 0.95,
+   "f": {
+    "fh": "DVDVD",
+    "fa": "DVDND",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.81,
+     0.85
+    ],
+    "df": [
+     1.0,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3954,8 +6276,26 @@
    "h": "Tamworth",
    "a": "Barrow",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.4,
-   "y": 1.75,
+   "x": 1.38,
+   "y": 1.67,
+   "f": {
+    "fh": "DVDVV",
+    "fa": "DVVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     1.12
+    ],
+    "df": [
+     1.17,
+     0.86
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -3989,8 +6329,26 @@
    "h": "Wealdstone",
    "a": "Yeovil",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.5,
-   "y": 1.34,
+   "x": 1.53,
+   "y": 1.38,
+   "f": {
+    "fh": "DDVND",
+    "fa": "NVVNV",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.98,
+     0.91
+    ],
+    "df": [
+     1.1,
+     0.96
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4024,8 +6382,26 @@
    "h": "Woking",
    "a": "Harrogate",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.6,
-   "y": 1.71,
+   "x": 1.9,
+   "y": 1.8,
+   "f": {
+    "fh": "NNVDV",
+    "fa": "DDVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     1.4
+    ],
+    "df": [
+     0.92,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4059,8 +6435,26 @@
    "h": "Worthing",
    "a": "Solihull",
    "d": "2026-10-10T14:00:00Z",
-   "x": 2.35,
-   "y": 1.26,
+   "x": 2.37,
+   "y": 1.16,
+   "f": {
+    "fh": "VVVNV",
+    "fa": "VDDVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.23,
+     0.94
+    ],
+    "df": [
+     1.0,
+     1.2
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4094,8 +6488,26 @@
    "h": "Bodo/Glimt",
    "a": "Kristiansund",
    "d": "2026-10-10T14:00:00Z",
-   "x": 3.45,
-   "y": 0.64,
+   "x": 4.32,
+   "y": 0.62,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "DNVDD",
+    "h2": [
+     2,
+     1,
+     0,
+     5
+    ],
+    "at": [
+     1.69,
+     0.76
+    ],
+    "df": [
+     0.63,
+     1.13
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4108,8 +6520,26 @@
    "h": "TPS",
    "a": "Jaro",
    "d": "2026-10-10T14:00:00Z",
-   "x": 1.54,
-   "y": 0.72,
+   "x": 1.59,
+   "y": 0.6,
+   "f": {
+    "fh": "NNNDD",
+    "fa": "DDDNN",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.83,
+     0.74
+    ],
+    "df": [
+     0.77,
+     1.23
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4122,8 +6552,26 @@
    "h": "Alavés",
    "a": "Atleti",
    "d": "2026-10-10T14:15:00Z",
-   "x": 1.14,
-   "y": 1.46,
+   "x": 1.18,
+   "y": 1.41,
+   "f": {
+    "fh": "VVDDN",
+    "fa": "VDVVV",
+    "h2": [
+     0,
+     2,
+     2,
+     4
+    ],
+    "at": [
+     0.92,
+     1.33
+    ],
+    "df": [
+     0.94,
+     0.79
+    ]
+   },
    "hc": "https://crests.football-data.org/263.png",
    "ac": "https://crests.football-data.org/78.png",
    "i": 564699,
@@ -4157,8 +6605,26 @@
    "h": "Ceuta",
    "a": "Sabadell",
    "d": "2026-10-10T14:15:00Z",
-   "x": 0.82,
-   "y": 1.22,
+   "x": 0.78,
+   "y": 1.18,
+   "f": {
+    "fh": "DDNVN",
+    "fa": "VDVNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.89,
+     0.84
+    ],
+    "df": [
+     1.26,
+     0.63
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4192,8 +6658,26 @@
    "h": "FC Botosani",
    "a": "UTA Arad",
    "d": "2026-10-10T14:15:00Z",
-   "x": 1.53,
-   "y": 1.06,
+   "x": 1.59,
+   "y": 1.19,
+   "f": {
+    "fh": "VNVND",
+    "fa": "NVVDV",
+    "h2": [
+     1,
+     0,
+     4,
+     8
+    ],
+    "at": [
+     0.99,
+     1.03
+    ],
+    "df": [
+     1.01,
+     1.04
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4206,8 +6690,26 @@
    "h": "Go Ahead",
    "a": "Sparta",
    "d": "2026-10-10T14:30:00Z",
-   "x": 2.06,
-   "y": 1.19,
+   "x": 2.41,
+   "y": 1.36,
+   "f": {
+    "fh": "VDNNN",
+    "fa": "NDNDD",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.12,
+     0.82
+    ],
+    "df": [
+     0.97,
+     1.04
+    ]
+   },
    "hc": "https://crests.football-data.org/718.png",
    "ac": "https://crests.football-data.org/6806.png",
    "i": 558880,
@@ -4241,8 +6743,26 @@
    "h": "Casa Pia",
    "a": "Santa Clara",
    "d": "2026-10-10T14:30:00Z",
-   "x": 0.76,
-   "y": 1.26,
+   "x": 0.55,
+   "y": 1.43,
+   "f": {
+    "fh": "DDNDV",
+    "fa": "VNVVN",
+    "h2": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     0.69,
+     0.86
+    ],
+    "df": [
+     1.2,
+     0.76
+    ]
+   },
    "hc": "https://crests.football-data.org/6618.png",
    "ac": "https://crests.football-data.org/5530.png",
    "i": 567321,
@@ -4276,8 +6796,26 @@
    "h": "Grazer AK",
    "a": "Salzburg",
    "d": "2026-10-10T15:00:00Z",
-   "x": 1.07,
-   "y": 1.96,
+   "x": 0.87,
+   "y": 2.3,
+   "f": {
+    "fh": "DDNVN",
+    "fa": "VVVNV",
+    "h2": [
+     0,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.89,
+     1.4
+    ],
+    "df": [
+     1.14,
+     0.78
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4290,8 +6828,26 @@
    "h": "Tirol",
    "a": "Ried",
    "d": "2026-10-10T15:00:00Z",
-   "x": 1.38,
-   "y": 1.36,
+   "x": 1.47,
+   "y": 1.38,
+   "f": {
+    "fh": "DVVND",
+    "fa": "DVDNV",
+    "h2": [
+     1,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     0.88,
+     0.93
+    ],
+    "df": [
+     1.19,
+     1.01
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4304,8 +6860,26 @@
    "h": "Lille",
    "a": "Le Havre",
    "d": "2026-10-10T15:15:00Z",
-   "x": 1.66,
-   "y": 0.68,
+   "x": 1.38,
+   "y": 0.7,
+   "f": {
+    "fh": "VNVVD",
+    "fa": "DNDND",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.07,
+     0.76
+    ],
+    "df": [
+     0.7,
+     0.99
+    ]
+   },
    "hc": "https://crests.football-data.org/521.png",
    "ac": "https://crests.football-data.org/533.png",
    "i": 559674,
@@ -4339,8 +6913,26 @@
    "h": "Vicenza",
    "a": "Pisa",
    "d": "2026-10-10T15:15:00Z",
-   "x": 1.54,
-   "y": 1.81,
+   "x": 1.5,
+   "y": 1.87,
+   "f": {
+    "fh": "VDNND",
+    "fa": "DVVDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.06,
+     1.21
+    ],
+    "df": [
+     1.35,
+     1.0
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4374,8 +6966,26 @@
    "h": "Mjallby",
    "a": "Degerfors",
    "d": "2026-10-10T15:30:00Z",
-   "x": 1.66,
-   "y": 0.82,
+   "x": 1.4,
+   "y": 0.98,
+   "f": {
+    "fh": "DDNND",
+    "fa": "DDVDD",
+    "h2": [
+     3,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     1.04,
+     0.7
+    ],
+    "df": [
+     0.88,
+     1.03
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4388,8 +6998,26 @@
    "h": "Slask Wroclaw",
    "a": "Lech Poznan",
    "d": "2026-10-10T15:30:00Z",
-   "x": 1.22,
-   "y": 1.73,
+   "x": 1.19,
+   "y": 1.76,
+   "f": {
+    "fh": "NNDDD",
+    "fa": "VVVDV",
+    "h2": [
+     1,
+     0,
+     0,
+     3
+    ],
+    "at": [
+     0.96,
+     1.37
+    ],
+    "df": [
+     1.05,
+     0.81
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4402,8 +7030,26 @@
    "h": "Inter",
    "a": "Parma",
    "d": "2026-10-10T16:00:00Z",
-   "x": 2.4,
-   "y": 0.71,
+   "x": 2.56,
+   "y": 0.75,
+   "f": {
+    "fh": "VVVVN",
+    "fa": "DDNDV",
+    "h2": [
+     3,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.85,
+     0.71
+    ],
+    "df": [
+     0.83,
+     0.99
+    ]
+   },
    "hc": "https://crests.football-data.org/108.png",
    "ac": "https://crests.football-data.org/112.png",
    "i": 558582,
@@ -4437,8 +7083,26 @@
    "h": "Rizespor",
    "a": "Fenerbahce",
    "d": "2026-10-10T16:00:00Z",
-   "x": 1.37,
-   "y": 2.14,
+   "x": 1.31,
+   "y": 2.24,
+   "f": {
+    "fh": "DVDVN",
+    "fa": "VVDNV",
+    "h2": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     1.03,
+     1.7
+    ],
+    "df": [
+     1.04,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4472,8 +7136,26 @@
    "h": "Rosenborg",
    "a": "Sandefjord",
    "d": "2026-10-10T16:00:00Z",
-   "x": 1.78,
+   "x": 1.85,
    "y": 1.06,
+   "f": {
+    "fh": "VDVVV",
+    "fa": "VNNDV",
+    "h2": [
+     0,
+     2,
+     1,
+     6
+    ],
+    "at": [
+     1.22,
+     0.91
+    ],
+    "df": [
+     0.86,
+     0.81
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4486,8 +7168,26 @@
    "h": "Lugano",
    "a": "Luzern",
    "d": "2026-10-10T16:00:00Z",
-   "x": 2.08,
-   "y": 1.19,
+   "x": 2.28,
+   "y": 1.1,
+   "f": {
+    "fh": "VVNVV",
+    "fa": "NVNDV",
+    "h2": [
+     5,
+     0,
+     1,
+     9
+    ],
+    "at": [
+     1.11,
+     1.15
+    ],
+    "df": [
+     0.67,
+     1.05
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4500,8 +7200,26 @@
    "h": "Servette",
    "a": "Sion",
    "d": "2026-10-10T16:00:00Z",
-   "x": 1.37,
-   "y": 1.49,
+   "x": 1.39,
+   "y": 1.62,
+   "f": {
+    "fh": "DDVVD",
+    "fa": "VVVVN",
+    "h2": [
+     2,
+     4,
+     0,
+     6
+    ],
+    "at": [
+     1.04,
+     1.08
+    ],
+    "df": [
+     0.89,
+     0.74
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4514,8 +7232,26 @@
    "h": "Zurich",
    "a": "Thun",
    "d": "2026-10-10T16:00:00Z",
-   "x": 1.53,
-   "y": 2.02,
+   "x": 1.62,
+   "y": 2.15,
+   "f": {
+    "fh": "VDNVN",
+    "fa": "NDDDV",
+    "h2": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "at": [
+     0.85,
+     1.21
+    ],
+    "df": [
+     1.08,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4528,8 +7264,26 @@
    "h": "Mariehamn",
    "a": "Ilves",
    "d": "2026-10-10T16:00:00Z",
-   "x": 1.16,
-   "y": 2.25,
+   "x": 1.4,
+   "y": 1.73,
+   "f": {
+    "fh": "VVDVD",
+    "fa": "DDVVV",
+    "h2": [
+     1,
+     1,
+     2,
+     6
+    ],
+    "at": [
+     0.77,
+     1.4
+    ],
+    "df": [
+     1.27,
+     1.0
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4542,8 +7296,26 @@
    "h": "RAAL La Louviere",
    "a": "Club Brugge",
    "d": "2026-10-10T16:15:00Z",
-   "x": 0.83,
-   "y": 2.38,
+   "x": 0.86,
+   "y": 2.42,
+   "f": {
+    "fh": "DNDVD",
+    "fa": "VDVVV",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     0.76,
+     1.69
+    ],
+    "df": [
+     1.14,
+     0.71
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4577,8 +7349,26 @@
    "h": "Man United",
    "a": "Tottenham",
    "d": "2026-10-10T16:30:00Z",
-   "x": 2.01,
-   "y": 1.08,
+   "x": 1.98,
+   "y": 0.87,
+   "f": {
+    "fh": "DVNDN",
+    "fa": "DDNND",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.21,
+     0.9
+    ],
+    "df": [
+     0.94,
+     1.09
+    ]
+   },
    "hc": "https://crests.football-data.org/66.png",
    "ac": "https://crests.football-data.org/73.png",
    "i": 560600,
@@ -4612,8 +7402,26 @@
    "h": "Barça",
    "a": "Getafe",
    "d": "2026-10-10T16:30:00Z",
-   "x": 2.3,
-   "y": 0.52,
+   "x": 2.37,
+   "y": 0.42,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DNNDV",
+    "h2": [
+     2,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     2.04,
+     0.62
+    ],
+    "df": [
+     0.72,
+     0.71
+    ]
+   },
    "hc": "https://crests.football-data.org/81.png",
    "ac": "https://crests.football-data.org/82.png",
    "i": 564700,
@@ -4647,8 +7455,26 @@
    "h": "RB Leipzig",
    "a": "Frankfurt",
    "d": "2026-10-10T16:30:00Z",
-   "x": 2.3,
-   "y": 1.44,
+   "x": 2.98,
+   "y": 1.54,
+   "f": {
+    "fh": "DVDVD",
+    "fa": "NNDVN",
+    "h2": [
+     3,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.14,
+     1.13
+    ],
+    "df": [
+     0.87,
+     1.11
+    ]
+   },
    "hc": "https://crests.football-data.org/721.png",
    "ac": "https://crests.football-data.org/19.png",
    "i": 565815,
@@ -4682,8 +7508,26 @@
    "h": "AEK",
    "a": "OFI Crete",
    "d": "2026-10-10T16:30:00Z",
-   "x": 2.54,
-   "y": 0.68,
+   "x": 2.69,
+   "y": 0.66,
+   "f": {
+    "fh": "VNVNV",
+    "fa": "VDVVN",
+    "h2": [
+     3,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     1.56,
+     1.11
+    ],
+    "df": [
+     0.55,
+     1.16
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4717,8 +7561,26 @@
    "h": "Asteras Tripolis",
    "a": "Atromitos",
    "d": "2026-10-10T16:30:00Z",
-   "x": 1.11,
-   "y": 1.26,
+   "x": 1.21,
+   "y": 1.45,
+   "f": {
+    "fh": "DDDNN",
+    "fa": "DDNND",
+    "h2": [
+     4,
+     0,
+     3,
+     8
+    ],
+    "at": [
+     0.83,
+     1.03
+    ],
+    "df": [
+     1.08,
+     0.95
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4752,8 +7614,26 @@
    "h": "Eldense",
    "a": "Cordoba",
    "d": "2026-10-10T16:30:00Z",
-   "x": 1.63,
-   "y": 1.36,
+   "x": 1.92,
+   "y": 1.47,
+   "f": {
+    "fh": "NVDDV",
+    "fa": "DDVDV",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.89,
+     1.11
+    ],
+    "df": [
+     1.06,
+     1.25
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4787,8 +7667,26 @@
    "h": "Forest Green",
    "a": "Hartlepool",
    "d": "2026-10-10T16:30:00Z",
-   "x": 1.71,
-   "y": 0.86,
+   "x": 2.1,
+   "y": 0.85,
+   "f": {
+    "fh": "VNDNN",
+    "fa": "DDDDD",
+    "h2": [
+     1,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.11,
+     0.74
+    ],
+    "df": [
+     0.86,
+     0.96
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4822,8 +7720,26 @@
    "h": "Feyenoord",
    "a": "AZ",
    "d": "2026-10-10T16:45:00Z",
-   "x": 2.0,
-   "y": 1.28,
+   "x": 2.18,
+   "y": 1.43,
+   "f": {
+    "fh": "VNVVV",
+    "fa": "VVVNV",
+    "h2": [
+     2,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     1.45,
+     1.16
+    ],
+    "df": [
+     0.73,
+     0.78
+    ]
+   },
    "hc": "https://crests.football-data.org/675.png",
    "ac": "https://crests.football-data.org/682.png",
    "i": 558879,
@@ -4857,8 +7773,26 @@
    "h": "Marítimo",
    "a": "Porto",
    "d": "2026-10-10T17:00:00Z",
-   "x": 0.7,
-   "y": 2.11,
+   "x": 0.66,
+   "y": 2.37,
+   "f": {
+    "fh": "NDDDN",
+    "fa": "VVVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.94,
+     1.47
+    ],
+    "df": [
+     1.17,
+     0.52
+    ]
+   },
    "hc": "https://crests.football-data.org/5575.png",
    "ac": "https://crests.football-data.org/503.png",
    "i": 567323,
@@ -4892,8 +7826,26 @@
    "h": "Toronto FC",
    "a": "CF Montreal",
    "d": "2026-10-10T17:00:00Z",
-   "x": 1.72,
-   "y": 1.1,
+   "x": 2.31,
+   "y": 1.12,
+   "f": {
+    "fh": "NVDDD",
+    "fa": "DDDDV",
+    "h2": [
+     1,
+     2,
+     0,
+     5
+    ],
+    "at": [
+     0.84,
+     0.77
+    ],
+    "df": [
+     1.04,
+     1.16
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4906,8 +7858,26 @@
    "h": "Arezzo",
    "a": "Cremonese",
    "d": "2026-10-10T17:30:00Z",
-   "x": 1.48,
-   "y": 1.99,
+   "x": 1.42,
+   "y": 2.22,
+   "f": {
+    "fh": "VDDVD",
+    "fa": "DDVNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.98,
+     1.09
+    ],
+    "df": [
+     1.65,
+     1.04
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4941,8 +7911,26 @@
    "h": "Austria Vienna",
    "a": "Sturm Graz",
    "d": "2026-10-10T17:30:00Z",
-   "x": 1.2,
-   "y": 1.43,
+   "x": 1.26,
+   "y": 1.54,
+   "f": {
+    "fh": "VDDVN",
+    "fa": "VNDVD",
+    "h2": [
+     4,
+     2,
+     1,
+     9
+    ],
+    "at": [
+     1.0,
+     1.18
+    ],
+    "df": [
+     0.98,
+     0.78
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -4955,8 +7943,26 @@
    "h": "Sittard",
    "a": "Twente",
    "d": "2026-10-10T18:00:00Z",
-   "x": 1.18,
-   "y": 1.83,
+   "x": 1.23,
+   "y": 2.17,
+   "f": {
+    "fh": "DVVDV",
+    "fa": "VNVVV",
+    "h2": [
+     0,
+     1,
+     3,
+     4
+    ],
+    "at": [
+     0.92,
+     1.16
+    ],
+    "df": [
+     1.06,
+     0.73
+    ]
+   },
    "hc": "https://crests.football-data.org/1920.png",
    "ac": "https://crests.football-data.org/666.png",
    "i": 558877,
@@ -4990,8 +7996,26 @@
    "h": "St Etienne",
    "a": "Rodez",
    "d": "2026-10-10T18:00:00Z",
-   "x": 2.41,
-   "y": 1.28,
+   "x": 3.11,
+   "y": 1.27,
+   "f": {
+    "fh": "VVVDN",
+    "fa": "VNDDD",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.54,
+     1.19
+    ],
+    "df": [
+     0.89,
+     1.14
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5025,8 +8049,26 @@
    "h": "Jagiellonia",
    "a": "Gornik Zabrze",
    "d": "2026-10-10T18:15:00Z",
-   "x": 1.42,
-   "y": 1.2,
+   "x": 1.21,
+   "y": 1.34,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "VVVVN",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     1.21,
+     1.09
+    ],
+    "df": [
+     0.9,
+     0.75
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5039,8 +8081,26 @@
    "h": "Nurnberg",
    "a": "Wolfsburg",
    "d": "2026-10-10T18:30:00Z",
-   "x": 1.71,
-   "y": 1.83,
+   "x": 1.87,
+   "y": 1.63,
+   "f": {
+    "fh": "VVNVV",
+    "fa": "VVNDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.13,
+     1.47
+    ],
+    "df": [
+     0.91,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5074,8 +8134,26 @@
    "h": "FCSB",
    "a": "Otelul",
    "d": "2026-10-10T18:30:00Z",
-   "x": 1.83,
-   "y": 1.02,
+   "x": 2.07,
+   "y": 1.1,
+   "f": {
+    "fh": "DDDND",
+    "fa": "VNDDD",
+    "h2": [
+     4,
+     0,
+     0,
+     6
+    ],
+    "at": [
+     1.22,
+     1.01
+    ],
+    "df": [
+     0.98,
+     1.01
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5088,8 +8166,26 @@
    "h": "Chicago Fire",
    "a": "New York City",
    "d": "2026-10-10T18:30:00Z",
-   "x": 1.67,
-   "y": 1.31,
+   "x": 1.43,
+   "y": 1.26,
+   "f": {
+    "fh": "NDDVV",
+    "fa": "NDVDN",
+    "h2": [
+     0,
+     0,
+     3,
+     6
+    ],
+    "at": [
+     1.13,
+     0.93
+    ],
+    "df": [
+     1.01,
+     0.84
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5102,8 +8198,26 @@
    "h": "Brest",
    "a": "Angers SCO",
    "d": "2026-10-10T18:45:00Z",
-   "x": 1.47,
-   "y": 0.96,
+   "x": 1.36,
+   "y": 0.91,
+   "f": {
+    "fh": "NNVDD",
+    "fa": "DVDNV",
+    "h2": [
+     2,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     0.99,
+     0.68
+    ],
+    "df": [
+     1.09,
+     0.95
+    ]
+   },
    "hc": "https://crests.football-data.org/512.png",
    "ac": "https://crests.football-data.org/532.png",
    "i": 559666,
@@ -5137,8 +8251,26 @@
    "h": "Lorient",
    "a": "Paris FC",
    "d": "2026-10-10T18:45:00Z",
-   "x": 1.26,
+   "x": 0.9,
    "y": 1.25,
+   "f": {
+    "fh": "NDVND",
+    "fa": "NVVNV",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.98,
+     1.05
+    ],
+    "df": [
+     0.93,
+     0.83
+    ]
+   },
    "hc": "https://crests.football-data.org/525.png",
    "ac": "https://crests.football-data.org/1045.png",
    "i": 559668,
@@ -5172,8 +8304,26 @@
    "h": "PSG",
    "a": "Le Mans",
    "d": "2026-10-10T18:45:00Z",
-   "x": 2.8,
-   "y": 1.05,
+   "x": 2.73,
+   "y": 1.12,
+   "f": {
+    "fh": "NNDVV",
+    "fa": "NDNNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.56,
+     1.19
+    ],
+    "df": [
+     0.68,
+     1.14
+    ]
+   },
    "hc": "https://crests.football-data.org/524.png",
    "ac": "https://crests.football-data.org/535.png",
    "i": 559672,
@@ -5207,8 +8357,26 @@
    "h": "Monaco",
    "a": "Toulouse",
    "d": "2026-10-10T18:45:00Z",
-   "x": 1.95,
-   "y": 1.16,
+   "x": 1.96,
+   "y": 1.05,
+   "f": {
+    "fh": "VVVNV",
+    "fa": "DNDNV",
+    "h2": [
+     2,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     1.29,
+     1.01
+    ],
+    "df": [
+     0.89,
+     0.96
+    ]
+   },
    "hc": "https://crests.football-data.org/548.png",
    "ac": "https://crests.football-data.org/511.png",
    "i": 559673,
@@ -5242,8 +8410,26 @@
    "h": "Napoli",
    "a": "Frosinone",
    "d": "2026-10-10T18:45:00Z",
-   "x": 1.16,
-   "y": 1.14,
+   "x": 1.07,
+   "y": 1.22,
+   "f": {
+    "fh": "VDDVN",
+    "fa": "DVVNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.2,
+     1.29
+    ],
+    "df": [
+     0.73,
+     0.73
+    ]
+   },
    "hc": "https://crests.football-data.org/113.png",
    "ac": "https://crests.football-data.org/470.png",
    "i": 558586,
@@ -5277,8 +8463,26 @@
    "h": "Genk",
    "a": "Kortrijk",
    "d": "2026-10-10T18:45:00Z",
-   "x": 2.28,
-   "y": 0.69,
+   "x": 2.47,
+   "y": 0.67,
+   "f": {
+    "fh": "NVNND",
+    "fa": "DDDDV",
+    "h2": [
+     1,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.16,
+     0.61
+    ],
+    "df": [
+     0.91,
+     1.29
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5312,8 +8516,26 @@
    "h": "Waregem",
    "a": "Gent",
    "d": "2026-10-10T18:45:00Z",
-   "x": 1.48,
-   "y": 1.19,
+   "x": 1.29,
+   "y": 1.31,
+   "f": {
+    "fh": "VNVDD",
+    "fa": "VVVNV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.07,
+     1.0
+    ],
+    "df": [
+     0.96,
+     0.9
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5347,8 +8569,26 @@
    "h": "Barracas Central",
    "a": "Huracan",
    "d": "2026-10-10T18:45:00Z",
-   "x": 0.78,
-   "y": 0.81,
+   "x": 0.66,
+   "y": 0.8,
+   "f": {
+    "fh": "NNNDV",
+    "fa": "NNVVV",
+    "h2": [
+     1,
+     2,
+     0,
+     6
+    ],
+    "at": [
+     0.88,
+     0.93
+    ],
+    "df": [
+     0.96,
+     0.76
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5361,8 +8601,26 @@
    "h": "Real Madrid",
    "a": "Villarreal",
    "d": "2026-10-10T19:00:00Z",
-   "x": 2.37,
-   "y": 1.19,
+   "x": 2.92,
+   "y": 1.02,
+   "f": {
+    "fh": "VDVVD",
+    "fa": "DDDVV",
+    "h2": [
+     3,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     1.56,
+     1.4
+    ],
+    "df": [
+     0.73,
+     0.96
+    ]
+   },
    "hc": "https://crests.football-data.org/86.png",
    "ac": "https://crests.football-data.org/94.png",
    "i": 564702,
@@ -5396,8 +8654,26 @@
    "h": "Ajax",
    "a": "NEC",
    "d": "2026-10-10T19:00:00Z",
-   "x": 2.15,
-   "y": 1.28,
+   "x": 2.27,
+   "y": 1.47,
+   "f": {
+    "fh": "VDVVN",
+    "fa": "VDNDN",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     1.3,
+     1.21
+    ],
+    "df": [
+     0.71,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/678.png",
    "ac": "https://crests.football-data.org/1915.png",
    "i": 558878,
@@ -5431,8 +8707,26 @@
    "h": "Celta B",
    "a": "Sociedad B",
    "d": "2026-10-10T19:00:00Z",
-   "x": 1.7,
-   "y": 1.36,
+   "x": 1.77,
+   "y": 1.65,
+   "f": {
+    "fh": "VDDND",
+    "fa": "NVDDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.01,
+     0.96
+    ],
+    "df": [
+     1.22,
+     1.14
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5466,8 +8760,26 @@
    "h": "Acad. Viseu",
    "a": "Estoril Praia",
    "d": "2026-10-10T19:30:00Z",
-   "x": 1.8,
-   "y": 1.08,
+   "x": 1.59,
+   "y": 0.88,
+   "f": {
+    "fh": "NDVVV",
+    "fa": "DDNDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.09,
+     1.01
+    ],
+    "df": [
+     0.88,
+     1.15
+    ]
+   },
    "hc": "https://crests.football-data.org/5527.png",
    "ac": "https://crests.football-data.org/582.png",
    "i": 567322,
@@ -5501,8 +8813,26 @@
    "h": "Central Cordoba",
    "a": "Estudiantes L.P.",
    "d": "2026-10-10T20:00:00Z",
-   "x": 0.85,
-   "y": 1.13,
+   "x": 0.82,
+   "y": 1.21,
+   "f": {
+    "fh": "NDDNN",
+    "fa": "NDVDV",
+    "h2": [
+     1,
+     1,
+     3,
+     7
+    ],
+    "at": [
+     0.88,
+     1.12
+    ],
+    "df": [
+     1.12,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5515,8 +8845,26 @@
    "h": "Vasco",
    "a": "Remo",
    "d": "2026-10-10T21:00:00Z",
-   "x": 1.94,
-   "y": 1.09,
+   "x": 2.25,
+   "y": 1.01,
+   "f": {
+    "fh": "VDVVV",
+    "fa": "DDDDN",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.08,
+     0.91
+    ],
+    "df": [
+     1.09,
+     1.18
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5529,8 +8877,26 @@
    "h": "Tigre",
    "a": "Banfield",
    "d": "2026-10-10T22:15:00Z",
-   "x": 1.34,
-   "y": 0.79,
+   "x": 1.43,
+   "y": 0.88,
+   "f": {
+    "fh": "NDDDD",
+    "fa": "DDNNN",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.93,
+     0.97
+    ],
+    "df": [
+     0.89,
+     1.23
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5543,8 +8909,26 @@
    "h": "Juarez",
    "a": "Club Tijuana",
    "d": "2026-10-10T23:00:00Z",
-   "x": 1.42,
-   "y": 1.67,
+   "x": 1.49,
+   "y": 1.72,
+   "f": {
+    "fh": "DDDVD",
+    "fa": "DVDND",
+    "h2": [
+     1,
+     2,
+     2,
+     6
+    ],
+    "at": [
+     0.88,
+     1.04
+    ],
+    "df": [
+     1.3,
+     0.99
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5557,8 +8941,26 @@
    "h": "Queretaro",
    "a": "Atlante",
    "d": "2026-10-10T23:00:00Z",
-   "x": 1.37,
-   "y": 1.01,
+   "x": 1.5,
+   "y": 0.82,
+   "f": {
+    "fh": "DVVNV",
+    "fa": "NNDNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.82,
+     0.92
+    ],
+    "df": [
+     0.89,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5571,8 +8973,26 @@
    "h": "Atlanta Utd",
    "a": "FC Cincinnati",
    "d": "2026-10-10T23:30:00Z",
-   "x": 1.67,
-   "y": 1.67,
+   "x": 2.05,
+   "y": 1.53,
+   "f": {
+    "fh": "NDNVN",
+    "fa": "DDNND",
+    "h2": [
+     1,
+     1,
+     1,
+     6
+    ],
+    "at": [
+     0.78,
+     1.15
+    ],
+    "df": [
+     1.04,
+     1.21
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5585,8 +9005,26 @@
    "h": "Charlotte",
    "a": "FC Dallas",
    "d": "2026-10-10T23:30:00Z",
-   "x": 1.8,
-   "y": 1.32,
+   "x": 1.71,
+   "y": 1.3,
+   "f": {
+    "fh": "NVNVD",
+    "fa": "VVVNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.01,
+     1.09
+    ],
+    "df": [
+     0.87,
+     1.01
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5599,8 +9037,26 @@
    "h": "Inter Miami",
    "a": "DC United",
    "d": "2026-10-10T23:30:00Z",
-   "x": 3.03,
-   "y": 1.19,
+   "x": 2.65,
+   "y": 1.36,
+   "f": {
+    "fh": "NNNND",
+    "fa": "NVNDN",
+    "h2": [
+     2,
+     1,
+     0,
+     5
+    ],
+    "at": [
+     1.53,
+     0.8
+    ],
+    "df": [
+     1.08,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5613,8 +9069,26 @@
    "h": "New England Revolution",
    "a": "Seattle Sounders",
    "d": "2026-10-10T23:30:00Z",
-   "x": 1.45,
-   "y": 1.24,
+   "x": 1.51,
+   "y": 1.11,
+   "f": {
+    "fh": "DVVVD",
+    "fa": "NNVVV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.96,
+     0.92
+    ],
+    "df": [
+     0.97,
+     0.86
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5627,8 +9101,26 @@
    "h": "New York Red Bulls",
    "a": "San Diego FC",
    "d": "2026-10-10T23:30:00Z",
-   "x": 1.45,
-   "y": 1.57,
+   "x": 1.33,
+   "y": 1.53,
+   "f": {
+    "fh": "NDVVD",
+    "fa": "DDDNN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.84,
+     1.11
+    ],
+    "df": [
+     1.02,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5641,8 +9133,26 @@
    "h": "Orlando City",
    "a": "Columbus Crew",
    "d": "2026-10-10T23:30:00Z",
-   "x": 1.93,
-   "y": 1.65,
+   "x": 1.97,
+   "y": 1.44,
+   "f": {
+    "fh": "VVVDD",
+    "fa": "VDDVV",
+    "h2": [
+     1,
+     2,
+     0,
+     6
+    ],
+    "at": [
+     1.14,
+     0.99
+    ],
+    "df": [
+     1.19,
+     0.96
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5655,8 +9165,26 @@
    "h": "Philadelphia Union",
    "a": "Real Salt Lake",
    "d": "2026-10-10T23:30:00Z",
-   "x": 2.15,
-   "y": 1.12,
+   "x": 2.49,
+   "y": 0.93,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DDDDV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.21,
+     0.89
+    ],
+    "df": [
+     0.9,
+     1.01
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5669,8 +9197,26 @@
    "h": "River Plate",
    "a": "Estudiantes Rio Cuarto",
    "d": "2026-10-11T00:30:00Z",
-   "x": 2.11,
-   "y": 0.4,
+   "x": 2.56,
+   "y": 0.46,
+   "f": {
+    "fh": "NVVVD",
+    "fa": "NDDDD",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.34,
+     0.48
+    ],
+    "df": [
+     0.9,
+     1.34
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5683,8 +9229,26 @@
    "h": "Austin FC",
    "a": "Nashville SC",
    "d": "2026-10-11T00:30:00Z",
-   "x": 1.0,
-   "y": 1.55,
+   "x": 0.88,
+   "y": 1.26,
+   "f": {
+    "fh": "NNVNN",
+    "fa": "NDNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.81,
+     1.1
+    ],
+    "df": [
+     1.01,
+     0.7
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5697,8 +9261,26 @@
    "h": "Minnesota United",
    "a": "Houston Dynamo",
    "d": "2026-10-11T00:30:00Z",
-   "x": 1.44,
-   "y": 1.16,
+   "x": 1.34,
+   "y": 1.18,
+   "f": {
+    "fh": "DDDDD",
+    "fa": "NVDND",
+    "h2": [
+     1,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     1.0,
+     0.79
+    ],
+    "df": [
+     1.05,
+     0.81
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5711,8 +9293,26 @@
    "h": "Sporting Kansas City",
    "a": "Portland Timbers",
    "d": "2026-10-11T00:30:00Z",
-   "x": 1.69,
-   "y": 1.99,
+   "x": 1.89,
+   "y": 2.07,
+   "f": {
+    "fh": "DVDVD",
+    "fa": "VNDDD",
+    "h2": [
+     0,
+     0,
+     3,
+     5
+    ],
+    "at": [
+     0.87,
+     1.02
+    ],
+    "df": [
+     1.39,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5725,8 +9325,26 @@
    "h": "Atlas",
    "a": "Guadalajara Chivas",
    "d": "2026-10-11T01:00:00Z",
-   "x": 1.16,
-   "y": 1.53,
+   "x": 1.27,
+   "y": 1.85,
+   "f": {
+    "fh": "DNDNV",
+    "fa": "NVVND",
+    "h2": [
+     1,
+     1,
+     2,
+     7
+    ],
+    "at": [
+     0.9,
+     1.14
+    ],
+    "df": [
+     1.08,
+     0.79
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5739,8 +9357,26 @@
    "h": "Colorado Rapids",
    "a": "San Jose Earthquakes",
    "d": "2026-10-11T01:30:00Z",
-   "x": 1.7,
-   "y": 1.49,
+   "x": 1.44,
+   "y": 1.51,
+   "f": {
+    "fh": "DNVND",
+    "fa": "NVVNV",
+    "h2": [
+     1,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     0.88,
+     1.06
+    ],
+    "df": [
+     1.01,
+     1.09
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5753,8 +9389,26 @@
    "h": "Los Angeles FC",
    "a": "Vancouver Whitecaps",
    "d": "2026-10-11T02:30:00Z",
-   "x": 1.46,
-   "y": 1.28,
+   "x": 1.48,
+   "y": 1.22,
+   "f": {
+    "fh": "NVDND",
+    "fa": "VDVND",
+    "h2": [
+     3,
+     3,
+     2,
+     10
+    ],
+    "at": [
+     1.06,
+     1.25
+    ],
+    "df": [
+     0.74,
+     0.78
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5767,8 +9421,26 @@
    "h": "Club America",
    "a": "Monterrey",
    "d": "2026-10-11T03:10:00Z",
-   "x": 2.0,
-   "y": 1.07,
+   "x": 2.08,
+   "y": 1.12,
+   "f": {
+    "fh": "VVDNV",
+    "fa": "DDNVD",
+    "h2": [
+     4,
+     2,
+     2,
+     10
+    ],
+    "at": [
+     1.21,
+     1.15
+    ],
+    "df": [
+     0.75,
+     1.01
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5781,8 +9453,26 @@
    "h": "Chiba",
    "a": "V-Varen Nagasaki",
    "d": "2026-10-11T05:00:00Z",
-   "x": 1.53,
-   "y": 1.76,
+   "x": 1.74,
+   "y": 1.79,
+   "f": {
+    "fh": "DDVND",
+    "fa": "DNDVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.81,
+     0.98
+    ],
+    "df": [
+     1.49,
+     1.32
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5795,8 +9485,26 @@
    "h": "Mito",
    "a": "Shimizu S-Pulse",
    "d": "2026-10-11T06:00:00Z",
-   "x": 1.41,
-   "y": 0.81,
+   "x": 1.43,
+   "y": 0.72,
+   "f": {
+    "fh": "NVNDD",
+    "fa": "DNDVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.07,
+     0.74
+    ],
+    "df": [
+     0.91,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5809,8 +9517,26 @@
    "h": "Verdy",
    "a": "Sanfrecce Hiroshima",
    "d": "2026-10-11T06:00:00Z",
-   "x": 0.54,
-   "y": 1.42,
+   "x": 0.44,
+   "y": 1.65,
+   "f": {
+    "fh": "DDNND",
+    "fa": "NVDVV",
+    "h2": [
+     0,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.59,
+     1.29
+    ],
+    "df": [
+     0.92,
+     0.65
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5823,8 +9549,26 @@
    "h": "Kawasaki Frontale",
    "a": "Nagoya Grampus",
    "d": "2026-10-11T07:00:00Z",
-   "x": 2.24,
-   "y": 1.19,
+   "x": 2.79,
+   "y": 1.27,
+   "f": {
+    "fh": "VDVVN",
+    "fa": "VDDDD",
+    "h2": [
+     2,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     1.44,
+     0.86
+    ],
+    "df": [
+     1.15,
+     1.09
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5837,8 +9581,26 @@
    "h": "Qingdao West Coast",
    "a": "Dalian Yingbo",
    "d": "2026-10-11T10:00:00Z",
-   "x": 1.39,
-   "y": 0.96,
+   "x": 1.42,
+   "y": 0.71,
+   "f": {
+    "fh": "NNVNN",
+    "fa": "DNVNV",
+    "h2": [
+     3,
+     0,
+     0,
+     3
+    ],
+    "at": [
+     0.83,
+     0.86
+    ],
+    "df": [
+     0.82,
+     0.93
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5851,8 +9613,26 @@
    "h": "Utrecht",
    "a": "Willem II",
    "d": "2026-10-11T10:15:00Z",
-   "x": 2.43,
-   "y": 0.95,
+   "x": 2.5,
+   "y": 1.04,
+   "f": {
+    "fh": "NDNVD",
+    "fa": "NDNDD",
+    "h2": [
+     1,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.09,
+     0.65
+    ],
+    "df": [
+     0.97,
+     1.26
+    ]
+   },
    "hc": "https://crests.football-data.org/676.png",
    "ac": "https://crests.football-data.org/672.png",
    "i": 558876,
@@ -5886,8 +9666,26 @@
    "h": "Como 1907",
    "a": "Roma",
    "d": "2026-10-11T10:30:00Z",
-   "x": 1.15,
-   "y": 1.3,
+   "x": 1.3,
+   "y": 1.41,
+   "f": {
+    "fh": "NVVVD",
+    "fa": "VVVVN",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     1.32,
+     1.4
+    ],
+    "df": [
+     0.77,
+     0.66
+    ]
+   },
    "hc": "https://crests.football-data.org/7397.png",
    "ac": "https://crests.football-data.org/100.png",
    "i": 558585,
@@ -5921,8 +9719,26 @@
    "h": "Konyaspor",
    "a": "Buyuksehyr",
    "d": "2026-10-11T10:30:00Z",
-   "x": 1.26,
-   "y": 1.49,
+   "x": 1.07,
+   "y": 1.36,
+   "f": {
+    "fh": "DDDVN",
+    "fa": "DNDDV",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.86,
+     1.25
+    ],
+    "df": [
+     0.98,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -5956,8 +9772,26 @@
    "h": "Southampton",
    "a": "Portsmouth",
    "d": "2026-10-11T11:00:00Z",
-   "x": 2.42,
-   "y": 1.0,
+   "x": 2.44,
+   "y": 0.97,
+   "f": {
+    "fh": "NNVVD",
+    "fa": "DDVNN",
+    "h2": [
+     0,
+     2,
+     0,
+     2
+    ],
+    "at": [
+     1.47,
+     0.89
+    ],
+    "df": [
+     0.96,
+     1.13
+    ]
+   },
    "hc": "https://crests.football-data.org/340.png",
    "ac": "https://crests.football-data.org/325.png",
    "i": 561859,
@@ -5991,8 +9825,26 @@
    "h": "Motherwell",
    "a": "Celtic",
    "d": "2026-10-11T11:00:00Z",
-   "x": 1.12,
-   "y": 1.69,
+   "x": 1.17,
+   "y": 1.8,
+   "f": {
+    "fh": "NVDDD",
+    "fa": "VVVVD",
+    "h2": [
+     1,
+     0,
+     6,
+     7
+    ],
+    "at": [
+     1.04,
+     1.54
+    ],
+    "df": [
+     0.87,
+     0.7
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6026,8 +9878,26 @@
    "h": "Standard",
    "a": "Charleroi",
    "d": "2026-10-11T11:30:00Z",
-   "x": 1.12,
-   "y": 1.14,
+   "x": 0.96,
+   "y": 1.41,
+   "f": {
+    "fh": "VVVDD",
+    "fa": "VVDVV",
+    "h2": [
+     3,
+     1,
+     4,
+     8
+    ],
+    "at": [
+     0.85,
+     1.06
+    ],
+    "df": [
+     0.87,
+     0.86
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6061,8 +9931,26 @@
    "h": "Bochum",
    "a": "Bielefeld",
    "d": "2026-10-11T11:30:00Z",
-   "x": 1.53,
-   "y": 1.23,
+   "x": 1.41,
+   "y": 0.97,
+   "f": {
+    "fh": "VDVND",
+    "fa": "VDNDN",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.86,
+     1.03
+    ],
+    "df": [
+     0.88,
+     1.07
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6096,8 +9984,26 @@
    "h": "Hertha",
    "a": "Greuther Furth",
    "d": "2026-10-11T11:30:00Z",
-   "x": 2.13,
-   "y": 1.16,
+   "x": 2.11,
+   "y": 1.09,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DVDNN",
+    "h2": [
+     2,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     1.07,
+     0.93
+    ],
+    "df": [
+     0.92,
+     1.18
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6131,8 +10037,26 @@
    "h": "St Pauli",
    "a": "Karlsruhe",
    "d": "2026-10-11T11:30:00Z",
-   "x": 1.78,
-   "y": 1.12,
+   "x": 1.71,
+   "y": 0.97,
+   "f": {
+    "fh": "NDNVN",
+    "fa": "NDNDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.88,
+     0.98
+    ],
+    "df": [
+     0.84,
+     1.2
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6166,8 +10090,26 @@
    "h": "Chongqing Tonglianglong",
    "a": "Shandong Taishan",
    "d": "2026-10-11T11:35:00Z",
-   "x": 1.23,
-   "y": 1.35,
+   "x": 1.1,
+   "y": 1.44,
+   "f": {
+    "fh": "DNDND",
+    "fa": "VVDVN",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.71,
+     1.26
+    ],
+    "df": [
+     0.79,
+     0.97
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6180,8 +10122,26 @@
    "h": "Liaoning Tieren",
    "a": "Wuhan Three Towns",
    "d": "2026-10-11T11:35:00Z",
-   "x": 1.83,
-   "y": 1.36,
+   "x": 1.87,
+   "y": 1.7,
+   "f": {
+    "fh": "DNDDD",
+    "fa": "NVNND",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.92,
+     0.91
+    ],
+    "df": [
+     1.1,
+     1.11
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6194,8 +10154,26 @@
    "h": "Elche",
    "a": "Celta",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.49,
-   "y": 1.41,
+   "x": 1.43,
+   "y": 1.46,
+   "f": {
+    "fh": "DDNDV",
+    "fa": "DNNNV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.05,
+     1.04
+    ],
+    "df": [
+     1.16,
+     0.9
+    ]
+   },
    "hc": "https://crests.football-data.org/285.png",
    "ac": "https://crests.football-data.org/558.png",
    "i": 564703,
@@ -6229,8 +10207,26 @@
    "h": "Andorra",
    "a": "Castellon",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.46,
-   "y": 1.59,
+   "x": 1.04,
+   "y": 1.97,
+   "f": {
+    "fh": "DDDVN",
+    "fa": "VVVVN",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     1.14,
+     1.27
+    ],
+    "df": [
+     1.09,
+     0.87
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6264,8 +10260,26 @@
    "h": "Randers FC",
    "a": "Viborg",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.26,
-   "y": 1.49,
+   "x": 1.21,
+   "y": 1.72,
+   "f": {
+    "fh": "DVVDD",
+    "fa": "VVDNV",
+    "h2": [
+     2,
+     0,
+     1,
+     7
+    ],
+    "at": [
+     0.86,
+     1.07
+    ],
+    "df": [
+     0.97,
+     0.9
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6278,8 +10292,26 @@
    "h": "Silkeborg",
    "a": "Horsens",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.64,
-   "y": 1.84,
+   "x": 1.56,
+   "y": 1.82,
+   "f": {
+    "fh": "DNNNV",
+    "fa": "VDVDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.94,
+     1.17
+    ],
+    "df": [
+     1.1,
+     1.07
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6292,8 +10324,26 @@
    "h": "Hammarby",
    "a": "Djurgarden",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.57,
-   "y": 1.2,
+   "x": 1.47,
+   "y": 1.1,
+   "f": {
+    "fh": "VDNVV",
+    "fa": "VVVVD",
+    "h2": [
+     2,
+     2,
+     0,
+     6
+    ],
+    "at": [
+     1.42,
+     1.37
+    ],
+    "df": [
+     0.66,
+     0.71
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6306,8 +10356,26 @@
    "h": "Grasshoppers",
    "a": "Young Boys",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.42,
-   "y": 2.51,
+   "x": 1.76,
+   "y": 2.88,
+   "f": {
+    "fh": "VNVDD",
+    "fa": "NVNNV",
+    "h2": [
+     2,
+     3,
+     0,
+     8
+    ],
+    "at": [
+     0.8,
+     1.43
+    ],
+    "df": [
+     1.14,
+     1.0
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6320,8 +10388,26 @@
    "h": "Inter Turku",
    "a": "KuPS",
    "d": "2026-10-11T12:00:00Z",
-   "x": 1.1,
-   "y": 0.94,
+   "x": 0.84,
+   "y": 0.75,
+   "f": {
+    "fh": "VDVVN",
+    "fa": "DNNVD",
+    "h2": [
+     1,
+     2,
+     3,
+     8
+    ],
+    "at": [
+     1.05,
+     1.24
+    ],
+    "df": [
+     0.6,
+     0.69
+    ]
+   },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
    "i": null,
@@ -6334,8 +10420,26 @@
    "h": "Zwolle",
    "a": "Cambuur",
    "d": "2026-10-11T12:30:00Z",
-   "x": 2.12,
-   "y": 1.74,
+   "x": 2.03,
+   "y": 1.8,
+   "f": {
+    "fh": "VDNDD",
+    "fa": "DDNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.82,
+     0.96
+    ],
+    "df": [
+     1.21,
+     1.46
+    ]
+   },
    "hc": "https://crests.football-data.org/684.png",
    "ac": "https://crests.football-data.org/1909.png",
    "i": 558874,
@@ -6369,8 +10473,26 @@
    "h": "Telstar",
    "a": "Den Haag",
    "d": "2026-10-11T12:30:00Z",
-   "x": 1.87,
-   "y": 1.03,
+   "x": 1.65,
+   "y": 1.06,
+   "f": {
+    "fh": "DNDND",
+    "fa": "DNDDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.86,
+     0.74
+    ],
+    "df": [
+     0.93,
+     1.24
+    ]
+   },
    "hc": "https://crests.football-data.org/1912.png",
    "ac": "https://crests.football-data.org/680.png",
    "i": 558875,
@@ -6404,8 +10526,26 @@
    "h": "Fredrikstad",
    "a": "Tromso",
    "d": "2026-10-11T12:30:00Z",
-   "x": 1.26,
-   "y": 1.23,
+   "x": 1.32,
+   "y": 1.33,
+   "f": {
+    "fh": "VVDNN",
+    "fa": "DNDDV",
+    "h2": [
+     0,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     0.81,
+     1.12
+    ],
+    "df": [
+     0.82,
+     0.85
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6418,8 +10558,26 @@
    "h": "Altach",
    "a": "Wolfsberger AC",
    "d": "2026-10-11T12:30:00Z",
-   "x": 1.1,
-   "y": 1.16,
+   "x": 1.42,
+   "y": 1.06,
+   "f": {
+    "fh": "DDDDD",
+    "fa": "DNDDD",
+    "h2": [
+     2,
+     1,
+     2,
+     10
+    ],
+    "at": [
+     0.72,
+     0.95
+    ],
+    "df": [
+     0.99,
+     0.99
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6432,8 +10590,26 @@
    "h": "Hartberg",
    "a": "A. Lustenau",
    "d": "2026-10-11T12:30:00Z",
-   "x": 1.75,
-   "y": 0.93,
+   "x": 1.73,
+   "y": 1.07,
+   "f": {
+    "fh": "DVVNN",
+    "fa": "VNDDV",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.98,
+     0.8
+    ],
+    "df": [
+     0.95,
+     1.16
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6446,8 +10622,26 @@
    "h": "Piast Gliwice",
    "a": "Widzew Lodz",
    "d": "2026-10-11T12:45:00Z",
-   "x": 1.4,
-   "y": 1.03,
+   "x": 1.41,
+   "y": 1.12,
+   "f": {
+    "fh": "NVVVD",
+    "fa": "NDNNN",
+    "h2": [
+     0,
+     0,
+     3,
+     5
+    ],
+    "at": [
+     1.0,
+     0.89
+    ],
+    "df": [
+     0.95,
+     0.9
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6460,8 +10654,26 @@
    "h": "Nice",
    "a": "Strasbourg",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.37,
-   "y": 1.66,
+   "x": 1.2,
+   "y": 1.8,
+   "f": {
+    "fh": "NDNDV",
+    "fa": "DVVND",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.88,
+     1.27
+    ],
+    "df": [
+     1.02,
+     0.99
+    ]
+   },
    "hc": "https://crests.football-data.org/522.png",
    "ac": "https://crests.football-data.org/576.png",
    "i": 559670,
@@ -6495,8 +10707,26 @@
    "h": "Hull City",
    "a": "Everton",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.14,
-   "y": 0.79,
+   "x": 0.94,
+   "y": 0.64,
+   "f": {
+    "fh": "VVNND",
+    "fa": "VNNNV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.91,
+     0.89
+    ],
+    "df": [
+     0.69,
+     0.82
+    ]
+   },
    "hc": "https://crests.football-data.org/322.png",
    "ac": "https://crests.football-data.org/62.png",
    "i": 560594,
@@ -6530,8 +10760,26 @@
    "h": "Crystal Palace",
    "a": "Nottingham",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.16,
-   "y": 1.27,
+   "x": 1.03,
+   "y": 1.44,
+   "f": {
+    "fh": "DDVDN",
+    "fa": "DNNVD",
+    "h2": [
+     0,
+     3,
+     1,
+     4
+    ],
+    "at": [
+     0.88,
+     0.97
+    ],
+    "df": [
+     1.02,
+     0.86
+    ]
+   },
    "hc": "https://crests.football-data.org/354.png",
    "ac": "https://crests.football-data.org/351.png",
    "i": 560596,
@@ -6565,8 +10813,26 @@
    "h": "Lecce",
    "a": "Bologna",
    "d": "2026-10-11T13:00:00Z",
-   "x": 0.82,
-   "y": 1.33,
+   "x": 0.81,
+   "y": 1.48,
+   "f": {
+    "fh": "VDDVD",
+    "fa": "DDNDN",
+    "h2": [
+     0,
+     2,
+     2,
+     4
+    ],
+    "at": [
+     0.66,
+     1.0
+    ],
+    "df": [
+     1.1,
+     0.95
+    ]
+   },
    "hc": "https://crests.football-data.org/5890.png",
    "ac": "https://crests.football-data.org/103.png",
    "i": 558581,
@@ -6600,8 +10866,26 @@
    "h": "Lazio",
    "a": "Monza",
    "d": "2026-10-11T13:00:00Z",
-   "x": 2.01,
+   "x": 2.37,
    "y": 0.89,
+   "f": {
+    "fh": "VVVNV",
+    "fa": "DDNDV",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.01,
+     0.87
+    ],
+    "df": [
+     0.84,
+     1.5
+    ]
+   },
    "hc": "https://crests.football-data.org/110.png",
    "ac": "https://crests.football-data.org/5911.png",
    "i": 558583,
@@ -6635,8 +10919,26 @@
    "h": "Gaziantep",
    "a": "Corum",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.76,
-   "y": 1.94,
+   "x": 1.7,
+   "y": 2.15,
+   "f": {
+    "fh": "VDVND",
+    "fa": "DDVVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.91,
+     1.49
+    ],
+    "df": [
+     1.07,
+     1.22
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6670,8 +10972,26 @@
    "h": "Aberdeen",
    "a": "St Johnstone",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.38,
-   "y": 1.03,
+   "x": 1.29,
+   "y": 0.83,
+   "f": {
+    "fh": "DDNVN",
+    "fa": "DNVDN",
+    "h2": [
+     0,
+     2,
+     0,
+     3
+    ],
+    "at": [
+     0.81,
+     0.83
+    ],
+    "df": [
+     0.99,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6705,8 +11025,26 @@
    "h": "Catanzaro",
    "a": "Mantova",
    "d": "2026-10-11T13:00:00Z",
-   "x": 1.94,
-   "y": 1.29,
+   "x": 1.99,
+   "y": 1.34,
+   "f": {
+    "fh": "DDDVD",
+    "fa": "VVNVN",
+    "h2": [
+     2,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     1.19,
+     1.07
+    ],
+    "df": [
+     1.1,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6740,8 +11078,26 @@
    "h": "1. FC Köln",
    "a": "M'gladbach",
    "d": "2026-10-11T13:30:00Z",
-   "x": 1.81,
-   "y": 1.5,
+   "x": 2.07,
+   "y": 1.7,
+   "f": {
+    "fh": "DVDND",
+    "fa": "VDDDD",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.89,
+     0.87
+    ],
+    "df": [
+     1.17,
+     1.11
+    ]
+   },
    "hc": "https://crests.football-data.org/1.png",
    "ac": "https://crests.football-data.org/18.png",
    "i": 565814,
@@ -6775,8 +11131,26 @@
    "h": "St. Gilloise",
    "a": "Oud-Heverlee Leuven",
    "d": "2026-10-11T14:00:00Z",
-   "x": 2.3,
-   "y": 0.43,
+   "x": 2.54,
+   "y": 0.31,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "DDDNV",
+    "h2": [
+     2,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     1.42,
+     0.73
+    ],
+    "df": [
+     0.47,
+     1.06
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6810,8 +11184,26 @@
    "h": "Iraklis",
    "a": "Levadeiakos",
    "d": "2026-10-11T14:00:00Z",
-   "x": 1.28,
-   "y": 1.18,
+   "x": 1.34,
+   "y": 0.89,
+   "f": {
+    "fh": "DNVNN",
+    "fa": "DDDND",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.81,
+     1.18
+    ],
+    "df": [
+     0.89,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6845,8 +11237,26 @@
    "h": "Kifisia",
    "a": "Panetolikos",
    "d": "2026-10-11T14:00:00Z",
-   "x": 1.14,
-   "y": 0.94,
+   "x": 0.99,
+   "y": 0.93,
+   "f": {
+    "fh": "NDDNV",
+    "fa": "VVVDD",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.81,
+     0.8
+    ],
+    "df": [
+     1.04,
+     1.0
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6880,8 +11290,26 @@
    "h": "Brondby",
    "a": "Lyngby",
    "d": "2026-10-11T14:00:00Z",
-   "x": 1.66,
-   "y": 0.81,
+   "x": 1.57,
+   "y": 0.91,
+   "f": {
+    "fh": "VDDDD",
+    "fa": "DNVND",
+    "h2": [
+     0,
+     1,
+     0,
+     3
+    ],
+    "at": [
+     1.0,
+     0.7
+    ],
+    "df": [
+     0.81,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6894,8 +11322,26 @@
    "h": "Real Sociedad",
    "a": "Deportivo",
    "d": "2026-10-11T14:15:00Z",
-   "x": 1.6,
-   "y": 1.33,
+   "x": 1.73,
+   "y": 1.58,
+   "f": {
+    "fh": "VNVDV",
+    "fa": "VVNDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.08,
+     1.03
+    ],
+    "df": [
+     1.1,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/92.png",
    "ac": "https://crests.football-data.org/560.png",
    "i": 564707,
@@ -6929,8 +11375,26 @@
    "h": "Almeria",
    "a": "Leganes",
    "d": "2026-10-11T14:15:00Z",
-   "x": 1.96,
-   "y": 0.85,
+   "x": 2.45,
+   "y": 0.63,
+   "f": {
+    "fh": "VVVVV",
+    "fa": "NDVDD",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.37,
+     0.73
+    ],
+    "df": [
+     1.0,
+     0.97
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -6964,8 +11428,26 @@
    "h": "Rio Ave",
    "a": "CD Nacional",
    "d": "2026-10-11T14:30:00Z",
-   "x": 1.26,
-   "y": 1.24,
+   "x": 1.28,
+   "y": 1.33,
+   "f": {
+    "fh": "VDDND",
+    "fa": "DDDDD",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     0.79,
+     0.81
+    ],
+    "df": [
+     1.25,
+     1.1
+    ]
+   },
    "hc": "https://crests.football-data.org/496.png",
    "ac": "https://crests.football-data.org/5529.png",
    "i": 567328,
@@ -6999,8 +11481,26 @@
    "h": "Hacken",
    "a": "Orgryte",
    "d": "2026-10-11T14:30:00Z",
-   "x": 2.58,
-   "y": 1.14,
+   "x": 2.61,
+   "y": 0.85,
+   "f": {
+    "fh": "VDNNV",
+    "fa": "NDNDD",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.19,
+     0.86
+    ],
+    "df": [
+     1.0,
+     1.4
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7013,8 +11513,26 @@
    "h": "St. Gallen",
    "a": "Lausanne",
    "d": "2026-10-11T14:30:00Z",
-   "x": 1.82,
-   "y": 1.06,
+   "x": 1.8,
+   "y": 1.0,
+   "f": {
+    "fh": "DVDDV",
+    "fa": "DNDDD",
+    "h2": [
+     3,
+     1,
+     1,
+     8
+    ],
+    "at": [
+     1.05,
+     0.78
+    ],
+    "df": [
+     0.87,
+     0.97
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7027,8 +11545,26 @@
    "h": "Vaduz",
    "a": "Basel",
    "d": "2026-10-11T14:30:00Z",
-   "x": 1.95,
-   "y": 2.07,
+   "x": 2.37,
+   "y": 2.22,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "NDDVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.21,
+     1.07
+    ],
+    "df": [
+     1.26,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7041,8 +11577,26 @@
    "h": "Excelsior",
    "a": "Groningen",
    "d": "2026-10-11T14:45:00Z",
-   "x": 1.54,
-   "y": 1.3,
+   "x": 1.61,
+   "y": 1.43,
+   "f": {
+    "fh": "VVNDN",
+    "fa": "DDNNV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.0,
+     0.99
+    ],
+    "df": [
+     0.88,
+     0.87
+    ]
+   },
    "hc": "https://crests.football-data.org/670.png",
    "ac": "https://crests.football-data.org/677.png",
    "i": 558873,
@@ -7076,8 +11630,26 @@
    "h": "Aalesund",
    "a": "Sarpsborg 08",
    "d": "2026-10-11T15:00:00Z",
-   "x": 1.78,
-   "y": 1.57,
+   "x": 1.87,
+   "y": 1.59,
+   "f": {
+    "fh": "NDVDV",
+    "fa": "DNNND",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.05,
+     0.91
+    ],
+    "df": [
+     1.27,
+     0.94
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7090,8 +11662,26 @@
    "h": "Start",
    "a": "HamKam",
    "d": "2026-10-11T15:00:00Z",
-   "x": 1.51,
-   "y": 1.41,
+   "x": 1.65,
+   "y": 1.21,
+   "f": {
+    "fh": "DVDVD",
+    "fa": "DNDDD",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.77,
+     0.9
+    ],
+    "df": [
+     1.17,
+     1.09
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7104,8 +11694,26 @@
    "h": "LASK",
    "a": "SK Rapid",
    "d": "2026-10-11T15:00:00Z",
-   "x": 1.93,
-   "y": 1.2,
+   "x": 2.32,
+   "y": 1.34,
+   "f": {
+    "fh": "VVVDN",
+    "fa": "VVDVV",
+    "h2": [
+     4,
+     0,
+     1,
+     9
+    ],
+    "at": [
+     1.43,
+     1.15
+    ],
+    "df": [
+     0.84,
+     0.87
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7118,8 +11726,26 @@
    "h": "Csikszereda M. Ciuc",
    "a": "Univ. Craiova",
    "d": "2026-10-11T15:00:00Z",
-   "x": 0.79,
-   "y": 2.01,
+   "x": 0.68,
+   "y": 2.29,
+   "f": {
+    "fh": "DDDDD",
+    "fa": "VNVVV",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     0.77,
+     1.44
+    ],
+    "df": [
+     1.36,
+     0.68
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7132,8 +11758,26 @@
    "h": "Stade Rennais",
    "a": "Auxerre",
    "d": "2026-10-11T15:15:00Z",
-   "x": 1.92,
-   "y": 1.18,
+   "x": 2.11,
+   "y": 1.2,
+   "f": {
+    "fh": "NVVVD",
+    "fa": "DDDVV",
+    "h2": [
+     1,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     1.23,
+     0.89
+    ],
+    "df": [
+     1.02,
+     0.99
+    ]
+   },
    "hc": "https://crests.football-data.org/529.png",
    "ac": "https://crests.football-data.org/519.png",
    "i": 559667,
@@ -7167,8 +11811,26 @@
    "h": "Padova",
    "a": "Carrarese",
    "d": "2026-10-11T15:15:00Z",
-   "x": 1.25,
-   "y": 0.89,
+   "x": 1.35,
+   "y": 0.68,
+   "f": {
+    "fh": "VNDVD",
+    "fa": "DNDDD",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.84,
+     0.84
+    ],
+    "df": [
+     0.96,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7202,8 +11864,26 @@
    "h": "Liverpool",
    "a": "Man City",
    "d": "2026-10-11T15:30:00Z",
-   "x": 1.39,
-   "y": 1.66,
+   "x": 1.28,
+   "y": 1.48,
+   "f": {
+    "fh": "NNVNV",
+    "fa": "VVVVV",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     1.28,
+     1.48
+    ],
+    "df": [
+     0.87,
+     0.71
+    ]
+   },
    "hc": "https://crests.football-data.org/64.png",
    "ac": "https://crests.football-data.org/65.png",
    "i": 560598,
@@ -7237,8 +11917,26 @@
    "h": "Freiburg",
    "a": "Schalke",
    "d": "2026-10-11T15:30:00Z",
-   "x": 1.23,
-   "y": 0.94,
+   "x": 1.55,
+   "y": 0.84,
+   "f": {
+    "fh": "VVVVN",
+    "fa": "DNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.03,
+     0.68
+    ],
+    "df": [
+     0.94,
+     0.65
+    ]
+   },
    "hc": "https://crests.football-data.org/17.png",
    "ac": "https://crests.football-data.org/6.png",
    "i": 565816,
@@ -7272,8 +11970,26 @@
    "h": "Pogon Szczecin",
    "a": "Korona Kielce",
    "d": "2026-10-11T15:30:00Z",
-   "x": 1.45,
-   "y": 0.92,
+   "x": 1.41,
+   "y": 0.89,
+   "f": {
+    "fh": "NNNVV",
+    "fa": "VNVDV",
+    "h2": [
+     1,
+     1,
+     1,
+     5
+    ],
+    "at": [
+     1.09,
+     0.9
+    ],
+    "df": [
+     0.84,
+     0.85
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7286,8 +12002,26 @@
    "h": "Sassuolo",
    "a": "Milan",
    "d": "2026-10-11T16:00:00Z",
-   "x": 1.12,
-   "y": 1.57,
+   "x": 1.25,
+   "y": 1.61,
+   "f": {
+    "fh": "DVNVD",
+    "fa": "VVNNV",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     1.07,
+     1.19
+    ],
+    "df": [
+     1.09,
+     0.79
+    ]
+   },
    "hc": "https://crests.football-data.org/471.png",
    "ac": "https://crests.football-data.org/98.png",
    "i": 558580,
@@ -7322,7 +12056,25 @@
    "a": "Kocaelispor",
    "d": "2026-10-11T16:00:00Z",
    "x": 1.43,
-   "y": 0.62,
+   "y": 0.57,
+   "f": {
+    "fh": "DVVVD",
+    "fa": "VVVDV",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.29,
+     0.66
+    ],
+    "df": [
+     0.78,
+     0.69
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7356,8 +12108,26 @@
    "h": "Aris",
    "a": "Volos NFC",
    "d": "2026-10-11T16:00:00Z",
-   "x": 1.63,
-   "y": 0.78,
+   "x": 1.89,
+   "y": 0.81,
+   "f": {
+    "fh": "VVDDN",
+    "fa": "DNNDD",
+    "h2": [
+     3,
+     2,
+     1,
+     6
+    ],
+    "at": [
+     0.92,
+     0.82
+    ],
+    "df": [
+     0.85,
+     1.26
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7391,8 +12161,26 @@
    "h": "Midtjylland",
    "a": "FC Copenhagen",
    "d": "2026-10-11T16:00:00Z",
-   "x": 1.75,
-   "y": 1.54,
+   "x": 1.77,
+   "y": 1.38,
+   "f": {
+    "fh": "NVNVN",
+    "fa": "VVVVV",
+    "h2": [
+     2,
+     2,
+     1,
+     9
+    ],
+    "at": [
+     1.39,
+     1.43
+    ],
+    "df": [
+     0.75,
+     0.77
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7405,8 +12193,26 @@
    "h": "Real Betis",
    "a": "Osasuna",
    "d": "2026-10-11T16:30:00Z",
-   "x": 1.86,
-   "y": 0.9,
+   "x": 2.13,
+   "y": 0.8,
+   "f": {
+    "fh": "DVVVN",
+    "fa": "VDDDN",
+    "h2": [
+     2,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     1.15,
+     0.88
+    ],
+    "df": [
+     0.87,
+     1.02
+    ]
+   },
    "hc": "https://crests.football-data.org/90.png",
    "ac": "https://crests.football-data.org/79.png",
    "i": 564701,
@@ -7440,8 +12246,26 @@
    "h": "Westerlo",
    "a": "Antwerp",
    "d": "2026-10-11T16:30:00Z",
-   "x": 1.72,
-   "y": 1.32,
+   "x": 2.06,
+   "y": 1.68,
+   "f": {
+    "fh": "DNVVV",
+    "fa": "NDDDD",
+    "h2": [
+     2,
+     0,
+     3,
+     6
+    ],
+    "at": [
+     1.15,
+     0.93
+    ],
+    "df": [
+     1.14,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7475,8 +12299,26 @@
    "h": "Mallorca",
    "a": "Las Palmas",
    "d": "2026-10-11T16:30:00Z",
-   "x": 1.07,
-   "y": 0.53,
+   "x": 1.4,
+   "y": 0.47,
+   "f": {
+    "fh": "NVVDN",
+    "fa": "NVDDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.8,
+     1.08
+    ],
+    "df": [
+     0.43,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7510,8 +12352,26 @@
    "h": "SL Benfica",
    "a": "Vitória SC",
    "d": "2026-10-11T17:00:00Z",
-   "x": 2.55,
-   "y": 0.7,
+   "x": 2.87,
+   "y": 0.59,
+   "f": {
+    "fh": "VVVVD",
+    "fa": "VDNDN",
+    "h2": [
+     4,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     1.82,
+     0.86
+    ],
+    "df": [
+     0.66,
+     0.97
+    ]
+   },
    "hc": "https://crests.football-data.org/1903.png",
    "ac": "https://crests.football-data.org/5543.png",
    "i": 567320,
@@ -7545,8 +12405,26 @@
    "h": "Mechelen",
    "a": "St Truiden",
    "d": "2026-10-11T17:15:00Z",
-   "x": 1.35,
-   "y": 1.59,
+   "x": 1.14,
+   "y": 2.05,
+   "f": {
+    "fh": "DNDDN",
+    "fa": "VDVDD",
+    "h2": [
+     0,
+     1,
+     5,
+     6
+    ],
+    "at": [
+     0.91,
+     1.15
+    ],
+    "df": [
+     1.12,
+     0.97
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7580,8 +12458,26 @@
    "h": "Lillestrom",
    "a": "Molde",
    "d": "2026-10-11T17:15:00Z",
-   "x": 1.45,
-   "y": 1.55,
+   "x": 1.39,
+   "y": 1.69,
+   "f": {
+    "fh": "NDVVD",
+    "fa": "VVVVD",
+    "h2": [
+     1,
+     0,
+     0,
+     4
+    ],
+    "at": [
+     0.87,
+     1.25
+    ],
+    "df": [
+     0.92,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7594,8 +12490,26 @@
    "h": "Modena",
    "a": "Verona",
    "d": "2026-10-11T17:30:00Z",
-   "x": 1.65,
-   "y": 1.14,
+   "x": 1.64,
+   "y": 1.11,
+   "f": {
+    "fh": "VVDNV",
+    "fa": "DNVDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.03,
+     1.24
+    ],
+    "df": [
+     0.83,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7630,7 +12544,25 @@
    "a": "Dep. Riestra",
    "d": "2026-10-11T17:45:00Z",
    "x": 0.67,
-   "y": 0.57,
+   "y": 0.49,
+   "f": {
+    "fh": "DVNDD",
+    "fa": "NNDNN",
+    "h2": [
+     1,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     0.71,
+     0.74
+    ],
+    "df": [
+     0.85,
+     0.81
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7643,8 +12575,26 @@
    "h": "Olympiakos",
    "a": "Panathinaikos",
    "d": "2026-10-11T18:00:00Z",
-   "x": 1.13,
-   "y": 0.64,
+   "x": 0.88,
+   "y": 0.59,
+   "f": {
+    "fh": "VVNDV",
+    "fa": "VVVVV",
+    "h2": [
+     4,
+     2,
+     1,
+     8
+    ],
+    "at": [
+     1.2,
+     1.35
+    ],
+    "df": [
+     0.42,
+     0.67
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7678,8 +12628,26 @@
    "h": "Farul Constanta",
    "a": "Petrolul",
    "d": "2026-10-11T18:00:00Z",
-   "x": 1.36,
-   "y": 0.84,
+   "x": 1.5,
+   "y": 0.96,
+   "f": {
+    "fh": "NNNVD",
+    "fa": "DVVNV",
+    "h2": [
+     5,
+     0,
+     0,
+     7
+    ],
+    "at": [
+     0.99,
+     0.81
+    ],
+    "df": [
+     1.01,
+     0.92
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7692,8 +12660,26 @@
    "h": "Legia",
    "a": "Wisla",
    "d": "2026-10-11T18:15:00Z",
-   "x": 1.68,
+   "x": 1.82,
    "y": 1.24,
+   "f": {
+    "fh": "NNVNV",
+    "fa": "NVNVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.14,
+     1.31
+    ],
+    "df": [
+     0.78,
+     0.94
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7706,8 +12692,26 @@
    "h": "Troyes",
    "a": "Marseille",
    "d": "2026-10-11T18:45:00Z",
-   "x": 1.13,
-   "y": 2.31,
+   "x": 1.09,
+   "y": 2.27,
+   "f": {
+    "fh": "NVDDD",
+    "fa": "VDDDD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.76,
+     1.31
+    ],
+    "df": [
+     1.37,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/531.png",
    "ac": "https://crests.football-data.org/516.png",
    "i": 559671,
@@ -7741,8 +12745,26 @@
    "h": "Cagliari",
    "a": "Juventus",
    "d": "2026-10-11T18:45:00Z",
-   "x": 0.82,
-   "y": 1.47,
+   "x": 0.85,
+   "y": 1.12,
+   "f": {
+    "fh": "VDVVV",
+    "fa": "VVNDV",
+    "h2": [
+     1,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.86,
+     1.26
+    ],
+    "df": [
+     0.97,
+     0.72
+    ]
+   },
    "hc": "https://crests.football-data.org/104.png",
    "ac": "https://crests.football-data.org/109.png",
    "i": 558584,
@@ -7776,8 +12798,26 @@
    "h": "Santander",
    "a": "Valencia",
    "d": "2026-10-11T19:00:00Z",
-   "x": 1.93,
-   "y": 1.74,
+   "x": 2.06,
+   "y": 1.62,
+   "f": {
+    "fh": "VDVDD",
+    "fa": "DDDVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.2,
+     0.87
+    ],
+    "df": [
+     1.7,
+     1.02
+    ]
+   },
    "hc": "https://crests.football-data.org/5335.png",
    "ac": "https://crests.football-data.org/95.png",
    "i": 564705,
@@ -7812,7 +12852,25 @@
    "a": "Sp Gijon",
    "d": "2026-10-11T19:00:00Z",
    "x": 1.21,
-   "y": 1.27,
+   "y": 1.36,
+   "f": {
+    "fh": "DDDNV",
+    "fa": "DDVDV",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.86,
+     1.03
+    ],
+    "df": [
+     1.06,
+     0.95
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7846,8 +12904,26 @@
    "h": "Atletico-MG",
    "a": "Santos",
    "d": "2026-10-11T19:00:00Z",
-   "x": 1.59,
-   "y": 1.1,
+   "x": 1.46,
+   "y": 1.39,
+   "f": {
+    "fh": "DVNVN",
+    "fa": "VVVVN",
+    "h2": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "at": [
+     1.02,
+     1.14
+    ],
+    "df": [
+     0.88,
+     1.02
+    ]
+   },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
    "i": null,
@@ -7860,8 +12936,26 @@
    "h": "Arouca",
    "a": "Amadora",
    "d": "2026-10-11T19:30:00Z",
-   "x": 1.86,
-   "y": 1.27,
+   "x": 2.13,
+   "y": 1.35,
+   "f": {
+    "fh": "DVNDN",
+    "fa": "VNVND",
+    "h2": [
+     2,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     1.06,
+     0.95
+    ],
+    "df": [
+     1.09,
+     1.21
+    ]
+   },
    "hc": "https://crests.football-data.org/712.png",
    "ac": "https://crests.football-data.org/9136.png",
    "i": 567324,
@@ -7895,8 +12989,26 @@
    "h": "Platense",
    "a": "Argentinos Jrs",
    "d": "2026-10-11T20:00:00Z",
-   "x": 0.76,
-   "y": 1.1,
+   "x": 0.7,
+   "y": 1.14,
+   "f": {
+    "fh": "DNDDN",
+    "fa": "VNNDV",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     0.81,
+     1.15
+    ],
+    "df": [
+     1.05,
+     0.8
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7909,8 +13021,26 @@
    "h": "Rosario Central",
    "a": "Ind. Rivadavia",
    "d": "2026-10-11T20:00:00Z",
-   "x": 1.37,
-   "y": 0.9,
+   "x": 1.22,
+   "y": 1.04,
+   "f": {
+    "fh": "DNVVN",
+    "fa": "VDVVN",
+    "h2": [
+     0,
+     1,
+     1,
+     3
+    ],
+    "at": [
+     1.1,
+     1.23
+    ],
+    "df": [
+     0.81,
+     1.06
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7923,8 +13053,26 @@
    "h": "Flamengo RJ",
    "a": "Fluminense",
    "d": "2026-10-11T20:30:00Z",
-   "x": 1.93,
-   "y": 0.84,
+   "x": 1.9,
+   "y": 0.92,
+   "f": {
+    "fh": "VVVVN",
+    "fa": "NVDVV",
+    "h2": [
+     2,
+     0,
+     2,
+     6
+    ],
+    "at": [
+     1.52,
+     1.16
+    ],
+    "df": [
+     0.67,
+     0.83
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/stvvwp1473538082.png",
    "i": null,
@@ -7937,8 +13085,26 @@
    "h": "Gremio",
    "a": "Internacional",
    "d": "2026-10-11T20:30:00Z",
-   "x": 1.38,
-   "y": 1.03,
+   "x": 1.43,
+   "y": 1.0,
+   "f": {
+    "fh": "DDDNN",
+    "fa": "DDVDV",
+    "h2": [
+     1,
+     2,
+     1,
+     6
+    ],
+    "at": [
+     0.93,
+     0.96
+    ],
+    "df": [
+     0.99,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7951,8 +13117,26 @@
    "h": "Palmeiras",
    "a": "Corinthians",
    "d": "2026-10-11T20:30:00Z",
-   "x": 1.79,
-   "y": 0.6,
+   "x": 1.6,
+   "y": 0.46,
+   "f": {
+    "fh": "NNVNV",
+    "fa": "DDDDD",
+    "h2": [
+     1,
+     2,
+     1,
+     5
+    ],
+    "at": [
+     1.31,
+     0.91
+    ],
+    "df": [
+     0.61,
+     0.9
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
    "ac": null,
    "i": null,
@@ -7965,8 +13149,26 @@
    "h": "Racing Club",
    "a": "Belgrano",
    "d": "2026-10-11T22:15:00Z",
-   "x": 1.16,
-   "y": 0.93,
+   "x": 1.18,
+   "y": 1.0,
+   "f": {
+    "fh": "DDDVV",
+    "fa": "NNNVV",
+    "h2": [
+     3,
+     0,
+     0,
+     6
+    ],
+    "at": [
+     1.18,
+     1.02
+    ],
+    "df": [
+     1.0,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -7979,8 +13181,26 @@
    "h": "Bahia",
    "a": "Mirassol",
    "d": "2026-10-11T22:30:00Z",
-   "x": 1.6,
-   "y": 1.11,
+   "x": 1.64,
+   "y": 1.13,
+   "f": {
+    "fh": "VVVDD",
+    "fa": "DVNVN",
+    "h2": [
+     1,
+     1,
+     1,
+     3
+    ],
+    "at": [
+     1.11,
+     1.09
+    ],
+    "df": [
+     0.94,
+     0.95
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
    "ac": null,
    "i": null,
@@ -7993,8 +13213,26 @@
    "h": "Atl. San Luis",
    "a": "Santos Laguna",
    "d": "2026-10-11T23:00:00Z",
-   "x": 2.02,
-   "y": 1.13,
+   "x": 2.14,
+   "y": 1.19,
+   "f": {
+    "fh": "VDDVV",
+    "fa": "NDVVV",
+    "h2": [
+     3,
+     0,
+     0,
+     6
+    ],
+    "at": [
+     1.01,
+     0.79
+    ],
+    "df": [
+     1.15,
+     1.23
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8007,8 +13245,26 @@
    "h": "St. Louis City",
    "a": "Los Angeles Galaxy",
    "d": "2026-10-11T23:00:00Z",
-   "x": 2.02,
-   "y": 1.31,
+   "x": 2.74,
+   "y": 1.37,
+   "f": {
+    "fh": "VNVVV",
+    "fa": "VDNVV",
+    "h2": [
+     2,
+     1,
+     0,
+     5
+    ],
+    "at": [
+     1.07,
+     0.95
+    ],
+    "df": [
+     0.99,
+     1.07
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8021,8 +13277,26 @@
    "h": "Pachuca",
    "a": "Necaxa",
    "d": "2026-10-11T23:10:00Z",
-   "x": 1.94,
-   "y": 0.96,
+   "x": 2.32,
+   "y": 0.94,
+   "f": {
+    "fh": "NVVND",
+    "fa": "DNDDD",
+    "h2": [
+     4,
+     0,
+     0,
+     6
+    ],
+    "at": [
+     1.0,
+     0.95
+    ],
+    "df": [
+     0.81,
+     1.19
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8035,8 +13309,26 @@
    "h": "Talleres Cordoba",
    "a": "Independiente",
    "d": "2026-10-12T00:30:00Z",
-   "x": 1.03,
-   "y": 1.03,
+   "x": 1.23,
+   "y": 1.16,
+   "f": {
+    "fh": "NDVDD",
+    "fa": "DVNVD",
+    "h2": [
+     2,
+     0,
+     1,
+     6
+    ],
+    "at": [
+     0.93,
+     1.11
+    ],
+    "df": [
+     1.03,
+     0.95
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8049,8 +13341,26 @@
    "h": "UNAM Pumas",
    "a": "Cruz Azul",
    "d": "2026-10-12T01:15:00Z",
-   "x": 1.48,
-   "y": 1.42,
+   "x": 1.5,
+   "y": 1.68,
+   "f": {
+    "fh": "DVDND",
+    "fa": "VVVDN",
+    "h2": [
+     1,
+     2,
+     3,
+     10
+    ],
+    "at": [
+     1.08,
+     1.23
+    ],
+    "df": [
+     0.93,
+     0.85
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8063,8 +13373,26 @@
    "h": "Valladolid",
    "a": "Albacete",
    "d": "2026-10-12T12:00:00Z",
-   "x": 1.23,
-   "y": 1.12,
+   "x": 1.0,
+   "y": 0.88,
+   "f": {
+    "fh": "VDNVN",
+    "fa": "DNDDD",
+    "h2": [
+     0,
+     0,
+     2,
+     2
+    ],
+    "at": [
+     0.81,
+     0.93
+    ],
+    "df": [
+     1.04,
+     1.04
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8098,8 +13426,26 @@
    "h": "Burgos",
    "a": "Granada",
    "d": "2026-10-12T14:15:00Z",
-   "x": 1.36,
-   "y": 0.84,
+   "x": 1.67,
+   "y": 0.8,
+   "f": {
+    "fh": "NVVVD",
+    "fa": "DNDDV",
+    "h2": [
+     1,
+     2,
+     0,
+     4
+    ],
+    "at": [
+     0.87,
+     1.05
+    ],
+    "df": [
+     0.69,
+     1.06
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8133,8 +13479,26 @@
    "h": "PAOK",
    "a": "Kalamata",
    "d": "2026-10-12T15:00:00Z",
-   "x": 2.84,
-   "y": 0.78,
+   "x": 3.22,
+   "y": 0.62,
+   "f": {
+    "fh": "VVDVV",
+    "fa": "DDNVD",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.67,
+     0.99
+    ],
+    "df": [
+     0.7,
+     1.21
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8168,8 +13532,26 @@
    "h": "VPS",
    "a": "Gnistan",
    "d": "2026-10-12T15:00:00Z",
-   "x": 1.43,
-   "y": 1.4,
+   "x": 0.97,
+   "y": 1.26,
+   "f": {
+    "fh": "DVDDD",
+    "fa": "NNVNN",
+    "h2": [
+     0,
+     4,
+     1,
+     7
+    ],
+    "at": [
+     0.93,
+     1.16
+    ],
+    "df": [
+     0.95,
+     1.03
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/vpavez1578953729.png",
    "ac": null,
    "i": null,
@@ -8182,8 +13564,26 @@
    "h": "FC Arges",
    "a": "CFR Cluj",
    "d": "2026-10-12T15:00:00Z",
-   "x": 1.02,
-   "y": 0.95,
+   "x": 0.95,
+   "y": 0.91,
+   "f": {
+    "fh": "DDDND",
+    "fa": "VNDVD",
+    "h2": [
+     2,
+     1,
+     1,
+     4
+    ],
+    "at": [
+     0.75,
+     1.3
+    ],
+    "df": [
+     0.71,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/81uzfv1507891573.png",
    "i": null,
@@ -8196,8 +13596,26 @@
    "h": "AC Oulu",
    "a": "HJK",
    "d": "2026-10-12T16:00:00Z",
-   "x": 1.11,
-   "y": 1.72,
+   "x": 0.75,
+   "y": 1.35,
+   "f": {
+    "fh": "NDDDV",
+    "fa": "VVNNV",
+    "h2": [
+     1,
+     0,
+     3,
+     6
+    ],
+    "at": [
+     0.81,
+     1.43
+    ],
+    "df": [
+     0.95,
+     0.9
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/fj51wx1785822404.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/l0at7p1739030681.png",
    "i": null,
@@ -8210,8 +13628,26 @@
    "h": "Radomiak Radom",
    "a": "Motor Lublin",
    "d": "2026-10-12T16:00:00Z",
-   "x": 1.69,
-   "y": 1.42,
+   "x": 1.4,
+   "y": 1.39,
+   "f": {
+    "fh": "NVNDD",
+    "fa": "NDDDN",
+    "h2": [
+     0,
+     2,
+     2,
+     4
+    ],
+    "at": [
+     0.96,
+     0.98
+    ],
+    "df": [
+     1.19,
+     1.12
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8224,8 +13660,26 @@
    "h": "Atalanta",
    "a": "Venezia FC",
    "d": "2026-10-12T16:30:00Z",
-   "x": 2.15,
-   "y": 0.71,
+   "x": 1.94,
+   "y": 0.68,
+   "f": {
+    "fh": "VVDDD",
+    "fa": "DDDDD",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     1.17,
+     0.74
+    ],
+    "df": [
+     0.8,
+     1.39
+    ]
+   },
    "hc": "https://crests.football-data.org/102.png",
    "ac": "https://crests.football-data.org/454.png",
    "i": 558579,
@@ -8259,8 +13713,26 @@
    "h": "Oviedo",
    "a": "Eibar",
    "d": "2026-10-12T16:30:00Z",
-   "x": 1.0,
-   "y": 1.0,
+   "x": 0.8,
+   "y": 1.03,
+   "f": {
+    "fh": "NVDVD",
+    "fa": "VVVVV",
+    "h2": [
+     0,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.94,
+     1.06
+    ],
+    "df": [
+     0.82,
+     0.72
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8294,8 +13766,26 @@
    "h": "Eyupspor",
    "a": "Goztep",
    "d": "2026-10-12T17:00:00Z",
-   "x": 1.19,
-   "y": 1.38,
+   "x": 0.99,
+   "y": 1.44,
+   "f": {
+    "fh": "DVDDD",
+    "fa": "DDDNN",
+    "h2": [
+     1,
+     3,
+     0,
+     4
+    ],
+    "at": [
+     0.76,
+     1.05
+    ],
+    "df": [
+     1.09,
+     0.98
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8329,8 +13819,26 @@
    "h": "Aarhus",
    "a": "Sonderjyske",
    "d": "2026-10-12T17:00:00Z",
-   "x": 2.13,
-   "y": 1.2,
+   "x": 2.14,
+   "y": 1.27,
+   "f": {
+    "fh": "DDNDN",
+    "fa": "DDDNV",
+    "h2": [
+     2,
+     2,
+     1,
+     6
+    ],
+    "at": [
+     1.14,
+     0.97
+    ],
+    "df": [
+     0.86,
+     1.15
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8343,8 +13851,26 @@
    "h": "KFUM Oslo",
    "a": "Valerenga",
    "d": "2026-10-12T17:00:00Z",
-   "x": 1.83,
-   "y": 1.37,
+   "x": 1.9,
+   "y": 1.41,
+   "f": {
+    "fh": "NDDVV",
+    "fa": "NDNDN",
+    "h2": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "at": [
+     0.83,
+     1.09
+    ],
+    "df": [
+     0.93,
+     1.22
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8357,8 +13883,26 @@
    "h": "Elfsborg",
    "a": "Halmstad",
    "d": "2026-10-12T17:00:00Z",
-   "x": 1.82,
-   "y": 0.7,
+   "x": 1.81,
+   "y": 0.62,
+   "f": {
+    "fh": "NVDVV",
+    "fa": "NVDDV",
+    "h2": [
+     1,
+     1,
+     1,
+     5
+    ],
+    "at": [
+     1.04,
+     0.6
+    ],
+    "df": [
+     0.89,
+     1.13
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8371,8 +13915,26 @@
    "h": "Malmo FF",
    "a": "Kalmar",
    "d": "2026-10-12T17:00:00Z",
-   "x": 2.03,
-   "y": 0.86,
+   "x": 1.97,
+   "y": 0.7,
+   "f": {
+    "fh": "DVNVD",
+    "fa": "NDDDD",
+    "h2": [
+     0,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.18,
+     0.74
+    ],
+    "df": [
+     0.88,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8385,8 +13947,26 @@
    "h": "U. Cluj",
    "a": "FC Rapid Bucuresti",
    "d": "2026-10-12T18:00:00Z",
-   "x": 1.5,
-   "y": 0.93,
+   "x": 1.59,
+   "y": 0.86,
+   "f": {
+    "fh": "DDVVV",
+    "fa": "VNVVV",
+    "h2": [
+     5,
+     2,
+     0,
+     9
+    ],
+    "at": [
+     1.28,
+     1.11
+    ],
+    "df": [
+     0.82,
+     0.79
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/81uzfv1507891573.png",
    "ac": null,
    "i": null,
@@ -8399,9 +13979,27 @@
    "h": "GKS Katowice",
    "a": "Wieczysta Krakow",
    "d": "2026-10-12T18:30:00Z",
-   "x": 2.46,
-   "y": 1.29,
-   "hc": null,
+   "x": 2.96,
+   "y": 1.38,
+   "f": {
+    "fh": "VVDDV",
+    "fa": "DDNDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.21,
+     1.11
+    ],
+    "df": [
+     0.96,
+     1.3
+    ]
+   },
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/zsva1p1626103599.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/sjv7bd1750699486.png",
    "i": null,
    "st": "pre",
@@ -8413,8 +14011,26 @@
    "h": "Torino",
    "a": "Udinese",
    "d": "2026-10-12T18:45:00Z",
-   "x": 1.31,
-   "y": 1.38,
+   "x": 1.53,
+   "y": 1.64,
+   "f": {
+    "fh": "DDVDN",
+    "fa": "NVDDD",
+    "h2": [
+     1,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     0.93,
+     0.99
+    ],
+    "df": [
+     1.15,
+     1.07
+    ]
+   },
    "hc": "https://crests.football-data.org/586.png",
    "ac": "https://crests.football-data.org/115.png",
    "i": 558587,
@@ -8448,8 +14064,26 @@
    "h": "Dijon",
    "a": "Metz",
    "d": "2026-10-12T18:45:00Z",
-   "x": 1.27,
-   "y": 1.66,
+   "x": 1.19,
+   "y": 1.67,
+   "f": {
+    "fh": "NDNVV",
+    "fa": "NNVDN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.12,
+     1.24
+    ],
+    "df": [
+     1.12,
+     0.82
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8483,8 +14117,26 @@
    "h": "Coventry City",
    "a": "Newcastle",
    "d": "2026-10-12T19:00:00Z",
-   "x": 0.76,
-   "y": 1.7,
+   "x": 0.68,
+   "y": 1.77,
+   "f": {
+    "fh": "DDDDV",
+    "fa": "NVNDV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.5,
+     1.17
+    ],
+    "df": [
+     1.13,
+     1.01
+    ]
+   },
    "hc": "https://crests.football-data.org/1076.png",
    "ac": "https://crests.football-data.org/67.png",
    "i": 560597,
@@ -8518,8 +14170,26 @@
    "h": "Levante",
    "a": "Sevilla FC",
    "d": "2026-10-12T19:00:00Z",
-   "x": 1.61,
-   "y": 1.23,
+   "x": 1.8,
+   "y": 1.19,
+   "f": {
+    "fh": "NVNDD",
+    "fa": "DNVVD",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     1.0,
+     0.93
+    ],
+    "df": [
+     1.12,
+     1.02
+    ]
+   },
    "hc": "https://crests.football-data.org/88.png",
    "ac": "https://crests.football-data.org/559.png",
    "i": 564704,
@@ -8553,8 +14223,26 @@
    "h": "Tenerife",
    "a": "Girona",
    "d": "2026-10-12T19:00:00Z",
-   "x": 1.0,
-   "y": 1.55,
+   "x": 0.89,
+   "y": 1.61,
+   "f": {
+    "fh": "NVDND",
+    "fa": "VDVVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.81,
+     1.31
+    ],
+    "df": [
+     1.02,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8588,8 +14276,26 @@
    "h": "Shamrock Rovers",
    "a": "Bohemians",
    "d": "2026-10-12T19:00:00Z",
-   "x": 1.58,
-   "y": 1.14,
+   "x": 1.87,
+   "y": 1.55,
+   "f": {
+    "fh": "NNDVV",
+    "fa": "VVVVV",
+    "h2": [
+     3,
+     0,
+     4,
+     10
+    ],
+    "at": [
+     1.2,
+     1.24
+    ],
+    "df": [
+     0.77,
+     0.92
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/u1zowj1491504381.png",
    "ac": null,
    "i": null,
@@ -8602,8 +14308,26 @@
    "h": "Coritiba",
    "a": "Botafogo RJ",
    "d": "2026-10-12T19:00:00Z",
-   "x": 1.48,
-   "y": 1.56,
+   "x": 1.68,
+   "y": 1.62,
+   "f": {
+    "fh": "VDNDD",
+    "fa": "NNVDD",
+    "h2": [
+     0,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     1.01,
+     1.16
+    ],
+    "df": [
+     1.23,
+     0.96
+    ]
+   },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
    "ac": null,
    "i": null,
@@ -8616,8 +14340,26 @@
    "h": "Lanus",
    "a": "Velez Sarsfield",
    "d": "2026-10-12T19:00:00Z",
-   "x": 1.07,
+   "x": 1.04,
    "y": 0.89,
+   "f": {
+    "fh": "DVVVN",
+    "fa": "NVNVN",
+    "h2": [
+     1,
+     2,
+     1,
+     4
+    ],
+    "at": [
+     1.05,
+     1.15
+    ],
+    "df": [
+     0.85,
+     0.87
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8630,8 +14372,26 @@
    "h": "Famalicão",
    "a": "Alverca",
    "d": "2026-10-12T19:15:00Z",
-   "x": 1.49,
-   "y": 0.77,
+   "x": 1.44,
+   "y": 0.76,
+   "f": {
+    "fh": "DNNNV",
+    "fa": "DNDVV",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     0.97,
+     0.87
+    ],
+    "df": [
+     0.72,
+     1.07
+    ]
+   },
    "hc": "https://crests.football-data.org/5531.png",
    "ac": "https://crests.football-data.org/7822.png",
    "i": 567325,
@@ -8665,8 +14425,26 @@
    "h": "Gimnasia Mendoza",
    "a": "Newells Old Boys",
    "d": "2026-10-12T21:30:00Z",
-   "x": 1.38,
-   "y": 0.94,
+   "x": 1.35,
+   "y": 0.95,
+   "f": {
+    "fh": "VNDND",
+    "fa": "NNNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     1.07,
+     0.91
+    ],
+    "df": [
+     1.14,
+     1.1
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8679,8 +14457,26 @@
    "h": "Chapecoense-SC",
    "a": "Athletico-PR",
    "d": "2026-10-12T22:30:00Z",
-   "x": 1.18,
-   "y": 1.83,
+   "x": 1.41,
+   "y": 2.29,
+   "f": {
+    "fh": "DVDND",
+    "fa": "NDNVN",
+    "h2": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "at": [
+     0.86,
+     1.17
+    ],
+    "df": [
+     1.44,
+     0.91
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8693,8 +14489,26 @@
    "h": "Bragantino",
    "a": "Cruzeiro",
    "d": "2026-10-13T00:00:00Z",
-   "x": 1.19,
-   "y": 1.17,
+   "x": 1.39,
+   "y": 1.31,
+   "f": {
+    "fh": "DNDDN",
+    "fa": "DVDVV",
+    "h2": [
+     1,
+     1,
+     2,
+     5
+    ],
+    "at": [
+     0.94,
+     1.15
+    ],
+    "df": [
+     0.94,
+     0.83
+    ]
+   },
    "hc": null,
    "ac": null,
    "i": null,
@@ -8707,8 +14521,26 @@
    "h": "Wolverhampton",
    "a": "Bolton",
    "d": "2026-10-13T18:45:00Z",
-   "x": 2.81,
-   "y": 1.2,
+   "x": 3.32,
+   "y": 1.24,
+   "f": {
+    "fh": "VDNVV",
+    "fa": "DDDVV",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.5,
+     1.02
+    ],
+    "df": [
+     1.01,
+     1.28
+    ]
+   },
    "hc": "https://crests.football-data.org/76.png",
    "ac": "https://crests.football-data.org/60.png",
    "i": 561869,
@@ -8742,8 +14574,26 @@
    "h": "Wrexham",
    "a": "West Brom",
    "d": "2026-10-13T18:45:00Z",
-   "x": 1.38,
-   "y": 1.08,
+   "x": 1.34,
+   "y": 1.07,
+   "f": {
+    "fh": "VNNDV",
+    "fa": "NVVND",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     1.07,
+     0.85
+    ],
+    "df": [
+     1.08,
+     0.88
+    ]
+   },
    "hc": "https://crests.football-data.org/404.png",
    "ac": "https://crests.football-data.org/74.png",
    "i": 561870,
@@ -8777,8 +14627,26 @@
    "h": "Millwall",
    "a": "Swansea",
    "d": "2026-10-13T18:45:00Z",
-   "x": 1.41,
-   "y": 1.05,
+   "x": 1.47,
+   "y": 1.28,
+   "f": {
+    "fh": "DVDNN",
+    "fa": "VNDVV",
+    "h2": [
+     3,
+     1,
+     0,
+     4
+    ],
+    "at": [
+     1.05,
+     0.99
+    ],
+    "df": [
+     0.9,
+     0.92
+    ]
+   },
    "hc": "https://crests.football-data.org/384.png",
    "ac": "https://crests.football-data.org/72.png",
    "i": 561871,
@@ -8812,8 +14680,26 @@
    "h": "Cardiff",
    "a": "Watford",
    "d": "2026-10-13T18:45:00Z",
-   "x": 1.31,
-   "y": 1.14,
+   "x": 1.36,
+   "y": 0.89,
+   "f": {
+    "fh": "DDNDV",
+    "fa": "DDVDD",
+    "h2": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "at": [
+     0.85,
+     0.8
+    ],
+    "df": [
+     1.2,
+     1.06
+    ]
+   },
    "hc": "https://crests.football-data.org/715.png",
    "ac": "https://crests.football-data.org/346.png",
    "i": 561872,
@@ -8847,8 +14733,26 @@
    "h": "Burnley",
    "a": "Charlton",
    "d": "2026-10-13T18:45:00Z",
-   "x": 1.45,
-   "y": 0.72,
+   "x": 1.54,
+   "y": 0.68,
+   "f": {
+    "fh": "NDNDN",
+    "fa": "NDNND",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1.02,
+     0.71
+    ],
+    "df": [
+     0.87,
+     0.98
+    ]
+   },
    "hc": "https://crests.football-data.org/328.png",
    "ac": "https://crests.football-data.org/348.png",
    "i": 561873,
@@ -8882,8 +14786,26 @@
    "h": "Bristol City",
    "a": "Blackburn",
    "d": "2026-10-13T18:45:00Z",
-   "x": 1.33,
-   "y": 0.97,
+   "x": 1.46,
+   "y": 1.19,
+   "f": {
+    "fh": "VVDDV",
+    "fa": "NDDVN",
+    "h2": [
+     2,
+     0,
+     1,
+     4
+    ],
+    "at": [
+     0.97,
+     0.81
+    ],
+    "df": [
+     1.02,
+     0.94
+    ]
+   },
    "hc": "https://crests.football-data.org/387.png",
    "ac": "https://crests.football-data.org/59.png",
    "i": 561874,
@@ -8917,8 +14839,26 @@
    "h": "Birmingham",
    "a": "Preston NE",
    "d": "2026-10-13T19:00:00Z",
-   "x": 1.62,
-   "y": 0.93,
+   "x": 1.91,
+   "y": 0.9,
+   "f": {
+    "fh": "NNDVN",
+    "fa": "DVDDN",
+    "h2": [
+     2,
+     0,
+     0,
+     2
+    ],
+    "at": [
+     0.97,
+     0.85
+    ],
+    "df": [
+     0.93,
+     1.14
+    ]
+   },
    "hc": "https://crests.football-data.org/332.png",
    "ac": "https://crests.football-data.org/1081.png",
    "i": 561875,
@@ -8952,8 +14892,26 @@
    "h": "Stoke",
    "a": "Middlesbrough",
    "d": "2026-10-13T19:00:00Z",
-   "x": 1.18,
-   "y": 1.46,
+   "x": 1.36,
+   "y": 1.73,
+   "f": {
+    "fh": "VVNVV",
+    "fa": "NVVNN",
+    "h2": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "at": [
+     0.87,
+     1.21
+    ],
+    "df": [
+     1.03,
+     0.93
+    ]
+   },
    "hc": "https://crests.football-data.org/70.png",
    "ac": "https://crests.football-data.org/343.png",
    "i": 561876,
@@ -8987,8 +14945,26 @@
    "h": "Portsmouth",
    "a": "Sheffield Utd",
    "d": "2026-10-14T18:45:00Z",
-   "x": 1.29,
-   "y": 1.37,
+   "x": 1.14,
+   "y": 1.29,
+   "f": {
+    "fh": "DDVNN",
+    "fa": "VDVDD",
+    "h2": [
+     0,
+     0,
+     3,
+     4
+    ],
+    "at": [
+     0.89,
+     1.03
+    ],
+    "df": [
+     1.13,
+     0.99
+    ]
+   },
    "hc": "https://crests.football-data.org/325.png",
    "ac": "https://crests.football-data.org/356.png",
    "i": 561877,
@@ -9022,8 +14998,26 @@
    "h": "Norwich",
    "a": "Southampton",
    "d": "2026-10-14T18:45:00Z",
-   "x": 1.62,
-   "y": 1.92,
+   "x": 1.76,
+   "y": 2.09,
+   "f": {
+    "fh": "DVVDD",
+    "fa": "NNVVD",
+    "h2": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "at": [
+     1.16,
+     1.47
+    ],
+    "df": [
+     1.11,
+     0.96
+    ]
+   },
    "hc": "https://crests.football-data.org/68.png",
    "ac": "https://crests.football-data.org/340.png",
    "i": 561879,
@@ -9057,8 +15051,26 @@
    "h": "QPR",
    "a": "Derby County",
    "d": "2026-10-14T18:45:00Z",
-   "x": 1.42,
-   "y": 1.24,
+   "x": 1.47,
+   "y": 1.25,
+   "f": {
+    "fh": "VDNNN",
+    "fa": "VDDDN",
+    "h2": [
+     1,
+     0,
+     2,
+     4
+    ],
+    "at": [
+     0.95,
+     0.95
+    ],
+    "df": [
+     1.11,
+     1.03
+    ]
+   },
    "hc": "https://crests.football-data.org/69.png",
    "ac": "https://crests.football-data.org/342.png",
    "i": 561880,
@@ -9092,8 +15104,26 @@
    "h": "Lincoln City",
    "a": "West Ham",
    "d": "2026-10-14T19:00:00Z",
-   "x": 1.07,
-   "y": 1.7,
+   "x": 0.98,
+   "y": 1.65,
+   "f": {
+    "fh": "NNVVD",
+    "fa": "VVVVN",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     0.72,
+     1.83
+    ],
+    "df": [
+     0.79,
+     1.02
+    ]
+   },
    "hc": "https://crests.football-data.org/1126.png",
    "ac": "https://crests.football-data.org/563.png",
    "i": 561878,
@@ -9335,6 +15365,26 @@
   "pau fc": "https://r2.thesportsdb.com/images/media/team/badge/g1p2l71653308318.png",
   "laval": "https://r2.thesportsdb.com/images/media/team/badge/s6g8y81580152463.png",
   "sochaux": "https://r2.thesportsdb.com/images/media/team/badge/ymsdjh1766618296.png",
-  "boulogne": "https://r2.thesportsdb.com/images/media/team/badge/c7p39l1754278109.png"
+  "boulogne": "https://r2.thesportsdb.com/images/media/team/badge/c7p39l1754278109.png",
+  "sepsi sf. gheorghe": "https://r2.thesportsdb.com/images/media/team/badge/ggoh1h1638479369.png",
+  "dinamo bucuresti": "https://r2.thesportsdb.com/images/media/team/badge/3x3m7i1782636831.png",
+  "avellino": "https://r2.thesportsdb.com/images/media/team/badge/swsu5p1579724964.png",
+  "sampdoria": "https://r2.thesportsdb.com/images/media/team/badge/pr6co21655592769.png",
+  "rakow": "https://r2.thesportsdb.com/images/media/team/badge/vy8paa1579458598.png",
+  "gks katowice": "https://r2.thesportsdb.com/images/media/team/badge/zsva1p1626103599.png",
+  "beveren": "https://r2.thesportsdb.com/images/media/team/badge/w40kf11657733729.png",
+  "lommel sk": "https://r2.thesportsdb.com/images/media/team/badge/gj2c1v1658141968.png",
+  "sutton": "",
+  "boreham wood": "https://r2.thesportsdb.com/images/media/team/badge/8h5d4s1512067942.png",
+  "shelbourne": "https://r2.thesportsdb.com/images/media/team/badge/brh8t91579281545.png",
+  "sligo rovers": "https://r2.thesportsdb.com/images/media/team/badge/1e9wvc1602256331.png",
+  "gimnasia l.p.": "https://r2.thesportsdb.com/images/media/team/badge/epmttr1678849271.png",
+  "atl. tucuman": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
+  "instituto": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
+  "boca juniors": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
+  "union de santa fe": "",
+  "defensa y justicia": "https://r2.thesportsdb.com/images/media/team/badge/3guvlh1775778978.png",
+  "puebla": "https://r2.thesportsdb.com/images/media/team/badge/h0jgg51593451845.png",
+  "club leon": "https://r2.thesportsdb.com/images/media/team/badge/pc9gro1752393439.png"
  }
 }
