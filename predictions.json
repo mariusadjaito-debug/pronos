@@ -1,5 +1,5 @@
 {
- "updated": "09/10/2026 20:03 UTC",
+ "updated": "09/10/2026 22:05 UTC",
  "matches": [
   {
    "l": "Primeira Liga",
@@ -141,10 +141,10 @@
    "hc": "https://crests.football-data.org/4.png",
    "ac": "https://crests.football-data.org/12.png",
    "i": 565820,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
-    0
+    2,
+    2
    ],
    "e": {
     "s": [
@@ -197,10 +197,10 @@
    "hc": "https://crests.football-data.org/546.png",
    "ac": "https://crests.football-data.org/523.png",
    "i": 559669,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    1,
-    0
+    2,
+    1
    ],
    "e": {
     "s": [
@@ -253,9 +253,9 @@
    "hc": "https://crests.football-data.org/84.png",
    "ac": "https://crests.football-data.org/80.png",
    "i": 564706,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
+    1,
     1
    ],
    "e": {
@@ -309,9 +309,9 @@
    "hc": "https://crests.football-data.org/563.png",
    "ac": "https://crests.football-data.org/69.png",
    "i": 561862,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
+    1,
     1
    ],
    "e": {
@@ -365,10 +365,10 @@
    "hc": "https://crests.football-data.org/5613.png",
    "ac": "https://crests.football-data.org/498.png",
    "i": 567326,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
-    0
+    1,
+    3
    ],
    "e": {
     "s": [
@@ -392,38 +392,6 @@
      4.13
     ]
    }
-  },
-  {
-   "l": "Argentine",
-   "h": "Gimnasia L.P.",
-   "a": "Atl. Tucuman",
-   "d": "2026-10-09T21:00:00Z",
-   "x": 1.57,
-   "y": 0.9,
-   "f": {
-    "fh": "VVNNN",
-    "fa": "NVDDD",
-    "h2": [
-     3,
-     0,
-     1,
-     6
-    ],
-    "at": [
-     1.07,
-     0.9
-    ],
-    "df": [
-     1.07,
-     1.11
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/epmttr1678849271.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
   },
   {
    "l": "Argentine",
@@ -4152,8 +4120,8 @@
      0.58
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/9zqhpw1546434997.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/98wt4h1521144923.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4205,8 +4173,8 @@
      1.02
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ao52xt1626199781.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/uqwwxr1424032561.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4258,8 +4226,8 @@
      0.83
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/qv0j5n1684734883.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/aa42641684131255.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4311,8 +4279,8 @@
      1.36
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/dw18ig1750743416.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/uvrsxw1447599507.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4365,7 +4333,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/uuvrvr1473539630.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4417,8 +4385,8 @@
      0.39
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/swuwuv1447598127.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/bdejub1714843344.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4470,8 +4438,8 @@
      0.75
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/1o38ll1749203191.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/j801au1705640268.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4524,7 +4492,7 @@
     ]
    },
    "hc": null,
-   "ac": null,
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/l4qscx1601721022.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4576,8 +4544,8 @@
      0.78
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/ysppwr1429977136.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/7bwbs11705234363.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -4629,8 +4597,8 @@
      1.12
     ]
    },
-   "hc": null,
-   "ac": null,
+   "hc": "https://r2.thesportsdb.com/images/media/team/badge/5248qp1750743516.png",
+   "ac": "https://r2.thesportsdb.com/images/media/team/badge/omadk81512573133.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -14825,6 +14793,26 @@
   "port vale": "https://r2.thesportsdb.com/images/media/team/badge/s1ke3v1761710614.png",
   "grimsby": "https://r2.thesportsdb.com/images/media/team/badge/fbinsr1781739580.png",
   "rotherham": "",
-  "gillingham": "https://r2.thesportsdb.com/images/media/team/badge/sqxvpp1424033506.png"
+  "gillingham": "https://r2.thesportsdb.com/images/media/team/badge/sqxvpp1424033506.png",
+  "shrewsbury": "https://r2.thesportsdb.com/images/media/team/badge/9zqhpw1546434997.png",
+  "exeter": "https://r2.thesportsdb.com/images/media/team/badge/98wt4h1521144923.png",
+  "tranmere": "https://r2.thesportsdb.com/images/media/team/badge/ao52xt1626199781.png",
+  "rochdale": "https://r2.thesportsdb.com/images/media/team/badge/uqwwxr1424032561.png",
+  "york": "https://r2.thesportsdb.com/images/media/team/badge/qv0j5n1684734883.png",
+  "northampton": "https://r2.thesportsdb.com/images/media/team/badge/aa42641684131255.png",
+  "arbroath": "https://r2.thesportsdb.com/images/media/team/badge/dw18ig1750743416.png",
+  "morton": "https://r2.thesportsdb.com/images/media/team/badge/uvrsxw1447599507.png",
+  "ayr": "",
+  "dunfermline": "https://r2.thesportsdb.com/images/media/team/badge/uuvrvr1473539630.png",
+  "inverness c": "https://r2.thesportsdb.com/images/media/team/badge/swuwuv1447598127.png",
+  "stenhousemuir": "https://r2.thesportsdb.com/images/media/team/badge/bdejub1714843344.png",
+  "livingston": "https://r2.thesportsdb.com/images/media/team/badge/1o38ll1749203191.png",
+  "partick": "https://r2.thesportsdb.com/images/media/team/badge/j801au1705640268.png",
+  "raith rvs": "",
+  "queens park": "https://r2.thesportsdb.com/images/media/team/badge/l4qscx1601721022.png",
+  "alloa": "https://r2.thesportsdb.com/images/media/team/badge/ysppwr1429977136.png",
+  "hamilton": "https://r2.thesportsdb.com/images/media/team/badge/7bwbs11705234363.png",
+  "cove rangers": "https://r2.thesportsdb.com/images/media/team/badge/5248qp1750743516.png",
+  "east fife": "https://r2.thesportsdb.com/images/media/team/badge/omadk81512573133.png"
  }
 }
