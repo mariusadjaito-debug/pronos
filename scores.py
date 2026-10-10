@@ -3,7 +3,8 @@ Aucune installation nécessaire. Utilise la même clé FOOTBALL_DATA_KEY."""
 import json, os, time, urllib.request
 from datetime import datetime, timedelta, timezone
 
-CODES = ["FL1", "PL", "PD", "SA", "BL1", "ELC", "DED", "PPL"]  # les 8 championnats de football-data.org
+CODES = ["FL1", "PL", "PD", "SA", "BL1", "ELC", "DED", "PPL", "CL", "EL"]  # championnats et coupes d'Europe de football-data.org
+OPTIONNELS = {"CL", "EL"}  # si la clé n'y a pas accès, on les ignore sans bloquer le reste
 KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
 STATE = {"IN_PLAY": "live", "PAUSED": "live", "FINISHED": "fin"}
 
@@ -22,7 +23,8 @@ def main():
             data = json.loads(urllib.request.urlopen(req, timeout=30).read().decode("utf-8"))
         except Exception as e:
             print(code, "indisponible :", e)
-            complet = False
+            if code not in OPTIONNELS:
+                complet = False
             continue
         for m in data.get("matches", []):
             st = STATE.get(m.get("status"))
