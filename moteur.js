@@ -14,11 +14,13 @@ const css=`.lm{--c:#4da3ff}.ai.lm{--c:#4da3ff}
 const stl=document.createElement('style');stl.textContent=css;document.head.appendChild(stl);
 
 /* ---------- niveaux, scores, distributions ---------- */
+/* RÉGLAGE : true = lignes d'hier (≈ 66 % et ≈ 85 %, modèle seul) ; false = lignes proches de la moyenne, comparées aux matchs récents */
+const HIER=true;
 const N=10,RHO=-.06,rng=(a,b)=>{const o=[];for(let v=a;v<=b;v++)o.push(v+.5);return o};
 const lv2=p=>{p=Math.round(p*100)/100;return p>=.75?['ok','Très sûr']:p>=.65?['lm','Sûr']:p>=.55?['mid','Modéré']:['bad','Faible']};
 const chip2=p=>{const [c,t]=lv2(p);return `<span class="b ${c}">${P(p)} · ${t}</span>`};
 const cnt=(a,f)=>a.filter(f).length,avg=a=>a.length?a.reduce((s,v)=>s+v,0)/a.length:0;
-const bl=(pm,hits,n)=>{if(n<4)return pm;const w=Math.min(.35,n/40);return(1-w)*pm+w*((hits+1)/(n+2))};
+const bl=(pm,hits,n)=>{if(HIER||n<4)return pm;const w=Math.min(.35,n/40);return(1-w)*pm+w*((hits+1)/(n+2))};
 function grid(x,y,dc){const G=[];let s=0;for(let i=0;i<=N;i++){G[i]=[];for(let j=0;j<=N;j++){let p=pois(i,x)*pois(j,y);if(dc&&i<2&&j<2)p*=i===0&&j===0?1-x*y*RHO:i===0&&j===1?1+x*RHO:i===1&&j===0?1+y*RHO:1-RHO;G[i][j]=p;s+=p}}for(const r of G)for(let j=0;j<=N;j++)r[j]/=s;return G}
 const FC=new Map();
 function fg(m){const o=stOf(m),live=o.s==='live'&&!o.est;let gh=0,ga=0,mn=0;
@@ -31,8 +33,9 @@ function fin(R){if(R.F)return R.F;const{G,gh,ga}=R,T=[],D={},Hd=[],Ad=[],sc=[];l
 for(let i=0;i<=N;i++)for(let j=0;j<=N;j++){const p=G[i][j],fh=gh+i,fa=ga+j;fh>fa?h+=p:fh===fa?d+=p:a+=p;if(fh>0&&fa>0)b+=p;T[fh+fa]=(T[fh+fa]||0)+p;D[fh-fa]=(D[fh-fa]||0)+p;Hd[fh]=(Hd[fh]||0)+p;Ad[fa]=(Ad[fa]||0)+p;sc.push([fh,fa,p])}
 sc.sort((u,v)=>v[2]-u[2]);return R.F={h,d,a,b,T,D,Hd,Ad,sc:sc.slice(0,3),gh,ga}}
 function nbcdf(mu,phi,k){const r=mu/(phi-1),pr=r/(r+mu);let pm=Math.pow(pr,r),c=pm;for(let i=0;i<k;i++){pm*=(i+r)/(i+1)*(1-pr);c+=pm}return Math.min(1,c)}
-const best=(c,mu)=>[c.filter(x=>x.side==='Plus'&&x.line<mu).sort((a,b)=>b.line-a.line)[0],c.filter(x=>x.side==='Moins'&&x.line>mu).sort((a,b)=>a.line-b.line)[0]].filter(Boolean).sort((a,b)=>b.p-a.p)[0]||c.slice().sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
-const safe=c=>c.filter(x=>x.p>=.76&&x.p<=.86).sort((a,b)=>a.p-b.p)[0]||c.filter(x=>x.p>.5&&x.p<=.86).sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
+const nearT=(c,t,lo,hi)=>{let ok=c.filter(x=>x.p>=lo&&x.p<=hi);if(!ok.length)ok=c.filter(x=>x.p>=.5);return ok.sort((a,b)=>Math.abs(a.p-t)-Math.abs(b.p-t))[0]||{side:'Plus',line:.5,p:.5}};
+const best=(c,mu)=>HIER?nearT(c,.66,.58,.76):[c.filter(x=>x.side==='Plus'&&x.line<mu).sort((a,b)=>b.line-a.line)[0],c.filter(x=>x.side==='Moins'&&x.line>mu).sort((a,b)=>a.line-b.line)[0]].filter(Boolean).sort((a,b)=>b.p-a.p)[0]||c.slice().sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
+const safe=c=>HIER?nearT(c,.85,.78,.93):c.filter(x=>x.p>=.76&&x.p<=.86).sort((a,b)=>a.p-b.p)[0]||c.filter(x=>x.p>.5&&x.p<=.86).sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
 const SD={k:{n:'Cart.',i:'🟨',L:rng(0,9),phi:1.15},r:{n:'Corn.',i:'🚩',L:rng(3,17),phi:1.3},c:{n:'Tirs cadrés',i:'🎯',L:rng(1,15),phi:1.3},s:{n:'Tirs totaux',i:'🎯',L:rng(11,40),phi:1.45},f:{n:'Fautes',i:'👊',L:rng(13,37),phi:1.2}};
 const EB={s:25,c:8.6,r:10.2,f:24,k:4};
 function est2(m){const t=m.x+m.y,sc=Math.min(1.15,Math.max(.88,.88+.1*t)),hs=.5+.28*(m.x-m.y)/(t+1.2),o={};
@@ -67,10 +70,10 @@ L.sort((a,b)=>b.s-a.s);return{top:L.slice(0,3),all:L,n:L.length,R,Fn,g,bp}}
 /* ---------- analyse complète d'un match ---------- */
 const FL=s=>[...s].map(c=>`<b style="color:${{V:'#4ade80',N:'#fbbf24',D:'#ff7a7a'}[c]}">${c}</b>`).join('');
 const pc=v=>(v>=0?'+':'')+Math.round(v*100)+' %',a1=(a,i)=>fm(avg(a.map(x=>x[i])).toFixed(1));
-function feat(m){const f=m.f,z=m.z;return `<div class="fb2"><div class="t">📊 Éléments pris en compte</div>Buts attendus : <b>${fm(m.x)}</b> – <b>${fm(m.y)}</b> · 3 modèles combinés : forces d'attaque et de défense + forme, 10 derniers matchs à domicile / à l'extérieur, confrontations directes depuis 2021`
+function feat(m){const f=m.f,z=m.z;return `<div class="fb2"><div class="t">📊 Éléments pris en compte</div>Buts attendus : <b>${fm(m.x)}</b> – <b>${fm(m.y)}</b> · ${HIER?'modèle : forces d\'attaque et de défense, forme (6 derniers matchs), domicile / extérieur (15 derniers), confrontations directes':'3 modèles combinés : forces d\'attaque et de défense + forme, 10 derniers matchs à domicile / à l\'extérieur, confrontations directes depuis 2021'}`
 +(f?`<br>Forme (5 derniers) : <b>${m.h}</b> ${FL(f.fh)} · <b>${m.a}</b> ${FL(f.fa)}`:'')
-+(z&&z.gh&&z.gh.length?`<br>${m.h} à domicile (${z.gh.length} derniers) : <b>${a1(z.gh,0)}</b> buts marqués, <b>${a1(z.gh,1)}</b> encaissés<br>${m.a} à l'extérieur (${z.ga.length} derniers) : <b>${a1(z.ga,0)}</b> marqués, <b>${a1(z.ga,1)}</b> encaissés`:'')
-+(f?`<br>Confrontations directes depuis 2021 : ${f.h2[3]?`${f.h2[0]}V · ${f.h2[1]}N · ${f.h2[2]}D (sur ${f.h2[3]})`:'aucune'}<br>${m.h} : attaque ${pc(f.at[0]-1)} · défense ${pc(1-f.df[0])} · ${m.a} : attaque ${pc(f.at[1]-1)} · défense ${pc(1-f.df[1])}`:'<br>Forme et confrontations directes : disponibles après la prochaine mise à jour des données.')+`</div>`}
++(!HIER&&z&&z.gh&&z.gh.length?`<br>${m.h} à domicile (${z.gh.length} derniers) : <b>${a1(z.gh,0)}</b> buts marqués, <b>${a1(z.gh,1)}</b> encaissés<br>${m.a} à l'extérieur (${z.ga.length} derniers) : <b>${a1(z.ga,0)}</b> marqués, <b>${a1(z.ga,1)}</b> encaissés`:'')
++(f?`<br>Confrontations directes${HIER?'':' depuis 2021'} : ${f.h2[3]?`${f.h2[0]}V · ${f.h2[1]}N · ${f.h2[2]}D (sur ${f.h2[3]})`:'aucune'}<br>${m.h} : attaque ${pc(f.at[0]-1)} · défense ${pc(1-f.df[0])} · ${m.a} : attaque ${pc(f.at[1]-1)} · défense ${pc(1-f.df[1])}`:'<br>Forme et confrontations directes : disponibles après la prochaine mise à jour des données.')+`</div>`}
 function ana2(m){const A=allPicks(m),{R,Fn,g,bp}=A,b=A.top[0]||{t:'Aucun pronostic fiable',p:.5},[bc,bl2]=lv2(b.p),hc=hcap(m,Fn),tg=teamG(m,Fn,R.live);
 const dc=[[m.h+' ou nul',Fn.h+Fn.d],['Nul ou '+m.a,Fn.d+Fn.a],[m.h+' ou '+m.a,Fn.h+Fn.a]].sort((u,v)=>v[1]-u[1])[0],o25=1-(Fn.T.reduce((s,p,t)=>t<3?s+p:s,0));
 const rows0=[[g.main.side+' de '+fm(g.main.line)+' buts',g.main.p],['Plus sûr : '+g.safe.side.toLowerCase()+' de '+fm(g.safe.line)+' buts',g.safe.p],[(o25>=.5?'Plus':'Moins')+' de 2,5 buts (ligne standard)',Math.max(o25,1-o25)],['Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp)],['Double chance : '+dc[0],dc[1]],...hc.map(x=>[x.t,x.p]),...tg.map(x=>[x.t,x.p])].filter(x=>x[1]<.995&&x[1]>.005).sort((p,q)=>q[1]-p[1]);
@@ -85,7 +88,7 @@ const td=(Dd)=>[0,1,2].map(i=>`${i} but${i>1?'s':''} <b>${Math.round((Dd[i]||0)*
 h+=`<div class="st">Buts du match</div><div class="gd">${T.map((p,i)=>`<div><b>${Math.round(p*100)}%</b><i style="height:${Math.round(p/mx*58)+2}px${i===bt?';background:linear-gradient(180deg,#d7ffb0,#4ade80)':''}"></i>${i<4?i:'4+'}</div>`).join('')}</div><div class="tg">${m.h} : ${td(Fn.Hd)}<br>${m.a} : ${td(Fn.Ad)}</div>`;
 if(R.live)return h+`<div class="note">Statistiques détaillées en direct (tirs, corners, cartons) : disponibles dès que la clé complète est branchée.</div>`;
 const rr=rowsOf(m),rows=rr.map(r=>{const[a,c]=r.v;return `<div class="sx ${lv2(r.mn.p)[0]}"><div class="ev"><i>${r.d.i}</i>${r.d.n}</div><span class="nv">${F(a)}</span><span class="nv">${F(c)}</span><div class="pv2 ${lv2(r.mn.p)[0]}">${r.mn.side} de ${fm(r.mn.line)}${r.es?'<span class="es">≈ estimé</span>':''}<small>${Math.round(r.mn.p*100)} % · ${lv2(r.mn.p)[1]}</small><span class="alt2 ${lv2(r.sf.p)[0]}">Plus sûr : ${r.sf.side.toLowerCase()} de ${fm(r.sf.line)} · ${Math.round(r.sf.p*100)} %</span></div></div>`}).join('');
-return h+`<div class="stx"><div class="st">Statistiques attendues · du plus sûr au plus faible</div><div class="sx h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}<div class="sx na"><div class="ev"><i>🚩</i>Hors-jeu</div><span class="nv">–</span><span class="nv">–</span><div class="pv2">Non disponible</div></div><div class="stl"><span class="ok">Très sûr</span><span class="lm">Sûr</span><span class="mid">Modéré</span><span class="bad">Faible</span></div>${rr.some(r=>r.es)?'<div class="esn">≈ estimé : estimation générale, ce championnat n\'a pas de statistiques détaillées</div>':'<div class="esn">Ligne choisie en comparant la moyenne du modèle aux 20 derniers matchs réels des deux équipes</div>'}</div>`}
+return h+`<div class="stx"><div class="st">Statistiques attendues · du plus sûr au plus faible</div><div class="sx h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}<div class="sx na"><div class="ev"><i>🚩</i>Hors-jeu</div><span class="nv">–</span><span class="nv">–</span><div class="pv2">Non disponible</div></div><div class="stl"><span class="ok">Très sûr</span><span class="lm">Sûr</span><span class="mid">Modéré</span><span class="bad">Faible</span></div>${rr.some(r=>r.es)?'<div class="esn">≈ estimé : estimation générale, ce championnat n\'a pas de statistiques détaillées</div>':`<div class="esn">${HIER?'Lignes choisies d\'après la moyenne du modèle (≈ 66 % et ≈ 85 %)':'Ligne choisie en comparant la moyenne du modèle aux 20 derniers matchs réels des deux équipes'}</div>`}</div>`}
 
 /* ---------- carte de match (probabilités recalculées en direct) ---------- */
 let SELC=new Set();const readSel=()=>{try{return new Set(JSON.parse(localStorage.getItem('pronos_sel_v1')||'[]'))}catch(e){return new Set()}};
