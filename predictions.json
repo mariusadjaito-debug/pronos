@@ -1,5 +1,5 @@
 {
- "updated": "10/10/2026 12:42 UTC",
+ "updated": "10/10/2026 13:10 UTC",
  "matches": [
   {
    "l": "Primeira Liga",
@@ -1948,8 +1948,8 @@
    "h": "Instituto",
    "a": "Boca Juniors",
    "d": "2026-10-09T22:30:00Z",
-   "x": 1.06,
-   "y": 1.48,
+   "x": 1.09,
+   "y": 1.45,
    "f": {
     "fh": "VDVVV",
     "fa": "VNVVV",
@@ -1978,15 +1978,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.7
+   "ag": 0.76
   },
   {
    "l": "Argentine",
    "h": "Union de Santa Fe",
    "a": "Defensa y Justicia",
    "d": "2026-10-10T00:45:00Z",
-   "x": 1.61,
-   "y": 1.35,
+   "x": 1.6,
+   "y": 1.36,
    "f": {
     "fh": "VVDDD",
     "fa": "VDVNV",
@@ -2131,15 +2131,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.86
+   "ag": 0.88
   },
   {
    "l": "Mexique",
    "h": "Puebla",
    "a": "Club Leon",
    "d": "2026-10-10T01:00:00Z",
-   "x": 1.14,
-   "y": 1.15,
+   "x": 1.12,
+   "y": 1.17,
    "f": {
     "fh": "DVDND",
     "fa": "NDVNV",
@@ -2284,15 +2284,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.68
+   "ag": 0.74
   },
   {
    "l": "Mexique",
    "h": "Tigres UANL",
    "a": "Toluca",
    "d": "2026-10-10T03:00:00Z",
-   "x": 1.13,
-   "y": 1.1,
+   "x": 1.1,
+   "y": 1.13,
    "f": {
     "fh": "NNNDV",
     "fa": "VVVDN",
@@ -2449,15 +2449,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.55
+   "ag": 0.61
   },
   {
    "l": "Japon",
    "h": "Cerezo Osaka",
    "a": "Yokohama F. Marinos",
    "d": "2026-10-10T05:00:00Z",
-   "x": 1.11,
-   "y": 1.43,
+   "x": 1.15,
+   "y": 1.39,
    "f": {
     "fh": "DVNDN",
     "fa": "DNVNV",
@@ -2598,7 +2598,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.53
+   "ag": 0.59
   },
   {
    "l": "Japon",
@@ -2742,8 +2742,8 @@
    "h": "FC Tokyo",
    "a": "Urawa Reds",
    "d": "2026-10-10T06:00:00Z",
-   "x": 1.86,
-   "y": 1.22,
+   "x": 1.83,
+   "y": 1.25,
    "f": {
     "fh": "VNVVV",
     "fa": "VVVDV",
@@ -2880,15 +2880,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.71
+   "ag": 0.75
   },
   {
    "l": "Japon",
    "h": "Kyoto",
    "a": "Machida",
    "d": "2026-10-10T10:00:00Z",
-   "x": 1.42,
-   "y": 1.7,
+   "x": 1.46,
+   "y": 1.66,
    "f": {
     "fh": "VNDDV",
     "fa": "NVVND",
@@ -3025,15 +3025,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.53
+   "ag": 0.6
   },
   {
    "l": "Turquie",
    "h": "Genclerbirligi",
    "a": "Amedspor",
    "d": "2026-10-10T10:30:00Z",
-   "x": 1.38,
-   "y": 2.17,
+   "x": 1.47,
+   "y": 2.08,
    "f": {
     "fh": "VNDDD",
     "fa": "DVNVV",
@@ -3232,15 +3232,15 @@
      4.7
     ]
    },
-   "ag": 0.38
+   "ag": 0.45
   },
   {
    "l": "Bundesliga 2",
    "h": "Darmstadt",
    "a": "Cottbus",
    "d": "2026-10-10T11:00:00Z",
-   "x": 1.99,
-   "y": 2.13,
+   "x": 2.02,
+   "y": 2.1,
    "f": {
     "fh": "DDDVD",
     "fa": "DDNVN",
@@ -3448,15 +3448,15 @@
      7.71
     ]
    },
-   "ag": 0.56
+   "ag": 0.63
   },
   {
    "l": "Bundesliga 2",
    "h": "Magdeburg",
    "a": "Hannover",
    "d": "2026-10-10T11:00:00Z",
-   "x": 1.4,
-   "y": 1.5,
+   "x": 1.42,
+   "y": 1.48,
    "f": {
     "fh": "VVDVN",
     "fa": "DVNDV",
@@ -3744,15 +3744,15 @@
      5.1
     ]
    },
-   "ag": 0.71
+   "ag": 0.76
   },
   {
    "l": "Bundesliga 2",
    "h": "Osnabruck",
    "a": "Dresden",
    "d": "2026-10-10T11:00:00Z",
-   "x": 1.95,
-   "y": 1.73,
+   "x": 1.96,
+   "y": 1.72,
    "f": {
     "fh": "DVVDN",
     "fa": "VDDND",
@@ -3960,7 +3960,7 @@
      6.17
     ]
    },
-   "ag": 0.8
+   "ag": 0.87
   },
   {
    "l": "Premier League",
@@ -4226,8 +4226,8 @@
    "i": 560593,
    "st": "live",
    "sc": [
-    0,
-    0
+    2,
+    1
    ],
    "e": {
     "s": [
@@ -4816,7 +4816,7 @@
    "i": 561860,
    "st": "live",
    "sc": [
-    0,
+    2,
     1
    ],
    "e": {
@@ -5139,8 +5139,8 @@
    "h": "Notts County",
    "a": "Oxford",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.19,
-   "y": 1.71,
+   "x": 1.27,
+   "y": 1.63,
    "f": {
     "fh": "VNNDD",
     "fa": "VDVVN",
@@ -5285,15 +5285,15 @@
      3.95
     ]
    },
-   "ag": 0.33
+   "ag": 0.39
   },
   {
    "l": "League One",
    "h": "Plymouth",
    "a": "AFC Wimbledon",
    "d": "2026-10-10T11:30:00Z",
-   "x": 2.02,
-   "y": 0.9,
+   "x": 1.99,
+   "y": 0.93,
    "f": {
     "fh": "VVVDV",
     "fa": "DVVNN",
@@ -5573,7 +5573,7 @@
      4.78
     ]
    },
-   "ag": 0.82
+   "ag": 0.86
   },
   {
    "l": "League Two",
@@ -5861,7 +5861,7 @@
      3.57
     ]
    },
-   "ag": 0.96
+   "ag": 0.97
   },
   {
    "l": "League Two",
@@ -6164,8 +6164,8 @@
    "h": "Altrincham",
    "a": "Aldershot",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.64,
-   "y": 1.26,
+   "x": 1.66,
+   "y": 1.24,
    "f": {
     "fh": "VVVVD",
     "fa": "NDVDD",
@@ -6417,15 +6417,15 @@
      2.58
     ]
    },
-   "ag": 0.81
+   "ag": 0.86
   },
   {
    "l": "Conference",
    "h": "Carlisle",
    "a": "Kidderminster",
    "d": "2026-10-10T11:30:00Z",
-   "x": 1.6,
-   "y": 1.1,
+   "x": 1.61,
+   "y": 1.09,
    "f": {
     "fh": "NDDVV",
     "fa": "VNDDN",
@@ -6635,15 +6635,15 @@
      3.12
     ]
    },
-   "ag": 0.86
+   "ag": 0.9
   },
   {
    "l": "Chine",
    "h": "Chengdu Rongcheng",
    "a": "Tianjin Jinmen Tiger",
    "d": "2026-10-10T11:35:00Z",
-   "x": 1.63,
-   "y": 0.93,
+   "x": 1.64,
+   "y": 0.92,
    "f": {
     "fh": "DVDVN",
     "fa": "DNNVV",
@@ -6784,15 +6784,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.94
+   "ag": 0.96
   },
   {
    "l": "Chine",
    "h": "Shanghai Shenhua",
    "a": "Yunnan Yukun",
    "d": "2026-10-10T11:35:00Z",
-   "x": 2.93,
-   "y": 2.09,
+   "x": 2.9,
+   "y": 2.12,
    "f": {
     "fh": "VDVDV",
     "fa": "VVNDV",
@@ -6925,7 +6925,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.8
+   "ag": 0.84
   },
   {
    "l": "La Liga",
@@ -7527,8 +7527,8 @@
    "h": "Nantes",
    "a": "Reims",
    "d": "2026-10-10T12:00:00Z",
-   "x": 1.38,
-   "y": 2.66,
+   "x": 1.52,
+   "y": 2.52,
    "f": {
     "fh": "DNVDV",
     "fa": "VVNVN",
@@ -7736,7 +7736,7 @@
      3.18
     ]
    },
-   "ag": 0.33
+   "ag": 0.39
   },
   {
    "l": "Pologne",
@@ -7885,7 +7885,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.96
   },
   {
    "l": "Serie A",
@@ -8157,8 +8157,11 @@
    "hc": "https://crests.football-data.org/107.png",
    "ac": "https://crests.football-data.org/99.png",
    "i": 558588,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      12.56,
@@ -8188,8 +8191,8 @@
    "h": "Alanyaspor",
    "a": "Erzurumspor",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.54,
-   "y": 0.62,
+   "x": 1.46,
+   "y": 0.7,
    "f": {
     "fh": "VDVNV",
     "fa": "DNVDV",
@@ -8397,15 +8400,15 @@
      2.58
     ]
    },
-   "ag": 0.5
+   "ag": 0.58
   },
   {
    "l": "Turquie",
    "h": "Samsunspor",
    "a": "Trabzonspor",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.14,
-   "y": 1.89,
+   "x": 1.21,
+   "y": 1.82,
    "f": {
     "fh": "VDDDD",
     "fa": "VDVDV",
@@ -8693,15 +8696,15 @@
      4.34
     ]
    },
-   "ag": 0.5
+   "ag": 0.57
   },
   {
    "l": "Serie B",
    "h": "Benevento",
    "a": "Cesena",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.67,
-   "y": 0.9,
+   "x": 1.63,
+   "y": 0.94,
    "f": {
     "fh": "DNDVV",
     "fa": "NVNNN",
@@ -8909,15 +8912,15 @@
      5.1
     ]
    },
-   "ag": 0.69
+   "ag": 0.74
   },
   {
    "l": "Serie B",
    "h": "Empoli",
    "a": "Palermo",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.09,
-   "y": 1.49,
+   "x": 1.08,
+   "y": 1.5,
    "f": {
     "fh": "VDVDD",
     "fa": "VVVNV",
@@ -9197,15 +9200,15 @@
      4.51
     ]
    },
-   "ag": 0.91
+   "ag": 0.94
   },
   {
    "l": "Serie B",
    "h": "Sudtirol",
    "a": "Ascoli",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.0,
-   "y": 0.92,
+   "x": 1.01,
+   "y": 0.91,
    "f": {
     "fh": "VNVNV",
     "fa": "VNVDV",
@@ -9404,15 +9407,15 @@
      5.36
     ]
    },
-   "ag": 0.87
+   "ag": 0.91
   },
   {
    "l": "Serie B",
    "h": "Virtus Entella",
    "a": "Juve Stabia",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.15,
-   "y": 0.87,
+   "x": 1.13,
+   "y": 0.89,
    "f": {
     "fh": "DDNVN",
     "fa": "DVDNN",
@@ -9692,15 +9695,15 @@
      3.99
     ]
    },
-   "ag": 0.77
+   "ag": 0.81
   },
   {
    "l": "Suède",
    "h": "AIK",
    "a": "Brommapojkarna",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.79,
-   "y": 1.33,
+   "x": 1.8,
+   "y": 1.32,
    "f": {
     "fh": "VNDND",
     "fa": "VDVDD",
@@ -9841,15 +9844,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.87
+   "ag": 0.91
   },
   {
    "l": "Suède",
    "h": "GAIS",
    "a": "Sirius",
    "d": "2026-10-10T13:00:00Z",
-   "x": 1.46,
-   "y": 1.1,
+   "x": 1.42,
+   "y": 1.14,
    "f": {
     "fh": "DVNDV",
     "fa": "DDVVV",
@@ -9990,7 +9993,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.58
+   "ag": 0.65
   },
   {
    "l": "Bundesliga",
@@ -31040,7 +31043,7 @@
     ]
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/n64osu1787378903.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png",
+   "ac": "https://crests.football-data.org/851.png",
    "i": null,
    "st": "pre",
    "sc": null,
@@ -52758,7 +52761,7 @@
      ]
     ]
    },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
+   "hc": "https://crests.football-data.org/2016.png",
    "ac": null,
    "i": null,
    "st": "pre",
@@ -66453,6 +66456,78 @@
    "ag": 0.53
   },
   {
+   "l": "Ligue des champions",
+   "h": "RC Lens",
+   "a": "Sporting CP",
+   "d": "2026-10-13T16:45:00Z",
+   "x": 1.38,
+   "y": 1.68,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1630,
+     1775
+    ]
+   },
+   "hc": "https://crests.football-data.org/546.png",
+   "ac": "https://crests.football-data.org/498.png",
+   "i": 575341,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Sabah FK",
+   "a": "Slavia Praha",
+   "d": "2026-10-13T16:45:00Z",
+   "x": 1.54,
+   "y": 1.12,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1426,
+     1380
+    ]
+   },
+   "hc": "https://crests.football-data.org/10233.png",
+   "ac": "https://crests.football-data.org/930.png",
+   "i": 575342,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
    "l": "Championship",
    "h": "Wolverhampton",
    "a": "Bolton",
@@ -68646,6 +68721,330 @@
    "ag": 0.95
   },
   {
+   "l": "Ligue des champions",
+   "h": "Inter",
+   "a": "Club Brugge",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.91,
+   "y": 1.29,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1837,
+     1742
+    ]
+   },
+   "hc": "https://crests.football-data.org/108.png",
+   "ac": "https://crests.football-data.org/851.png",
+   "i": 575343,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Galatasaray",
+   "a": "Barça",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.29,
+   "y": 1.84,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1697,
+     1905
+    ]
+   },
+   "hc": "https://crests.football-data.org/610.png",
+   "ac": "https://crests.football-data.org/81.png",
+   "i": 575344,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Atleti",
+   "a": "Man United",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.62,
+   "y": 1.27,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1728,
+     1701
+    ]
+   },
+   "hc": "https://crests.football-data.org/78.png",
+   "ac": "https://crests.football-data.org/66.png",
+   "i": 575345,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Arsenal",
+   "a": "Lille",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.78,
+   "y": 0.81,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1833,
+     1644
+    ]
+   },
+   "hc": "https://crests.football-data.org/57.png",
+   "ac": "https://crests.football-data.org/521.png",
+   "i": 575346,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Viking",
+   "a": "Bayern",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.45,
+   "y": 1.95,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1696,
+     1894
+    ]
+   },
+   "hc": "https://crests.football-data.org/5720.png",
+   "ac": "https://crests.football-data.org/5.png",
+   "i": 575347,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "RB Leipzig",
+   "a": "PSV",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.53,
+   "y": 1.77,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1646,
+     1775
+    ]
+   },
+   "hc": "https://crests.football-data.org/721.png",
+   "ac": "https://crests.football-data.org/674.png",
+   "i": 575348,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Villarreal",
+   "a": "Napoli",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.49,
+   "y": 1.34,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1692,
+     1718
+    ]
+   },
+   "hc": "https://crests.football-data.org/94.png",
+   "ac": "https://crests.football-data.org/113.png",
+   "i": 575349,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "LASK",
+   "a": "Liverpool",
+   "d": "2026-10-14T16:45:00Z",
+   "x": 1.46,
+   "y": 1.46,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1649,
+     1715
+    ]
+   },
+   "hc": "https://crests.football-data.org/2016.png",
+   "ac": "https://crests.football-data.org/64.png",
+   "i": 575350,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Feyenoord",
+   "a": "Como 1907",
+   "d": "2026-10-14T16:45:00Z",
+   "x": 1.52,
+   "y": 1.43,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1676,
+     1718
+    ]
+   },
+   "hc": "https://crests.football-data.org/675.png",
+   "ac": "https://crests.football-data.org/7397.png",
+   "i": 575351,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
    "l": "Championship",
    "h": "Portsmouth",
    "a": "Sheffield Utd",
@@ -69695,6 +70094,258 @@
     ]
    },
    "ag": 0.39
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Roma",
+   "a": "Real Madrid",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.47,
+   "y": 1.39,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1764,
+     1810
+    ]
+   },
+   "hc": "https://crests.football-data.org/100.png",
+   "ac": "https://crests.football-data.org/86.png",
+   "i": 575352,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Man City",
+   "a": "PSG",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.74,
+   "y": 1.15,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1837,
+     1750
+    ]
+   },
+   "hc": "https://crests.football-data.org/65.png",
+   "ac": "https://crests.football-data.org/524.png",
+   "i": 575353,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Bodø/Glimt",
+   "a": "Dortmund",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.54,
+   "y": 1.53,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1714,
+     1777
+    ]
+   },
+   "hc": "https://crests.football-data.org/5721.png",
+   "ac": "https://crests.football-data.org/4.png",
+   "i": 575354,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Aston Villa",
+   "a": "Fenerbahçe",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.63,
+   "y": 1.44,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1658,
+     1675
+    ]
+   },
+   "hc": "https://crests.football-data.org/58.png",
+   "ac": "https://crests.football-data.org/613.png",
+   "i": 575355,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Real Betis",
+   "a": "Porto",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.3,
+   "y": 1.38,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1691,
+     1778
+    ]
+   },
+   "hc": "https://crests.football-data.org/90.png",
+   "ac": "https://crests.football-data.org/503.png",
+   "i": 575356,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Shaktar",
+   "a": "PAE AEK",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.41,
+   "y": 1.34,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1380,
+     1429
+    ]
+   },
+   "hc": "https://crests.football-data.org/1887.png",
+   "ac": "https://crests.football-data.org/1899.png",
+   "i": 575357,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Sl. Bratislava",
+   "a": "Stuttgart",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.08,
+   "y": 1.92,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1380,
+     1664
+    ]
+   },
+   "hc": "https://crests.football-data.org/7509.png",
+   "ac": "https://crests.football-data.org/10.png",
+   "i": 575358,
+   "st": "pre",
+   "sc": null,
+   "e": {}
   },
   {
    "l": "Eredivisie",
@@ -72546,6 +73197,294 @@
     ]
    },
    "ag": 0.6
+  },
+  {
+   "l": "Serie A",
+   "h": "Venezia FC",
+   "a": "Napoli",
+   "d": "2026-10-17T13:00:00Z",
+   "x": 0.69,
+   "y": 1.81,
+   "f": {
+    "fh": "DDDDD",
+    "fa": "VDDVN",
+    "h2": [
+     0,
+     1,
+     1,
+     2
+    ],
+    "at": [
+     0.74,
+     1.2
+    ],
+    "df": [
+     1.39,
+     0.73
+    ],
+    "n": [
+     10,
+     10
+    ],
+    "elo": [
+     1349,
+     1648
+    ]
+   },
+   "z": {
+    "gh": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      0,
+      2
+     ]
+    ],
+    "ga": [
+     [
+      3,
+      2
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "hm": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "s": [
+     [
+      18,
+      28,
+      19,
+      19,
+      27,
+      9,
+      27,
+      31,
+      29,
+      29
+     ],
+     [
+      26,
+      20,
+      17,
+      24,
+      23,
+      24,
+      14,
+      24,
+      45,
+      30
+     ]
+    ],
+    "c": [
+     [
+      5,
+      11,
+      7,
+      7,
+      4,
+      5,
+      10,
+      12,
+      13,
+      8
+     ],
+     [
+      8,
+      11,
+      7,
+      5,
+      8,
+      6,
+      7,
+      6,
+      15,
+      9
+     ]
+    ],
+    "f": [
+     [
+      33,
+      27,
+      35,
+      40,
+      27,
+      38,
+      28,
+      20,
+      17,
+      22
+     ],
+     [
+      28,
+      19,
+      22,
+      28,
+      12,
+      21,
+      21,
+      18,
+      14,
+      20
+     ]
+    ],
+    "k": [
+     [
+      6,
+      3,
+      5,
+      8,
+      1,
+      5,
+      3,
+      4,
+      3,
+      6
+     ],
+     [
+      6,
+      2,
+      7,
+      4,
+      1,
+      2,
+      4,
+      3,
+      3,
+      3
+     ]
+    ],
+    "r": [
+     [
+      12,
+      11,
+      5,
+      7,
+      9,
+      6,
+      12,
+      8,
+      6,
+      9
+     ],
+     [
+      7,
+      7,
+      7,
+      9,
+      10,
+      5,
+      7,
+      10,
+      15,
+      9
+     ]
+    ]
+   },
+   "hc": "https://crests.football-data.org/454.png",
+   "ac": "https://crests.football-data.org/113.png",
+   "i": 558575,
+   "st": "pre",
+   "sc": null,
+   "e": {
+    "s": [
+     10.84,
+     13.62
+    ],
+    "c": [
+     3.12,
+     5.18
+    ],
+    "f": [
+     11.57,
+     10.53
+    ],
+    "k": [
+     2.08,
+     1.14
+    ],
+    "r": [
+     3.26,
+     5.05
+    ]
+   },
+   "ag": 0.83
   }
  ],
  "crests": {
@@ -72740,12 +73679,12 @@
   "nordsjaelland": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
   "odense": "https://r2.thesportsdb.com/images/media/team/badge/vem69p1657827704.png",
   "brann": "https://r2.thesportsdb.com/images/media/team/badge/ovuad71690695412.png",
-  "viking": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
+  "viking": "https://crests.football-data.org/5720.png",
   "braunschweig": "",
   "holstein kiel": "https://r2.thesportsdb.com/images/media/team/badge/1fpmgs1514394524.png",
   "heidenheim": "https://r2.thesportsdb.com/images/media/team/badge/lbj7g01608236988.png",
   "kaiserslautern": "https://r2.thesportsdb.com/images/media/team/badge/jghax31740165513.png",
-  "galatasaray": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
+  "galatasaray": "https://crests.football-data.org/610.png",
   "kasimpasa": "https://r2.thesportsdb.com/images/media/team/badge/uryxtp1448203236.png",
   "goteborg": "",
   "vasteras sk": "https://r2.thesportsdb.com/images/media/team/badge/mscha61644586515.png",
@@ -72964,7 +73903,7 @@
   "mariehamn": "https://r2.thesportsdb.com/images/media/team/badge/07tzlu1515432319.png",
   "ilves": "https://r2.thesportsdb.com/images/media/team/badge/jhx8vm1578953713.png",
   "raal la louviere": "https://r2.thesportsdb.com/images/media/team/badge/n64osu1787378903.png",
-  "club brugge": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png",
+  "club brugge": "https://crests.football-data.org/851.png",
   "aek": "",
   "ofi crete": "https://r2.thesportsdb.com/images/media/team/badge/02xrl91602773672.png",
   "asteras tripolis": "https://r2.thesportsdb.com/images/media/team/badge/eaf2vb1785777279.png",
@@ -73108,7 +74047,7 @@
   "sarpsborg 08": "https://r2.thesportsdb.com/images/media/team/badge/pxrf831534869388.png",
   "start": "https://r2.thesportsdb.com/images/media/team/badge/7hf7vl1734069002.png",
   "hamkam": "https://r2.thesportsdb.com/images/media/team/badge/zft1oc1639776721.png",
-  "lask": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
+  "lask": "https://crests.football-data.org/2016.png",
   "sk rapid": "",
   "csikszereda m. ciuc": "https://r2.thesportsdb.com/images/media/team/badge/cbjteh1730928843.png",
   "univ. craiova": "",
@@ -73197,6 +74136,14 @@
   "newells old boys": "https://r2.thesportsdb.com/images/media/team/badge/23aftf1580842633.png",
   "chapecoense-sc": "",
   "bragantino": "https://r2.thesportsdb.com/images/media/team/badge/2p7tl41701423595.png",
-  "cruzeiro": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png"
+  "cruzeiro": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
+  "sabah fk": "https://crests.football-data.org/10233.png",
+  "slavia praha": "https://crests.football-data.org/930.png",
+  "bodø/glimt": "https://crests.football-data.org/5721.png",
+  "fenerbahçe": "https://crests.football-data.org/613.png",
+  "shaktar": "https://crests.football-data.org/1887.png",
+  "pae aek": "https://crests.football-data.org/1899.png",
+  "sl. bratislava": "https://crests.football-data.org/7509.png",
+  "__europe": "CL (Ligue des champions) : accès OK · 18 match(s) dans les 7 jours · prochain match : 2026-10-13T16:45:00Z | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 403)"
  }
 }
