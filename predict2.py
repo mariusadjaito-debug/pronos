@@ -1,5 +1,5 @@
 """Moteur de calcul avancé, à lancer à la place de predict.py (python predict2.py).
-Plusieurs modèles travaillent ensemble pour les buts attendus de chaque équipe :
+Deux modèles au choix (réglage MODELE ci-dessous). Le modèle « ensemble » fait travailler ensemble plusieurs modèles pour les buts attendus de chaque équipe :
   A. forces d'attaque / de défense sur plusieurs saisons (qualité de l'adversaire incluse) + forme récente
   B. 10 derniers matchs de l'équipe à domicile, joués à domicile  /  10 derniers matchs de l'équipe visiteuse, joués à l'extérieur
   C. confrontations directes depuis 2021 (10 maximum, jamais complétées avec des zéros)
@@ -10,6 +10,10 @@ import json
 from datetime import datetime, timedelta, timezone
 
 import predict as P
+
+# ---- RÉGLAGE : "hier" = le modèle d'hier (3 saisons, forme, domicile/extérieur sur 15 matchs, confrontations pondérées)
+#                   "ensemble" = le nouveau modèle à 3 sous-modèles (6 saisons, 10 matchs domicile/extérieur, H2H depuis 2021)
+MODELE = "hier"
 
 SINCE = datetime(2021, 1, 1, tzinfo=timezone.utc)
 STATK = [("s", "HS", "AS"), ("c", "HST", "AST"), ("f", "HF", "AF"), ("k", "HY", "AY"), ("r", "HC", "AC")]
@@ -144,6 +148,30 @@ def build2(league, hist, fx, out, now):
             w.append(.15 * min(1, len(hm) / 10)); tx.append(_avg([g[0] for g in hm])); ty.append(_avg([g[1] for g in hm]))
         x = _cl(sum(a_ * b_ for a_, b_ in zip(w, tx)) / sum(w), .2, 4.5)
         y = _cl(sum(a_ * b_ for a_, b_ in zip(w, ty)) / sum(w), .2, 4.5)
+        if MODELE == "hier":  # modèle d'hier, à l'identique
+            x0, y0 = pred("x")
+            vh = [z for z in rh if z[1]["HomeTeam"] == h][-15:]
+            va = [z for z in ra if z[1]["AwayTeam"] == a][-15:]
+            va_h, vd_h = _factors(vh, h, models, 6)
+            va_a, vd_a = _factors(va, a, models, 6)
+            x = x0 * _cl((fa_h ** .35) * (fd_a ** .35) * (va_h ** .4) * (vd_a ** .4), .75, 1.3)
+            y = y0 * _cl((fa_a ** .35) * (fd_h ** .35) * (va_a ** .4) * (vd_h ** .4), .75, 1.3)
+            mt = [z for z in rh if a in (z[1]["HomeTeam"], z[1]["AwayTeam"])][-10:]
+            if len(mt) >= 2:
+                q1 = q2 = q3 = q4 = 0.0
+                for d, r in mt:
+                    wgt = 0.5 ** ((now - d).days / 365)
+                    hg, ag = P.num(r["FTHG"]), P.num(r["FTAG"])
+                    if r["HomeTeam"] == h:
+                        gh_, ga_ = hg, ag
+                        e1, e2 = mh * att.get(h, 1) * dfn.get(a, 1), ma * att.get(a, 1) * dfn.get(h, 1)
+                    else:
+                        gh_, ga_ = ag, hg
+                        e1, e2 = ma * att.get(h, 1) * dfn.get(a, 1), mh * att.get(a, 1) * dfn.get(h, 1)
+                    q1 += wgt * gh_; q2 += wgt * e1; q3 += wgt * ga_; q4 += wgt * e2
+                kk = mh + ma
+                x *= _cl(((q1 + kk) / (q2 + kk)) ** .3, .9, 1.12)
+                y *= _cl(((q3 + kk) / (q4 + kk)) ** .3, .9, 1.12)
         f = {"fh": _letters(rh, h), "fa": _letters(ra, a),
              "h2": [sum(1 for g in hm if g[0] > g[1]), sum(1 for g in hm if g[0] == g[1]), sum(1 for g in hm if g[0] < g[1]), len(hm)],
              "at": [round(att.get(h, 1), 2), round(att.get(a, 1), 2)], "df": [round(dfn.get(h, 1), 2), round(dfn.get(a, 1), 2)],
@@ -175,8 +203,9 @@ def build2(league, hist, fx, out, now):
         out.append(pm)
 
 
-P.seasons = _seasons
-P.load_world = _world
+if MODELE == "ensemble":
+    P.seasons = _seasons
+    P.load_world = _world
 P.MAX_LOOKUPS = 300
 P.build = build2
 
