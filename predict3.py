@@ -4,7 +4,9 @@
   3. les deux écarts de buts sont mélangés (75 % / 25 %), le total de buts reste celui du modèle principal
   4. fatigue : une équipe qui rejoue après 3 jours ou moins perd un peu d'efficacité
   5. indice d'accord : si les deux modèles ne voient pas le match de la même façon, la confiance baisse"""
-from datetime import datetime, timezone
+import json
+import urllib.error
+from datetime import datetime, timedelta, timezone
 
 import predict as P
 import predict2 as V
@@ -16,6 +18,23 @@ OFFSET = {"Premier League": 110, "La Liga": 90, "Serie A": 70, "Bundesliga": 70,
           "Grèce": -60, "Norvège": -60, "Suède": -60, "Pologne": -70, "Russie": -60, "Roumanie": -80, "Irlande": -100, "Finlande": -100}
 EUROPE = [("Ligue des champions", "CL"), ("Ligue Europa", "EL")]
 KNOWN_ALL, SEEN = {}, set()
+DIAG = []  # rapport lisible dans predictions.json (champ « __europe » de « crests »)
+
+
+def _diag(name, code):
+    """Dit si la clé a accès à la compétition et quand est le prochain match (30 jours)."""
+    a = datetime.now(timezone.utc)
+    url = (f"https://api.football-data.org/v4/competitions/{code}/matches"
+           f"?dateFrom={a:%Y-%m-%d}&dateTo={a + timedelta(days=30):%Y-%m-%d}")
+    try:
+        ms = json.loads(P.fetch(url, {"X-Auth-Token": P.KEY})).get("matches", [])
+        nxt = min((m["utcDate"] for m in ms), default=None)
+        proches = sum(1 for m in ms if m["utcDate"] < (a + timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ"))
+        return f"{code} ({name}) : accès OK · {proches} match(s) dans les 7 jours · prochain match : {nxt or 'aucun dans les 30 jours'}"
+    except urllib.error.HTTPError as e:
+        return f"{code} ({name}) : REFUSÉ par la clé (erreur HTTP {e.code})"
+    except Exception as e:
+        return f"{code} ({name}) : erreur {str(e)[:70]}"
 
 
 def _elo(hist):
@@ -70,6 +89,10 @@ def _loaders():
 
 
 def _europe(out, now):
+    DIAG.clear()
+    DIAG.extend(_diag(n, c) for n, c in EUROPE)
+    for line in DIAG:
+        print(line)
     fxs = [(n, P.fixtures(c)) for n, c in EUROPE]
     fxs = [(n, f) for n, f in fxs if f]
     if not fxs:
@@ -107,7 +130,9 @@ def _crests_with_europe(out):
     except Exception as e:
         print("  ! compétitions européennes :", e)
     out.sort(key=lambda m: m["d"])
-    return _orig_crests(out)
+    crests = _orig_crests(out)
+    crests["__europe"] = " | ".join(DIAG) if DIAG else "compétitions européennes : non exécuté"
+    return crests
 
 
 def build3(league, hist, fx, out, now):
