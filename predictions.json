@@ -1,5 +1,5 @@
 {
- "updated": "13/10/2026 20:16 UTC",
+ "updated": "13/10/2026 22:14 UTC",
  "matches": [
   {
    "l": "Argentine",
@@ -2297,10 +2297,10 @@
    "hc": "https://crests.football-data.org/76.png",
    "ac": "https://crests.football-data.org/60.png",
    "i": 561869,
-   "st": "live",
+   "st": "fin",
    "sc": [
     1,
-    1
+    3
    ],
    "e": {
     "s": [
@@ -2588,10 +2588,10 @@
    "hc": "https://crests.football-data.org/404.png",
    "ac": "https://crests.football-data.org/74.png",
    "i": 561870,
-   "st": "live",
+   "st": "fin",
    "sc": [
     1,
-    0
+    2
    ],
    "e": {
     "s": [
@@ -2887,10 +2887,10 @@
    "hc": "https://crests.football-data.org/384.png",
    "ac": "https://crests.football-data.org/72.png",
    "i": 561871,
-   "st": "live",
+   "st": "fin",
    "sc": [
     0,
-    0
+    1
    ],
    "e": {
     "s": [
@@ -3178,10 +3178,10 @@
    "hc": "https://crests.football-data.org/715.png",
    "ac": "https://crests.football-data.org/346.png",
    "i": 561872,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    4,
-    0
+    5,
+    1
    ],
    "e": {
     "s": [
@@ -3460,10 +3460,10 @@
    "hc": "https://crests.football-data.org/328.png",
    "ac": "https://crests.football-data.org/348.png",
    "i": 561873,
-   "st": "live",
+   "st": "fin",
    "sc": [
     2,
-    1
+    2
    ],
    "e": {
     "s": [
@@ -3759,7 +3759,7 @@
    "hc": "https://crests.football-data.org/387.png",
    "ac": "https://crests.football-data.org/59.png",
    "i": 561874,
-   "st": "live",
+   "st": "fin",
    "sc": [
     0,
     1
@@ -3793,8 +3793,8 @@
    "h": "Queens Park",
    "a": "Inverness C",
    "d": "2026-10-13T18:45:00Z",
-   "x": 0.91,
-   "y": 1.54,
+   "x": 0.92,
+   "y": 1.45,
    "f": {
     "fh": "VDDDD",
     "fa": "DVNVV",
@@ -4011,7 +4011,7 @@
      5.42
     ]
    },
-   "ag": 0.64
+   "ag": 0.72
   },
   {
    "l": "Championship",
@@ -4275,9 +4275,9 @@
    "hc": "https://crests.football-data.org/332.png",
    "ac": "https://crests.football-data.org/1081.png",
    "i": 561875,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    3,
+    4,
     0
    ],
    "e": {
@@ -4574,10 +4574,10 @@
    "hc": "https://crests.football-data.org/70.png",
    "ac": "https://crests.football-data.org/343.png",
    "i": 561876,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    1,
-    1
+    2,
+    3
    ],
    "e": {
     "s": [
