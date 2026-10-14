@@ -1,5 +1,5 @@
 {
- "updated": "14/10/2026 08:19 UTC",
+ "updated": "14/10/2026 10:19 UTC",
  "matches": [
   {
    "l": "Serie A",
@@ -3329,8 +3329,8 @@
    "h": "Queens Park",
    "a": "Inverness C",
    "d": "2026-10-13T18:45:00Z",
-   "x": 0.86,
-   "y": 1.18,
+   "x": 0.84,
+   "y": 1.14,
    "f": {
     "fh": "VDDDD",
     "fa": "DVNVV",
@@ -3547,7 +3547,7 @@
      5.42
     ]
    },
-   "ag": 0.96
+   "ag": 0.99
   },
   {
    "l": "Championship",
@@ -27649,6 +27649,6 @@
   "shaktar": "https://crests.football-data.org/1887.png",
   "pae aek": "https://crests.football-data.org/1899.png",
   "sl. bratislava": "https://crests.football-data.org/7509.png",
-  "__europe": "CL (Ligue des champions) : REFUSÉ par la clé (erreur HTTP 429) | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 429)"
+  "__europe": "CL (Ligue des champions) : accès OK · 18 match(s) dans les 7 jours · prochain match : 2026-10-14T16:45:00Z | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 403)"
  }
 }
