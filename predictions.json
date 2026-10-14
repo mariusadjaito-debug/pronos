@@ -1,5 +1,5 @@
 {
- "updated": "14/10/2026 14:18 UTC",
+ "updated": "14/10/2026 16:21 UTC",
  "matches": [
   {
    "l": "Serie A",
@@ -1698,6 +1698,84 @@
    "ag": 0.97
   },
   {
+   "l": "Ligue des champions",
+   "h": "RC Lens",
+   "a": "Sporting CP",
+   "d": "2026-10-13T16:45:00Z",
+   "x": 1.37,
+   "y": 1.69,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1639,
+     1787
+    ]
+   },
+   "hc": "https://crests.football-data.org/546.png",
+   "ac": "https://crests.football-data.org/498.png",
+   "i": 575341,
+   "st": "fin",
+   "sc": [
+    0,
+    2
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Sabah FK",
+   "a": "Slavia Praha",
+   "d": "2026-10-13T16:45:00Z",
+   "x": 1.56,
+   "y": 1.16,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1419,
+     1380
+    ]
+   },
+   "hc": "https://crests.football-data.org/10233.png",
+   "ac": "https://crests.football-data.org/930.png",
+   "i": 575342,
+   "st": "fin",
+   "sc": [
+    2,
+    0
+   ],
+   "e": {}
+  },
+  {
    "l": "Championship",
    "h": "Wolverhampton",
    "a": "Bolton",
@@ -3329,8 +3407,8 @@
    "h": "Queens Park",
    "a": "Inverness C",
    "d": "2026-10-13T18:45:00Z",
-   "x": 0.78,
-   "y": 1.08,
+   "x": 0.76,
+   "y": 1.05,
    "f": {
     "fh": "VDDDD",
     "fa": "DVNVV",
@@ -4138,6 +4216,351 @@
     ]
    },
    "ag": 0.87
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Inter",
+   "a": "Club Brugge",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.9,
+   "y": 1.29,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1840,
+     1747
+    ]
+   },
+   "hc": "https://crests.football-data.org/108.png",
+   "ac": "https://crests.football-data.org/851.png",
+   "i": 575343,
+   "st": "fin",
+   "sc": [
+    3,
+    4
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Galatasaray",
+   "a": "Barça",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.29,
+   "y": 1.83,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1702,
+     1908
+    ]
+   },
+   "hc": "https://crests.football-data.org/610.png",
+   "ac": "https://crests.football-data.org/81.png",
+   "i": 575344,
+   "st": "fin",
+   "sc": [
+    1,
+    4
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Atleti",
+   "a": "Man United",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.65,
+   "y": 1.25,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1735,
+     1695
+    ]
+   },
+   "hc": "https://crests.football-data.org/78.png",
+   "ac": "https://crests.football-data.org/66.png",
+   "i": 575345,
+   "st": "fin",
+   "sc": [
+    2,
+    0
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Arsenal",
+   "a": "Lille",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.79,
+   "y": 0.81,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1837,
+     1647
+    ]
+   },
+   "hc": "https://crests.football-data.org/57.png",
+   "ac": "https://crests.football-data.org/521.png",
+   "i": 575346,
+   "st": "fin",
+   "sc": [
+    3,
+    0
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Viking",
+   "a": "Bayern",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.48,
+   "y": 1.92,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1707,
+     1887
+    ]
+   },
+   "hc": "https://crests.football-data.org/5720.png",
+   "ac": "https://crests.football-data.org/5.png",
+   "i": 575347,
+   "st": "fin",
+   "sc": [
+    3,
+    3
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "RB Leipzig",
+   "a": "PSV",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.54,
+   "y": 1.75,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1660,
+     1779
+    ]
+   },
+   "hc": "https://crests.football-data.org/721.png",
+   "ac": "https://crests.football-data.org/674.png",
+   "i": 575348,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Villarreal",
+   "a": "Napoli",
+   "d": "2026-10-13T19:00:00Z",
+   "x": 1.46,
+   "y": 1.37,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1687,
+     1728
+    ]
+   },
+   "hc": "https://crests.football-data.org/94.png",
+   "ac": "https://crests.football-data.org/113.png",
+   "i": 575349,
+   "st": "fin",
+   "sc": [
+    3,
+    1
+   ],
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "LASK",
+   "a": "Liverpool",
+   "d": "2026-10-14T16:45:00Z",
+   "x": 1.44,
+   "y": 1.48,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1626,
+     1700
+    ]
+   },
+   "hc": "https://crests.football-data.org/2016.png",
+   "ac": "https://crests.football-data.org/64.png",
+   "i": 575350,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Feyenoord",
+   "a": "Como 1907",
+   "d": "2026-10-14T16:45:00Z",
+   "x": 1.52,
+   "y": 1.39,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1686,
+     1717
+    ]
+   },
+   "hc": "https://crests.football-data.org/675.png",
+   "ac": "https://crests.football-data.org/7397.png",
+   "i": 575351,
+   "st": "pre",
+   "sc": null,
+   "e": {}
   },
   {
    "l": "Championship",
@@ -5189,6 +5612,258 @@
     ]
    },
    "ag": 0.32
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Roma",
+   "a": "Real Madrid",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.45,
+   "y": 1.39,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1764,
+     1815
+    ]
+   },
+   "hc": "https://crests.football-data.org/100.png",
+   "ac": "https://crests.football-data.org/86.png",
+   "i": 575352,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Man City",
+   "a": "PSG",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.74,
+   "y": 1.12,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1851,
+     1755
+    ]
+   },
+   "hc": "https://crests.football-data.org/65.png",
+   "ac": "https://crests.football-data.org/524.png",
+   "i": 575353,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Bodø/Glimt",
+   "a": "Dortmund",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.58,
+   "y": 1.53,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1716,
+     1769
+    ]
+   },
+   "hc": "https://crests.football-data.org/5721.png",
+   "ac": "https://crests.football-data.org/4.png",
+   "i": 575354,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Aston Villa",
+   "a": "Fenerbahçe",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.58,
+   "y": 1.44,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1656,
+     1686
+    ]
+   },
+   "hc": "https://crests.football-data.org/58.png",
+   "ac": "https://crests.football-data.org/613.png",
+   "i": 575355,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Real Betis",
+   "a": "Porto",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.34,
+   "y": 1.42,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1699,
+     1782
+    ]
+   },
+   "hc": "https://crests.football-data.org/90.png",
+   "ac": "https://crests.football-data.org/503.png",
+   "i": 575356,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Shaktar",
+   "a": "PAE AEK",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.4,
+   "y": 1.35,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1380,
+     1432
+    ]
+   },
+   "hc": "https://crests.football-data.org/1887.png",
+   "ac": "https://crests.football-data.org/1899.png",
+   "i": 575357,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Sl. Bratislava",
+   "a": "Stuttgart",
+   "d": "2026-10-14T19:00:00Z",
+   "x": 1.05,
+   "y": 1.94,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1380,
+     1677
+    ]
+   },
+   "hc": "https://crests.football-data.org/7509.png",
+   "ac": "https://crests.football-data.org/10.png",
+   "i": 575358,
+   "st": "pre",
+   "sc": null,
+   "e": {}
   },
   {
    "l": "Argentine",
@@ -26776,6 +27451,78 @@
    "ag": 0.83
   },
   {
+   "l": "Ligue des champions",
+   "h": "Sabah FK",
+   "a": "Dortmund",
+   "d": "2026-10-20T16:45:00Z",
+   "x": 0.88,
+   "y": 1.98,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1419,
+     1769
+    ]
+   },
+   "hc": "https://crests.football-data.org/10233.png",
+   "ac": "https://crests.football-data.org/4.png",
+   "i": 575359,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Fenerbahçe",
+   "a": "Slavia Praha",
+   "d": "2026-10-20T16:45:00Z",
+   "x": 2.2,
+   "y": 0.77,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1686,
+     1380
+    ]
+   },
+   "hc": "https://crests.football-data.org/613.png",
+   "ac": "https://crests.football-data.org/930.png",
+   "i": 575360,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
    "l": "Championship",
    "h": "Wolverhampton",
    "a": "Portsmouth",
@@ -26990,6 +27737,582 @@
     ]
    },
    "ag": 0.57
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Man City",
+   "a": "PAE AEK",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 2.32,
+   "y": 0.46,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1851,
+     1432
+    ]
+   },
+   "hc": "https://crests.football-data.org/65.png",
+   "ac": "https://crests.football-data.org/1899.png",
+   "i": 575361,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Stuttgart",
+   "a": "Atleti",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 1.54,
+   "y": 1.52,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1677,
+     1735
+    ]
+   },
+   "hc": "https://crests.football-data.org/10.png",
+   "ac": "https://crests.football-data.org/78.png",
+   "i": 575362,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Liverpool",
+   "a": "Villarreal",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 1.61,
+   "y": 1.31,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1700,
+     1687
+    ]
+   },
+   "hc": "https://crests.football-data.org/64.png",
+   "ac": "https://crests.football-data.org/94.png",
+   "i": 575363,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Roma",
+   "a": "Sl. Bratislava",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 2.24,
+   "y": 0.51,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1764,
+     1380
+    ]
+   },
+   "hc": "https://crests.football-data.org/100.png",
+   "ac": "https://crests.football-data.org/7509.png",
+   "i": 575364,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Porto",
+   "a": "PSV",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 1.67,
+   "y": 1.41,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1782,
+     1779
+    ]
+   },
+   "hc": "https://crests.football-data.org/503.png",
+   "ac": "https://crests.football-data.org/674.png",
+   "i": 575365,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Napoli",
+   "a": "Bodø/Glimt",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 1.61,
+   "y": 1.32,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1728,
+     1716
+    ]
+   },
+   "hc": "https://crests.football-data.org/113.png",
+   "ac": "https://crests.football-data.org/5721.png",
+   "i": 575366,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "PSG",
+   "a": "Barça",
+   "d": "2026-10-20T19:00:00Z",
+   "x": 1.34,
+   "y": 1.68,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1755,
+     1908
+    ]
+   },
+   "hc": "https://crests.football-data.org/524.png",
+   "ac": "https://crests.football-data.org/81.png",
+   "i": 575367,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Como 1907",
+   "a": "Man United",
+   "d": "2026-10-21T16:45:00Z",
+   "x": 1.58,
+   "y": 1.24,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1717,
+     1695
+    ]
+   },
+   "hc": "https://crests.football-data.org/7397.png",
+   "ac": "https://crests.football-data.org/66.png",
+   "i": 575368,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Lille",
+   "a": "Galatasaray",
+   "d": "2026-10-21T16:45:00Z",
+   "x": 1.42,
+   "y": 1.38,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1647,
+     1702
+    ]
+   },
+   "hc": "https://crests.football-data.org/521.png",
+   "ac": "https://crests.football-data.org/610.png",
+   "i": 575369,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Real Madrid",
+   "a": "RB Leipzig",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.93,
+   "y": 1.08,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1815,
+     1660
+    ]
+   },
+   "hc": "https://crests.football-data.org/86.png",
+   "ac": "https://crests.football-data.org/721.png",
+   "i": 575370,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Inter",
+   "a": "Shaktar",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 2.47,
+   "y": 0.45,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1840,
+     1380
+    ]
+   },
+   "hc": "https://crests.football-data.org/108.png",
+   "ac": "https://crests.football-data.org/1887.png",
+   "i": 575371,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Bayern",
+   "a": "Arsenal",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.83,
+   "y": 1.38,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1887,
+     1837
+    ]
+   },
+   "hc": "https://crests.football-data.org/5.png",
+   "ac": "https://crests.football-data.org/57.png",
+   "i": 575372,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Club Brugge",
+   "a": "RC Lens",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.89,
+   "y": 1.23,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1747,
+     1639
+    ]
+   },
+   "hc": "https://crests.football-data.org/851.png",
+   "ac": "https://crests.football-data.org/546.png",
+   "i": 575373,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Aston Villa",
+   "a": "Viking",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.53,
+   "y": 1.48,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1656,
+     1707
+    ]
+   },
+   "hc": "https://crests.football-data.org/58.png",
+   "ac": "https://crests.football-data.org/5720.png",
+   "i": 575374,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Sporting CP",
+   "a": "LASK",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.97,
+   "y": 1.1,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1787,
+     1626
+    ]
+   },
+   "hc": "https://crests.football-data.org/498.png",
+   "ac": "https://crests.football-data.org/2016.png",
+   "i": 575375,
+   "st": "pre",
+   "sc": null,
+   "e": {}
+  },
+  {
+   "l": "Ligue des champions",
+   "h": "Real Betis",
+   "a": "Feyenoord",
+   "d": "2026-10-21T19:00:00Z",
+   "x": 1.63,
+   "y": 1.33,
+   "f": {
+    "fh": "",
+    "fa": "",
+    "h2": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "at": [
+     1,
+     1
+    ],
+    "df": [
+     1,
+     1
+    ],
+    "elo": [
+     1699,
+     1686
+    ]
+   },
+   "hc": "https://crests.football-data.org/90.png",
+   "ac": "https://crests.football-data.org/675.png",
+   "i": 575376,
+   "st": "pre",
+   "sc": null,
+   "e": {}
   }
  ],
  "crests": {
