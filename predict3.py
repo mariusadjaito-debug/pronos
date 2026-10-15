@@ -17,7 +17,8 @@ OFFSET = {"Premier League": 110, "La Liga": 90, "Serie A": 70, "Bundesliga": 70,
           "Belgique": -20, "Autriche": -30, "Turquie": -40, "Danemark": -40, "Suisse": -50, "Championship": -30, "Écosse": -60,
           "Grèce": -60, "Norvège": -60, "Suède": -60, "Pologne": -70, "Russie": -60, "Roumanie": -80, "Irlande": -100, "Finlande": -100}
 EUROPE = [("Ligue des champions", "CL"), ("Ligue Europa", "EL")]
-KNOWN_ALL, SEEN = {}, set()
+FR = {"CL": "Ligue des champions", "EL": "Ligue Europa"}
+KNOWN_ALL, SEEN, STAT_ALL = {}, set(), {}
 DIAG = []  # rapport lisible dans predictions.json (champ « __europe » de « crests »)
 
 
@@ -35,6 +36,19 @@ def _diag(name, code):
         return f"{code} ({name}) : REFUSÉ par la clé (erreur HTTP {e.code})"
     except Exception as e:
         return f"{code} ({name}) : erreur {str(e)[:70]}"
+
+
+def _comps():
+    """Compétitions européennes accessibles avec la clé, découvertes automatiquement."""
+    try:
+        data = json.loads(P.fetch("https://api.football-data.org/v4/competitions", {"X-Auth-Token": P.KEY}))
+        res = [(FR.get(c["code"], c["name"]), c["code"]) for c in data.get("competitions", [])
+               if (c.get("area") or {}).get("code") == "EUR" and c.get("code") not in ("EC", "WC")]
+        if res:
+            return res
+    except Exception as e:
+        print("  ! liste des compétitions :", str(e)[:80])
+    return EUROPE
 
 
 def _elo(hist):
@@ -67,16 +81,29 @@ def _register(league, hist):
     for t, v in R.items():
         last = tots.get(t, [])[-30:]
         KNOWN_ALL[P.norm(t)] = (v + off, sum(last) / len(last) if last else 2.7)
+    st = {}
+    for d, r in sorted(hist, key=lambda z: z[0]):  # statistiques réelles du championnat national de chaque club
+        for k, hc, ac in V.STATK:
+            a, b = P.num(r.get(hc)), P.num(r.get(ac))
+            if a is not None and b is not None:
+                st.setdefault(r["HomeTeam"], {}).setdefault(k, []).append((a, b))
+                st.setdefault(r["AwayTeam"], {}).setdefault(k, []).append((b, a))
+    for t, ks in st.items():
+        STAT_ALL[P.norm(t)] = {k: (sum(x[0] for x in v[-30:]) / len(v[-30:]), sum(x[1] for x in v[-30:]) / len(v[-30:]))
+                               for k, v in ks.items() if len(v) >= 8}
     SEEN.add(league)
 
 
-def _lookup(name):
+def _key(name):
     n = P.norm(name)
     n = P.ALIAS.get(n, n)
     if n in KNOWN_ALL:
-        return KNOWN_ALL[n]
-    k = P.match_team(name, {k: k for k in KNOWN_ALL}) if KNOWN_ALL else None
-    return KNOWN_ALL.get(k)
+        return n
+    return P.match_team(name, {k: k for k in KNOWN_ALL}) if KNOWN_ALL else None
+
+
+def _lookup(name):
+    return KNOWN_ALL.get(_key(name))
 
 
 def _loaders():
@@ -89,11 +116,13 @@ def _loaders():
 
 
 def _europe(out, now):
+    comps = _comps()
     DIAG.clear()
-    DIAG.extend(_diag(n, c) for n, c in EUROPE)
+    DIAG.append("compétitions trouvées : " + ", ".join(c for _, c in comps))
+    DIAG.extend(_diag(n, c) for n, c in comps)
     for line in DIAG:
         print(line)
-    fxs = [(n, P.fixtures(c)) for n, c in EUROPE]
+    fxs = [(n, P.fixtures(c)) for n, c in comps]
     fxs = [(n, f) for n, f in fxs if f]
     if not fxs:
         print("compétitions européennes : aucun match (ou accès refusé par la clé)")
@@ -116,9 +145,15 @@ def _europe(out, now):
             ra, ta = _lookup(m["a"]) or (1380.0, 2.7)
             t = max(2.2, min(3.4, .5 * 2.75 + .5 * (th + ta) / 2))
             gd = (rh + HA - ra) / 260
+            sa, sb = STAT_ALL.get(_key(m["h"])), STAT_ALL.get(_key(m["a"]))
+            e = {}
+            if sa and sb:  # corners, tirs, fautes, cartons attendus d'après les championnats nationaux des deux clubs
+                for k in ("s", "c", "f", "k", "r"):
+                    if k in sa and k in sb:
+                        e[k] = [round((sa[k][0] + sb[k][1]) / 2, 2), round((sb[k][0] + sa[k][1]) / 2, 2)]
             out.append({"l": name, "h": m["hs"], "a": m["as"], "d": m["d"], "x": round(max(.2, (t + gd) / 2), 2), "y": round(max(.2, (t - gd) / 2), 2),
                         "f": {"fh": "", "fa": "", "h2": [0, 0, 0, 0], "at": [1, 1], "df": [1, 1], "elo": [round(rh), round(ra)]},
-                        "hc": m.get("hc"), "ac": m.get("ac"), "i": m.get("i"), "st": m.get("st", "pre"), "sc": m.get("sc"), "e": {}})
+                        "hc": m.get("hc"), "ac": m.get("ac"), "i": m.get("i"), "st": m.get("st", "pre"), "sc": m.get("sc"), "e": e, **({"se": "nat"} if e else {})})
 
 
 _orig_crests = P.add_crests
