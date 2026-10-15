@@ -1,5 +1,5 @@
 {
- "updated": "15/10/2026 00:12 UTC",
+ "updated": "15/10/2026 02:18 UTC",
  "matches": [
   {
    "l": "Championship",
@@ -1677,8 +1677,8 @@
    "h": "Queens Park",
    "a": "Inverness C",
    "d": "2026-10-13T18:45:00Z",
-   "x": 0.68,
-   "y": 0.92,
+   "x": 0.66,
+   "y": 0.89,
    "f": {
     "fh": "VDDDD",
     "fa": "DVNVV",
@@ -1898,7 +1898,7 @@
      5.42
     ]
    },
-   "ag": 0.95
+   "ag": 0.96
   },
   {
    "l": "Championship",
@@ -3601,8 +3601,8 @@
    "h": "Sarmiento Junin",
    "a": "River Plate",
    "d": "2026-10-14T22:00:00Z",
-   "x": 1.2,
-   "y": 1.25,
+   "x": 1.19,
+   "y": 1.23,
    "f": {
     "fh": "DVNDV",
     "fa": "VVVDV",
@@ -3739,15 +3739,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.83
+   "ag": 0.79
   },
   {
    "l": "États-Unis",
    "h": "Columbus Crew",
    "a": "Charlotte",
    "d": "2026-10-14T23:30:00Z",
-   "x": 1.4,
-   "y": 1.29,
+   "x": 1.34,
+   "y": 1.27,
    "f": {
     "fh": "DDVVD",
     "fa": "VNVDV",
@@ -3888,15 +3888,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.68
+   "ag": 0.74
   },
   {
    "l": "États-Unis",
    "h": "DC United",
    "a": "New York Red Bulls",
    "d": "2026-10-14T23:30:00Z",
-   "x": 1.23,
-   "y": 1.29,
+   "x": 1.2,
+   "y": 1.25,
    "f": {
     "fh": "VNDND",
     "fa": "DVVDV",
@@ -4037,15 +4037,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.88
+   "ag": 0.91
   },
   {
    "l": "États-Unis",
    "h": "FC Cincinnati",
    "a": "New England Revolution",
    "d": "2026-10-14T23:30:00Z",
-   "x": 2.07,
-   "y": 1.77,
+   "x": 2.03,
+   "y": 1.7,
    "f": {
     "fh": "DNNDV",
     "fa": "VVVDD",
@@ -4186,15 +4186,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.75
+   "ag": 0.81
   },
   {
    "l": "États-Unis",
    "h": "Inter Miami",
    "a": "New York City",
    "d": "2026-10-14T23:30:00Z",
-   "x": 2.11,
-   "y": 1.3,
+   "x": 2.04,
+   "y": 1.31,
    "f": {
     "fh": "NNNDV",
     "fa": "DVDND",
@@ -4339,15 +4339,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.87
+   "ag": 0.95
   },
   {
    "l": "États-Unis",
    "h": "Chicago Fire",
    "a": "Philadelphia Union",
    "d": "2026-10-15T00:30:00Z",
-   "x": 1.67,
-   "y": 1.88,
+   "x": 1.71,
+   "y": 1.84,
    "f": {
     "fh": "DDVVV",
     "fa": "VVVVV",
@@ -4496,15 +4496,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.47
+   "ag": 0.54
   },
   {
    "l": "États-Unis",
    "h": "FC Dallas",
    "a": "Seattle Sounders",
    "d": "2026-10-15T00:30:00Z",
-   "x": 1.38,
-   "y": 1.33,
+   "x": 1.41,
+   "y": 1.3,
    "f": {
     "fh": "VVNVD",
     "fa": "NVVVV",
@@ -4657,15 +4657,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.38
+   "ag": 0.55
   },
   {
    "l": "États-Unis",
    "h": "Nashville SC",
    "a": "Sporting Kansas City",
    "d": "2026-10-15T00:30:00Z",
-   "x": 3.29,
-   "y": 1.01,
+   "x": 3.18,
+   "y": 1.12,
    "f": {
     "fh": "DNVVV",
     "fa": "VDVDN",
@@ -4785,15 +4785,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.61
+   "ag": 0.68
   },
   {
    "l": "États-Unis",
    "h": "Colorado Rapids",
    "a": "Minnesota United",
    "d": "2026-10-15T01:30:00Z",
-   "x": 2.01,
-   "y": 1.49,
+   "x": 1.97,
+   "y": 1.53,
    "f": {
     "fh": "NVNDN",
     "fa": "DDDDN",
@@ -4934,15 +4934,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.61
+   "ag": 0.68
   },
   {
    "l": "États-Unis",
    "h": "Real Salt Lake",
    "a": "San Jose Earthquakes",
    "d": "2026-10-15T01:30:00Z",
-   "x": 1.4,
-   "y": 1.61,
+   "x": 1.43,
+   "y": 1.58,
    "f": {
     "fh": "DDDVD",
     "fa": "VVNVN",
@@ -5079,7 +5079,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.57
+   "ag": 0.64
   },
   {
    "l": "États-Unis",
