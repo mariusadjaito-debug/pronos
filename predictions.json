@@ -1,5 +1,5 @@
 {
- "updated": "15/10/2026 20:15 UTC",
+ "updated": "15/10/2026 22:15 UTC",
  "matches": [
   {
    "l": "Championship",
@@ -1104,8 +1104,8 @@
    "h": "Sarmiento Junin",
    "a": "River Plate",
    "d": "2026-10-14T22:00:00Z",
-   "x": 0.99,
-   "y": 1.03,
+   "x": 0.97,
+   "y": 1.01,
    "f": {
     "fh": "DVNDV",
     "fa": "VVVDV",
@@ -1249,8 +1249,8 @@
    "h": "Columbus Crew",
    "a": "Charlotte",
    "d": "2026-10-14T23:30:00Z",
-   "x": 0.95,
-   "y": 0.98,
+   "x": 0.92,
+   "y": 0.95,
    "f": {
     "fh": "DDVVD",
     "fa": "VNVDV",
@@ -1398,8 +1398,8 @@
    "h": "DC United",
    "a": "New York Red Bulls",
    "d": "2026-10-14T23:30:00Z",
-   "x": 0.9,
-   "y": 0.91,
+   "x": 0.87,
+   "y": 0.88,
    "f": {
     "fh": "VNDND",
     "fa": "DVVDV",
@@ -1547,8 +1547,8 @@
    "h": "FC Cincinnati",
    "a": "New England Revolution",
    "d": "2026-10-14T23:30:00Z",
-   "x": 1.58,
-   "y": 1.17,
+   "x": 1.54,
+   "y": 1.13,
    "f": {
     "fh": "DNNDV",
     "fa": "VVVDD",
@@ -1696,8 +1696,8 @@
    "h": "Inter Miami",
    "a": "New York City",
    "d": "2026-10-14T23:30:00Z",
-   "x": 1.66,
-   "y": 1.13,
+   "x": 1.64,
+   "y": 1.1,
    "f": {
     "fh": "NNNDV",
     "fa": "DVDND",
@@ -2288,7 +2288,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.97
+   "ag": 0.98
   },
   {
    "l": "États-Unis",
@@ -2746,8 +2746,8 @@
    "h": "Los Angeles Galaxy",
    "a": "Portland Timbers",
    "d": "2026-10-15T02:30:00Z",
-   "x": 1.63,
-   "y": 1.56,
+   "x": 1.61,
+   "y": 1.53,
    "f": {
     "fh": "DNVVD",
     "fa": "NDDDN",
@@ -3036,8 +3036,8 @@
    "h": "Mansfield",
    "a": "Oxford",
    "d": "2026-10-15T19:00:00Z",
-   "x": 1.58,
-   "y": 1.84,
+   "x": 1.64,
+   "y": 1.78,
    "f": {
     "fh": "DDNNV",
     "fa": "DVVNV",
@@ -3254,7 +3254,7 @@
      3.93
     ]
    },
-   "ag": 0.31
+   "ag": 0.38
   },
   {
    "l": "Argentine",
