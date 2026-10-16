@@ -1,5 +1,5 @@
 {
- "updated": "16/10/2026 14:20 UTC",
+ "updated": "16/10/2026 16:17 UTC",
  "matches": [
   {
    "l": "Championship",
@@ -3293,7 +3293,7 @@
      3.93
     ]
    },
-   "ag": 0.92
+   "ag": 0.96
   },
   {
    "l": "Argentine",
@@ -3593,8 +3593,8 @@
    "h": "Otelul",
    "a": "Csikszereda M. Ciuc",
    "d": "2026-10-16T15:00:00Z",
-   "x": 1.95,
-   "y": 0.94,
+   "x": 1.9,
+   "y": 0.99,
    "f": {
     "fh": "NDDDD",
     "fa": "DDDDD",
@@ -3727,15 +3727,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.69
+   "ag": 0.74
   },
   {
    "l": "Pologne",
    "h": "Wieczysta Krakow",
    "a": "Rakow",
    "d": "2026-10-16T16:00:00Z",
-   "x": 1.97,
-   "y": 1.6,
+   "x": 1.94,
+   "y": 1.63,
    "f": {
     "fh": "NDNVD",
     "fa": "DVDDD",
@@ -3827,7 +3827,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.72
+   "ag": 0.77
   },
   {
    "l": "Bundesliga 2",
