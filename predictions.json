@@ -1,5 +1,5 @@
 {
- "updated": "16/10/2026 10:19 UTC",
+ "updated": "16/10/2026 12:17 UTC",
  "matches": [
   {
    "l": "Championship",
@@ -3075,8 +3075,8 @@
    "h": "Mansfield",
    "a": "Oxford",
    "d": "2026-10-15T19:00:00Z",
-   "x": 1.78,
-   "y": 1.64,
+   "x": 1.79,
+   "y": 1.63,
    "f": {
     "fh": "DDNNV",
     "fa": "DVVNV",
@@ -3293,7 +3293,7 @@
      3.93
     ]
    },
-   "ag": 0.85
+   "ag": 0.89
   },
   {
    "l": "Argentine",
@@ -3444,8 +3444,8 @@
    "h": "Henan Songshan Longmen",
    "a": "Tianjin Jinmen Tiger",
    "d": "2026-10-16T11:35:00Z",
-   "x": 1.12,
-   "y": 1.07,
+   "x": 1.13,
+   "y": 1.06,
    "f": {
     "fh": "NNNNN",
     "fa": "NNVVV",
@@ -3586,7 +3586,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.87
+   "ag": 0.91
   },
   {
    "l": "Roumanie",
