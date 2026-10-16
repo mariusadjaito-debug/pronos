@@ -1,0 +1,22 @@
+name: Test sur le passé
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rejouer le passé
+        run: python backtest.py
+      - name: Enregistrer le rapport
+        run: |
+          git config user.name "pronos-bot"
+          git config user.email "pronos-bot@users.noreply.github.com"
+          git add rapport.txt calibration.json
+          git diff --staged --quiet || (git commit -m "Rapport de test sur le passé" && git pull --rebase origin main && git push)
