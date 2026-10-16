@@ -1,154 +1,6 @@
 {
- "updated": "16/10/2026 20:11 UTC",
+ "updated": "16/10/2026 22:16 UTC",
  "matches": [
-  {
-   "l": "Argentine",
-   "h": "Sarmiento Junin",
-   "a": "River Plate",
-   "d": "2026-10-14T22:00:00Z",
-   "x": 0.9,
-   "y": 0.95,
-   "f": {
-    "fh": "DVNDV",
-    "fa": "VVVDV",
-    "h2": [
-     1,
-     1,
-     2,
-     4
-    ],
-    "at": [
-     1.02,
-     1.31
-    ],
-    "df": [
-     1.21,
-     0.89
-    ],
-    "n": [
-     10,
-     10
-    ],
-    "elo": [
-     1474,
-     1582
-    ]
-   },
-   "z": {
-    "gh": [
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      2,
-      3
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      1,
-      1
-     ]
-    ],
-    "ga": [
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      2,
-      1
-     ]
-    ],
-    "hm": [
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      2
-     ]
-    ]
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/xxofu71677634191.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
-   "i": null,
-   "st": "fin",
-   "sc": [
-    1,
-    1
-   ],
-   "e": {},
-   "ag": 0.77
-  },
   {
    "l": "États-Unis",
    "h": "Columbus Crew",
@@ -2495,8 +2347,8 @@
    "h": "Otelul",
    "a": "Csikszereda M. Ciuc",
    "d": "2026-10-16T15:00:00Z",
-   "x": 1.83,
-   "y": 1.06,
+   "x": 1.81,
+   "y": 1.08,
    "f": {
     "fh": "NDDDD",
     "fa": "DDDDD",
@@ -2629,15 +2481,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.84
+   "ag": 0.88
   },
   {
    "l": "Pologne",
    "h": "Wieczysta Krakow",
    "a": "Rakow",
    "d": "2026-10-16T16:00:00Z",
-   "x": 1.91,
-   "y": 1.66,
+   "x": 1.9,
+   "y": 1.67,
    "f": {
     "fh": "NDNVD",
     "fa": "DVDDD",
@@ -2729,7 +2581,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.86
+   "ag": 0.89
   },
   {
    "l": "Bundesliga 2",
@@ -2952,8 +2804,8 @@
    "h": "Holstein Kiel",
    "a": "Hertha",
    "d": "2026-10-16T16:30:00Z",
-   "x": 1.2,
-   "y": 1.52,
+   "x": 1.21,
+   "y": 1.51,
    "f": {
     "fh": "DNDND",
     "fa": "VVVVV",
@@ -3233,15 +3085,15 @@
      4.49
     ]
    },
-   "ag": 0.91
+   "ag": 0.94
   },
   {
    "l": "Turquie",
    "h": "Corum",
    "a": "Rizespor",
    "d": "2026-10-16T17:00:00Z",
-   "x": 2.15,
-   "y": 1.5,
+   "x": 2.11,
+   "y": 1.54,
    "f": {
     "fh": "DVVDV",
     "fa": "VDVND",
@@ -3449,7 +3301,7 @@
      4.69
     ]
    },
-   "ag": 0.69
+   "ag": 0.75
   },
   {
    "l": "Danemark",
@@ -3564,8 +3416,8 @@
    "h": "Brommapojkarna",
    "a": "Djurgarden",
    "d": "2026-10-16T17:00:00Z",
-   "x": 1.09,
-   "y": 1.89,
+   "x": 1.13,
+   "y": 1.85,
    "f": {
     "fh": "DVDDV",
     "fa": "VVVDV",
@@ -3710,15 +3562,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.69
+   "ag": 0.75
   },
   {
    "l": "Autriche",
    "h": "SK Rapid",
    "a": "Hartberg",
    "d": "2026-10-16T17:30:00Z",
-   "x": 1.91,
-   "y": 1.24,
+   "x": 1.89,
+   "y": 1.26,
    "f": {
     "fh": "VDVVV",
     "fa": "VVNNV",
@@ -3875,7 +3727,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.83
+   "ag": 0.88
   },
   {
    "l": "Eredivisie",
@@ -4173,8 +4025,8 @@
    "h": "Annecy",
    "a": "Nancy",
    "d": "2026-10-16T18:00:00Z",
-   "x": 1.45,
-   "y": 0.95,
+   "x": 1.46,
+   "y": 0.94,
    "f": {
     "fh": "NVDDV",
     "fa": "VDDVV",
@@ -4454,15 +4306,15 @@
      3.77
     ]
    },
-   "ag": 0.9
+   "ag": 0.92
   },
   {
    "l": "Ligue 2",
    "h": "Grenoble",
    "a": "Boulogne",
    "d": "2026-10-16T18:00:00Z",
-   "x": 0.9,
-   "y": 0.62,
+   "x": 0.92,
+   "y": 0.6,
    "f": {
     "fh": "VDVND",
     "fa": "NNNDN",
@@ -4742,7 +4594,7 @@
      4.63
     ]
    },
-   "ag": 0.77
+   "ag": 0.83
   },
   {
    "l": "Ligue 2",
@@ -5045,8 +4897,8 @@
    "h": "Laval",
    "a": "Clermont",
    "d": "2026-10-16T18:00:00Z",
-   "x": 1.24,
-   "y": 1.25,
+   "x": 1.27,
+   "y": 1.22,
    "f": {
     "fh": "DDDND",
     "fa": "NNNND",
@@ -5334,15 +5186,15 @@
      4.17
     ]
    },
-   "ag": 0.51
+   "ag": 0.57
   },
   {
    "l": "Ligue 2",
    "h": "Reims",
    "a": "Dijon",
    "d": "2026-10-16T18:00:00Z",
-   "x": 2.07,
-   "y": 1.47,
+   "x": 2.06,
+   "y": 1.48,
    "f": {
     "fh": "VNVNN",
     "fa": "DNVVV",
@@ -5559,15 +5411,15 @@
      2.68
     ]
    },
-   "ag": 0.92
+   "ag": 0.94
   },
   {
    "l": "Roumanie",
    "h": "Dinamo Bucuresti",
    "a": "FC Botosani",
    "d": "2026-10-16T18:00:00Z",
-   "x": 2.06,
-   "y": 0.96,
+   "x": 2.01,
+   "y": 1.01,
    "f": {
     "fh": "NVVVV",
     "fa": "NVNDV",
@@ -5687,7 +5539,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.7
+   "ag": 0.75
   },
   {
    "l": "Bundesliga",
@@ -5951,9 +5803,9 @@
    "hc": "https://crests.football-data.org/19.png",
    "ac": "https://crests.football-data.org/1.png",
    "i": 565828,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
+    1,
     0
    ],
    "e": {
@@ -5985,8 +5837,8 @@
    "h": "Verona",
    "a": "Catanzaro",
    "d": "2026-10-16T18:30:00Z",
-   "x": 2.52,
-   "y": 1.77,
+   "x": 2.46,
+   "y": 1.83,
    "f": {
     "fh": "NVDVD",
     "fa": "DDVDD",
@@ -6194,15 +6046,15 @@
      2.64
     ]
    },
-   "ag": 0.53
+   "ag": 0.6
   },
   {
    "l": "La Liga 2",
    "h": "Leganes",
    "a": "Cordoba",
    "d": "2026-10-16T18:30:00Z",
-   "x": 1.41,
-   "y": 1.41,
+   "x": 1.43,
+   "y": 1.39,
    "f": {
     "fh": "DVDDD",
     "fa": "DVDVD",
@@ -6482,7 +6334,7 @@
      5.85
     ]
    },
-   "ag": 0.65
+   "ag": 0.7
   },
   {
    "l": "Écosse Championship",
@@ -6805,8 +6657,8 @@
    "h": "Widzew Lodz",
    "a": "Wisla",
    "d": "2026-10-16T18:30:00Z",
-   "x": 1.4,
-   "y": 1.43,
+   "x": 1.41,
+   "y": 1.42,
    "f": {
     "fh": "DNNND",
     "fa": "VNVVD",
@@ -6906,7 +6758,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.75
+   "ag": 0.8
   },
   {
    "l": "Ligue 1",
@@ -7098,10 +6950,10 @@
    "hc": "https://crests.football-data.org/535.png",
    "ac": "https://crests.football-data.org/511.png",
    "i": 559661,
-   "st": "live",
+   "st": "fin",
    "sc": [
     0,
-    2
+    3
    ],
    "e": {
     "s": [
@@ -7317,7 +7169,7 @@
    "hc": "https://crests.football-data.org/470.png",
    "ac": "https://crests.football-data.org/471.png",
    "i": 558573,
-   "st": "live",
+   "st": "fin",
    "sc": [
     4,
     2
@@ -7520,8 +7372,8 @@
    "h": "Drogheda",
    "a": "Derry City",
    "d": "2026-10-16T18:45:00Z",
-   "x": 1.32,
-   "y": 1.57,
+   "x": 1.33,
+   "y": 1.56,
    "f": {
     "fh": "DVVDD",
     "fa": "DNVNV",
@@ -7682,15 +7534,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.89
+   "ag": 0.91
   },
   {
    "l": "Irlande",
    "h": "Galway",
    "a": "Shamrock Rovers",
    "d": "2026-10-16T18:45:00Z",
-   "x": 1.08,
-   "y": 1.53,
+   "x": 1.09,
+   "y": 1.52,
    "f": {
     "fh": "NDVDN",
     "fa": "NDVVV",
@@ -7851,7 +7703,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.95
   },
   {
    "l": "La Liga",
@@ -8052,10 +7904,10 @@
    "hc": "https://crests.football-data.org/560.png",
    "ac": "https://crests.football-data.org/88.png",
    "i": 564716,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
-    0
+    1,
+    1
    ],
    "e": {
     "s": [
@@ -8289,10 +8141,10 @@
    "hc": "https://crests.football-data.org/328.png",
    "ac": "https://crests.football-data.org/76.png",
    "i": 561883,
-   "st": "live",
+   "st": "fin",
    "sc": [
     1,
-    1
+    2
    ],
    "e": {
     "s": [
@@ -8323,8 +8175,8 @@
    "h": "St. Patricks",
    "a": "Shelbourne",
    "d": "2026-10-16T19:00:00Z",
-   "x": 1.43,
-   "y": 0.8,
+   "x": 1.42,
+   "y": 0.81,
    "f": {
     "fh": "VDVVV",
     "fa": "DDVNV",
@@ -8485,7 +8337,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.94
   },
   {
    "l": "Argentine",
