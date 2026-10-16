@@ -1,0 +1,50 @@
+RAPPORT DE TEST SUR LE PASSÉ
+16/10/2026 07:20 UTC
+
+Matchs testés : 3348 (championnats : Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Championship, Eredivisie, Primeira Liga)
+
+1) Mémoire et incertitude (perte moyenne, plus bas = mieux) :
+   mémoire 180 j, incertitude 0.3 : 4.2814   <= meilleur choix
+   mémoire 365 j, incertitude 0.3 : 4.2825
+   mémoire 180 j, incertitude 0.2 : 4.2827
+   mémoire 365 j, incertitude 0.2 : 4.2839
+   mémoire 180 j, incertitude 0.1 : 4.2840
+   mémoire 180 j, incertitude 0.0 : 4.2845
+   mémoire 365 j, incertitude 0.1 : 4.2852
+   mémoire 730 j, incertitude 0.3 : 4.2855
+   mémoire 365 j, incertitude 0.0 : 4.2856
+   mémoire 730 j, incertitude 0.2 : 4.2870
+   mémoire 730 j, incertitude 0.1 : 4.2883
+   mémoire 730 j, incertitude 0.0 : 4.2888
+
+2) Pourcentage annoncé / réussite réelle des marchés de buts (réglage retenu) :
+   annoncé   52 %  ->  réel   54 %   (3979 pronostics)
+   annoncé   57 %  ->  réel   57 %   (3550 pronostics)
+   annoncé   62 %  ->  réel   61 %   (3064 pronostics)
+   annoncé   67 %  ->  réel   67 %   (2772 pronostics)
+   annoncé   73 %  ->  réel   74 %   (3588 pronostics)
+   annoncé   77 %  ->  réel   76 %   (3608 pronostics)
+   annoncé   82 %  ->  réel   80 %   (1800 pronostics)
+   annoncé   87 %  ->  réel   85 %   (782 pronostics)
+   annoncé   92 %  ->  réel   94 %   (293 pronostics)
+
+3) Statistiques : dispersion qui colle le mieux aux matchs réels :
+   tirs totaux : 1.1
+   tirs cadrés : 1.1
+   fautes : 1.4
+   cartons : 1.1
+   corners : 1.1
+
+4) Lignes choisies comme dans l'application : annoncé et réel
+   tirs totaux, ligne principale : annoncé 67 %  ->  réel 66 %  (3147 pronostics)
+   tirs totaux, ligne « plus sûre » : annoncé 85 %  ->  réel 82 %  (3147 pronostics)
+   tirs cadrés, ligne principale : annoncé 66 %  ->  réel 67 %  (3147 pronostics)
+   tirs cadrés, ligne « plus sûre » : annoncé 85 %  ->  réel 84 %  (3147 pronostics)
+   fautes, ligne principale : annoncé 66 %  ->  réel 67 %  (3147 pronostics)
+   fautes, ligne « plus sûre » : annoncé 85 %  ->  réel 86 %  (3147 pronostics)
+   cartons, ligne principale : annoncé 65 %  ->  réel 66 %  (3146 pronostics)
+   cartons, ligne « plus sûre » : annoncé 85 %  ->  réel 86 %  (3147 pronostics)
+   corners, ligne principale : annoncé 65 %  ->  réel 63 %  (3147 pronostics)
+   corners, ligne « plus sûre » : annoncé 85 %  ->  réel 83 %  (3147 pronostics)
+
+Réglage retenu : mémoire 180 jours, incertitude 0.3.
