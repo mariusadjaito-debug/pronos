@@ -1,5 +1,5 @@
 {
- "updated": "17/10/2026 08:11 UTC",
+ "updated": "17/10/2026 10:12 UTC",
  "matches": [
   {
    "l": "League One",
@@ -1269,8 +1269,8 @@
    "h": "Corum",
    "a": "Rizespor",
    "d": "2026-10-16T17:00:00Z",
-   "x": 2.03,
-   "y": 1.62,
+   "x": 2.02,
+   "y": 1.63,
    "f": {
     "fh": "DVVDV",
     "fa": "VDVND",
@@ -1478,7 +1478,7 @@
      4.69
     ]
    },
-   "ag": 0.93
+   "ag": 0.95
   },
   {
    "l": "Danemark",
@@ -1593,8 +1593,8 @@
    "h": "Brommapojkarna",
    "a": "Djurgarden",
    "d": "2026-10-16T17:00:00Z",
-   "x": 1.22,
-   "y": 1.76,
+   "x": 1.23,
+   "y": 1.75,
    "f": {
     "fh": "DVDDV",
     "fa": "VVVDV",
@@ -1739,7 +1739,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.93
   },
   {
    "l": "Autriche",
@@ -3363,7 +3363,7 @@
      4.17
     ]
    },
-   "ag": 0.91
+   "ag": 0.94
   },
   {
    "l": "Ligue 2",
@@ -3595,8 +3595,8 @@
    "h": "Dinamo Bucuresti",
    "a": "FC Botosani",
    "d": "2026-10-16T18:00:00Z",
-   "x": 1.9,
-   "y": 1.12,
+   "x": 1.89,
+   "y": 1.13,
    "f": {
     "fh": "NVVVV",
     "fa": "NVNDV",
@@ -3716,7 +3716,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.94
   },
   {
    "l": "Bundesliga",
@@ -3980,11 +3980,8 @@
    "hc": "https://crests.football-data.org/19.png",
    "ac": "https://crests.football-data.org/1.png",
    "i": 565828,
-   "st": "fin",
-   "sc": [
-    1,
-    0
-   ],
+   "st": "pre",
+   "sc": null,
    "e": {
     "s": [
      14.8,
@@ -4014,8 +4011,8 @@
    "h": "Verona",
    "a": "Catanzaro",
    "d": "2026-10-16T18:30:00Z",
-   "x": 2.31,
-   "y": 1.98,
+   "x": 2.3,
+   "y": 1.99,
    "f": {
     "fh": "NVDVD",
     "fa": "DDVDD",
@@ -4223,7 +4220,7 @@
      2.64
     ]
    },
-   "ag": 0.88
+   "ag": 0.9
   },
   {
    "l": "La Liga 2",
@@ -5127,8 +5124,11 @@
    "hc": "https://crests.football-data.org/535.png",
    "ac": "https://crests.football-data.org/511.png",
    "i": 559661,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    3
+   ],
    "e": {
     "s": [
      12.08,
@@ -6789,7 +6789,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.94
+   "ag": 0.96
   },
   {
    "l": "Argentine",
@@ -7090,8 +7090,8 @@
    "h": "Atlante",
    "a": "UNAM Pumas",
    "d": "2026-10-17T03:00:00Z",
-   "x": 1.42,
-   "y": 1.5,
+   "x": 1.43,
+   "y": 1.49,
    "f": {
     "fh": "NDNVD",
     "fa": "VDNDN",
@@ -7191,15 +7191,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.85
+   "ag": 0.87
   },
   {
    "l": "Mexique",
    "h": "Club Tijuana",
    "a": "Puebla",
    "d": "2026-10-17T03:05:00Z",
-   "x": 1.54,
-   "y": 0.71,
+   "x": 1.55,
+   "y": 0.7,
    "f": {
     "fh": "VDNDN",
     "fa": "VDNDN",
@@ -7340,7 +7340,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.93
   },
   {
    "l": "Japon",
@@ -7477,15 +7477,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.94
+   "ag": 0.97
   },
   {
    "l": "Japon",
    "h": "Chiba",
    "a": "Yokohama F. Marinos",
    "d": "2026-10-17T05:00:00Z",
-   "x": 1.1,
-   "y": 1.66,
+   "x": 1.14,
+   "y": 1.62,
    "f": {
     "fh": "DVNDN",
     "fa": "NVNVN",
@@ -7581,15 +7581,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.59
+   "ag": 0.66
   },
   {
    "l": "Japon",
    "h": "Sanfrecce Hiroshima",
    "a": "Kyoto",
    "d": "2026-10-17T05:00:00Z",
-   "x": 1.73,
-   "y": 0.93,
+   "x": 1.72,
+   "y": 0.94,
    "f": {
     "fh": "VDVVV",
     "fa": "NDDVD",
@@ -7726,15 +7726,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.93
   },
   {
    "l": "Japon",
    "h": "Verdy",
    "a": "FC Tokyo",
    "d": "2026-10-17T05:00:00Z",
-   "x": 0.65,
-   "y": 1.19,
+   "x": 0.67,
+   "y": 1.17,
    "f": {
     "fh": "DNNDD",
     "fa": "NVVVV",
@@ -7871,7 +7871,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.8
+   "ag": 0.84
   },
   {
    "l": "Japon",
@@ -8016,15 +8016,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.95
   },
   {
    "l": "Japon",
    "h": "Kashima Antlers",
    "a": "V-Varen Nagasaki",
    "d": "2026-10-17T06:00:00Z",
-   "x": 2.31,
-   "y": 1.17,
+   "x": 2.28,
+   "y": 1.2,
    "f": {
     "fh": "DDDNV",
     "fa": "NDVNN",
@@ -8120,15 +8120,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.8
+   "ag": 0.83
   },
   {
    "l": "Japon",
    "h": "Mito",
    "a": "Urawa Reds",
    "d": "2026-10-17T07:00:00Z",
-   "x": 1.74,
-   "y": 1.47,
+   "x": 1.73,
+   "y": 1.48,
    "f": {
     "fh": "VNDDD",
     "fa": "VVDVD",
@@ -8228,15 +8228,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.84
+   "ag": 0.88
   },
   {
    "l": "Japon",
    "h": "Kashiwa Reysol",
    "a": "Nagoya Grampus",
    "d": "2026-10-17T10:00:00Z",
-   "x": 2.11,
-   "y": 0.92,
+   "x": 2.09,
+   "y": 0.94,
    "f": {
     "fh": "DDVVV",
     "fa": "DDDDV",
@@ -8377,7 +8377,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.89
+   "ag": 0.91
   },
   {
    "l": "Turquie",
