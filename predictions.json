@@ -1,5 +1,5 @@
 {
- "updated": "18/10/2026 08:12 UTC",
+ "updated": "18/10/2026 10:12 UTC",
  "matches": [
   {
    "l": "Chine",
@@ -8961,7 +8961,7 @@
      5.37
     ]
    },
-   "ag": 0.93
+   "ag": 0.96
   },
   {
    "l": "Finlande",
@@ -13716,8 +13716,11 @@
    "hc": "https://crests.football-data.org/454.png",
    "ac": "https://crests.football-data.org/113.png",
    "i": 558575,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      11.49,
@@ -13747,8 +13750,8 @@
    "h": "Amedspor",
    "a": "Konyaspor",
    "d": "2026-10-17T13:00:00Z",
-   "x": 2.24,
-   "y": 1.62,
+   "x": 2.23,
+   "y": 1.63,
    "f": {
     "fh": "VNVVN",
     "fa": "DDVNN",
@@ -13965,7 +13968,7 @@
      4.19
     ]
    },
-   "ag": 0.92
+   "ag": 0.93
   },
   {
    "l": "Turquie",
@@ -14476,8 +14479,8 @@
    "h": "Benevento",
    "a": "Vicenza",
    "d": "2026-10-17T13:00:00Z",
-   "x": 1.71,
-   "y": 1.24,
+   "x": 1.7,
+   "y": 1.25,
    "f": {
     "fh": "NDVVV",
     "fa": "DNNDD",
@@ -14631,7 +14634,7 @@
      7.06
     ]
    },
-   "ag": 0.93
+   "ag": 0.95
   },
   {
    "l": "Serie B",
@@ -22794,8 +22797,8 @@
    "h": "Stockport",
    "a": "Bromley",
    "d": "2026-10-17T14:00:00Z",
-   "x": 2.7,
-   "y": 1.83,
+   "x": 2.69,
+   "y": 1.84,
    "f": {
     "fh": "VDNVV",
     "fa": "DDNVD",
@@ -23012,7 +23015,7 @@
      2.6
     ]
    },
-   "ag": 0.94
+   "ag": 0.95
   },
   {
    "l": "League One",
@@ -27819,7 +27822,7 @@
      2.53
     ]
    },
-   "ag": 0.96
+   "ag": 0.98
   },
   {
    "l": "Écosse League One",
@@ -28126,8 +28129,8 @@
    "h": "Queen of Sth",
    "a": "Ross County",
    "d": "2026-10-17T14:00:00Z",
-   "x": 2.24,
-   "y": 2.5,
+   "x": 2.25,
+   "y": 2.49,
    "f": {
     "fh": "NDDVV",
     "fa": "NVVVV",
@@ -28358,7 +28361,7 @@
      6.47
     ]
    },
-   "ag": 0.82
+   "ag": 0.86
   },
   {
    "l": "Écosse League Two",
@@ -30810,8 +30813,11 @@
    "hc": "https://crests.football-data.org/680.png",
    "ac": "https://crests.football-data.org/674.png",
    "i": 558871,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      10.01,
@@ -30841,8 +30847,8 @@
    "h": "A. Lustenau",
    "a": "LASK",
    "d": "2026-10-17T15:00:00Z",
-   "x": 1.68,
-   "y": 2.35,
+   "x": 1.69,
+   "y": 2.34,
    "f": {
     "fh": "NDDVD",
     "fa": "VVDND",
@@ -30967,7 +30973,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.94
+   "ag": 0.95
   },
   {
    "l": "Finlande",
@@ -32293,8 +32299,11 @@
    "hc": "https://crests.football-data.org/103.png",
    "ac": "https://crests.football-data.org/108.png",
    "i": 558571,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    3
+   ],
    "e": {
     "s": [
      11.52,
@@ -32762,7 +32771,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.97
+   "ag": 0.98
   },
   {
    "l": "Premier League",
@@ -34883,8 +34892,11 @@
    "hc": "https://crests.football-data.org/1912.png",
    "ac": "https://crests.football-data.org/675.png",
    "i": 558869,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    3,
+    4
+   ],
    "e": {
     "s": [
      10.58,
@@ -34914,8 +34926,8 @@
    "h": "Red Star",
    "a": "St Etienne",
    "d": "2026-10-17T18:00:00Z",
-   "x": 1.54,
-   "y": 1.53,
+   "x": 1.55,
+   "y": 1.52,
    "f": {
     "fh": "DVVVV",
     "fa": "VVDNV",
@@ -35195,7 +35207,7 @@
      3.68
     ]
    },
-   "ag": 0.88
+   "ag": 0.92
   },
   {
    "l": "Argentine",
@@ -35713,7 +35725,7 @@
      5.1
     ]
    },
-   "ag": 0.94
+   "ag": 0.97
   },
   {
    "l": "Roumanie",
@@ -35828,8 +35840,8 @@
    "h": "Philadelphia Union",
    "a": "Charlotte",
    "d": "2026-10-17T18:30:00Z",
-   "x": 1.54,
-   "y": 1.04,
+   "x": 1.5,
+   "y": 1.01,
    "f": {
     "fh": "VVVVV",
     "fa": "NVDVD",
@@ -35970,7 +35982,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.99
+   "ag": 0.97
   },
   {
    "l": "Ligue 1",
@@ -36760,8 +36772,11 @@
    "hc": "https://crests.football-data.org/100.png",
    "ac": "https://crests.football-data.org/107.png",
    "i": 558572,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    0
+   ],
    "e": {
     "s": [
      16.02,
@@ -36945,7 +36960,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.95
   },
   {
    "l": "La Liga",
@@ -37508,8 +37523,11 @@
    "hc": "https://crests.football-data.org/6806.png",
    "ac": "https://crests.football-data.org/672.png",
    "i": 558868,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    3,
+    2
+   ],
    "e": {
     "s": [
      19.21,
@@ -38276,8 +38294,8 @@
    "h": "Platense",
    "a": "Lanus",
    "d": "2026-10-17T20:30:00Z",
-   "x": 0.77,
-   "y": 1.04,
+   "x": 0.78,
+   "y": 1.03,
    "f": {
     "fh": "NDDNN",
     "fa": "VVVNV",
@@ -38418,15 +38436,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.94
   },
   {
    "l": "États-Unis",
    "h": "Minnesota United",
    "a": "St. Louis City",
    "d": "2026-10-17T20:30:00Z",
-   "x": 1.41,
-   "y": 1.59,
+   "x": 1.37,
+   "y": 1.54,
    "f": {
     "fh": "DDDNN",
     "fa": "VVVVN",
@@ -38567,15 +38585,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.95
   },
   {
    "l": "Brésil",
    "h": "Botafogo RJ",
    "a": "Chapecoense-SC",
    "d": "2026-10-17T21:00:00Z",
-   "x": 2.11,
-   "y": 1.17,
+   "x": 2.1,
+   "y": 1.18,
    "f": {
     "fh": "NVDDN",
     "fa": "VDNDD",
@@ -38700,15 +38718,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.94
   },
   {
    "l": "Brésil",
    "h": "Atletico-MG",
    "a": "Coritiba",
    "d": "2026-10-17T21:30:00Z",
-   "x": 2.0,
-   "y": 1.3,
+   "x": 1.99,
+   "y": 1.31,
    "f": {
     "fh": "VNVNV",
     "fa": "DNDDN",
@@ -38833,7 +38851,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.93
   },
   {
    "l": "Brésil",
@@ -39134,8 +39152,8 @@
    "h": "Velez Sarsfield",
    "a": "Gimnasia Mendoza",
    "d": "2026-10-17T23:00:00Z",
-   "x": 1.48,
-   "y": 0.98,
+   "x": 1.47,
+   "y": 0.99,
    "f": {
     "fh": "VNVND",
     "fa": "NDNDV",
@@ -39260,15 +39278,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.94
+   "ag": 0.96
   },
   {
    "l": "Mexique",
    "h": "Santos Laguna",
    "a": "Queretaro",
    "d": "2026-10-17T23:00:00Z",
-   "x": 0.94,
-   "y": 1.22,
+   "x": 0.93,
+   "y": 1.23,
    "f": {
     "fh": "DVVVV",
     "fa": "VVNVV",
@@ -39409,15 +39427,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.87
+   "ag": 0.9
   },
   {
    "l": "Mexique",
    "h": "Guadalajara Chivas",
    "a": "Tigres UANL",
    "d": "2026-10-17T23:07:00Z",
-   "x": 1.41,
-   "y": 0.94,
+   "x": 1.4,
+   "y": 0.95,
    "f": {
     "fh": "VVNDN",
     "fa": "NNDVV",
@@ -39570,15 +39588,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.92
+   "ag": 0.94
   },
   {
    "l": "États-Unis",
    "h": "Atlanta Utd",
    "a": "Inter Miami",
    "d": "2026-10-17T23:30:00Z",
-   "x": 1.14,
-   "y": 1.77,
+   "x": 1.1,
+   "y": 1.72,
    "f": {
     "fh": "NVNDV",
     "fa": "NNDVV",
@@ -39731,15 +39749,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.96
+   "ag": 0.95
   },
   {
    "l": "États-Unis",
    "h": "New England Revolution",
    "a": "Chicago Fire",
    "d": "2026-10-17T23:30:00Z",
-   "x": 1.47,
-   "y": 1.4,
+   "x": 1.42,
+   "y": 1.36,
    "f": {
     "fh": "VVDDV",
     "fa": "DVVVD",
@@ -39880,15 +39898,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.88
+   "ag": 0.91
   },
   {
    "l": "États-Unis",
    "h": "New York City",
    "a": "Los Angeles FC",
    "d": "2026-10-17T23:30:00Z",
-   "x": 0.98,
-   "y": 0.99,
+   "x": 0.95,
+   "y": 0.96,
    "f": {
     "fh": "VDNDD",
     "fa": "DNDNV",
@@ -40020,8 +40038,8 @@
    "h": "New York Red Bulls",
    "a": "Toronto FC",
    "d": "2026-10-17T23:30:00Z",
-   "x": 1.28,
-   "y": 0.99,
+   "x": 1.24,
+   "y": 0.96,
    "f": {
     "fh": "VVDVD",
     "fa": "DDDVN",
@@ -40162,15 +40180,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.95
+   "ag": 0.96
   },
   {
    "l": "États-Unis",
    "h": "Orlando City",
    "a": "DC United",
    "d": "2026-10-17T23:30:00Z",
-   "x": 1.96,
-   "y": 1.28,
+   "x": 1.9,
+   "y": 1.24,
    "f": {
     "fh": "VDDVN",
     "fa": "NDNDV",
@@ -40311,7 +40329,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 1.0
+   "ag": 0.98
   },
   {
    "l": "Brésil",
@@ -40467,8 +40485,8 @@
    "h": "Austin FC",
    "a": "Vancouver Whitecaps",
    "d": "2026-10-18T00:30:00Z",
-   "x": 1.01,
-   "y": 1.42,
+   "x": 0.98,
+   "y": 1.38,
    "f": {
     "fh": "VNNDD",
     "fa": "VNDNN",
@@ -40609,15 +40627,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.98
+   "ag": 0.97
   },
   {
    "l": "États-Unis",
    "h": "Houston Dynamo",
    "a": "FC Dallas",
    "d": "2026-10-18T00:30:00Z",
-   "x": 1.16,
-   "y": 1.17,
+   "x": 1.13,
+   "y": 1.13,
    "f": {
     "fh": "DNDNN",
     "fa": "VNVDV",
@@ -40758,15 +40776,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.92
   },
   {
    "l": "États-Unis",
    "h": "Sporting Kansas City",
    "a": "Real Salt Lake",
    "d": "2026-10-18T00:30:00Z",
-   "x": 1.38,
-   "y": 1.42,
+   "x": 1.33,
+   "y": 1.39,
    "f": {
     "fh": "DVDND",
     "fa": "DDVDN",
@@ -40907,7 +40925,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.84
+   "ag": 0.88
   },
   {
    "l": "Mexique",
@@ -41071,8 +41089,8 @@
    "h": "Toluca",
    "a": "Atl. San Luis",
    "d": "2026-10-18T01:00:00Z",
-   "x": 2.5,
-   "y": 1.35,
+   "x": 2.49,
+   "y": 1.36,
    "f": {
     "fh": "VVDND",
     "fa": "DDVVD",
@@ -41217,15 +41235,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.93
   },
   {
    "l": "États-Unis",
    "h": "Los Angeles Galaxy",
    "a": "San Diego FC",
    "d": "2026-10-18T02:30:00Z",
-   "x": 1.73,
-   "y": 1.52,
+   "x": 1.68,
+   "y": 1.48,
    "f": {
     "fh": "NVVDV",
     "fa": "DNNDN",
@@ -41358,15 +41376,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.95
+   "ag": 0.98
   },
   {
    "l": "États-Unis",
    "h": "Portland Timbers",
    "a": "Colorado Rapids",
    "d": "2026-10-18T02:30:00Z",
-   "x": 1.57,
-   "y": 1.29,
+   "x": 1.52,
+   "y": 1.26,
    "f": {
     "fh": "DDDND",
     "fa": "VNDNN",
@@ -41507,15 +41525,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.9
+   "ag": 0.94
   },
   {
    "l": "États-Unis",
    "h": "San Jose Earthquakes",
    "a": "Nashville SC",
    "d": "2026-10-18T02:30:00Z",
-   "x": 1.03,
-   "y": 1.39,
+   "x": 1.0,
+   "y": 1.35,
    "f": {
     "fh": "VNVNN",
     "fa": "NVVVV",
@@ -41640,15 +41658,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.98
+   "ag": 1.0
   },
   {
    "l": "États-Unis",
    "h": "Seattle Sounders",
    "a": "CF Montreal",
    "d": "2026-10-18T02:30:00Z",
-   "x": 1.87,
-   "y": 0.85,
+   "x": 1.81,
+   "y": 0.83,
    "f": {
     "fh": "VVVVD",
     "fa": "DDVDD",
@@ -41773,15 +41791,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.91
+   "ag": 0.95
   },
   {
    "l": "Mexique",
    "h": "Cruz Azul",
    "a": "Juarez",
    "d": "2026-10-18T03:10:00Z",
-   "x": 2.66,
-   "y": 1.22,
+   "x": 2.64,
+   "y": 1.24,
    "f": {
     "fh": "VVDNN",
     "fa": "DDVDN",
@@ -41926,15 +41944,15 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.9
+   "ag": 0.93
   },
   {
    "l": "Japon",
    "h": "Okayama",
    "a": "Vissel Kobe",
    "d": "2026-10-18T04:55:00Z",
-   "x": 0.95,
-   "y": 1.31,
+   "x": 0.96,
+   "y": 1.3,
    "f": {
     "fh": "VVVDD",
     "fa": "VVVVD",
@@ -42063,7 +42081,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.93
+   "ag": 0.95
   },
   {
    "l": "Japon",
@@ -42215,8 +42233,8 @@
    "h": "Wuhan Three Towns",
    "a": "Shanghai Shenhua",
    "d": "2026-10-18T10:00:00Z",
-   "x": 1.6,
-   "y": 2.32,
+   "x": 1.62,
+   "y": 2.3,
    "f": {
     "fh": "VNNDN",
     "fa": "DVDVV",
@@ -42357,7 +42375,7 @@
    "st": "pre",
    "sc": null,
    "e": {},
-   "ag": 0.86
+   "ag": 0.89
   },
   {
    "l": "Eredivisie",
