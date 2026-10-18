@@ -1,5 +1,7 @@
-"""Applique le correctif au fichier moteur.js : pronostics IA plafonnés à 80 % (cote juste d'au moins 1,25),
-affichage de la cote juste, plus de « plus de 0,5 but » comme pronostic IA. À lancer une seule fois."""
+"""Correctif du fichier moteur.js (peut être lancé plusieurs fois sans risque) :
+ - pronostics IA et coupons plafonnés à 80 % (cote juste d'au moins 1,25), plus de « plus de 0,5 but » comme pronostic IA
+ - cote juste affichée à côté de chaque pourcentage
+ - texte « éléments pris en compte » fidèle au modèle de base (tous les matchs récents, domicile et extérieur ensemble)."""
 s = open("moteur.js", encoding="utf-8").read()
 CHANGES = [
     ("const chip2=p=>{const [c,t]=lv2(p);return `<span class=\"b ${c}\">${P(p)} · ${t}</span>`};",
@@ -13,10 +15,21 @@ CHANGES = [
     ("r.mn.p,.72,.93,'s')", "r.mn.p,.72,.80,'s')"), ("r.sf.p,.55,.86,'s')", "r.sf.p,.55,.80,'s')"),
     ("<div class=\"as\">Choisi parmi ${A.n} marchés selon leur fiabilité",
      "<div class=\"as\">Cote juste ${fo(b.p)} : ne parie que si ton bookmaker offre plus · choisi parmi ${A.n} marchés selon leur fiabilité"),
+    ("modèle : forces d\\'attaque et de défense, forme (6 derniers matchs), domicile / extérieur (15 derniers), confrontations directes",
+     "modèle de base : tous les matchs récents des deux équipes (domicile et extérieur ensemble), les plus récents comptant davantage'+(f&&f.nm?' ('+f.nm[0]+' et '+f.nm[1]+' matchs analysés)':'')+'"),
+    ("Forme (5 derniers) : <b>", "Forme (5 derniers, indicatif) : <b>"),
+    ("Confrontations directes${HIER?'':' depuis 2021'} : ", "Confrontations directes (indicatif)${HIER?'':' depuis 2021'} : "),
 ]
+fait, deja, manque = 0, 0, []
 for old, new in CHANGES:
-    if s.count(old) != 1:
-        raise SystemExit("Correctif impossible : une ligne attendue est introuvable (déjà appliqué ?) : " + old[:60])
-    s = s.replace(old, new)
+    if s.count(old) == 1:
+        s = s.replace(old, new)
+        fait += 1
+    elif s.count(new) == 1:
+        deja += 1
+    else:
+        manque.append(old[:60])
+if manque:
+    raise SystemExit("Correctif impossible, lignes introuvables : " + " | ".join(manque))
 open("moteur.js", "w", encoding="utf-8").write(s)
-print("Correctif appliqué :", len(CHANGES), "modifications")
+print(f"Correctif : {fait} modification(s) appliquée(s), {deja} déjà en place")
