@@ -18,7 +18,8 @@ const stl=document.createElement('style');stl.textContent=css;document.head.appe
 const HIER=true;
 const N=10,RHO=-.06,rng=(a,b)=>{const o=[];for(let v=a;v<=b;v++)o.push(v+.5);return o};
 const lv2=p=>{p=Math.round(p*100)/100;return p>=.75?['ok','Très sûr']:p>=.65?['lm','Sûr']:p>=.55?['mid','Modéré']:['bad','Faible']};
-const chip2=p=>{const [c,t]=lv2(p);return `<span class="b ${c}">${P(p)} · ${t}</span>`};
+const fo=p=>(1/p).toFixed(2).replace('.',',');
+const chip2=p=>{const [c,t]=lv2(p);return `<span class="b ${c}">${P(p)} · ${t} · cote ${fo(p)}</span>`};
 const cnt=(a,f)=>a.filter(f).length,avg=a=>a.length?a.reduce((s,v)=>s+v,0)/a.length:0;
 const bl=(pm,hits,n)=>{if(HIER||n<4)return pm;const w=Math.min(.35,n/40);return(1-w)*pm+w*((hits+1)/(n+2))};
 function grid(x,y,dc){const G=[];let s=0;for(let i=0;i<=N;i++){G[i]=[];for(let j=0;j<=N;j++){let p=pois(i,x)*pois(j,y);if(dc&&i<2&&j<2)p*=i===0&&j===0?1-x*y*RHO:i===0&&j===1?1+x*RHO:i===1&&j===0?1+y*RHO:1-RHO;G[i][j]=p;s+=p}}for(const r of G)for(let j=0;j<=N;j++)r[j]/=s;return G}
@@ -59,12 +60,12 @@ for(let k=.5;k<=9.5;k++){const p=1-cov(k);if(p>=.72){out.push({t:'Handicap '+(fa
 function bttsP(m,Fn,live){const z=!live&&m.z?[...(m.z.gh||[]),...(m.z.ga||[])]:[];return bl(Fn.b,cnt(z,x=>x[0]>0&&x[1]>0),z.length)}
 /* tous les pronostics possibles d'un match, classés ; chaque famille de marché a son poids de fiabilité */
 function allPicks(m){const R=fg(m),Fn=fin(R),L=[],tot=R.gh+R.ga,add=(t,p,w,mx,k)=>{if(p>=.5&&p<=mx)L.push({t,p,s:.5+(p-.5)*w,k})};
-add('Victoire '+m.h+' (V1)',Fn.h,1,.97,'r');add('Match nul (X)',Fn.d,1,.97,'r');add('Victoire '+m.a+' (V2)',Fn.a,1,.97,'r');
-const g=gl(m,Fn,tot,R.live);add(g.main.side+' de '+fm(g.main.line)+' buts',g.main.p,.95,.93,'g');add(g.safe.side+' de '+fm(g.safe.line)+' buts',g.safe.p,.75,.86,'g');
-const bp=bttsP(m,Fn,R.live);add('Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp),.92,.93,'b');
-add('Double chance : '+[[m.h+' ou nul',Fn.h+Fn.d],['nul ou '+m.a,Fn.d+Fn.a],[m.h+' ou '+m.a,Fn.h+Fn.a]].sort((u,v)=>v[1]-u[1])[0][0],Math.max(Fn.h+Fn.d,Fn.d+Fn.a,Fn.h+Fn.a),.6,.85,'d');
-hcap(m,Fn).forEach(x=>add(x.t,x.p,.7,.88,'h'));teamG(m,Fn,R.live).forEach(x=>add(x.t,x.p,.88,.9,'t'));
-if(!R.live)rowsOf(m).forEach(r=>{if(!r.es){add(r.d.n+' : '+r.mn.side.toLowerCase()+' de '+fm(r.mn.line),r.mn.p,.72,.93,'s');add(r.d.n+' : '+r.sf.side.toLowerCase()+' de '+fm(r.sf.line),r.sf.p,.55,.86,'s')}});
+add('Victoire '+m.h+' (V1)',Fn.h,1,.80,'r');add('Match nul (X)',Fn.d,1,.80,'r');add('Victoire '+m.a+' (V2)',Fn.a,1,.80,'r');
+const g=gl(m,Fn,tot,R.live);add(g.main.side+' de '+fm(g.main.line)+' buts',g.main.p,.95,.80,'g');add(g.safe.side+' de '+fm(g.safe.line)+' buts',g.safe.p,.75,.80,'g');
+const bp=bttsP(m,Fn,R.live);add('Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp),.92,.80,'b');
+add('Double chance : '+[[m.h+' ou nul',Fn.h+Fn.d],['nul ou '+m.a,Fn.d+Fn.a],[m.h+' ou '+m.a,Fn.h+Fn.a]].sort((u,v)=>v[1]-u[1])[0][0],Math.max(Fn.h+Fn.d,Fn.d+Fn.a,Fn.h+Fn.a),.6,.80,'d');
+hcap(m,Fn).forEach(x=>add(x.t,x.p,.7,.80,'h'));teamG(m,Fn,R.live).forEach(x=>{if(!/plus de 0,5 but/.test(x.t))add(x.t,x.p,.88,.80,'t')});
+if(!R.live)rowsOf(m).forEach(r=>{if(!r.es){add(r.d.n+' : '+r.mn.side.toLowerCase()+' de '+fm(r.mn.line),r.mn.p,.72,.80,'s');add(r.d.n+' : '+r.sf.side.toLowerCase()+' de '+fm(r.sf.line),r.sf.p,.55,.80,'s')}});
 L.sort((a,b)=>b.s-a.s);return{top:L.slice(0,3),all:L,n:L.length,R,Fn,g,bp}}
 
 /* ---------- analyse complète d'un match ---------- */
@@ -81,7 +82,7 @@ const mk=([n,p])=>`<div class="mr ${lv2(p)[0]}"><span>${n}</span><span>${chip2(p
 const sc=Fn.sc.map(s=>`<span class="sc">${s[0]}-${s[1]} · ${P(s[2])}</span>`).join('');
 const T=[0,1,2,3,4].map(t=>t<4?Fn.T[t]||0:Fn.T.reduce((a,p,i)=>i>=4?a+p:a,0)),mx=Math.max(...T,.01),bt=T.indexOf(mx);
 let h=R.live?`<div class="lvn">⚡ En direct : ${R.gh} - ${R.ga} · ${R.mn}' · analyse recalculée avec le score et la minute</div>`:'';
-h+=`<div class="ai ${bc}"><div class="ah"><span>🧠 Pronostic IA</span><span>${bl2}</span></div><div class="ab"><strong>${b.t}</strong><b>${Math.round(b.p*100)} %</b></div><div class="as">Choisi parmi ${A.n} marchés selon leur fiabilité${A.top.length>1?' · autres bons choix : '+A.top.slice(1).map(x=>`<span class="alt">${x.t} ${Math.round(x.p*100)} %</span>`).join(''):''}</div></div>`;
+h+=`<div class="ai ${bc}"><div class="ah"><span>🧠 Pronostic IA</span><span>${bl2}</span></div><div class="ab"><strong>${b.t}</strong><b>${Math.round(b.p*100)} %</b></div><div class="as">Cote juste ${fo(b.p)} : ne parie que si ton bookmaker offre plus · choisi parmi ${A.n} marchés selon leur fiabilité${A.top.length>1?' · autres bons choix : '+A.top.slice(1).map(x=>`<span class="alt">${x.t} ${Math.round(x.p*100)} %</span>`).join(''):''}</div></div>`;
 if(!R.live)h+=feat(m);
 h+=`<div class="st">Marchés · du plus sûr au plus faible</div><div class="mkt">${rows0.map(mk).join('')}<div class="mr"><span>${R.live?'Scores finaux probables':'3 scores probables'}</span><span>${sc}</span></div></div>`;
 const td=(Dd)=>[0,1,2].map(i=>`${i} but${i>1?'s':''} <b>${Math.round((Dd[i]||0)*100)} %</b>`).concat([`3+ <b>${Math.round(Dd.reduce((s,p,i)=>i>=3?s+p:s,0)*100)} %</b>`]).join(' · ');
