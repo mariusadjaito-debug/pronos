@@ -1,0 +1,15 @@
+RAPPORT n°2 : MODÈLE COMPLET OU MODÈLE DE BASE ?
+18/10/2026 06:21 UTC
+
+Matchs comparés : 436 (perte moyenne, plus bas = mieux)
+
+   base  incertitude 0.0 : 4.2303
+   base  incertitude 0.3 : 4.2304
+   pro   incertitude 0.3 : 4.2777
+   pro   incertitude 0.0 : 4.2808
+   hier  incertitude 0.3 : 4.2841
+   hier  incertitude 0.0 : 4.2879
+
+Lecture :
+   les ajustements d'hier (forme, domicile/extérieur, confrontations) : DÉGRADENT le modèle de base (+0.0537)
+   le modèle actuel (hier + Elo + fatigue) : DÉGRADENT le modèle de base (+0.0473)
