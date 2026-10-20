@@ -1,5 +1,5 @@
 {
- "updated": "20/10/2026 20:16 UTC",
+ "updated": "20/10/2026 22:17 UTC",
  "matches": [
   {
    "l": "Serie A",
@@ -1632,10 +1632,10 @@
    "hc": "https://crests.football-data.org/76.png",
    "ac": "https://crests.football-data.org/325.png",
    "i": 561826,
-   "st": "live",
+   "st": "fin",
    "sc": [
     1,
-    0
+    1
    ],
    "e": {
     "s": [
