@@ -1,5 +1,5 @@
 {
- "updated": "21/10/2026 08:23 UTC",
+ "updated": "21/10/2026 10:20 UTC",
  "matches": [
   {
    "l": "Serie A",
@@ -34321,7 +34321,7 @@
   "shaktar": "https://crests.football-data.org/1887.png",
   "pae aek": "https://crests.football-data.org/1899.png",
   "sl. bratislava": "https://crests.football-data.org/7509.png",
-  "__europe": "compétitions trouvées : CL | CL (Ligue des champions) : accès OK · 9 match(s) dans les 7 jours · prochain match : 2026-10-21T16:45:00Z",
+  "__europe": "compétitions trouvées : CL, EL | CL (Ligue des champions) : REFUSÉ par la clé (erreur HTTP 429) | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 429)",
   "waterford": "https://r2.thesportsdb.com/images/media/team/badge/a1z2bm1765902989.png",
   "derry city": "https://r2.thesportsdb.com/images/media/team/badge/i5u42j1602256316.png",
   "galway": "https://r2.thesportsdb.com/images/media/team/badge/nil4001582565343.png",
