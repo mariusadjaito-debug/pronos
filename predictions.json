@@ -1,5 +1,5 @@
 {
- "updated": "24/10/2026 04:16 UTC",
+ "updated": "24/10/2026 06:16 UTC",
  "matches": [
   {
    "l": "Roumanie",
@@ -75926,7 +75926,7 @@
   "shaktar": "https://crests.football-data.org/1887.png",
   "pae aek": "https://crests.football-data.org/1899.png",
   "sl. bratislava": "https://crests.football-data.org/7509.png",
-  "__europe": "compétitions trouvées : CL | CL (Ligue des champions) : accès OK · 0 match(s) dans les 7 jours · prochain match : 2026-11-03T17:45:00Z",
+  "__europe": "compétitions trouvées : CL, EL | CL (Ligue des champions) : REFUSÉ par la clé (erreur HTTP 429) | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 429)",
   "waterford": "https://r2.thesportsdb.com/images/media/team/badge/a1z2bm1765902989.png",
   "derry city": "https://r2.thesportsdb.com/images/media/team/badge/i5u42j1602256316.png",
   "galway": "https://r2.thesportsdb.com/images/media/team/badge/nil4001582565343.png",
