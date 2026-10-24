@@ -34,6 +34,25 @@ function fin(R){if(R.F)return R.F;const{G,gh,ga}=R,T=[],D={},Hd=[],Ad=[],sc=[];l
 for(let i=0;i<=N;i++)for(let j=0;j<=N;j++){const p=G[i][j],fh=gh+i,fa=ga+j;fh>fa?h+=p:fh===fa?d+=p:a+=p;if(fh>0&&fa>0)b+=p;T[fh+fa]=(T[fh+fa]||0)+p;D[fh-fa]=(D[fh-fa]||0)+p;Hd[fh]=(Hd[fh]||0)+p;Ad[fa]=(Ad[fa]||0)+p;sc.push([fh,fa,p])}
 sc.sort((u,v)=>v[2]-u[2]);return R.F={h,d,a,b,T,D,Hd,Ad,sc:sc.slice(0,3),gh,ga}}
 function nbcdf(mu,phi,k){const r=mu/(phi-1),pr=r/(r+mu);let pm=Math.pow(pr,r),c=pm;for(let i=0;i<k;i++){pm*=(i+r)/(i+1)*(1-pr);c+=pm}return Math.min(1,c)}
+const fl=s=>parseFloat(String(s).replace(',','.'));
+function hit(t,m,a,b){let r;
+if(t==='Victoire '+m.h+' (V1)')return a>b;if(t==='Victoire '+m.a+' (V2)')return b>a;if(t==='Match nul (X)')return a===b;
+if(r=t.match(/^(Plus|Moins) de ([\d,]+) buts$/))return r[1]==='Plus'?a+b>fl(r[2]):a+b<fl(r[2]);
+if(t==='Les deux marquent : oui')return a>0&&b>0;if(t==='Les deux marquent : non')return!(a>0&&b>0);
+if(t==='Double chance : '+m.h+' ou nul')return a>=b;if(t==='Double chance : nul ou '+m.a)return b>=a;if(t==='Double chance : '+m.h+' ou '+m.a)return a!==b;
+if(r=t.match(/^Handicap (.+) ([+-])([\d,]+)$/)){const k=fl(r[3])*(r[2]==='-'?-1:1),d=r[1]===m.h?a-b:b-a;return d+k>0}
+if(r=t.match(/^(.+) : (plus|moins) de ([\d,]+) buts?$/)){const g=r[1]===m.h?a:r[1]===m.a?b:null;if(g==null)return null;return r[2]==='plus'?g>fl(r[3]):g<fl(r[3])}
+return null}
+const STN={'Cart.':'k','Corn.':'r','Tirs cadrés':'c','Tirs totaux':'s','Fautes':'f'};
+/* ⭐ pronostic à combiner : confirmé par les 20 derniers matchs de CHAQUE équipe (domicile et extérieur confondus) et par les
+   confrontations directes quand elles existent, avec une cote utilisable (1,35 à 2,20). Le pourcentage élevé seul ne suffit pas. */
+function starOf(m,t,p){if(!m.z||p<.45||p>.74)return false;let A,B,H=null;
+const sm=t.match(/^(Cart\.|Corn\.|Tirs cadrés|Tirs totaux|Fautes) : (plus|moins) de ([\d,]+)$/);
+if(sm){const k=STN[sm[1]],z=(m.z.ts&&m.z.ts[k])||m.z[k];if(!z)return false;const l=fl(sm[3]),f=v=>sm[2]==='plus'?v>l:v<l;A=z[0].map(f);B=z[1].map(f)}
+else{const th=m.z.th||m.z.gh,ta=m.z.ta||m.z.ga;if(!th||!ta)return false;A=th.map(x=>hit(t,m,x[0],x[1]));B=ta.map(x=>hit(t,m,x[1],x[0]));if(A.includes(null))return false;
+const hm=m.z.hm;if(hm&&hm.length>=4)H=hm.map(x=>hit(t,m,x[0],x[1]))}
+if(A.length<8||B.length<8)return false;const q=a=>a.filter(Boolean).length/a.length;
+return q(A)>=.6&&q(B)>=.6&&q(A.concat(B))>=p-.03&&(H===null||q(H)>=.5)}
 const nearT=(c,t,lo,hi)=>{let ok=c.filter(x=>x.p>=lo&&x.p<=hi);if(!ok.length)ok=c.filter(x=>x.p>=.5);return ok.sort((a,b)=>Math.abs(a.p-t)-Math.abs(b.p-t))[0]||{side:'Plus',line:.5,p:.5}};
 const best=(c,mu)=>HIER?nearT(c,.66,.58,.76):[c.filter(x=>x.side==='Plus'&&x.line<mu).sort((a,b)=>b.line-a.line)[0],c.filter(x=>x.side==='Moins'&&x.line>mu).sort((a,b)=>a.line-b.line)[0]].filter(Boolean).sort((a,b)=>b.p-a.p)[0]||c.slice().sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
 const safe=c=>HIER?nearT(c,.85,.78,.93):c.filter(x=>x.p>=.76&&x.p<=.86).sort((a,b)=>a.p-b.p)[0]||c.filter(x=>x.p>.5&&x.p<=.86).sort((a,b)=>b.p-a.p)[0]||{side:'Plus',line:.5,p:.5};
@@ -59,7 +78,7 @@ for(let k=5.5;k>=.5;k--){const p=cov(k);if(p>=.62){out.push({t:'Handicap '+(fav>
 for(let k=.5;k<=9.5;k++){const p=1-cov(k);if(p>=.72){out.push({t:'Handicap '+(fav>0?m.a:m.h)+' +'+fm(k),p});break}}return out}
 function bttsP(m,Fn,live){const z=!live&&m.z?[...(m.z.gh||[]),...(m.z.ga||[])]:[];return bl(Fn.b,cnt(z,x=>x[0]>0&&x[1]>0),z.length)}
 /* tous les pronostics possibles d'un match, classés ; chaque famille de marché a son poids de fiabilité */
-function allPicks(m){const R=fg(m),Fn=fin(R),L=[],tot=R.gh+R.ga,add=(t,p,w,mx,k)=>{if(p>=.5&&p<=mx)L.push({t,p,s:.5+(p-.5)*w,k})};
+function allPicks(m){const R=fg(m),Fn=fin(R),L=[],tot=R.gh+R.ga,add=(t,p,w,mx,k)=>{if(p>=.5&&p<=mx)L.push({t,p,s:.5+(p-.5)*w,k,star:!R.live&&starOf(m,t,p)})};
 add('Victoire '+m.h+' (V1)',Fn.h,1,.80,'r');add('Match nul (X)',Fn.d,1,.80,'r');add('Victoire '+m.a+' (V2)',Fn.a,1,.80,'r');
 const g=gl(m,Fn,tot,R.live);add(g.main.side+' de '+fm(g.main.line)+' buts',g.main.p,.95,.80,'g');add(g.safe.side+' de '+fm(g.safe.line)+' buts',g.safe.p,.75,.80,'g');
 const bp=bttsP(m,Fn,R.live);add('Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp),.92,.80,'b');
@@ -77,19 +96,19 @@ function feat(m){const f=m.f,z=m.z;return `<div class="fb2"><div class="t">📊 
 +(f?`<br>Confrontations directes (indicatif)${HIER?'':' depuis 2021'} : ${f.h2[3]?`${f.h2[0]}V · ${f.h2[1]}N · ${f.h2[2]}D (sur ${f.h2[3]})`:'aucune'}<br>${m.h} : attaque ${pc(f.at[0]-1)} · défense ${pc(1-f.df[0])} · ${m.a} : attaque ${pc(f.at[1]-1)} · défense ${pc(1-f.df[1])}`:'<br>Forme et confrontations directes : disponibles après la prochaine mise à jour des données.')+`</div>`}
 function ana2(m){const A=allPicks(m),{R,Fn,g,bp}=A,b=A.top[0]||{t:'Aucun pronostic fiable',p:.5},[bc,bl2]=lv2(b.p),hc=hcap(m,Fn),tg=teamG(m,Fn,R.live);
 const dc=[[m.h+' ou nul',Fn.h+Fn.d],['Nul ou '+m.a,Fn.d+Fn.a],[m.h+' ou '+m.a,Fn.h+Fn.a]].sort((u,v)=>v[1]-u[1])[0],o25=1-(Fn.T.reduce((s,p,t)=>t<3?s+p:s,0));
-const rows0=[[g.main.side+' de '+fm(g.main.line)+' buts',g.main.p],['Plus sûr : '+g.safe.side.toLowerCase()+' de '+fm(g.safe.line)+' buts',g.safe.p],[(o25>=.5?'Plus':'Moins')+' de 2,5 buts (ligne standard)',Math.max(o25,1-o25)],['Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp)],['Double chance : '+dc[0],dc[1]],...hc.map(x=>[x.t,x.p]),...tg.map(x=>[x.t,x.p])].filter(x=>x[1]<.995&&x[1]>.005).sort((p,q)=>q[1]-p[1]);
-const mk=([n,p])=>`<div class="mr ${lv2(p)[0]}"><span>${n}</span><span>${chip2(p)}</span></div>`;
+const rows0=[[g.main.side+' de '+fm(g.main.line)+' buts',g.main.p,g.main.side+' de '+fm(g.main.line)+' buts'],['Plus sûr : '+g.safe.side.toLowerCase()+' de '+fm(g.safe.line)+' buts',g.safe.p,g.safe.side+' de '+fm(g.safe.line)+' buts'],[(o25>=.5?'Plus':'Moins')+' de 2,5 buts (ligne standard)',Math.max(o25,1-o25),(o25>=.5?'Plus':'Moins')+' de 2,5 buts'],['Les deux marquent : '+(bp>=.5?'oui':'non'),Math.max(bp,1-bp),'Les deux marquent : '+(bp>=.5?'oui':'non')],['Double chance : '+dc[0],dc[1],'Double chance : '+dc[0].replace(/^Nul/,'nul')],...hc.map(x=>[x.t,x.p,x.t]),...tg.map(x=>[x.t,x.p,x.t])].filter(x=>x[1]<.995&&x[1]>.005).sort((p,q)=>q[1]-p[1]);
+const mk=([n,p,t])=>`<div class="mr ${lv2(p)[0]}"><span>${t&&starOf(m,t,p)?'⭐ ':''}${n}</span><span>${chip2(p)}</span></div>`;
 const sc=Fn.sc.map(s=>`<span class="sc">${s[0]}-${s[1]} · ${P(s[2])}</span>`).join('');
 const T=[0,1,2,3,4].map(t=>t<4?Fn.T[t]||0:Fn.T.reduce((a,p,i)=>i>=4?a+p:a,0)),mx=Math.max(...T,.01),bt=T.indexOf(mx);
 let h=R.live?`<div class="lvn">⚡ En direct : ${R.gh} - ${R.ga} · ${R.mn}' · analyse recalculée avec le score et la minute</div>`:'';
 h+=`<div class="ai ${bc}"><div class="ah"><span>🧠 Pronostic IA</span><span>${bl2}</span></div><div class="ab"><strong>${b.t}</strong><b>${Math.round(b.p*100)} %</b></div><div class="as">Cote juste ${fo(b.p)} : ne parie que si ton bookmaker offre plus · choisi parmi ${A.n} marchés selon leur fiabilité${A.top.length>1?' · autres bons choix : '+A.top.slice(1).map(x=>`<span class="alt">${x.t} ${Math.round(x.p*100)} %</span>`).join(''):''}</div></div>`;
 if(!R.live)h+=feat(m);
-h+=`<div class="st">Marchés · du plus sûr au plus faible</div><div class="mkt">${rows0.map(mk).join('')}<div class="mr"><span>${R.live?'Scores finaux probables':'3 scores probables'}</span><span>${sc}</span></div></div>`;
+h+=`<div class="st">Marchés · du plus sûr au plus faible</div><div class="note" style="margin:0 0 8px">⭐ = pronostic à combiner : confirmé par les 20 derniers matchs de chaque équipe (et les confrontations directes), avec une cote utilisable (1,35 à 2,20). Un pourcentage élevé seul ne suffit pas.</div><div class="mkt">${rows0.map(mk).join('')}<div class="mr"><span>${R.live?'Scores finaux probables':'3 scores probables'}</span><span>${sc}</span></div></div>`;
 const td=(Dd)=>[0,1,2].map(i=>`${i} but${i>1?'s':''} <b>${Math.round((Dd[i]||0)*100)} %</b>`).concat([`3+ <b>${Math.round(Dd.reduce((s,p,i)=>i>=3?s+p:s,0)*100)} %</b>`]).join(' · ');
 h+=`<div class="st">Buts du match</div><div class="gd">${T.map((p,i)=>`<div><b>${Math.round(p*100)}%</b><i style="height:${Math.round(p/mx*58)+2}px${i===bt?';background:linear-gradient(180deg,#d7ffb0,#4ade80)':''}"></i>${i<4?i:'4+'}</div>`).join('')}</div><div class="tg">${m.h} : ${td(Fn.Hd)}<br>${m.a} : ${td(Fn.Ad)}</div>`;
 if(R.live)return h+`<div class="note">Statistiques détaillées en direct (tirs, corners, cartons) : disponibles dès que la clé complète est branchée.</div>`;
-const rr=rowsOf(m),rows=rr.map(r=>{const[a,c]=r.v;return `<div class="sx ${lv2(r.mn.p)[0]}"><div class="ev"><i>${r.d.i}</i>${r.d.n}</div><span class="nv">${F(a)}</span><span class="nv">${F(c)}</span><div class="pv2 ${lv2(r.mn.p)[0]}">${r.mn.side} de ${fm(r.mn.line)}${r.es?'<span class="es">≈ estimé</span>':''}<small>${Math.round(r.mn.p*100)} % · ${lv2(r.mn.p)[1]}</small><span class="alt2 ${lv2(r.sf.p)[0]}">Plus sûr : ${r.sf.side.toLowerCase()} de ${fm(r.sf.line)} · ${Math.round(r.sf.p*100)} %</span></div></div>`}).join('');
-return h+`<div class="stx"><div class="st">Statistiques attendues · du plus sûr au plus faible</div><div class="sx h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}<div class="sx na"><div class="ev"><i>🚩</i>Hors-jeu</div><span class="nv">–</span><span class="nv">–</span><div class="pv2">Non disponible</div></div><div class="stl"><span class="ok">Très sûr</span><span class="lm">Sûr</span><span class="mid">Modéré</span><span class="bad">Faible</span></div>${rr.some(r=>r.es)?'<div class="esn">≈ estimé : estimation générale, ce championnat n\'a pas de statistiques détaillées</div>':`<div class="esn">${HIER?'Lignes choisies d\'après la moyenne du modèle (≈ 66 % et ≈ 85 %)':'Ligne choisie en comparant la moyenne du modèle aux 20 derniers matchs réels des deux équipes'}</div>`}</div>`}
+const rr=rowsOf(m),rows=rr.map(r=>{const[a,c]=r.v;return `<div class="sx ${lv2(r.mn.p)[0]}"><div class="ev"><i>${r.d.i}</i>${r.d.n}</div><span class="nv">${F(a)}</span><span class="nv">${F(c)}</span><div class="pv2 ${lv2(r.mn.p)[0]}">${starOf(m,r.d.n+' : '+r.mn.side.toLowerCase()+' de '+fm(r.mn.line),r.mn.p)?'⭐ ':''}${r.mn.side} de ${fm(r.mn.line)}${r.es?'<span class="es">≈ estimé</span>':''}<small>${Math.round(r.mn.p*100)} % · ${lv2(r.mn.p)[1]} · cote ${fo(r.mn.p)}</small><span class="alt2 ${lv2(r.sf.p)[0]}">${starOf(m,r.d.n+' : '+r.sf.side.toLowerCase()+' de '+fm(r.sf.line),r.sf.p)?'⭐ ':''}Plus sûr : ${r.sf.side.toLowerCase()} de ${fm(r.sf.line)} · ${Math.round(r.sf.p*100)} % · cote ${fo(r.sf.p)}</span></div></div>`}).join('');
+if(rr.every(r=>r.es))return h+'<div class="note" style="margin:14px 0 0;text-align:center">📊 Statistiques attendues indisponibles pour ce championnat : aucune donnée réelle.</div>';return h+`<div class="stx"><div class="st">Statistiques attendues · du plus sûr au plus faible</div><div class="sx h"><span>Événement</span><span>Dom.</span><span>Ext.</span><span>Pronostic</span></div>${rows}<div class="sx na"><div class="ev"><i>🚩</i>Hors-jeu</div><span class="nv">–</span><span class="nv">–</span><div class="pv2">Non disponible</div></div><div class="stl"><span class="ok">Très sûr</span><span class="lm">Sûr</span><span class="mid">Modéré</span><span class="bad">Faible</span></div>${rr.some(r=>r.es)?'<div class="esn">≈ estimé : estimation générale, ce championnat n\'a pas de statistiques détaillées</div>':`<div class="esn">${HIER?'Lignes choisies d\'après la moyenne du modèle (≈ 66 % et ≈ 85 %)':'Ligne choisie en comparant la moyenne du modèle aux 20 derniers matchs réels des deux équipes'}</div>`}</div>`}
 
 /* ---------- carte de match (probabilités recalculées en direct) ---------- */
 let SELC=new Set();const readSel=()=>{try{return new Set(JSON.parse(localStorage.getItem('pronos_sel_v1')||'[]'))}catch(e){return new Set()}};
@@ -115,7 +134,7 @@ let body;if(isL)body=BUSY.has(id)?scan(id):LV.has(id)?`<div style="margin-top:10
 else body=o.s==='pre'?`<button class="big" style="margin-top:10px" disabled>⏳ Disponible au coup d'envoi (${HM(m.d)})</button>`:`<div class="note" style="margin:10px 0 0">${o.s==='fin'?'Match terminé.':'Score en direct indisponible pour ce championnat.'}</div>`;
 return `<article class="mcard gl"><div class="lvh">${st}<span>${m.l} ${rm(id)}</span></div><div class="vs"><div class="tm">${av2(m.h,m.hc)}<span class="nm">${m.h}</span></div><div class="ct"><div class="pill${o.s==='pre'?' v':''}">${o.s==='pre'?'VS':(g[0]??'–')+' - '+(g[1]??'–')}</div></div><div class="tm">${av2(m.a,m.ac)}<span class="nm">${m.a}</span></div></div>${body}</article>`}
 /* coupon : un seul pronostic par match, jamais plus d'un tiers de la même famille de marché */
-function elig(){return selList().map(m=>({m,o:stOf(m),c:allPicks(m).all.slice(0,8)})).filter(x=>x.c.length&&x.o.s!=='fin'&&(MODE==='auto'||(MODE==='live')===(x.o.s==='live')))}
+function elig(){return selList().map(m=>({m,o:stOf(m),c:(A=>A.all.filter(x=>x.star).concat(A.all.filter(x=>!x.star)).slice(0,8))(allPicks(m))})).filter(x=>x.c.length&&x.o.s!=='fin'&&(MODE==='auto'||(MODE==='live')===(x.o.s==='live')))}
 function buildCp(){const E=elig().sort((a,b)=>b.c[0].s-a.c[0].s),cap=Math.max(1,Math.ceil(NB/3)),used={},P2=[];
 for(const x of E){if(P2.length>=NB)break;const c=x.c.find(c=>(used[c.k]||0)<cap)||x.c[0];used[c.k]=(used[c.k]||0)+1;P2.push({x,c})}
 return{id:'cp|'+Date.now(),t:Date.now(),type:'cp',n:P2.length,prob:P2.reduce((p,y)=>p*y.c.p,1),picks:P2.map(y=>({h:y.x.m.h,a:y.x.m.a,l:y.x.m.l,d:y.x.m.d,t:y.c.t,p:y.c.p,live:y.x.o.s==='live'?1:0}))}}
