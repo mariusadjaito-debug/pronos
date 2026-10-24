@@ -14,5 +14,5 @@ jobs:
         run: |
           git config user.name "pronos-bot"
           git config user.email "pronos-bot@users.noreply.github.com"
-          git add moteur.js
+          git add moteur.js live.js
           git diff --staged --quiet || (git commit -m "Correctif du moteur" && git pull --rebase origin main && git push)
