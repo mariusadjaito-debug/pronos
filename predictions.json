@@ -1,5 +1,5 @@
 {
- "updated": "25/10/2026 04:19 UTC",
+ "updated": "25/10/2026 06:16 UTC",
  "matches": [
   {
    "l": "Roumanie",
@@ -33833,10 +33833,10 @@
    "hc": "https://crests.football-data.org/87.png",
    "ac": "https://crests.football-data.org/285.png",
    "i": 564718,
-   "st": "fin",
+   "st": "live",
    "sc": [
-    0,
-    3
+    null,
+    null
    ],
    "e": {
     "s": [
@@ -77488,11 +77488,8 @@
    "hc": "https://crests.football-data.org/5335.png",
    "ac": "https://crests.football-data.org/80.png",
    "i": 564727,
-   "st": "fin",
-   "sc": [
-    2,
-    1
-   ],
+   "st": "pre",
+   "sc": null,
    "e": {
     "s": [
      8.94,
@@ -86399,11 +86396,8 @@
    "hc": "https://crests.football-data.org/95.png",
    "ac": "https://crests.football-data.org/94.png",
    "i": 564722,
-   "st": "fin",
-   "sc": [
-    1,
-    2
-   ],
+   "st": "pre",
+   "sc": null,
    "e": {
     "s": [
      12.81,
@@ -94887,10 +94881,10 @@
    "hc": "https://crests.football-data.org/546.png",
    "ac": "https://crests.football-data.org/1045.png",
    "i": 559652,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    null,
-    null
+    2,
+    1
    ],
    "e": {
     "s": [
@@ -97826,11 +97820,8 @@
    "hc": "https://crests.football-data.org/78.png",
    "ac": "https://crests.football-data.org/560.png",
    "i": 564724,
-   "st": "fin",
-   "sc": [
-    1,
-    0
-   ],
+   "st": "pre",
+   "sc": null,
    "e": {
     "s": [
      16.67,
