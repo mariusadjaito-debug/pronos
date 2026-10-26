@@ -41,7 +41,7 @@ window.lvTog=function(id){if(BUSY.has(id))return;if(LVO.has(id)){LVO.delete(id);
 FZ.delete(id);BUSY.set(id,Date.now());if(!scanI)scanI=setInterval(scanTick,120);enh();setTimeout(()=>{BUSY.delete(id);LVO.add(id);enh()},ANALYSE_MS)};
 
 /* amélioration de l'écran après chaque affichage */
-function enh(){const mp=new Map((typeof M!=='undefined'?M:[]).map(m=>[idOf(m),m]));
+function enh(){const gr=new Map();document.querySelectorAll('.stp').forEach(e=>{const c=e.closest('.ana')||e.closest('.mcard')||document.body;if(!gr.has(c))gr.set(c,[]);gr.get(c).push(e)});gr.forEach(a=>{if(a.length>1){a.sort((x,y)=>y.dataset.q-x.dataset.q);a.slice(1).forEach(e=>e.remove())}});const mp=new Map((typeof M!=='undefined'?M:[]).map(m=>[idOf(m),m]));
 const find=el=>{const c=el.closest('.mc');if(c)return mp.get(c.dataset.k);const g=el.closest('.mcard');if(!g)return null;const n=[...g.querySelectorAll('.nm')].map(e=>e.textContent.trim());return M.find(m=>m.h===n[0]&&m.a===n[1])};
 document.querySelectorAll('.mc[data-k]').forEach(c=>{const m=mp.get(c.dataset.k);if(m)cardFix(c,m)});
 document.querySelectorAll('.lvn').forEach(l=>{if(!l.querySelector('.fz')){const z=fzTxt();l.insertAdjacentHTML('afterbegin',`<span class="fz">${z.t}</span> · `);l.classList.toggle('old',!!z.old)}
