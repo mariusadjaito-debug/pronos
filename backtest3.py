@@ -1,7 +1,9 @@
-"""Test n°3 (python backtest3.py) : les signes ⭐ servent-ils vraiment ?
-Sur des matchs passés, avec les seules données connues avant chaque match, compare la réussite réelle des pronostics
-marqués ⭐ (confirmés par les 20 derniers matchs de chaque équipe et les confrontations directes, cote utilisable)
-et des autres pronostics de la même zone de probabilité (45 à 74 %). Écrit rapport3.txt."""
+"""Test n°3 (python backtest3.py) : le ⭐ « très probable » est-il vraiment très sûr ?
+Sur des matchs passés, avec les seules données connues avant chaque match, applique la règle de l'application :
+UN SEUL ⭐ par match, le pronostic le mieux confirmé par les 20 derniers matchs de chaque équipe (et les confrontations
+directes), parmi tous les marchés (résultat, buts, deux marquent, tirs, fautes, cartons, corners), avec une probabilité
+du calcul entre 62 et 88 %. Compare sa réussite réelle à celle du simple « pronostic le plus probable » du match.
+Teste trois niveaux de sévérité. Écrit rapport3.txt."""
 import bisect
 from datetime import datetime, timedelta, timezone
 
@@ -13,18 +15,12 @@ PHI = {"s": 1.1, "c": 1.1, "f": 1.4, "k": 1.1, "r": 1.1}
 NAMES = {"s": "tirs totaux", "c": "tirs cadrés", "f": "fautes", "k": "cartons", "r": "corners"}
 EV = {"V1": lambda h, a: h > a, "X": lambda h, a: h == a, "V2": lambda h, a: h < a, "O1.5": lambda h, a: h + a > 1,
       "O2.5": lambda h, a: h + a > 2, "O3.5": lambda h, a: h + a > 3, "BTTS": lambda h, a: h > 0 and a > 0}
+RULES = [("souple (règle de l'application)", .80, .85), ("stricte", .85, .90), ("très stricte", .90, .93)]  # chaque équipe, ensemble
+PMIN, PMAX = .62, .88
 
 
-# règles testées : (marge exigée au-dessus de la probabilité du modèle, part minimale confirmée par chaque équipe)
-RULES = [(0, .6), (.05, .65), (.10, .70), (.15, .75)]
-
-
-def star(p, A, Bs, H=None, m=0, tmin=.6):
-    if p < .45 or p > .74 or len(A) < 8 or len(Bs) < 8:
-        return False
-    q = lambda x: sum(x) / len(x)
-    seuil = p - .03 if m == 0 else p + m
-    return q(A) >= tmin and q(Bs) >= tmin and q(A + Bs) >= seuil and (H is None or q(H) >= .5)
+def mean(x):
+    return sum(x) / len(x)
 
 
 def run():
@@ -37,7 +33,7 @@ def run():
                 hists[league] = sorted(h, key=lambda z: z[0])
         except Exception as e:
             print("  ! historique", league, e)
-    groups = {}
+    cands = {}  # match -> liste de (famille, p, réussi, part équipe 1, part équipe 2, part ensemble, part confrontations)
     for league, hist in hists.items():
         byteam, dates = {}, {}
         for d, r in hist:
@@ -60,10 +56,9 @@ def run():
 
         for cd in B.CUTS[::2]:
             cut = now - timedelta(days=cd)
-            tr = [(d, r) for d, r in hist if d < cut]
             te = [(d, r) for d, r in hist if cut <= d < cut + timedelta(days=120)]
             data = [(0.5 ** ((cut - d).days / 180), r["HomeTeam"], r["AwayTeam"], P.num(r["FTHG"]), P.num(r["FTAG"]))
-                    for d, r in tr if P.num(r.get("FTHG")) is not None and P.num(r.get("FTAG")) is not None]
+                    for d, r in hist if d < cut and P.num(r.get("FTHG")) is not None and P.num(r.get("FTAG")) is not None]
             if len(data) < 300:
                 continue
             mh, ma, att, dfn = P.fit(data)
@@ -72,17 +67,17 @@ def run():
                 hg, ag = P.num(r["FTHG"]), P.num(r["FTAG"])
                 if h not in att or a not in att or hg is None or ag is None:
                     continue
+                k = (league, d, h, a)
                 ph, pa = prs(last(h, d), h), prs(last(a, d), a)
                 hm = meet(h, a, d)
                 pr = B.goal_events(mh * att[h] * dfn[a], ma * att[a] * dfn[h], 0.0)
                 for e, f in EV.items():
                     for pred, p in ((f, pr[e]), (lambda x, y, f=f: not f(x, y), 1 - pr[e])):
-                        if p < .5:
-                            continue
-                        A = [pred(x, y) for x, y in ph]
-                        Bs = [pred(y, x) for x, y in pa]
-                        H = [pred(x, y) for x, y in hm] if len(hm) >= 4 else None
-                        groups.setdefault("buts et résultats", []).append((p, pred(hg, ag), [star(p, A, Bs, H, m, t) for m, t in RULES]))
+                        if PMIN <= p <= PMAX and len(ph) >= 8 and len(pa) >= 8:
+                            A = [pred(x, y) for x, y in ph]
+                            Bs = [pred(y, x) for x, y in pa]
+                            H = mean([pred(x, y) for x, y in hm]) if len(hm) >= 4 else None
+                            cands.setdefault(k, []).append(("buts et résultats", p, pred(hg, ag), mean(A), mean(Bs), mean(A + Bs), H))
         for key, hc, ac in V.STATK:
             for cd in B.CUTS[::2]:
                 cut = now - timedelta(days=cd)
@@ -111,31 +106,44 @@ def run():
                         continue
                     mu = mh * att[h] * dfn[a] + ma * att[a] * dfn[h]
                     th, ta = tot(last(h, d)), tot(last(a, d))
+                    if len(th) < 8 or len(ta) < 8:
+                        continue
                     c = []
                     for l in range(max(0, int(mu) - 6), int(mu) + 7):
                         po = 1 - B.nbcdf(mu, PHI[key], int(l + .5))
                         c += [("Plus", l + .5, po, (a_ + b_) > l + .5), ("Moins", l + .5, 1 - po, (a_ + b_) < l + .5)]
                     for sel in (B.near(c, .66, .58, .76), B.near(c, .85, .78, .93)):
-                        if sel:
+                        if sel and PMIN <= sel[2] <= PMAX:
                             side, line, p, ok = sel
                             f = (lambda v: v > line) if side == "Plus" else (lambda v: v < line)
                             fa, fb = [f(v) for v in th], [f(v) for v in ta]
-                            groups.setdefault(NAMES[key], []).append((p, ok, [star(p, fa, fb, None, m, t) for m, t in RULES]))
-    L = ["RAPPORT n°3 : LES SIGNES ⭐ SERVENT-ILS ?", datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC"), "",
-         "Chaque règle est comparée aux autres pronostics de la même zone (45 à 74 %). 'annoncé' = probabilité moyenne,",
-         "'réel' = part réellement validée. Une règle est utile si le réel des ⭐ dépasse leur annoncé ET celui des autres.", ""]
-    for g, lst in groups.items():
-        L.append(g.upper())
-        for i, (mg, tm) in enumerate(RULES):
-            s = [(p, y) for p, y, st in lst if st[i]]
-            o = [(p, y) for p, y, st in lst if not st[i] and .45 <= p <= .74]
-            if len(s) < 30 or not o:
-                L.append(f"   règle {i + 1} (marge +{int(mg * 100)} %, chaque équipe >= {int(tm * 100)} %) : trop peu de ⭐ ({len(s)})")
+                            cands.setdefault((league, d, h, a), []).append((NAMES[key], p, ok, mean(fa), mean(fb), mean(fa + fb), None))
+    L = ["RAPPORT n°3 : LE ⭐ « TRÈS PROBABLE » EST-IL VRAIMENT TRÈS SÛR ?", datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC"), "",
+         f"Matchs avec au moins un pronostic candidat : {len(cands)}",
+         "Un seul ⭐ par match (le mieux confirmé). 'annoncé' = probabilité du calcul, 'réel' = part réellement validée.",
+         "'base' = simple pronostic le plus probable du même match (sans regarder les derniers matchs).", ""]
+    for nom, tm, tp in RULES:
+        st, bs, fam = [], [], {}
+        for k, lst in cands.items():
+            ok_ = [c for c in lst if c[3] >= tm and c[4] >= tm and c[5] >= tp and (c[6] is None or c[6] >= .7)]
+            if not ok_:
                 continue
-            ps, rs = sum(p for p, _ in s) / len(s), sum(y for _, y in s) / len(s)
-            po, ro = sum(p for p, _ in o) / len(o), sum(y for _, y in o) / len(o)
-            v = "UTILE" if len(s) >= 150 and rs >= ps + .02 and rs > ro + .02 else "aucun avantage" if len(s) >= 150 else "trop peu de cas"
-            L.append(f"   règle {i + 1} (marge +{int(mg * 100)} %, chaque équipe >= {int(tm * 100)} %) : ⭐ {len(s)}, annoncé {ps * 100:.0f} %, réel {rs * 100:.0f} %  |  autres {len(o)}, réel {ro * 100:.0f} %  ->  {v}")
+            s = max(ok_, key=lambda c: (c[5], c[1]))
+            b = max(lst, key=lambda c: c[1])
+            st.append((s[1], s[2]))
+            bs.append((b[1], b[2]))
+            fam[s[0]] = fam.get(s[0], 0) + 1
+        L.append(f"RÈGLE {nom.upper()} : chaque équipe >= {int(tm * 100)} %, ensemble >= {int(tp * 100)} %")
+        if len(st) < 30:
+            L += [f"   trop peu de matchs avec ⭐ ({len(st)})", ""]
+            continue
+        ps, rs = mean([p for p, _ in st]), mean([y for _, y in st])
+        pb, rb = mean([p for p, _ in bs]), mean([y for _, y in bs])
+        v = ("TRÈS SÛR : réel >= 85 %" if len(st) >= 100 and rs >= .85 else
+             "meilleur que prévu, mais pas très sûr" if len(st) >= 100 and rs >= ps + .02 else
+             "pas meilleur que la probabilité" if len(st) >= 100 else "trop peu de cas pour conclure")
+        L.append(f"   matchs avec ⭐ : {len(st)} | ⭐ annoncé {ps * 100:.0f} %, réel {rs * 100:.0f} %  |  base annoncé {pb * 100:.0f} %, réel {rb * 100:.0f} %  ->  {v}")
+        L.append("   familles des ⭐ : " + ", ".join(f"{a} {n}" for a, n in sorted(fam.items(), key=lambda x: -x[1])))
         L.append("")
     open("rapport3.txt", "w", encoding="utf-8").write("\n".join(L))
     print("\n".join(L))
