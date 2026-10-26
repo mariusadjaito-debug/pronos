@@ -15,11 +15,16 @@ EV = {"V1": lambda h, a: h > a, "X": lambda h, a: h == a, "V2": lambda h, a: h <
       "O2.5": lambda h, a: h + a > 2, "O3.5": lambda h, a: h + a > 3, "BTTS": lambda h, a: h > 0 and a > 0}
 
 
-def star(p, A, Bs, H=None):
+# règles testées : (marge exigée au-dessus de la probabilité du modèle, part minimale confirmée par chaque équipe)
+RULES = [(0, .6), (.05, .65), (.10, .70), (.15, .75)]
+
+
+def star(p, A, Bs, H=None, m=0, tmin=.6):
     if p < .45 or p > .74 or len(A) < 8 or len(Bs) < 8:
         return False
     q = lambda x: sum(x) / len(x)
-    return q(A) >= .6 and q(Bs) >= .6 and q(A + Bs) >= p - .03 and (H is None or q(H) >= .5)
+    seuil = p - .03 if m == 0 else p + m
+    return q(A) >= tmin and q(Bs) >= tmin and q(A + Bs) >= seuil and (H is None or q(H) >= .5)
 
 
 def run():
@@ -77,7 +82,7 @@ def run():
                         A = [pred(x, y) for x, y in ph]
                         Bs = [pred(y, x) for x, y in pa]
                         H = [pred(x, y) for x, y in hm] if len(hm) >= 4 else None
-                        groups.setdefault("buts et résultats", []).append((p, pred(hg, ag), star(p, A, Bs, H)))
+                        groups.setdefault("buts et résultats", []).append((p, pred(hg, ag), [star(p, A, Bs, H, m, t) for m, t in RULES]))
         for key, hc, ac in V.STATK:
             for cd in B.CUTS[::2]:
                 cut = now - timedelta(days=cd)
@@ -114,19 +119,24 @@ def run():
                         if sel:
                             side, line, p, ok = sel
                             f = (lambda v: v > line) if side == "Plus" else (lambda v: v < line)
-                            groups.setdefault(NAMES[key], []).append((p, ok, star(p, [f(v) for v in th], [f(v) for v in ta])))
+                            fa, fb = [f(v) for v in th], [f(v) for v in ta]
+                            groups.setdefault(NAMES[key], []).append((p, ok, [star(p, fa, fb, None, m, t) for m, t in RULES]))
     L = ["RAPPORT n°3 : LES SIGNES ⭐ SERVENT-ILS ?", datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC"), "",
-         "Pour chaque famille : pronostics ⭐ et autres pronostics de la même zone (45 à 74 %). 'annoncé' = probabilité moyenne,",
-         "'réel' = part réellement validée. Un ⭐ est utile si son réel dépasse son annoncé.", ""]
+         "Chaque règle est comparée aux autres pronostics de la même zone (45 à 74 %). 'annoncé' = probabilité moyenne,",
+         "'réel' = part réellement validée. Une règle est utile si le réel des ⭐ dépasse leur annoncé ET celui des autres.", ""]
     for g, lst in groups.items():
-        s = [(p, y) for p, y, st in lst if st]
-        o = [(p, y) for p, y, st in lst if not st and .45 <= p <= .74]
-        if not s or not o:
-            continue
-        ps, rs = sum(p for p, _ in s) / len(s), sum(y for _, y in s) / len(s)
-        po, ro = sum(p for p, _ in o) / len(o), sum(y for _, y in o) / len(o)
-        v = "UTILE" if len(s) >= 150 and rs >= ps + .02 else "aucun avantage mesuré" if len(s) >= 150 else "trop peu de cas pour conclure"
-        L.append(f"{g} : ⭐ {len(s)} pronostics, annoncé {ps * 100:.0f} %, réel {rs * 100:.0f} %  |  autres {len(o)}, annoncé {po * 100:.0f} %, réel {ro * 100:.0f} %  ->  {v}")
+        L.append(g.upper())
+        for i, (mg, tm) in enumerate(RULES):
+            s = [(p, y) for p, y, st in lst if st[i]]
+            o = [(p, y) for p, y, st in lst if not st[i] and .45 <= p <= .74]
+            if len(s) < 30 or not o:
+                L.append(f"   règle {i + 1} (marge +{int(mg * 100)} %, chaque équipe >= {int(tm * 100)} %) : trop peu de ⭐ ({len(s)})")
+                continue
+            ps, rs = sum(p for p, _ in s) / len(s), sum(y for _, y in s) / len(s)
+            po, ro = sum(p for p, _ in o) / len(o), sum(y for _, y in o) / len(o)
+            v = "UTILE" if len(s) >= 150 and rs >= ps + .02 and rs > ro + .02 else "aucun avantage" if len(s) >= 150 else "trop peu de cas"
+            L.append(f"   règle {i + 1} (marge +{int(mg * 100)} %, chaque équipe >= {int(tm * 100)} %) : ⭐ {len(s)}, annoncé {ps * 100:.0f} %, réel {rs * 100:.0f} %  |  autres {len(o)}, réel {ro * 100:.0f} %  ->  {v}")
+        L.append("")
     open("rapport3.txt", "w", encoding="utf-8").write("\n".join(L))
     print("\n".join(L))
 
