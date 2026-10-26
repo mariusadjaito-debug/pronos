@@ -1,5 +1,5 @@
 {
- "updated": "26/10/2026 22:32 UTC",
+ "updated": "26/10/2026 22:37 UTC",
  "matches": [
   {
    "l": "Mexique",
@@ -39756,8 +39756,11 @@
    "hc": "https://crests.football-data.org/92.png",
    "ac": "https://crests.football-data.org/88.png",
    "i": 564726,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      16.18,
@@ -42882,8 +42885,11 @@
    "hc": "https://crests.football-data.org/496.png",
    "ac": "https://crests.football-data.org/5531.png",
    "i": 567330,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    4
+   ],
    "e": {
     "s": [
      10.14,
@@ -43573,8 +43579,11 @@
    "hc": "https://crests.football-data.org/5529.png",
    "ac": "https://crests.football-data.org/5613.png",
    "i": 567334,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      11.08,
@@ -48362,8 +48371,11 @@
    "hc": "https://crests.football-data.org/81.png",
    "ac": "https://crests.football-data.org/86.png",
    "i": 564723,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      18.61,
@@ -48874,8 +48886,11 @@
    "hc": "https://crests.football-data.org/498.png",
    "ac": "https://crests.football-data.org/5527.png",
    "i": 567332,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      21.08,
