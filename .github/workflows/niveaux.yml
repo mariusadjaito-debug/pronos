@@ -1,0 +1,18 @@
+name: Nouveaux niveaux de couleur
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  niveaux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Appliquer les niveaux
+        run: python3 patch_niveaux.py
+      - name: Enregistrer
+        run: |
+          git config user.name "pronos-bot"
+          git config user.email "pronos-bot@users.noreply.github.com"
+          git add moteur.js live.js plus.js index.html
+          git diff --staged --quiet || (git commit -m "Nouveaux niveaux de couleur" && git pull --rebase origin main && git push)
