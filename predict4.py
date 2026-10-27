@@ -8,6 +8,27 @@ import predict2 as V
 import predict3 as V3
 
 P.HALF_LIFE = 180
+# colonnes (domicile, extérieur) servant au profil de jeu : buts, tirs, tirs cadrés, fautes, cartons jaunes, corners
+PROF = {"gf": ("FTHG", "FTAG"), "sh": ("HS", "AS"), "st": ("HST", "AST"), "fl": ("HF", "AF"), "yc": ("HY", "AY"), "cn": ("HC", "AC")}
+
+
+def _profile(rows, t):
+    """Moyennes pour / contre d'une équipe sur ses derniers matchs + xG estimé à partir des tirs (0,31 par tir cadré, 0,05 par autre tir)."""
+    out = {}
+    for k, (hc, ac) in PROF.items():
+        pour, contre = [], []
+        for _, r in rows:
+            x, y = P.num(r.get(hc)), P.num(r.get(ac))
+            if x is None or y is None:
+                continue
+            home = r["HomeTeam"] == t
+            pour.append(x if home else y)
+            contre.append(y if home else x)
+        if len(pour) >= 8:
+            out[k] = [round(sum(pour) / len(pour), 2), round(sum(contre) / len(contre), 2)]
+    if "sh" in out and "st" in out:
+        out["xg"] = [round(.31 * out["st"][i] + .05 * (out["sh"][i] - out["st"][i]), 2) for i in (0, 1)]
+    return out
 
 
 def build4(league, hist, fx, out, now):
@@ -28,6 +49,12 @@ def build4(league, hist, fx, out, now):
         for t in (r["HomeTeam"], r["AwayTeam"]):
             cnt[t] = cnt.get(t, 0) + 1
             byteam.setdefault(t, []).append((d, r))
+    la = {}  # moyennes du championnat par équipe et par match (derniers 400 jours)
+    recent = [(d, r) for d, r in hist if (now - d).days <= 400]
+    for k, (hc, ac) in PROF.items():
+        v = [x for _, r in recent for x in (P.num(r.get(hc)), P.num(r.get(ac))) if x is not None]
+        if len(v) > 200:
+            la[k] = round(sum(v) / len(v), 2)
     for m in fx:
         e = new.get((m["hs"], m["as"], m["d"]))
         if not e:
@@ -46,6 +73,7 @@ def build4(league, hist, fx, out, now):
                                            else [int(P.num(r["FTAG"])), int(P.num(r["FTHG"]))] for _, r in last]
             for k, hc, ac in V.STATK:
                 z.setdefault("ts", {}).setdefault(k, [[], []])[i] = V._totals(last, hc, ac)
+        z["sx"] = {"h": _profile(byteam.get(h, [])[-20:], h), "a": _profile(byteam.get(a, [])[-20:], a), "la": la}
 
 
 P.build = build4
