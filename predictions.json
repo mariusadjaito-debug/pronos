@@ -1,5 +1,5 @@
 {
- "updated": "27/10/2026 06:22 UTC",
+ "updated": "27/10/2026 06:39 UTC",
  "matches": [
   {
    "l": "Japon",
@@ -253,7 +253,24 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.2,
+       1.65
+      ]
+     },
+     "a": {
+      "gf": [
+       0.91,
+       2.0
+      ]
+     },
+     "la": {
+      "gf": 1.36
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/a7oyde1706245108.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/n3r91c1756403985.png",
@@ -510,7 +527,24 @@
       4,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.55
+      ]
+     },
+     "a": {
+      "gf": [
+       1.36,
+       1.64
+      ]
+     },
+     "la": {
+      "gf": 1.36
+     }
+    }
    },
    "hc": null,
    "ac": null,
@@ -767,7 +801,24 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.55,
+       0.7
+      ]
+     },
+     "a": {
+      "gf": [
+       1.09,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.36
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/9ls6lr1698754779.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/i3km591590070924.png",
@@ -1089,7 +1140,24 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.85,
+       1.8
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.36
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/c6pot51578239112.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ts5p221590070816.png",
@@ -3155,7 +3223,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       1.4
+      ],
+      "sh": [
+       12.45,
+       13.65
+      ],
+      "st": [
+       3.35,
+       4.7
+      ],
+      "fl": [
+       10.95,
+       12.05
+      ],
+      "yc": [
+       2.0,
+       2.1
+      ],
+      "cn": [
+       5.35,
+       5.9
+      ],
+      "xg": [
+       1.49,
+       1.9
+      ]
+     },
+     "a": {
+      "gf": [
+       2.35,
+       0.85
+      ],
+      "sh": [
+       17.0,
+       11.1
+      ],
+      "st": [
+       6.85,
+       3.45
+      ],
+      "fl": [
+       12.2,
+       10.15
+      ],
+      "yc": [
+       2.3,
+       2.05
+      ],
+      "cn": [
+       7.15,
+       4.2
+      ],
+      "xg": [
+       2.63,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.4,
+      "sh": 13.18,
+      "st": 4.46,
+      "fl": 12.05,
+      "yc": 1.9,
+      "cn": 5.15
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/qjys3z1684928969.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
@@ -3444,7 +3582,24 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.35,
+       1.8
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.91
+      ]
+     },
+     "la": {
+      "gf": 1.39
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/vvvryp1448219776.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/sjv7bd1750699486.png",
@@ -4122,7 +4277,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.2
+      ],
+      "sh": [
+       16.65,
+       12.85
+      ],
+      "st": [
+       5.65,
+       3.6
+      ],
+      "fl": [
+       11.75,
+       9.7
+      ],
+      "yc": [
+       1.6,
+       1.85
+      ],
+      "cn": [
+       5.5,
+       4.5
+      ],
+      "xg": [
+       2.3,
+       1.58
+      ]
+     },
+     "a": {
+      "gf": [
+       1.55,
+       1.3
+      ],
+      "sh": [
+       12.0,
+       16.5
+      ],
+      "st": [
+       4.35,
+       4.7
+      ],
+      "fl": [
+       9.35,
+       11.35
+      ],
+      "yc": [
+       1.35,
+       1.9
+      ],
+      "cn": [
+       4.6,
+       6.55
+      ],
+      "xg": [
+       1.73,
+       2.05
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 13.5,
+      "st": 4.52,
+      "fl": 11.29,
+      "yc": 1.87,
+      "cn": 5.12
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ijp86h1788968480.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/0ynlvb1771130035.png",
@@ -4816,7 +5041,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.45
+      ],
+      "sh": [
+       13.8,
+       13.55
+      ],
+      "st": [
+       4.6,
+       4.15
+      ],
+      "fl": [
+       11.1,
+       12.5
+      ],
+      "yc": [
+       2.15,
+       2.55
+      ],
+      "cn": [
+       5.25,
+       5.65
+      ],
+      "xg": [
+       1.89,
+       1.76
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.45
+      ],
+      "sh": [
+       13.95,
+       16.05
+      ],
+      "st": [
+       5.2,
+       5.5
+      ],
+      "fl": [
+       11.1,
+       12.15
+      ],
+      "yc": [
+       2.25,
+       2.1
+      ],
+      "cn": [
+       6.05,
+       5.35
+      ],
+      "xg": [
+       2.05,
+       2.23
+      ]
+     },
+     "la": {
+      "gf": 1.49,
+      "sh": 13.82,
+      "st": 4.71,
+      "fl": 11.97,
+      "yc": 2.19,
+      "cn": 5.15
+     }
+    }
    },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/tqpqqv1473454148.png",
@@ -5502,7 +5797,77 @@
       0,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.25
+      ],
+      "sh": [
+       12.4,
+       13.0
+      ],
+      "st": [
+       3.3,
+       4.15
+      ],
+      "fl": [
+       14.6,
+       12.4
+      ],
+      "yc": [
+       3.05,
+       2.75
+      ],
+      "cn": [
+       5.7,
+       4.5
+      ],
+      "xg": [
+       1.48,
+       1.73
+      ]
+     },
+     "a": {
+      "gf": [
+       1.65,
+       1.55
+      ],
+      "sh": [
+       13.1,
+       14.6
+      ],
+      "st": [
+       4.8,
+       4.7
+      ],
+      "fl": [
+       9.75,
+       10.9
+      ],
+      "yc": [
+       1.6,
+       2.3
+      ],
+      "cn": [
+       5.9,
+       4.65
+      ],
+      "xg": [
+       1.9,
+       1.95
+      ]
+     },
+     "la": {
+      "gf": 1.49,
+      "sh": 13.82,
+      "st": 4.71,
+      "fl": 11.97,
+      "yc": 2.19,
+      "cn": 5.15
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/1fpmgs1514394524.png",
    "ac": null,
@@ -6026,7 +6391,77 @@
       0,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.56,
+       1.67
+      ],
+      "sh": [
+       13.44,
+       17.44
+      ],
+      "st": [
+       5.0,
+       4.67
+      ],
+      "fl": [
+       10.44,
+       11.0
+      ],
+      "yc": [
+       2.22,
+       2.33
+      ],
+      "cn": [
+       3.33,
+       7.0
+      ],
+      "xg": [
+       1.97,
+       2.09
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.5
+      ],
+      "sh": [
+       13.8,
+       15.25
+      ],
+      "st": [
+       4.75,
+       5.3
+      ],
+      "fl": [
+       8.9,
+       10.75
+      ],
+      "yc": [
+       1.15,
+       2.05
+      ],
+      "cn": [
+       5.55,
+       5.55
+      ],
+      "xg": [
+       1.93,
+       2.14
+      ]
+     },
+     "la": {
+      "gf": 1.49,
+      "sh": 13.82,
+      "st": 4.71,
+      "fl": 11.97,
+      "yc": 2.19,
+      "cn": 5.15
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/tjs2611565193747.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/87n1901608237004.png",
@@ -7406,7 +7841,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.1,
+       1.2
+      ],
+      "sh": [
+       11.55,
+       13.25
+      ],
+      "st": [
+       4.0,
+       4.65
+      ],
+      "fl": [
+       13.15,
+       12.4
+      ],
+      "yc": [
+       2.55,
+       1.8
+      ],
+      "cn": [
+       3.9,
+       5.15
+      ],
+      "xg": [
+       1.62,
+       1.87
+      ]
+     },
+     "a": {
+      "gf": [
+       0.75,
+       1.55
+      ],
+      "sh": [
+       10.9,
+       15.05
+      ],
+      "st": [
+       3.35,
+       5.55
+      ],
+      "fl": [
+       12.15,
+       13.25
+      ],
+      "yc": [
+       1.9,
+       2.3
+      ],
+      "cn": [
+       4.2,
+       6.0
+      ],
+      "xg": [
+       1.42,
+       2.2
+      ]
+     },
+     "la": {
+      "gf": 1.38,
+      "sh": 13.16,
+      "st": 4.44,
+      "fl": 13.43,
+      "yc": 2.23,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/rxwptr1448203413.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/5hnd1c1639569938.png",
@@ -7948,7 +8453,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       0.82
+      ],
+      "sh": [
+       14.09,
+       10.09
+      ],
+      "st": [
+       3.73,
+       3.18
+      ],
+      "fl": [
+       17.45,
+       9.18
+      ],
+      "yc": [
+       3.0,
+       2.27
+      ],
+      "cn": [
+       5.18,
+       3.36
+      ],
+      "xg": [
+       1.67,
+       1.33
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       1.1
+      ],
+      "sh": [
+       10.6,
+       10.0
+      ],
+      "st": [
+       2.85,
+       2.85
+      ],
+      "fl": [
+       14.05,
+       13.45
+      ],
+      "yc": [
+       2.65,
+       2.5
+      ],
+      "cn": [
+       4.95,
+       3.25
+      ],
+      "xg": [
+       1.27,
+       1.24
+      ]
+     },
+     "la": {
+      "gf": 1.31,
+      "sh": 12.76,
+      "st": 4.33,
+      "fl": 13.38,
+      "yc": 2.62,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/21mapu1690094066.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/utuqys1420503958.png",
@@ -14298,7 +14873,77 @@
       0,
       5
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       0.45
+      ],
+      "sh": [
+       18.5,
+       7.3
+      ],
+      "st": [
+       5.6,
+       2.25
+      ],
+      "fl": [
+       14.25,
+       12.55
+      ],
+      "yc": [
+       1.75,
+       2.95
+      ],
+      "cn": [
+       6.5,
+       2.5
+      ],
+      "xg": [
+       2.38,
+       0.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.62,
+       2.12
+      ],
+      "sh": [
+       10.75,
+       15.0
+      ],
+      "st": [
+       4.5,
+       5.25
+      ],
+      "fl": [
+       14.5,
+       15.75
+      ],
+      "yc": [
+       3.38,
+       2.25
+      ],
+      "cn": [
+       2.38,
+       6.38
+      ],
+      "xg": [
+       1.71,
+       2.12
+      ]
+     },
+     "la": {
+      "gf": 1.32,
+      "sh": 11.96,
+      "st": 4.05,
+      "fl": 14.68,
+      "yc": 2.51,
+      "cn": 4.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/l7uhj01515965153.png",
    "ac": null,
@@ -15008,7 +15653,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       1.8
+      ],
+      "sh": [
+       13.4,
+       14.0
+      ],
+      "st": [
+       4.6,
+       4.9
+      ],
+      "fl": [
+       11.15,
+       11.15
+      ],
+      "yc": [
+       1.95,
+       2.45
+      ],
+      "cn": [
+       4.3,
+       5.0
+      ],
+      "xg": [
+       1.87,
+       1.97
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       1.25
+      ],
+      "sh": [
+       15.85,
+       10.25
+      ],
+      "st": [
+       5.1,
+       2.7
+      ],
+      "fl": [
+       11.35,
+       13.45
+      ],
+      "yc": [
+       1.85,
+       2.7
+      ],
+      "cn": [
+       6.4,
+       4.1
+      ],
+      "xg": [
+       2.12,
+       1.21
+      ]
+     },
+     "la": {
+      "gf": 1.4,
+      "sh": 13.18,
+      "st": 4.46,
+      "fl": 12.05,
+      "yc": 1.9,
+      "cn": 5.15
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/3e1dtj1785820999.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/v3eyvw1617287212.png",
@@ -15702,7 +16417,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.1
+      ],
+      "sh": [
+       16.15,
+       12.35
+      ],
+      "st": [
+       5.5,
+       4.3
+      ],
+      "fl": [
+       12.95,
+       11.5
+      ],
+      "yc": [
+       1.95,
+       2.2
+      ],
+      "cn": [
+       5.05,
+       5.05
+      ],
+      "xg": [
+       2.24,
+       1.74
+      ]
+     },
+     "a": {
+      "gf": [
+       1.15,
+       1.25
+      ],
+      "sh": [
+       13.25,
+       14.25
+      ],
+      "st": [
+       3.6,
+       3.75
+      ],
+      "fl": [
+       13.75,
+       13.6
+      ],
+      "yc": [
+       2.05,
+       1.9
+      ],
+      "cn": [
+       5.85,
+       5.35
+      ],
+      "xg": [
+       1.6,
+       1.69
+      ]
+     },
+     "la": {
+      "gf": 1.3,
+      "sh": 13.33,
+      "st": 4.28,
+      "fl": 14.42,
+      "yc": 2.18,
+      "cn": 4.83
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/zi1tb01579708939.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/njh6tl1651779724.png",
@@ -16056,7 +16841,24 @@
       3,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.75,
+       1.15
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.95
+      ]
+     },
+     "la": {
+      "gf": 1.51
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/lvkl8g1783533167.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/zq3o3j1718210605.png",
@@ -16402,7 +17204,24 @@
       3,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.55,
+       2.0
+      ]
+     },
+     "a": {
+      "gf": [
+       1.5,
+       1.0
+      ]
+     },
+     "la": {
+      "gf": 1.51
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/tpxvvp1473535560.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
@@ -16736,7 +17555,24 @@
       2,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       0.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.85
+      ]
+     },
+     "la": {
+      "gf": 1.48
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/3pahks1639779139.png",
    "ac": null,
@@ -17066,7 +17902,24 @@
       4,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       2.4
+      ]
+     },
+     "a": {
+      "gf": [
+       2.25,
+       0.8
+      ]
+     },
+     "la": {
+      "gf": 1.71
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/sovjgl1699462359.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/2kh2if1567615581.png",
@@ -17420,7 +18273,24 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.1,
+       1.3
+      ]
+     },
+     "a": {
+      "gf": [
+       1.65,
+       0.9
+      ]
+     },
+     "la": {
+      "gf": 1.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/l0at7p1739030681.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
@@ -18448,7 +19318,24 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.65,
+       0.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.7,
+       1.5
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5720.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/sb24al1764644259.png",
@@ -18902,7 +19789,24 @@
       3,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.8,
+       0.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.41
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ppg0j71578585847.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/c1bxyq1583516636.png",
@@ -19224,7 +20128,24 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.35
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.5
+      ]
+     },
+     "la": {
+      "gf": 1.39
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ucze1y1601404699.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/o1n52v1698554231.png",
@@ -19902,7 +20823,77 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.9,
+       0.8
+      ],
+      "sh": [
+       19.5,
+       13.3
+      ],
+      "st": [
+       7.0,
+       3.5
+      ],
+      "fl": [
+       9.05,
+       10.3
+      ],
+      "yc": [
+       1.25,
+       1.95
+      ],
+      "cn": [
+       6.9,
+       4.35
+      ],
+      "xg": [
+       2.79,
+       1.57
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.65
+      ],
+      "sh": [
+       14.2,
+       14.0
+      ],
+      "st": [
+       4.2,
+       4.45
+      ],
+      "fl": [
+       9.75,
+       9.0
+      ],
+      "yc": [
+       1.6,
+       1.35
+      ],
+      "cn": [
+       5.4,
+       4.4
+      ],
+      "xg": [
+       1.8,
+       1.86
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 13.5,
+      "st": 4.52,
+      "fl": 11.29,
+      "yc": 1.87,
+      "cn": 5.12
+     }
+    }
    },
    "hc": "https://crests.football-data.org/851.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/qww8ap1534620441.png",
@@ -20268,7 +21259,24 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.5
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.27
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/37r50u1638479392.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/cfkqt61770049560.png",
@@ -21624,7 +22632,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       1.75
+      ],
+      "sh": [
+       12.9,
+       14.5
+      ],
+      "st": [
+       4.1,
+       4.9
+      ],
+      "fl": [
+       12.1,
+       11.4
+      ],
+      "yc": [
+       2.0,
+       2.1
+      ],
+      "cn": [
+       5.3,
+       5.05
+      ],
+      "xg": [
+       1.71,
+       2.0
+      ]
+     },
+     "a": {
+      "gf": [
+       1.15,
+       1.55
+      ],
+      "sh": [
+       13.2,
+       12.7
+      ],
+      "st": [
+       4.1,
+       4.9
+      ],
+      "fl": [
+       12.7,
+       11.85
+      ],
+      "yc": [
+       2.5,
+       2.35
+      ],
+      "cn": [
+       5.95,
+       4.55
+      ],
+      "xg": [
+       1.73,
+       1.91
+      ]
+     },
+     "la": {
+      "gf": 1.31,
+      "sh": 12.76,
+      "st": 4.33,
+      "fl": 13.38,
+      "yc": 2.62,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/17oqja1616436316.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/asdjgc1733549950.png",
@@ -22310,7 +23388,77 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       1.55
+      ],
+      "sh": [
+       10.55,
+       14.25
+      ],
+      "st": [
+       3.25,
+       4.9
+      ],
+      "fl": [
+       12.7,
+       13.2
+      ],
+      "yc": [
+       3.25,
+       2.15
+      ],
+      "cn": [
+       4.15,
+       4.95
+      ],
+      "xg": [
+       1.37,
+       1.99
+      ]
+     },
+     "a": {
+      "gf": [
+       0.95,
+       1.8
+      ],
+      "sh": [
+       13.2,
+       13.35
+      ],
+      "st": [
+       3.8,
+       5.0
+      ],
+      "fl": [
+       14.1,
+       17.0
+      ],
+      "yc": [
+       2.65,
+       2.7
+      ],
+      "cn": [
+       4.95,
+       3.7
+      ],
+      "xg": [
+       1.65,
+       1.97
+      ]
+     },
+     "la": {
+      "gf": 1.31,
+      "sh": 12.76,
+      "st": 4.33,
+      "fl": 13.38,
+      "yc": 2.62,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/e2phzp1639408503.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ja7sl51677475273.png",
@@ -24222,7 +25370,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.6
+      ],
+      "sh": [
+       15.95,
+       13.8
+      ],
+      "st": [
+       5.4,
+       4.1
+      ],
+      "fl": [
+       17.4,
+       9.65
+      ],
+      "yc": [
+       2.7,
+       2.25
+      ],
+      "cn": [
+       4.4,
+       4.35
+      ],
+      "xg": [
+       2.2,
+       1.76
+      ]
+     },
+     "a": {
+      "gf": [
+       2.0,
+       1.67
+      ],
+      "sh": [
+       12.67,
+       15.44
+      ],
+      "st": [
+       5.11,
+       5.22
+      ],
+      "fl": [
+       13.56,
+       11.11
+      ],
+      "yc": [
+       2.11,
+       1.44
+      ],
+      "cn": [
+       4.11,
+       5.44
+      ],
+      "xg": [
+       1.96,
+       2.13
+      ]
+     },
+     "la": {
+      "gf": 1.38,
+      "sh": 13.16,
+      "st": 4.44,
+      "fl": 13.43,
+      "yc": 2.23,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/9jwk7o1513952059.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ivoq4l1679510278.png",
@@ -24916,7 +26134,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       1.95
+      ],
+      "sh": [
+       10.35,
+       14.0
+      ],
+      "st": [
+       3.2,
+       4.7
+      ],
+      "fl": [
+       15.25,
+       14.9
+      ],
+      "yc": [
+       3.25,
+       2.1
+      ],
+      "cn": [
+       3.3,
+       4.7
+      ],
+      "xg": [
+       1.35,
+       1.92
+      ]
+     },
+     "a": {
+      "gf": [
+       1.8,
+       0.75
+      ],
+      "sh": [
+       15.3,
+       9.05
+      ],
+      "st": [
+       5.8,
+       2.7
+      ],
+      "fl": [
+       14.95,
+       14.05
+      ],
+      "yc": [
+       2.0,
+       2.5
+      ],
+      "cn": [
+       5.4,
+       3.2
+      ],
+      "xg": [
+       2.27,
+       1.15
+      ]
+     },
+     "la": {
+      "gf": 1.32,
+      "sh": 11.96,
+      "st": 4.05,
+      "fl": 14.68,
+      "yc": 2.51,
+      "cn": 4.33
+     }
+    }
    },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/vtpwwt1448208397.png",
@@ -25206,7 +26494,24 @@
       4,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.64,
+       1.73
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       2.2
+      ]
+     },
+     "la": {
+      "gf": 1.51
+     }
+    }
    },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/04mzis1677238771.png",
@@ -28765,7 +30070,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.88,
+       1.62
+      ],
+      "sh": [
+       16.38,
+       11.62
+      ],
+      "st": [
+       5.5,
+       3.5
+      ],
+      "fl": [
+       14.75,
+       10.38
+      ],
+      "yc": [
+       1.88,
+       2.5
+      ],
+      "cn": [
+       6.12,
+       3.25
+      ],
+      "xg": [
+       2.25,
+       1.49
+      ]
+     },
+     "a": {
+      "gf": [
+       1.85,
+       1.2
+      ],
+      "sh": [
+       14.7,
+       9.8
+      ],
+      "st": [
+       5.35,
+       2.75
+      ],
+      "fl": [
+       13.9,
+       11.95
+      ],
+      "yc": [
+       1.95,
+       2.05
+      ],
+      "cn": [
+       5.5,
+       4.0
+      ],
+      "xg": [
+       2.13,
+       1.21
+      ]
+     },
+     "la": {
+      "gf": 1.3,
+      "sh": 13.33,
+      "st": 4.28,
+      "fl": 14.42,
+      "yc": 2.18,
+      "cn": 4.83
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ti1upd1645219152.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/2eso9w1579708309.png",
@@ -30503,7 +31878,24 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.75
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       0.85
+      ]
+     },
+     "la": {
+      "gf": 1.48
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ruwqxv1430239112.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/3kgg5b1592144695.png",
@@ -30853,7 +32245,24 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       2.15
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       2.6
+      ]
+     },
+     "la": {
+      "gf": 1.71
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/xppxwr1473791183.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/o8vms91779213403.png",
@@ -31191,7 +32600,24 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.3,
+       1.25
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       1.9
+      ]
+     },
+     "la": {
+      "gf": 1.71
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/gzpfmv1689085319.png",
    "ac": null,
@@ -32219,7 +33645,24 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       2.0
+      ]
+     },
+     "a": {
+      "gf": [
+       1.2,
+       1.6
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/wzrjhc1690695847.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/981eyj1690696173.png",
@@ -32545,7 +33988,24 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.45
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.55
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/txpuvv1448823342.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ovuad71690695412.png",
@@ -32867,7 +34327,24 @@
       4,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.2,
+       1.55
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       2.2
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/pxrf831534869388.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/s1br7q1602448285.png",
@@ -33185,7 +34662,24 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       2.5
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.3
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/7hf7vl1734069002.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/3tzlt31691821291.png",
@@ -33535,7 +35029,24 @@
       3,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.5,
+       1.1
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.0
+      ]
+     },
+     "la": {
+      "gf": 1.41
+     }
+    }
    },
    "hc": "https://crests.football-data.org/2016.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/01l4jm1781541633.png",
@@ -34907,7 +36418,77 @@
       0,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       0.95
+      ],
+      "sh": [
+       11.45,
+       13.1
+      ],
+      "st": [
+       4.0,
+       4.6
+      ],
+      "fl": [
+       9.45,
+       10.6
+      ],
+      "yc": [
+       1.85,
+       1.15
+      ],
+      "cn": [
+       4.4,
+       5.2
+      ],
+      "xg": [
+       1.61,
+       1.85
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.8
+      ],
+      "sh": [
+       15.0,
+       13.55
+      ],
+      "st": [
+       5.35,
+       4.95
+      ],
+      "fl": [
+       13.35,
+       10.8
+      ],
+      "yc": [
+       2.2,
+       2.0
+      ],
+      "cn": [
+       5.4,
+       3.95
+      ],
+      "xg": [
+       2.14,
+       1.96
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 13.5,
+      "st": 4.52,
+      "fl": 11.29,
+      "yc": 1.87,
+      "cn": 5.12
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/48e27o1750703124.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/auindn1771129464.png",
@@ -35609,7 +37190,77 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       1.3
+      ],
+      "sh": [
+       15.8,
+       11.1
+      ],
+      "st": [
+       4.9,
+       3.45
+      ],
+      "fl": [
+       15.95,
+       14.4
+      ],
+      "yc": [
+       2.35,
+       2.5
+      ],
+      "cn": [
+       5.25,
+       3.35
+      ],
+      "xg": [
+       2.06,
+       1.45
+      ]
+     },
+     "a": {
+      "gf": [
+       1.55,
+       1.35
+      ],
+      "sh": [
+       11.5,
+       11.3
+      ],
+      "st": [
+       4.0,
+       4.4
+      ],
+      "fl": [
+       15.6,
+       15.6
+      ],
+      "yc": [
+       2.4,
+       2.4
+      ],
+      "cn": [
+       4.55,
+       4.35
+      ],
+      "xg": [
+       1.61,
+       1.71
+      ]
+     },
+     "la": {
+      "gf": 1.32,
+      "sh": 11.96,
+      "st": 4.05,
+      "fl": 14.68,
+      "yc": 2.51,
+      "cn": 4.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/2d1zih1602773641.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/adh2j01602774237.png",
@@ -36303,7 +37954,77 @@
       0,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.95,
+       0.8
+      ],
+      "sh": [
+       15.65,
+       9.7
+      ],
+      "st": [
+       5.7,
+       3.8
+      ],
+      "fl": [
+       13.3,
+       14.1
+      ],
+      "yc": [
+       1.8,
+       3.3
+      ],
+      "cn": [
+       5.9,
+       3.8
+      ],
+      "xg": [
+       2.26,
+       1.47
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.2
+      ],
+      "sh": [
+       11.0,
+       12.85
+      ],
+      "st": [
+       4.2,
+       3.85
+      ],
+      "fl": [
+       12.0,
+       11.9
+      ],
+      "yc": [
+       2.75,
+       2.45
+      ],
+      "cn": [
+       3.75,
+       5.2
+      ],
+      "xg": [
+       1.64,
+       1.64
+      ]
+     },
+     "la": {
+      "gf": 1.31,
+      "sh": 12.76,
+      "st": 4.33,
+      "fl": 13.38,
+      "yc": 2.62,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ywibjw1733456820.png",
    "ac": null,
@@ -36665,7 +38386,24 @@
       6,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.75,
+       0.8
+      ]
+     },
+     "a": {
+      "gf": [
+       2.4,
+       0.9
+      ]
+     },
+     "la": {
+      "gf": 1.39
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/pv7l891754114675.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/8zfxyx1685597440.png",
@@ -38723,7 +40461,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.6
+      ],
+      "sh": [
+       10.1,
+       15.65
+      ],
+      "st": [
+       3.45,
+       5.9
+      ],
+      "fl": [
+       12.55,
+       16.0
+      ],
+      "yc": [
+       2.15,
+       2.85
+      ],
+      "cn": [
+       3.15,
+       5.15
+      ],
+      "xg": [
+       1.4,
+       2.32
+      ]
+     },
+     "a": {
+      "gf": [
+       1.7,
+       1.15
+      ],
+      "sh": [
+       12.5,
+       12.4
+      ],
+      "st": [
+       3.85,
+       3.95
+      ],
+      "fl": [
+       13.9,
+       13.95
+      ],
+      "yc": [
+       1.75,
+       2.05
+      ],
+      "cn": [
+       4.65,
+       4.6
+      ],
+      "xg": [
+       1.63,
+       1.65
+      ]
+     },
+     "la": {
+      "gf": 1.32,
+      "sh": 11.96,
+      "st": 4.05,
+      "fl": 14.68,
+      "yc": 2.51,
+      "cn": 4.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/02xrl91602773672.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/m15zsh1602774126.png",
@@ -39093,7 +40901,24 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       1.3
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.3
+      ]
+     },
+     "la": {
+      "gf": 1.51
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/x9axpr1624623878.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/uvrpsp1447539333.png",
@@ -39419,7 +41244,24 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.15,
+       1.15
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       0.75
+      ]
+     },
+     "la": {
+      "gf": 1.27
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/81uzfv1507891573.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/3x3m7i1782636831.png",
@@ -40089,7 +41931,77 @@
       2,
       5
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.3,
+       0.85
+      ],
+      "sh": [
+       16.75,
+       9.9
+      ],
+      "st": [
+       6.65,
+       2.55
+      ],
+      "fl": [
+       10.75,
+       10.75
+      ],
+      "yc": [
+       1.85,
+       1.85
+      ],
+      "cn": [
+       5.95,
+       3.75
+      ],
+      "xg": [
+       2.57,
+       1.16
+      ]
+     },
+     "a": {
+      "gf": [
+       1.55,
+       1.95
+      ],
+      "sh": [
+       15.45,
+       12.75
+      ],
+      "st": [
+       5.5,
+       5.05
+      ],
+      "fl": [
+       11.6,
+       10.3
+      ],
+      "yc": [
+       1.6,
+       1.55
+      ],
+      "cn": [
+       6.65,
+       5.6
+      ],
+      "xg": [
+       2.2,
+       1.95
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 13.5,
+      "st": 4.52,
+      "fl": 11.29,
+      "yc": 1.87,
+      "cn": 5.12
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ljszp41654601742.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/0v6uv41656017321.png",
@@ -40439,7 +42351,24 @@
       0,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.85,
+       1.6
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       0.7
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/0twgzi1517768087.png",
@@ -41463,7 +43392,24 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.45,
+       1.5
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.65
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/apziyg1534866527.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/9se6qv1690695269.png",
@@ -43692,7 +45638,24 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.05,
+       1.15
+      ]
+     },
+     "a": {
+      "gf": [
+       1.65,
+       0.85
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
@@ -44018,7 +45981,24 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.35,
+       1.0
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       1.3
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
@@ -44352,7 +46332,24 @@
       1,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.45
+      ]
+     },
+     "a": {
+      "gf": [
+       0.85,
+       1.5
+      ]
+     },
+     "la": {
+      "gf": 1.46
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/svvyvw1473541813.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/h0jgg51593451845.png",
@@ -44670,7 +46667,24 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.9,
+       0.85
+      ]
+     },
+     "a": {
+      "gf": [
+       0.5,
+       1.4
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/rbkjba1707458543.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/391thp1775793121.png",
@@ -44992,7 +47006,24 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.9,
+       1.6
+      ]
+     },
+     "a": {
+      "gf": [
+       1.2,
+       1.05
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/72n7wv1640484673.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/jo98m71517769587.png",
@@ -45326,7 +47357,24 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.0
+      ]
+     },
+     "a": {
+      "gf": [
+       2.15,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.46
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/024n481781543211.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/wcd2yi1781543370.png",
@@ -45664,7 +47712,24 @@
       2,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.25
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.75
+      ]
+     },
+     "la": {
+      "gf": 1.62
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/7nbj2a1602103638.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/ysyysr1420227188.png",
@@ -46014,7 +48079,24 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.25,
+       1.45
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.25
+      ]
+     },
+     "la": {
+      "gf": 1.46
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/amy1xs1581857392.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/k9duyw1747334895.png",
@@ -46348,7 +48430,24 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.2
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.4
+      ]
+     },
+     "la": {
+      "gf": 1.46
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/b0mky81779772352.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/kg9gzh1779771734.png",
@@ -47018,7 +49117,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.05
+      ],
+      "sh": [
+       17.85,
+       11.1
+      ],
+      "st": [
+       6.1,
+       3.85
+      ],
+      "fl": [
+       12.9,
+       13.25
+      ],
+      "yc": [
+       2.2,
+       2.75
+      ],
+      "cn": [
+       6.35,
+       4.2
+      ],
+      "xg": [
+       2.48,
+       1.56
+      ]
+     },
+     "a": {
+      "gf": [
+       1.5,
+       1.15
+      ],
+      "sh": [
+       12.95,
+       13.0
+      ],
+      "st": [
+       4.45,
+       4.2
+      ],
+      "fl": [
+       13.3,
+       12.3
+      ],
+      "yc": [
+       2.2,
+       1.6
+      ],
+      "cn": [
+       4.15,
+       4.65
+      ],
+      "xg": [
+       1.8,
+       1.74
+      ]
+     },
+     "la": {
+      "gf": 1.38,
+      "sh": 13.16,
+      "st": 4.44,
+      "fl": 13.43,
+      "yc": 2.23,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/svo05k1776827439.png",
    "ac": null,
@@ -47712,7 +49881,77 @@
       4,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.6
+      ],
+      "sh": [
+       14.55,
+       13.55
+      ],
+      "st": [
+       4.8,
+       4.9
+      ],
+      "fl": [
+       12.5,
+       13.7
+      ],
+      "yc": [
+       2.05,
+       1.45
+      ],
+      "cn": [
+       4.8,
+       4.3
+      ],
+      "xg": [
+       1.98,
+       1.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       1.0
+      ],
+      "sh": [
+       13.55,
+       13.9
+      ],
+      "st": [
+       5.25,
+       4.4
+      ],
+      "fl": [
+       11.05,
+       14.9
+      ],
+      "yc": [
+       1.75,
+       2.65
+      ],
+      "cn": [
+       5.15,
+       4.5
+      ],
+      "xg": [
+       2.04,
+       1.84
+      ]
+     },
+     "la": {
+      "gf": 1.38,
+      "sh": 13.16,
+      "st": 4.44,
+      "fl": 13.43,
+      "yc": 2.23,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/t7senr1657195719.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/96s34o1776827629.png",
@@ -48406,7 +50645,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.05,
+       1.25
+      ],
+      "sh": [
+       18.2,
+       10.65
+      ],
+      "st": [
+       6.25,
+       3.8
+      ],
+      "fl": [
+       12.55,
+       12.0
+      ],
+      "yc": [
+       2.05,
+       2.35
+      ],
+      "cn": [
+       6.6,
+       3.0
+      ],
+      "xg": [
+       2.54,
+       1.52
+      ]
+     },
+     "a": {
+      "gf": [
+       2.4,
+       1.2
+      ],
+      "sh": [
+       16.4,
+       12.75
+      ],
+      "st": [
+       6.4,
+       4.2
+      ],
+      "fl": [
+       11.85,
+       13.1
+      ],
+      "yc": [
+       2.2,
+       2.45
+      ],
+      "cn": [
+       7.2,
+       4.15
+      ],
+      "xg": [
+       2.48,
+       1.73
+      ]
+     },
+     "la": {
+      "gf": 1.38,
+      "sh": 13.16,
+      "st": 4.44,
+      "fl": 13.43,
+      "yc": 2.23,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://crests.football-data.org/610.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
@@ -49104,7 +51413,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.35,
+       0.9
+      ],
+      "sh": [
+       11.75,
+       9.75
+      ],
+      "st": [
+       3.25,
+       3.1
+      ],
+      "fl": [
+       14.15,
+       14.05
+      ],
+      "yc": [
+       2.5,
+       2.5
+      ],
+      "cn": [
+       4.45,
+       4.95
+      ],
+      "xg": [
+       1.43,
+       1.29
+      ]
+     },
+     "a": {
+      "gf": [
+       2.55,
+       1.0
+      ],
+      "sh": [
+       18.15,
+       10.35
+      ],
+      "st": [
+       5.95,
+       3.55
+      ],
+      "fl": [
+       11.75,
+       15.95
+      ],
+      "yc": [
+       1.9,
+       3.1
+      ],
+      "cn": [
+       8.0,
+       2.8
+      ],
+      "xg": [
+       2.45,
+       1.44
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5530.png",
    "ac": "https://crests.football-data.org/1903.png",
@@ -49466,7 +51845,24 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.8,
+       0.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.15,
+       1.4
+      ]
+     },
+     "la": {
+      "gf": 1.51
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/styqtr1473535513.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/vem69p1657827704.png",
@@ -49800,7 +52196,24 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.7,
+       1.35
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       0.7
+      ]
+     },
+     "la": {
+      "gf": 1.27
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ggoh1h1638479369.png",
    "ac": null,
@@ -50474,7 +52887,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.05,
+       0.95
+      ],
+      "sh": [
+       18.8,
+       9.7
+      ],
+      "st": [
+       6.95,
+       3.85
+      ],
+      "fl": [
+       6.95,
+       10.65
+      ],
+      "yc": [
+       1.15,
+       1.5
+      ],
+      "cn": [
+       6.3,
+       2.85
+      ],
+      "xg": [
+       2.75,
+       1.49
+      ]
+     },
+     "a": {
+      "gf": [
+       1.5,
+       1.35
+      ],
+      "sh": [
+       12.25,
+       13.25
+      ],
+      "st": [
+       4.65,
+       4.9
+      ],
+      "fl": [
+       11.15,
+       13.35
+      ],
+      "yc": [
+       1.5,
+       2.4
+      ],
+      "cn": [
+       5.3,
+       5.9
+      ],
+      "xg": [
+       1.82,
+       1.94
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/524.png",
    "ac": "https://crests.football-data.org/523.png",
@@ -51160,7 +53643,77 @@
       3,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.45
+      ],
+      "sh": [
+       15.2,
+       10.5
+      ],
+      "st": [
+       5.55,
+       3.9
+      ],
+      "fl": [
+       15.05,
+       11.85
+      ],
+      "yc": [
+       2.75,
+       2.5
+      ],
+      "cn": [
+       4.45,
+       4.1
+      ],
+      "xg": [
+       2.2,
+       1.54
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       0.9
+      ],
+      "sh": [
+       10.9,
+       13.6
+      ],
+      "st": [
+       3.75,
+       4.05
+      ],
+      "fl": [
+       13.85,
+       14.15
+      ],
+      "yc": [
+       2.4,
+       2.7
+      ],
+      "cn": [
+       3.75,
+       5.1
+      ],
+      "xg": [
+       1.52,
+       1.73
+      ]
+     },
+     "la": {
+      "gf": 1.31,
+      "sh": 12.76,
+      "st": 4.33,
+      "fl": 13.38,
+      "yc": 2.62,
+      "cn": 4.73
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/l5qspn1552847356.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/79h3ul1708150894.png",
@@ -51846,7 +54399,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.8,
+       1.0
+      ],
+      "sh": [
+       9.25,
+       11.2
+      ],
+      "st": [
+       3.2,
+       3.7
+      ],
+      "fl": [
+       15.5,
+       14.55
+      ],
+      "yc": [
+       1.75,
+       1.7
+      ],
+      "cn": [
+       3.6,
+       5.7
+      ],
+      "xg": [
+       1.29,
+       1.52
+      ]
+     },
+     "a": {
+      "gf": [
+       1.8,
+       1.2
+      ],
+      "sh": [
+       12.15,
+       12.25
+      ],
+      "st": [
+       4.95,
+       4.1
+      ],
+      "fl": [
+       12.4,
+       14.15
+      ],
+      "yc": [
+       1.8,
+       1.8
+      ],
+      "cn": [
+       3.8,
+       4.55
+      ],
+      "xg": [
+       1.89,
+       1.68
+      ]
+     },
+     "la": {
+      "gf": 1.3,
+      "sh": 11.7,
+      "st": 4.04,
+      "fl": 14.2,
+      "yc": 1.99,
+      "cn": 4.59
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/c7p39l1754278109.png",
    "ac": null,
@@ -52532,7 +55155,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       0.6
+      ],
+      "sh": [
+       11.9,
+       13.85
+      ],
+      "st": [
+       4.7,
+       3.9
+      ],
+      "fl": [
+       17.0,
+       15.45
+      ],
+      "yc": [
+       1.85,
+       2.0
+      ],
+      "cn": [
+       5.2,
+       4.15
+      ],
+      "xg": [
+       1.82,
+       1.71
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.2
+      ],
+      "sh": [
+       13.45,
+       9.8
+      ],
+      "st": [
+       4.75,
+       3.9
+      ],
+      "fl": [
+       15.1,
+       13.95
+      ],
+      "yc": [
+       2.15,
+       2.0
+      ],
+      "cn": [
+       5.45,
+       3.6
+      ],
+      "xg": [
+       1.91,
+       1.5
+      ]
+     },
+     "la": {
+      "gf": 1.3,
+      "sh": 11.7,
+      "st": 4.04,
+      "fl": 14.2,
+      "yc": 1.99,
+      "cn": 4.59
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/8wn9x31750879448.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/so4unb1658758422.png",
@@ -53230,7 +55923,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.45
+      ],
+      "sh": [
+       12.35,
+       11.1
+      ],
+      "st": [
+       3.8,
+       4.0
+      ],
+      "fl": [
+       14.2,
+       12.2
+      ],
+      "yc": [
+       2.8,
+       2.15
+      ],
+      "cn": [
+       3.9,
+       3.95
+      ],
+      "xg": [
+       1.61,
+       1.59
+      ]
+     },
+     "a": {
+      "gf": [
+       1.05,
+       1.75
+      ],
+      "sh": [
+       12.05,
+       12.4
+      ],
+      "st": [
+       4.8,
+       4.05
+      ],
+      "fl": [
+       13.9,
+       11.8
+      ],
+      "yc": [
+       2.55,
+       2.1
+      ],
+      "cn": [
+       4.1,
+       5.1
+      ],
+      "xg": [
+       1.85,
+       1.67
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/559.png",
    "ac": "https://crests.football-data.org/79.png",
@@ -53924,7 +56687,77 @@
       4,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.35
+      ],
+      "sh": [
+       14.2,
+       14.85
+      ],
+      "st": [
+       4.4,
+       4.7
+      ],
+      "fl": [
+       11.35,
+       11.6
+      ],
+      "yc": [
+       1.85,
+       1.7
+      ],
+      "cn": [
+       6.15,
+       5.25
+      ],
+      "xg": [
+       1.85,
+       1.96
+      ]
+     },
+     "a": {
+      "gf": [
+       1.5,
+       0.85
+      ],
+      "sh": [
+       14.7,
+       12.05
+      ],
+      "st": [
+       4.3,
+       3.1
+      ],
+      "fl": [
+       10.35,
+       15.05
+      ],
+      "yc": [
+       1.4,
+       1.95
+      ],
+      "cn": [
+       5.85,
+       4.45
+      ],
+      "xg": [
+       1.85,
+       1.41
+      ]
+     },
+     "la": {
+      "gf": 1.3,
+      "sh": 12.33,
+      "st": 4.0,
+      "fl": 11.5,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ivjidn1689630099.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/lpi7qa1779778149.png",
@@ -54282,7 +57115,24 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.65
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       0.9
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": null,
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/zppckr1739500494.png",
@@ -54604,7 +57454,24 @@
       2,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.85
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.5
+      ]
+     },
+     "la": {
+      "gf": 1.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
@@ -54942,7 +57809,24 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.05,
+       0.75
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.1
+      ]
+     },
+     "la": {
+      "gf": 1.33
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
    "ac": null,
@@ -55276,7 +58160,24 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       0.75
+      ]
+     },
+     "a": {
+      "gf": [
+       0.65,
+       1.0
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/332h0l1578824392.png",
@@ -55938,7 +58839,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.55
+      ],
+      "sh": [
+       12.0,
+       15.45
+      ],
+      "st": [
+       4.45,
+       5.35
+      ],
+      "fl": [
+       10.6,
+       11.5
+      ],
+      "yc": [
+       1.85,
+       2.1
+      ],
+      "cn": [
+       3.9,
+       5.7
+      ],
+      "xg": [
+       1.76,
+       2.16
+      ]
+     },
+     "a": {
+      "gf": [
+       1.55,
+       1.0
+      ],
+      "sh": [
+       11.85,
+       12.2
+      ],
+      "st": [
+       4.45,
+       4.25
+      ],
+      "fl": [
+       10.75,
+       11.85
+      ],
+      "yc": [
+       1.9,
+       2.2
+      ],
+      "cn": [
+       4.45,
+       4.9
+      ],
+      "xg": [
+       1.75,
+       1.71
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/471.png",
    "ac": "https://crests.football-data.org/110.png",
@@ -56629,7 +59600,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.2,
+       1.05
+      ],
+      "sh": [
+       14.7,
+       10.8
+      ],
+      "st": [
+       5.0,
+       3.9
+      ],
+      "fl": [
+       11.85,
+       11.1
+      ],
+      "yc": [
+       1.9,
+       1.65
+      ],
+      "cn": [
+       5.55,
+       3.65
+      ],
+      "xg": [
+       2.04,
+       1.55
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       1.35
+      ],
+      "sh": [
+       11.65,
+       14.65
+      ],
+      "st": [
+       3.75,
+       4.5
+      ],
+      "fl": [
+       11.2,
+       12.1
+      ],
+      "yc": [
+       1.65,
+       1.15
+      ],
+      "cn": [
+       4.1,
+       5.05
+      ],
+      "xg": [
+       1.56,
+       1.9
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/100.png",
    "ac": "https://crests.football-data.org/104.png",
@@ -57320,7 +60361,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.6,
+       1.35
+      ],
+      "sh": [
+       11.5,
+       14.3
+      ],
+      "st": [
+       3.55,
+       4.65
+      ],
+      "fl": [
+       11.35,
+       10.75
+      ],
+      "yc": [
+       1.4,
+       1.5
+      ],
+      "cn": [
+       3.45,
+       5.15
+      ],
+      "xg": [
+       1.5,
+       1.92
+      ]
+     },
+     "a": {
+      "gf": [
+       1.9,
+       0.85
+      ],
+      "sh": [
+       17.15,
+       10.05
+      ],
+      "st": [
+       5.8,
+       2.65
+      ],
+      "fl": [
+       11.25,
+       12.35
+      ],
+      "yc": [
+       1.6,
+       2.2
+      ],
+      "cn": [
+       6.1,
+       3.4
+      ],
+      "xg": [
+       2.37,
+       1.19
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/586.png",
    "ac": "https://crests.football-data.org/7397.png",
@@ -57675,7 +60786,24 @@
       2,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.2,
+       0.9
+      ]
+     },
+     "a": {
+      "gf": [
+       1.55,
+       1.3
+      ]
+     },
+     "la": {
+      "gf": 1.05
+     }
+    }
    },
    "hc": "https://r2.thesportsdb.com/images/media/team/badge/uqfjuo1769234850.png",
    "ac": "https://r2.thesportsdb.com/images/media/team/badge/qgzi2b1769406125.png",
@@ -58345,7 +61473,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.1
+      ],
+      "sh": [
+       12.9,
+       11.7
+      ],
+      "st": [
+       4.2,
+       4.05
+      ],
+      "fl": [
+       10.4,
+       11.5
+      ],
+      "yc": [
+       1.8,
+       1.95
+      ],
+      "cn": [
+       3.45,
+       3.75
+      ],
+      "xg": [
+       1.74,
+       1.64
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.2
+      ],
+      "sh": [
+       12.1,
+       10.85
+      ],
+      "st": [
+       3.45,
+       3.5
+      ],
+      "fl": [
+       11.65,
+       14.45
+      ],
+      "yc": [
+       1.55,
+       1.75
+      ],
+      "cn": [
+       4.05,
+       5.05
+      ],
+      "xg": [
+       1.5,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/98.png",
    "ac": "https://crests.football-data.org/103.png",
@@ -59028,7 +62226,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.8,
+       1.6
+      ],
+      "sh": [
+       11.9,
+       15.15
+      ],
+      "st": [
+       3.95,
+       5.2
+      ],
+      "fl": [
+       13.2,
+       12.3
+      ],
+      "yc": [
+       2.25,
+       1.4
+      ],
+      "cn": [
+       4.1,
+       4.75
+      ],
+      "xg": [
+       1.62,
+       2.11
+      ]
+     },
+     "a": {
+      "gf": [
+       2.5,
+       1.2
+      ],
+      "sh": [
+       17.4,
+       10.9
+      ],
+      "st": [
+       6.1,
+       3.35
+      ],
+      "fl": [
+       10.55,
+       9.95
+      ],
+      "yc": [
+       1.65,
+       1.8
+      ],
+      "cn": [
+       5.45,
+       3.2
+      ],
+      "xg": [
+       2.46,
+       1.42
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/454.png",
    "ac": "https://crests.football-data.org/108.png",
@@ -59719,7 +62987,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.7,
+       1.5
+      ],
+      "sh": [
+       9.65,
+       14.85
+      ],
+      "st": [
+       2.8,
+       4.65
+      ],
+      "fl": [
+       10.95,
+       12.9
+      ],
+      "yc": [
+       1.5,
+       1.65
+      ],
+      "cn": [
+       3.5,
+       5.75
+      ],
+      "xg": [
+       1.21,
+       1.95
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       1.35
+      ],
+      "sh": [
+       12.6,
+       15.65
+      ],
+      "st": [
+       4.3,
+       4.8
+      ],
+      "fl": [
+       11.75,
+       9.95
+      ],
+      "yc": [
+       1.85,
+       1.2
+      ],
+      "cn": [
+       4.2,
+       5.15
+      ],
+      "xg": [
+       1.75,
+       2.03
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/112.png",
    "ac": "https://crests.football-data.org/115.png",
@@ -60410,7 +63748,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.75,
+       1.35
+      ],
+      "sh": [
+       10.7,
+       13.2
+      ],
+      "st": [
+       3.0,
+       4.15
+      ],
+      "fl": [
+       9.8,
+       13.75
+      ],
+      "yc": [
+       1.65,
+       2.25
+      ],
+      "cn": [
+       3.95,
+       4.75
+      ],
+      "xg": [
+       1.31,
+       1.74
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       0.85
+      ],
+      "sh": [
+       16.95,
+       9.45
+      ],
+      "st": [
+       5.65,
+       2.75
+      ],
+      "fl": [
+       11.65,
+       9.7
+      ],
+      "yc": [
+       1.4,
+       1.95
+      ],
+      "cn": [
+       6.45,
+       3.55
+      ],
+      "xg": [
+       2.32,
+       1.19
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/107.png",
    "ac": "https://crests.football-data.org/109.png",
@@ -61093,7 +64501,77 @@
       3,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.1,
+       2.2
+      ],
+      "sh": [
+       11.1,
+       14.75
+      ],
+      "st": [
+       4.15,
+       5.5
+      ],
+      "fl": [
+       11.35,
+       13.5
+      ],
+      "yc": [
+       1.65,
+       1.8
+      ],
+      "cn": [
+       3.8,
+       4.9
+      ],
+      "xg": [
+       1.63,
+       2.17
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       0.95
+      ],
+      "sh": [
+       14.85,
+       11.9
+      ],
+      "st": [
+       5.3,
+       3.35
+      ],
+      "fl": [
+       8.95,
+       9.65
+      ],
+      "yc": [
+       1.0,
+       1.8
+      ],
+      "cn": [
+       6.25,
+       3.65
+      ],
+      "xg": [
+       2.12,
+       1.47
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5911.png",
    "ac": "https://crests.football-data.org/113.png",
@@ -61605,7 +65083,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.12,
+       1.62
+      ],
+      "sh": [
+       18.25,
+       19.88
+      ],
+      "st": [
+       6.12,
+       6.12
+      ],
+      "fl": [
+       15.62,
+       11.5
+      ],
+      "yc": [
+       2.0,
+       2.25
+      ],
+      "cn": [
+       5.88,
+       7.0
+      ],
+      "xg": [
+       2.5,
+       2.59
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.55
+      ],
+      "sh": [
+       10.3,
+       12.8
+      ],
+      "st": [
+       3.55,
+       5.1
+      ],
+      "fl": [
+       12.8,
+       12.55
+      ],
+      "yc": [
+       1.85,
+       1.3
+      ],
+      "cn": [
+       3.9,
+       4.6
+      ],
+      "xg": [
+       1.44,
+       1.97
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/470.png",
    "ac": "https://crests.football-data.org/5890.png",
@@ -62296,7 +65844,77 @@
       4,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       1.5
+      ],
+      "sh": [
+       12.6,
+       14.5
+      ],
+      "st": [
+       3.7,
+       5.35
+      ],
+      "fl": [
+       11.8,
+       13.0
+      ],
+      "yc": [
+       2.05,
+       1.65
+      ],
+      "cn": [
+       4.25,
+       4.4
+      ],
+      "xg": [
+       1.59,
+       2.12
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.45
+      ],
+      "sh": [
+       15.05,
+       14.35
+      ],
+      "st": [
+       4.7,
+       4.95
+      ],
+      "fl": [
+       11.4,
+       9.0
+      ],
+      "yc": [
+       1.3,
+       1.35
+      ],
+      "cn": [
+       5.0,
+       4.15
+      ],
+      "xg": [
+       1.97,
+       2.0
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/99.png",
    "ac": "https://crests.football-data.org/102.png",
@@ -62987,7 +66605,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       1.6
+      ],
+      "sh": [
+       13.2,
+       13.2
+      ],
+      "st": [
+       4.15,
+       4.6
+      ],
+      "fl": [
+       14.15,
+       14.9
+      ],
+      "yc": [
+       2.0,
+       1.65
+      ],
+      "cn": [
+       4.35,
+       4.75
+      ],
+      "xg": [
+       1.74,
+       1.86
+      ]
+     },
+     "a": {
+      "gf": [
+       2.05,
+       0.95
+      ],
+      "sh": [
+       18.8,
+       9.7
+      ],
+      "st": [
+       6.95,
+       3.85
+      ],
+      "fl": [
+       6.95,
+       10.65
+      ],
+      "yc": [
+       1.15,
+       1.5
+      ],
+      "cn": [
+       6.3,
+       2.85
+      ],
+      "xg": [
+       2.75,
+       1.49
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/533.png",
    "ac": "https://crests.football-data.org/524.png",
@@ -63481,7 +67169,48 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {},
+     "a": {
+      "gf": [
+       1.75,
+       1.65
+      ],
+      "sh": [
+       14.95,
+       12.8
+      ],
+      "st": [
+       5.5,
+       4.75
+      ],
+      "fl": [
+       10.9,
+       10.1
+      ],
+      "yc": [
+       1.75,
+       2.15
+      ],
+      "cn": [
+       4.8,
+       4.95
+      ],
+      "xg": [
+       2.18,
+       1.88
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/719.png",
    "ac": "https://crests.football-data.org/15.png",
@@ -64172,7 +67901,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.8,
+       1.35
+      ],
+      "sh": [
+       14.3,
+       12.4
+      ],
+      "st": [
+       5.35,
+       4.1
+      ],
+      "fl": [
+       10.55,
+       11.95
+      ],
+      "yc": [
+       1.65,
+       2.25
+      ],
+      "cn": [
+       6.1,
+       5.35
+      ],
+      "xg": [
+       2.11,
+       1.69
+      ]
+     },
+     "a": {
+      "gf": [
+       2.9,
+       0.95
+      ],
+      "sh": [
+       17.3,
+       7.85
+      ],
+      "st": [
+       6.75,
+       3.0
+      ],
+      "fl": [
+       10.35,
+       11.15
+      ],
+      "yc": [
+       1.75,
+       2.35
+      ],
+      "cn": [
+       6.55,
+       4.0
+      ],
+      "xg": [
+       2.62,
+       1.17
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/94.png",
    "ac": "https://crests.football-data.org/80.png",
@@ -64855,7 +68654,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.45
+      ],
+      "sh": [
+       12.65,
+       13.9
+      ],
+      "st": [
+       4.55,
+       4.5
+      ],
+      "fl": [
+       10.25,
+       12.15
+      ],
+      "yc": [
+       2.0,
+       2.45
+      ],
+      "cn": [
+       4.8,
+       5.8
+      ],
+      "xg": [
+       1.82,
+       1.86
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       1.65
+      ],
+      "sh": [
+       12.05,
+       12.75
+      ],
+      "st": [
+       3.45,
+       4.6
+      ],
+      "fl": [
+       11.05,
+       9.9
+      ],
+      "yc": [
+       1.4,
+       1.95
+      ],
+      "cn": [
+       5.0,
+       4.8
+      ],
+      "xg": [
+       1.5,
+       1.83
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/356.png",
    "ac": "https://crests.football-data.org/404.png",
@@ -65546,7 +69415,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       0.6
+      ],
+      "sh": [
+       11.6,
+       10.6
+      ],
+      "st": [
+       4.7,
+       3.0
+      ],
+      "fl": [
+       10.6,
+       13.9
+      ],
+      "yc": [
+       2.3,
+       1.95
+      ],
+      "cn": [
+       3.95,
+       4.15
+      ],
+      "xg": [
+       1.8,
+       1.31
+      ]
+     },
+     "a": {
+      "gf": [
+       2.0,
+       1.5
+      ],
+      "sh": [
+       18.2,
+       10.2
+      ],
+      "st": [
+       6.15,
+       3.9
+      ],
+      "fl": [
+       11.35,
+       11.4
+      ],
+      "yc": [
+       1.95,
+       1.65
+      ],
+      "cn": [
+       7.15,
+       3.75
+      ],
+      "xg": [
+       2.51,
+       1.52
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/521.png",
    "ac": "https://crests.football-data.org/546.png",
@@ -66237,7 +70176,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.55,
+       1.55
+      ],
+      "sh": [
+       9.65,
+       13.5
+      ],
+      "st": [
+       2.85,
+       4.4
+      ],
+      "fl": [
+       15.0,
+       12.9
+      ],
+      "yc": [
+       2.25,
+       2.05
+      ],
+      "cn": [
+       4.45,
+       5.9
+      ],
+      "xg": [
+       1.22,
+       1.82
+      ]
+     },
+     "a": {
+      "gf": [
+       2.55,
+       1.15
+      ],
+      "sh": [
+       15.3,
+       9.95
+      ],
+      "st": [
+       5.9,
+       3.15
+      ],
+      "fl": [
+       11.5,
+       13.25
+      ],
+      "yc": [
+       2.0,
+       2.65
+      ],
+      "cn": [
+       5.45,
+       3.4
+      ],
+      "xg": [
+       2.3,
+       1.32
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/6618.png",
    "ac": "https://crests.football-data.org/498.png",
@@ -66928,7 +70937,77 @@
       0,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.85
+      ],
+      "sh": [
+       13.1,
+       11.6
+      ],
+      "st": [
+       4.1,
+       5.1
+      ],
+      "fl": [
+       10.85,
+       12.3
+      ],
+      "yc": [
+       2.3,
+       2.3
+      ],
+      "cn": [
+       6.35,
+       4.85
+      ],
+      "xg": [
+       1.72,
+       1.91
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.3
+      ],
+      "sh": [
+       16.7,
+       12.2
+      ],
+      "st": [
+       5.4,
+       4.1
+      ],
+      "fl": [
+       10.45,
+       11.3
+      ],
+      "yc": [
+       2.25,
+       1.95
+      ],
+      "cn": [
+       5.7,
+       4.4
+      ],
+      "xg": [
+       2.24,
+       1.68
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/61.png",
    "ac": "https://crests.football-data.org/66.png",
@@ -67619,7 +71698,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.2,
+       1.6
+      ],
+      "sh": [
+       11.25,
+       14.5
+      ],
+      "st": [
+       3.1,
+       4.2
+      ],
+      "fl": [
+       12.0,
+       11.05
+      ],
+      "yc": [
+       1.75,
+       1.95
+      ],
+      "cn": [
+       5.8,
+       4.25
+      ],
+      "xg": [
+       1.37,
+       1.82
+      ]
+     },
+     "a": {
+      "gf": [
+       1.15,
+       1.95
+      ],
+      "sh": [
+       12.35,
+       16.45
+      ],
+      "st": [
+       3.15,
+       4.95
+      ],
+      "fl": [
+       10.8,
+       9.1
+      ],
+      "yc": [
+       2.25,
+       1.1
+      ],
+      "cn": [
+       4.9,
+       6.15
+      ],
+      "xg": [
+       1.44,
+       2.11
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/70.png",
    "ac": "https://crests.football-data.org/1081.png",
@@ -68310,7 +72459,77 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.6,
+       1.6
+      ],
+      "sh": [
+       14.0,
+       10.9
+      ],
+      "st": [
+       5.0,
+       4.2
+      ],
+      "fl": [
+       11.5,
+       11.65
+      ],
+      "yc": [
+       2.4,
+       2.3
+      ],
+      "cn": [
+       5.4,
+       3.6
+      ],
+      "xg": [
+       2.0,
+       1.64
+      ]
+     },
+     "a": {
+      "gf": [
+       0.65,
+       1.95
+      ],
+      "sh": [
+       12.5,
+       16.05
+      ],
+      "st": [
+       3.95,
+       5.55
+      ],
+      "fl": [
+       11.95,
+       11.0
+      ],
+      "yc": [
+       2.65,
+       2.5
+      ],
+      "cn": [
+       4.4,
+       5.9
+      ],
+      "xg": [
+       1.65,
+       2.25
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/68.png",
    "ac": "https://crests.football-data.org/346.png",
@@ -68876,7 +73095,77 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.08,
+       1.67
+      ],
+      "sh": [
+       12.33,
+       15.67
+      ],
+      "st": [
+       3.08,
+       5.33
+      ],
+      "fl": [
+       12.83,
+       11.42
+      ],
+      "yc": [
+       2.33,
+       1.83
+      ],
+      "cn": [
+       3.5,
+       7.92
+      ],
+      "xg": [
+       1.42,
+       2.17
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.0
+      ],
+      "sh": [
+       12.5,
+       12.3
+      ],
+      "st": [
+       4.65,
+       3.6
+      ],
+      "fl": [
+       12.95,
+       10.35
+      ],
+      "yc": [
+       2.0,
+       1.6
+      ],
+      "cn": [
+       5.55,
+       4.55
+      ],
+      "xg": [
+       1.83,
+       1.55
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1126.png",
    "ac": "https://crests.football-data.org/332.png",
@@ -69559,7 +73848,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.7
+      ],
+      "sh": [
+       13.5,
+       13.55
+      ],
+      "st": [
+       4.85,
+       4.55
+      ],
+      "fl": [
+       11.35,
+       13.45
+      ],
+      "yc": [
+       1.85,
+       2.15
+      ],
+      "cn": [
+       4.55,
+       4.85
+      ],
+      "xg": [
+       1.94,
+       1.86
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.35
+      ],
+      "sh": [
+       14.75,
+       12.7
+      ],
+      "st": [
+       5.05,
+       4.4
+      ],
+      "fl": [
+       11.8,
+       10.1
+      ],
+      "yc": [
+       2.6,
+       1.8
+      ],
+      "cn": [
+       5.65,
+       4.35
+      ],
+      "xg": [
+       2.05,
+       1.78
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/88.png",
    "ac": "https://crests.football-data.org/78.png",
@@ -70242,7 +74601,77 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.1,
+       1.2
+      ],
+      "sh": [
+       12.1,
+       10.85
+      ],
+      "st": [
+       3.45,
+       3.5
+      ],
+      "fl": [
+       11.65,
+       14.45
+      ],
+      "yc": [
+       1.55,
+       1.75
+      ],
+      "cn": [
+       4.05,
+       5.05
+      ],
+      "xg": [
+       1.5,
+       1.45
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       2.2
+      ],
+      "sh": [
+       11.1,
+       14.75
+      ],
+      "st": [
+       4.15,
+       5.5
+      ],
+      "fl": [
+       11.35,
+       13.5
+      ],
+      "yc": [
+       1.65,
+       1.8
+      ],
+      "cn": [
+       3.8,
+       4.9
+      ],
+      "xg": [
+       1.63,
+       2.17
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/103.png",
    "ac": "https://crests.football-data.org/5911.png",
@@ -70736,7 +75165,48 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       2.05
+      ],
+      "sh": [
+       13.75,
+       14.45
+      ],
+      "st": [
+       4.35,
+       6.65
+      ],
+      "fl": [
+       11.55,
+       10.6
+      ],
+      "yc": [
+       2.8,
+       2.45
+      ],
+      "cn": [
+       4.0,
+       5.0
+      ],
+      "xg": [
+       1.82,
+       2.45
+      ]
+     },
+     "a": {},
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/18.png",
    "ac": "https://crests.football-data.org/29.png",
@@ -71230,7 +75700,48 @@
       4,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {},
+     "a": {
+      "gf": [
+       2.3,
+       1.5
+      ],
+      "sh": [
+       15.85,
+       13.1
+      ],
+      "st": [
+       6.55,
+       5.0
+      ],
+      "fl": [
+       9.5,
+       11.45
+      ],
+      "yc": [
+       1.45,
+       1.4
+      ],
+      "cn": [
+       5.3,
+       4.85
+      ],
+      "xg": [
+       2.5,
+       1.96
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/6.png",
    "ac": "https://crests.football-data.org/721.png",
@@ -71921,7 +76432,77 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.9,
+       1.75
+      ],
+      "sh": [
+       15.2,
+       17.65
+      ],
+      "st": [
+       5.65,
+       6.0
+      ],
+      "fl": [
+       9.75,
+       9.75
+      ],
+      "yc": [
+       1.85,
+       1.75
+      ],
+      "cn": [
+       5.25,
+       6.4
+      ],
+      "xg": [
+       2.23,
+       2.44
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.65
+      ],
+      "sh": [
+       13.35,
+       13.2
+      ],
+      "st": [
+       4.7,
+       4.4
+      ],
+      "fl": [
+       8.95,
+       12.05
+      ],
+      "yc": [
+       1.5,
+       1.65
+      ],
+      "cn": [
+       4.2,
+       4.1
+      ],
+      "xg": [
+       1.89,
+       1.8
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/16.png",
    "ac": "https://crests.football-data.org/17.png",
@@ -72612,7 +77193,77 @@
       3,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       1.75
+      ],
+      "sh": [
+       13.25,
+       13.75
+      ],
+      "st": [
+       5.1,
+       4.9
+      ],
+      "fl": [
+       10.15,
+       9.4
+      ],
+      "yc": [
+       1.75,
+       1.35
+      ],
+      "cn": [
+       4.2,
+       5.05
+      ],
+      "xg": [
+       1.99,
+       1.96
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.9
+      ],
+      "sh": [
+       17.0,
+       11.5
+      ],
+      "st": [
+       5.6,
+       4.2
+      ],
+      "fl": [
+       13.3,
+       8.35
+      ],
+      "yc": [
+       2.3,
+       1.75
+      ],
+      "cn": [
+       6.9,
+       3.8
+      ],
+      "xg": [
+       2.31,
+       1.67
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/12.png",
    "ac": "https://crests.football-data.org/2.png",
@@ -73303,7 +77954,77 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.05,
+       1.6
+      ],
+      "sh": [
+       17.75,
+       13.55
+      ],
+      "st": [
+       5.75,
+       4.9
+      ],
+      "fl": [
+       9.3,
+       10.8
+      ],
+      "yc": [
+       1.75,
+       2.5
+      ],
+      "cn": [
+       6.5,
+       3.35
+      ],
+      "xg": [
+       2.38,
+       1.95
+      ]
+     },
+     "a": {
+      "gf": [
+       2.15,
+       1.7
+      ],
+      "sh": [
+       15.9,
+       14.55
+      ],
+      "st": [
+       6.25,
+       5.45
+      ],
+      "fl": [
+       9.3,
+       11.85
+      ],
+      "yc": [
+       1.55,
+       1.75
+      ],
+      "cn": [
+       6.15,
+       4.9
+      ],
+      "xg": [
+       2.42,
+       2.14
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/3.png",
    "ac": "https://crests.football-data.org/10.png",
@@ -73994,7 +78715,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.15,
+       1.0
+      ],
+      "sh": [
+       17.15,
+       10.05
+      ],
+      "st": [
+       5.85,
+       3.45
+      ],
+      "fl": [
+       9.8,
+       12.7
+      ],
+      "yc": [
+       1.55,
+       2.25
+      ],
+      "cn": [
+       7.45,
+       3.95
+      ],
+      "xg": [
+       2.38,
+       1.4
+      ]
+     },
+     "a": {
+      "gf": [
+       2.05,
+       0.95
+      ],
+      "sh": [
+       15.15,
+       10.6
+      ],
+      "st": [
+       5.45,
+       3.55
+      ],
+      "fl": [
+       12.05,
+       10.1
+      ],
+      "yc": [
+       2.0,
+       1.55
+      ],
+      "cn": [
+       4.95,
+       5.0
+      ],
+      "xg": [
+       2.17,
+       1.45
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/65.png",
    "ac": "https://crests.football-data.org/397.png",
@@ -74677,7 +79468,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.35,
+       1.1
+      ],
+      "sh": [
+       14.4,
+       11.65
+      ],
+      "st": [
+       4.45,
+       3.45
+      ],
+      "fl": [
+       12.4,
+       11.15
+      ],
+      "yc": [
+       2.4,
+       1.65
+      ],
+      "cn": [
+       5.1,
+       4.85
+      ],
+      "xg": [
+       1.88,
+       1.48
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       0.85
+      ],
+      "sh": [
+       12.8,
+       13.45
+      ],
+      "st": [
+       4.0,
+       4.35
+      ],
+      "fl": [
+       11.85,
+       11.4
+      ],
+      "yc": [
+       1.8,
+       2.0
+      ],
+      "cn": [
+       4.3,
+       5.6
+      ],
+      "xg": [
+       1.68,
+       1.8
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/bournemouth.png",
    "ac": "https://crests.football-data.org/341.png",
@@ -75189,7 +80050,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.75,
+       1.88
+      ],
+      "sh": [
+       10.62,
+       16.75
+      ],
+      "st": [
+       3.12,
+       4.5
+      ],
+      "fl": [
+       10.75,
+       11.0
+      ],
+      "yc": [
+       1.0,
+       1.5
+      ],
+      "cn": [
+       3.75,
+       4.88
+      ],
+      "xg": [
+       1.34,
+       2.01
+      ]
+     },
+     "a": {
+      "gf": [
+       1.05,
+       1.6
+      ],
+      "sh": [
+       11.95,
+       13.95
+      ],
+      "st": [
+       3.7,
+       4.2
+      ],
+      "fl": [
+       11.9,
+       13.6
+      ],
+      "yc": [
+       2.15,
+       1.95
+      ],
+      "cn": [
+       4.3,
+       5.3
+      ],
+      "xg": [
+       1.56,
+       1.79
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1076.png",
    "ac": "https://crests.football-data.org/71.png",
@@ -75701,7 +80632,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.12,
+       1.0
+      ],
+      "sh": [
+       10.88,
+       14.5
+      ],
+      "st": [
+       3.25,
+       5.0
+      ],
+      "fl": [
+       10.75,
+       7.75
+      ],
+      "yc": [
+       2.62,
+       0.88
+      ],
+      "cn": [
+       3.88,
+       6.5
+      ],
+      "xg": [
+       1.39,
+       2.02
+      ]
+     },
+     "a": {
+      "gf": [
+       1.2,
+       2.2
+      ],
+      "sh": [
+       10.8,
+       17.3
+      ],
+      "st": [
+       3.6,
+       5.6
+      ],
+      "fl": [
+       10.7,
+       10.5
+      ],
+      "yc": [
+       1.8,
+       2.05
+      ],
+      "cn": [
+       3.3,
+       5.8
+      ],
+      "xg": [
+       1.48,
+       2.32
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/322.png",
    "ac": "https://crests.football-data.org/349.png",
@@ -76392,7 +81393,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.3
+      ],
+      "sh": [
+       12.7,
+       14.85
+      ],
+      "st": [
+       3.85,
+       4.85
+      ],
+      "fl": [
+       11.1,
+       9.15
+      ],
+      "yc": [
+       1.9,
+       2.1
+      ],
+      "cn": [
+       4.35,
+       5.55
+      ],
+      "xg": [
+       1.64,
+       2.0
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.15
+      ],
+      "sh": [
+       14.0,
+       12.9
+      ],
+      "st": [
+       4.1,
+       4.1
+      ],
+      "fl": [
+       12.15,
+       11.0
+      ],
+      "yc": [
+       2.0,
+       1.6
+      ],
+      "cn": [
+       4.5,
+       4.7
+      ],
+      "xg": [
+       1.77,
+       1.71
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/402.png",
    "ac": "https://crests.football-data.org/351.png",
@@ -76958,7 +82029,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.67,
+       1.33
+      ],
+      "sh": [
+       16.83,
+       10.33
+      ],
+      "st": [
+       4.17,
+       3.5
+      ],
+      "fl": [
+       11.83,
+       12.33
+      ],
+      "yc": [
+       1.75,
+       2.67
+      ],
+      "cn": [
+       7.08,
+       3.83
+      ],
+      "xg": [
+       1.93,
+       1.43
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.4
+      ],
+      "sh": [
+       16.1,
+       13.75
+      ],
+      "st": [
+       5.2,
+       5.0
+      ],
+      "fl": [
+       10.75,
+       12.8
+      ],
+      "yc": [
+       1.6,
+       1.9
+      ],
+      "cn": [
+       6.35,
+       4.65
+      ],
+      "xg": [
+       2.16,
+       1.99
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/76.png",
    "ac": "https://crests.football-data.org/715.png",
@@ -77524,7 +82665,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.67,
+       1.25
+      ],
+      "sh": [
+       17.25,
+       11.75
+      ],
+      "st": [
+       6.58,
+       3.58
+      ],
+      "fl": [
+       10.58,
+       10.5
+      ],
+      "yc": [
+       2.0,
+       1.42
+      ],
+      "cn": [
+       6.83,
+       4.5
+      ],
+      "xg": [
+       2.57,
+       1.52
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       0.85
+      ],
+      "sh": [
+       12.2,
+       11.25
+      ],
+      "st": [
+       3.9,
+       3.35
+      ],
+      "fl": [
+       9.25,
+       12.9
+      ],
+      "yc": [
+       1.9,
+       1.8
+      ],
+      "cn": [
+       5.05,
+       5.65
+      ],
+      "xg": [
+       1.62,
+       1.43
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/563.png",
    "ac": "https://crests.football-data.org/74.png",
@@ -78215,7 +83426,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.3
+      ],
+      "sh": [
+       11.75,
+       13.1
+      ],
+      "st": [
+       4.4,
+       4.25
+      ],
+      "fl": [
+       9.65,
+       11.25
+      ],
+      "yc": [
+       1.75,
+       1.8
+      ],
+      "cn": [
+       4.05,
+       5.7
+      ],
+      "xg": [
+       1.73,
+       1.76
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.15
+      ],
+      "sh": [
+       10.85,
+       15.6
+      ],
+      "st": [
+       3.5,
+       3.9
+      ],
+      "fl": [
+       9.5,
+       9.95
+      ],
+      "yc": [
+       2.4,
+       1.55
+      ],
+      "cn": [
+       5.75,
+       6.1
+      ],
+      "xg": [
+       1.45,
+       1.79
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/72.png",
    "ac": "https://crests.football-data.org/59.png",
@@ -78781,7 +84062,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.33,
+       1.92
+      ],
+      "sh": [
+       13.67,
+       14.33
+      ],
+      "st": [
+       4.67,
+       5.58
+      ],
+      "fl": [
+       10.67,
+       10.5
+      ],
+      "yc": [
+       1.67,
+       1.5
+      ],
+      "cn": [
+       5.08,
+       5.75
+      ],
+      "xg": [
+       1.9,
+       2.17
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.25
+      ],
+      "sh": [
+       12.0,
+       13.1
+      ],
+      "st": [
+       4.1,
+       3.5
+      ],
+      "fl": [
+       10.6,
+       11.25
+      ],
+      "yc": [
+       1.35,
+       2.2
+      ],
+      "cn": [
+       4.6,
+       6.05
+      ],
+      "xg": [
+       1.67,
+       1.56
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/60.png",
    "ac": "https://crests.football-data.org/387.png",
@@ -79464,7 +84815,77 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.0,
+       1.35
+      ],
+      "sh": [
+       19.9,
+       11.05
+      ],
+      "st": [
+       6.45,
+       3.5
+      ],
+      "fl": [
+       9.4,
+       10.65
+      ],
+      "yc": [
+       1.3,
+       1.75
+      ],
+      "cn": [
+       7.45,
+       4.3
+      ],
+      "xg": [
+       2.67,
+       1.46
+      ]
+     },
+     "a": {
+      "gf": [
+       0.95,
+       1.55
+      ],
+      "sh": [
+       10.95,
+       16.95
+      ],
+      "st": [
+       3.4,
+       5.35
+      ],
+      "fl": [
+       12.85,
+       10.4
+      ],
+      "yc": [
+       1.95,
+       1.85
+      ],
+      "cn": [
+       4.45,
+       6.85
+      ],
+      "xg": [
+       1.43,
+       2.24
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/343.png",
    "ac": "https://crests.football-data.org/348.png",
@@ -80147,7 +85568,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.5
+      ],
+      "sh": [
+       13.45,
+       13.1
+      ],
+      "st": [
+       4.65,
+       4.35
+      ],
+      "fl": [
+       10.15,
+       11.35
+      ],
+      "yc": [
+       1.9,
+       1.8
+      ],
+      "cn": [
+       4.7,
+       4.25
+      ],
+      "xg": [
+       1.88,
+       1.79
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.25
+      ],
+      "sh": [
+       12.0,
+       11.6
+      ],
+      "st": [
+       3.3,
+       3.75
+      ],
+      "fl": [
+       11.4,
+       11.5
+      ],
+      "yc": [
+       1.9,
+       2.15
+      ],
+      "cn": [
+       4.9,
+       5.75
+      ],
+      "xg": [
+       1.46,
+       1.56
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/328.png",
    "ac": "https://crests.football-data.org/325.png",
@@ -80838,7 +86329,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.55,
+       1.3
+      ],
+      "sh": [
+       14.05,
+       13.2
+      ],
+      "st": [
+       4.1,
+       3.25
+      ],
+      "fl": [
+       12.25,
+       9.15
+      ],
+      "yc": [
+       1.9,
+       1.85
+      ],
+      "cn": [
+       6.15,
+       6.65
+      ],
+      "xg": [
+       1.77,
+       1.51
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.6
+      ],
+      "sh": [
+       13.0,
+       14.1
+      ],
+      "st": [
+       4.05,
+       5.35
+      ],
+      "fl": [
+       13.35,
+       9.9
+      ],
+      "yc": [
+       2.5,
+       1.7
+      ],
+      "cn": [
+       5.3,
+       5.1
+      ],
+      "xg": [
+       1.7,
+       2.1
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/384.png",
    "ac": "https://crests.football-data.org/342.png",
@@ -81521,7 +87082,77 @@
       5,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.25,
+       1.0
+      ],
+      "sh": [
+       15.55,
+       14.0
+      ],
+      "st": [
+       5.1,
+       4.2
+      ],
+      "fl": [
+       8.65,
+       12.1
+      ],
+      "yc": [
+       1.65,
+       2.55
+      ],
+      "cn": [
+       5.65,
+       4.9
+      ],
+      "xg": [
+       2.1,
+       1.79
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.25
+      ],
+      "sh": [
+       14.0,
+       11.9
+      ],
+      "st": [
+       5.3,
+       4.35
+      ],
+      "fl": [
+       10.45,
+       10.05
+      ],
+      "yc": [
+       2.4,
+       1.9
+      ],
+      "cn": [
+       5.2,
+       4.35
+      ],
+      "xg": [
+       2.08,
+       1.73
+      ]
+     },
+     "la": {
+      "gf": 1.34,
+      "sh": 12.84,
+      "st": 4.16,
+      "fl": 10.77,
+      "yc": 1.86,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/340.png",
    "ac": "https://crests.football-data.org/69.png",
@@ -82212,7 +87843,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.55
+      ],
+      "sh": [
+       15.1,
+       14.55
+      ],
+      "st": [
+       5.05,
+       5.25
+      ],
+      "fl": [
+       13.55,
+       11.85
+      ],
+      "yc": [
+       2.7,
+       2.55
+      ],
+      "cn": [
+       5.35,
+       5.9
+      ],
+      "xg": [
+       2.07,
+       2.09
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.2
+      ],
+      "sh": [
+       8.85,
+       13.9
+      ],
+      "st": [
+       3.55,
+       4.4
+      ],
+      "fl": [
+       12.2,
+       14.05
+      ],
+      "yc": [
+       1.85,
+       1.85
+      ],
+      "cn": [
+       2.8,
+       4.5
+      ],
+      "xg": [
+       1.37,
+       1.84
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/87.png",
    "ac": "https://crests.football-data.org/558.png",
@@ -82903,7 +88604,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.35,
+       1.1
+      ],
+      "sh": [
+       17.4,
+       11.65
+      ],
+      "st": [
+       6.9,
+       3.55
+      ],
+      "fl": [
+       9.6,
+       12.6
+      ],
+      "yc": [
+       1.5,
+       1.6
+      ],
+      "cn": [
+       6.2,
+       3.8
+      ],
+      "xg": [
+       2.66,
+       1.51
+      ]
+     },
+     "a": {
+      "gf": [
+       1.5,
+       1.85
+      ],
+      "sh": [
+       11.1,
+       16.35
+      ],
+      "st": [
+       4.45,
+       5.6
+      ],
+      "fl": [
+       9.95,
+       11.95
+      ],
+      "yc": [
+       1.55,
+       1.35
+      ],
+      "cn": [
+       3.45,
+       7.25
+      ],
+      "xg": [
+       1.71,
+       2.27
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/675.png",
    "ac": "https://crests.football-data.org/1920.png",
@@ -83594,7 +89365,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.95,
+       1.6
+      ],
+      "sh": [
+       8.75,
+       14.45
+      ],
+      "st": [
+       3.0,
+       4.8
+      ],
+      "fl": [
+       13.15,
+       14.05
+      ],
+      "yc": [
+       2.4,
+       2.3
+      ],
+      "cn": [
+       3.1,
+       5.2
+      ],
+      "xg": [
+       1.22,
+       1.97
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       1.6
+      ],
+      "sh": [
+       12.3,
+       12.25
+      ],
+      "st": [
+       4.05,
+       4.25
+      ],
+      "fl": [
+       12.25,
+       13.95
+      ],
+      "yc": [
+       2.45,
+       2.5
+      ],
+      "cn": [
+       4.05,
+       5.6
+      ],
+      "xg": [
+       1.67,
+       1.72
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/583.png",
    "ac": "https://crests.football-data.org/9136.png",
@@ -84285,7 +90126,77 @@
       3,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.9,
+       1.5
+      ],
+      "sh": [
+       10.8,
+       13.7
+      ],
+      "st": [
+       3.45,
+       4.9
+      ],
+      "fl": [
+       11.05,
+       9.5
+      ],
+      "yc": [
+       1.85,
+       1.65
+      ],
+      "cn": [
+       5.4,
+       4.6
+      ],
+      "xg": [
+       1.44,
+       1.96
+      ]
+     },
+     "a": {
+      "gf": [
+       2.15,
+       1.45
+      ],
+      "sh": [
+       15.95,
+       13.65
+      ],
+      "st": [
+       6.0,
+       4.7
+      ],
+      "fl": [
+       12.8,
+       12.1
+      ],
+      "yc": [
+       1.95,
+       2.2
+      ],
+      "cn": [
+       6.25,
+       4.65
+      ],
+      "xg": [
+       2.36,
+       1.9
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/522.png",
    "ac": "https://crests.football-data.org/529.png",
@@ -84976,7 +90887,77 @@
       3,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.35
+      ],
+      "sh": [
+       12.6,
+       15.65
+      ],
+      "st": [
+       4.3,
+       4.8
+      ],
+      "fl": [
+       11.75,
+       9.95
+      ],
+      "yc": [
+       1.85,
+       1.2
+      ],
+      "cn": [
+       4.2,
+       5.15
+      ],
+      "xg": [
+       1.75,
+       2.03
+      ]
+     },
+     "a": {
+      "gf": [
+       2.2,
+       1.05
+      ],
+      "sh": [
+       14.7,
+       10.8
+      ],
+      "st": [
+       5.0,
+       3.9
+      ],
+      "fl": [
+       11.85,
+       11.1
+      ],
+      "yc": [
+       1.9,
+       1.65
+      ],
+      "cn": [
+       5.55,
+       3.65
+      ],
+      "xg": [
+       2.04,
+       1.55
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/115.png",
    "ac": "https://crests.football-data.org/100.png",
@@ -85667,7 +91648,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       1.5
+      ],
+      "sh": [
+       13.15,
+       12.3
+      ],
+      "st": [
+       4.15,
+       3.75
+      ],
+      "fl": [
+       14.1,
+       12.25
+      ],
+      "yc": [
+       2.35,
+       2.25
+      ],
+      "cn": [
+       6.6,
+       3.9
+      ],
+      "xg": [
+       1.74,
+       1.59
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.9
+      ],
+      "sh": [
+       11.15,
+       14.45
+      ],
+      "st": [
+       3.6,
+       5.25
+      ],
+      "fl": [
+       10.8,
+       10.9
+      ],
+      "yc": [
+       1.75,
+       1.5
+      ],
+      "cn": [
+       3.95,
+       5.85
+      ],
+      "xg": [
+       1.49,
+       2.09
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/73.png",
    "ac": "https://crests.football-data.org/354.png",
@@ -86206,7 +92257,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.6,
+       1.35
+      ],
+      "sh": [
+       14.6,
+       13.6
+      ],
+      "st": [
+       5.3,
+       5.5
+      ],
+      "fl": [
+       10.6,
+       10.9
+      ],
+      "yc": [
+       1.6,
+       2.0
+      ],
+      "cn": [
+       4.55,
+       5.4
+      ],
+      "xg": [
+       2.11,
+       2.11
+      ]
+     },
+     "a": {
+      "gf": [
+       0.7,
+       1.9
+      ],
+      "sh": [
+       10.9,
+       15.2
+      ],
+      "st": [
+       3.0,
+       5.7
+      ],
+      "fl": [
+       11.6,
+       12.0
+      ],
+      "yc": [
+       1.9,
+       2.2
+      ],
+      "cn": [
+       5.2,
+       5.1
+      ],
+      "xg": [
+       1.32,
+       2.24
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/90.png",
    "ac": "https://crests.football-data.org/84.png",
@@ -86897,7 +93018,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       3.4,
+       1.15
+      ],
+      "sh": [
+       20.5,
+       11.05
+      ],
+      "st": [
+       8.7,
+       3.8
+      ],
+      "fl": [
+       8.85,
+       9.3
+      ],
+      "yc": [
+       1.2,
+       1.85
+      ],
+      "cn": [
+       7.3,
+       3.35
+      ],
+      "xg": [
+       3.29,
+       1.54
+      ]
+     },
+     "a": {
+      "gf": [
+       1.95,
+       0.9
+      ],
+      "sh": [
+       13.75,
+       10.7
+      ],
+      "st": [
+       4.95,
+       3.6
+      ],
+      "fl": [
+       11.5,
+       10.15
+      ],
+      "yc": [
+       2.05,
+       1.5
+      ],
+      "cn": [
+       5.5,
+       3.7
+      ],
+      "xg": [
+       1.97,
+       1.47
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5.png",
    "ac": "https://crests.football-data.org/4.png",
@@ -87588,7 +93779,77 @@
       2,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.75,
+       1.2
+      ],
+      "sh": [
+       14.4,
+       16.65
+      ],
+      "st": [
+       5.7,
+       4.95
+      ],
+      "fl": [
+       9.7,
+       9.35
+      ],
+      "yc": [
+       1.2,
+       1.35
+      ],
+      "cn": [
+       5.35,
+       5.05
+      ],
+      "xg": [
+       2.2,
+       2.12
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.55
+      ],
+      "sh": [
+       17.85,
+       10.7
+      ],
+      "st": [
+       5.75,
+       4.65
+      ],
+      "fl": [
+       11.25,
+       11.35
+      ],
+      "yc": [
+       1.4,
+       1.65
+      ],
+      "cn": [
+       7.2,
+       3.1
+      ],
+      "xg": [
+       2.39,
+       1.74
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/673.png",
    "ac": "https://crests.football-data.org/1915.png",
@@ -88271,7 +94532,77 @@
       1,
       6
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.95,
+       1.45
+      ],
+      "sh": [
+       18.35,
+       11.95
+      ],
+      "st": [
+       7.55,
+       5.0
+      ],
+      "fl": [
+       9.45,
+       8.8
+      ],
+      "yc": [
+       1.6,
+       1.6
+      ],
+      "cn": [
+       6.5,
+       4.0
+      ],
+      "xg": [
+       2.88,
+       1.9
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       2.5
+      ],
+      "sh": [
+       10.75,
+       19.7
+      ],
+      "st": [
+       3.1,
+       6.65
+      ],
+      "fl": [
+       10.1,
+       9.8
+      ],
+      "yc": [
+       1.25,
+       1.1
+      ],
+      "cn": [
+       4.35,
+       6.7
+      ],
+      "xg": [
+       1.34,
+       2.71
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/674.png",
    "ac": "https://crests.football-data.org/672.png",
@@ -88962,7 +95293,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       1.35
+      ],
+      "sh": [
+       12.25,
+       13.25
+      ],
+      "st": [
+       4.65,
+       4.9
+      ],
+      "fl": [
+       11.15,
+       13.35
+      ],
+      "yc": [
+       1.5,
+       2.4
+      ],
+      "cn": [
+       5.3,
+       5.9
+      ],
+      "xg": [
+       1.82,
+       1.94
+      ]
+     },
+     "a": {
+      "gf": [
+       0.8,
+       1.8
+      ],
+      "sh": [
+       10.55,
+       15.85
+      ],
+      "st": [
+       3.0,
+       6.2
+      ],
+      "fl": [
+       11.3,
+       11.65
+      ],
+      "yc": [
+       1.65,
+       1.35
+      ],
+      "cn": [
+       4.6,
+       5.6
+      ],
+      "xg": [
+       1.31,
+       2.4
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/523.png",
    "ac": "https://crests.football-data.org/532.png",
@@ -89645,7 +96046,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.2
+      ],
+      "sh": [
+       10.5,
+       12.6
+      ],
+      "st": [
+       3.8,
+       4.0
+      ],
+      "fl": [
+       9.05,
+       12.8
+      ],
+      "yc": [
+       1.35,
+       2.35
+      ],
+      "cn": [
+       3.65,
+       5.75
+      ],
+      "xg": [
+       1.51,
+       1.67
+      ]
+     },
+     "a": {
+      "gf": [
+       1.4,
+       1.65
+      ],
+      "sh": [
+       12.9,
+       14.2
+      ],
+      "st": [
+       4.0,
+       4.6
+      ],
+      "fl": [
+       12.4,
+       12.35
+      ],
+      "yc": [
+       1.55,
+       1.85
+      ],
+      "cn": [
+       3.75,
+       5.6
+      ],
+      "xg": [
+       1.69,
+       1.91
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/525.png",
    "ac": "https://crests.football-data.org/512.png",
@@ -89995,7 +96466,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.62,
+       2.0
+      ],
+      "sh": [
+       13.62,
+       11.75
+      ],
+      "st": [
+       2.75,
+       4.5
+      ],
+      "fl": [
+       12.62,
+       13.62
+      ],
+      "yc": [
+       1.62,
+       1.88
+      ],
+      "cn": [
+       6.5,
+       2.38
+      ],
+      "xg": [
+       1.4,
+       1.76
+      ]
+     },
+     "a": {
+      "gf": [
+       1.38,
+       2.0
+      ],
+      "sh": [
+       10.62,
+       16.12
+      ],
+      "st": [
+       3.75,
+       5.38
+      ],
+      "fl": [
+       14.5,
+       10.5
+      ],
+      "yc": [
+       2.38,
+       1.75
+      ],
+      "cn": [
+       2.5,
+       6.0
+      ],
+      "xg": [
+       1.51,
+       2.2
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/531.png",
    "ac": "https://crests.football-data.org/535.png",
@@ -90686,7 +97227,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.1
+      ],
+      "sh": [
+       12.9,
+       11.7
+      ],
+      "st": [
+       4.2,
+       4.05
+      ],
+      "fl": [
+       10.4,
+       11.5
+      ],
+      "yc": [
+       1.8,
+       1.95
+      ],
+      "cn": [
+       3.45,
+       3.75
+      ],
+      "xg": [
+       1.74,
+       1.64
+      ]
+     },
+     "a": {
+      "gf": [
+       2.5,
+       1.2
+      ],
+      "sh": [
+       17.4,
+       10.9
+      ],
+      "st": [
+       6.1,
+       3.35
+      ],
+      "fl": [
+       10.55,
+       9.95
+      ],
+      "yc": [
+       1.65,
+       1.8
+      ],
+      "cn": [
+       5.45,
+       3.2
+      ],
+      "xg": [
+       2.46,
+       1.42
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/98.png",
    "ac": "https://crests.football-data.org/108.png",
@@ -91377,7 +97988,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.7
+      ],
+      "sh": [
+       12.4,
+       14.2
+      ],
+      "st": [
+       4.05,
+       4.75
+      ],
+      "fl": [
+       10.65,
+       12.5
+      ],
+      "yc": [
+       1.9,
+       2.7
+      ],
+      "cn": [
+       4.3,
+       4.9
+      ],
+      "xg": [
+       1.67,
+       1.94
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.05
+      ],
+      "sh": [
+       14.3,
+       12.65
+      ],
+      "st": [
+       3.95,
+       3.65
+      ],
+      "fl": [
+       10.7,
+       10.05
+      ],
+      "yc": [
+       1.85,
+       1.3
+      ],
+      "cn": [
+       5.8,
+       4.9
+      ],
+      "xg": [
+       1.74,
+       1.58
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/58.png",
    "ac": "https://crests.football-data.org/63.png",
@@ -92068,7 +98749,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.9,
+       0.95
+      ],
+      "sh": [
+       17.3,
+       7.85
+      ],
+      "st": [
+       6.75,
+       3.0
+      ],
+      "fl": [
+       10.35,
+       11.15
+      ],
+      "yc": [
+       1.75,
+       2.35
+      ],
+      "cn": [
+       6.55,
+       4.0
+      ],
+      "xg": [
+       2.62,
+       1.17
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.45
+      ],
+      "sh": [
+       13.25,
+       11.8
+      ],
+      "st": [
+       4.65,
+       4.1
+      ],
+      "fl": [
+       13.55,
+       13.2
+      ],
+      "yc": [
+       2.15,
+       2.3
+      ],
+      "cn": [
+       4.7,
+       5.15
+      ],
+      "xg": [
+       1.87,
+       1.66
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/81.png",
    "ac": "https://crests.football-data.org/263.png",
@@ -92607,7 +99358,77 @@
       3,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.9,
+       2.2
+      ],
+      "sh": [
+       12.6,
+       14.4
+      ],
+      "st": [
+       5.0,
+       5.4
+      ],
+      "fl": [
+       12.1,
+       14.3
+      ],
+      "yc": [
+       1.7,
+       1.9
+      ],
+      "cn": [
+       3.8,
+       6.5
+      ],
+      "xg": [
+       1.93,
+       2.12
+      ]
+     },
+     "a": {
+      "gf": [
+       2.0,
+       1.85
+      ],
+      "sh": [
+       13.55,
+       19.25
+      ],
+      "st": [
+       5.55,
+       5.55
+      ],
+      "fl": [
+       7.85,
+       9.5
+      ],
+      "yc": [
+       1.0,
+       0.8
+      ],
+      "cn": [
+       5.65,
+       5.75
+      ],
+      "xg": [
+       2.12,
+       2.41
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1909.png",
    "ac": "https://crests.football-data.org/718.png",
@@ -93298,7 +100119,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.2,
+       1.15
+      ],
+      "sh": [
+       17.75,
+       11.75
+      ],
+      "st": [
+       6.25,
+       4.1
+      ],
+      "fl": [
+       9.25,
+       10.5
+      ],
+      "yc": [
+       1.85,
+       1.45
+      ],
+      "cn": [
+       5.45,
+       4.9
+      ],
+      "xg": [
+       2.51,
+       1.65
+      ]
+     },
+     "a": {
+      "gf": [
+       1.8,
+       1.25
+      ],
+      "sh": [
+       16.45,
+       10.85
+      ],
+      "st": [
+       6.3,
+       3.8
+      ],
+      "fl": [
+       10.85,
+       11.9
+      ],
+      "yc": [
+       1.1,
+       1.55
+      ],
+      "cn": [
+       6.95,
+       4.35
+      ],
+      "xg": [
+       2.46,
+       1.53
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/678.png",
    "ac": "https://crests.football-data.org/682.png",
@@ -93989,7 +100880,77 @@
       1,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.15,
+       0.75
+      ],
+      "sh": [
+       15.65,
+       9.65
+      ],
+      "st": [
+       5.75,
+       2.9
+      ],
+      "fl": [
+       14.4,
+       12.05
+      ],
+      "yc": [
+       1.85,
+       2.25
+      ],
+      "cn": [
+       6.2,
+       3.2
+      ],
+      "xg": [
+       2.28,
+       1.24
+      ]
+     },
+     "a": {
+      "gf": [
+       0.65,
+       1.65
+      ],
+      "sh": [
+       12.05,
+       13.15
+      ],
+      "st": [
+       3.95,
+       4.55
+      ],
+      "fl": [
+       12.8,
+       13.4
+      ],
+      "yc": [
+       2.35,
+       1.9
+      ],
+      "cn": [
+       4.45,
+       4.95
+      ],
+      "xg": [
+       1.63,
+       1.84
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/503.png",
    "ac": "https://crests.football-data.org/582.png",
@@ -94528,7 +101489,77 @@
       2,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.05,
+       2.2
+      ],
+      "sh": [
+       11.2,
+       17.8
+      ],
+      "st": [
+       3.95,
+       6.45
+      ],
+      "fl": [
+       11.7,
+       10.35
+      ],
+      "yc": [
+       1.25,
+       1.3
+      ],
+      "cn": [
+       4.6,
+       6.2
+      ],
+      "xg": [
+       1.59,
+       2.57
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       2.3
+      ],
+      "sh": [
+       12.5,
+       17.3
+      ],
+      "st": [
+       3.8,
+       6.8
+      ],
+      "fl": [
+       14.6,
+       9.9
+      ],
+      "yc": [
+       1.7,
+       1.3
+      ],
+      "cn": [
+       3.9,
+       5.4
+      ],
+      "xg": [
+       1.61,
+       2.63
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/684.png",
    "ac": "https://crests.football-data.org/680.png",
@@ -95211,7 +102242,77 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.9,
+       0.85
+      ],
+      "sh": [
+       17.15,
+       10.05
+      ],
+      "st": [
+       5.8,
+       2.65
+      ],
+      "fl": [
+       11.25,
+       12.35
+      ],
+      "yc": [
+       1.6,
+       2.2
+      ],
+      "cn": [
+       6.1,
+       3.4
+      ],
+      "xg": [
+       2.37,
+       1.19
+      ]
+     },
+     "a": {
+      "gf": [
+       0.8,
+       1.6
+      ],
+      "sh": [
+       11.9,
+       15.15
+      ],
+      "st": [
+       3.95,
+       5.2
+      ],
+      "fl": [
+       13.2,
+       12.3
+      ],
+      "yc": [
+       2.25,
+       1.4
+      ],
+      "cn": [
+       4.1,
+       4.75
+      ],
+      "xg": [
+       1.62,
+       2.11
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/7397.png",
    "ac": "https://crests.football-data.org/454.png",
@@ -95902,7 +103003,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       0.7,
+       1.15
+      ],
+      "sh": [
+       9.5,
+       13.2
+      ],
+      "st": [
+       2.55,
+       4.25
+      ],
+      "fl": [
+       15.15,
+       13.55
+      ],
+      "yc": [
+       3.35,
+       2.5
+      ],
+      "cn": [
+       4.2,
+       5.05
+      ],
+      "xg": [
+       1.14,
+       1.76
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.45
+      ],
+      "sh": [
+       12.35,
+       11.1
+      ],
+      "st": [
+       3.8,
+       4.0
+      ],
+      "fl": [
+       14.2,
+       12.2
+      ],
+      "yc": [
+       2.8,
+       2.15
+      ],
+      "cn": [
+       3.9,
+       3.95
+      ],
+      "xg": [
+       1.61,
+       1.59
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/82.png",
    "ac": "https://crests.football-data.org/559.png",
@@ -96585,7 +103756,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.75
+      ],
+      "sh": [
+       12.45,
+       16.25
+      ],
+      "st": [
+       4.45,
+       6.35
+      ],
+      "fl": [
+       10.9,
+       11.5
+      ],
+      "yc": [
+       1.35,
+       1.95
+      ],
+      "cn": [
+       4.35,
+       6.45
+      ],
+      "xg": [
+       1.78,
+       2.46
+      ]
+     },
+     "a": {
+      "gf": [
+       1.8,
+       1.9
+      ],
+      "sh": [
+       14.85,
+       15.3
+      ],
+      "st": [
+       5.45,
+       6.0
+      ],
+      "fl": [
+       13.15,
+       9.85
+      ],
+      "yc": [
+       1.8,
+       1.1
+      ],
+      "cn": [
+       4.7,
+       5.2
+      ],
+      "xg": [
+       2.16,
+       2.33
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1912.png",
    "ac": "https://crests.football-data.org/676.png",
@@ -97268,7 +104509,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.7
+      ],
+      "sh": [
+       12.85,
+       13.35
+      ],
+      "st": [
+       4.4,
+       4.8
+      ],
+      "fl": [
+       11.35,
+       8.45
+      ],
+      "yc": [
+       0.95,
+       1.3
+      ],
+      "cn": [
+       3.9,
+       5.05
+      ],
+      "xg": [
+       1.79,
+       1.92
+      ]
+     },
+     "a": {
+      "gf": [
+       1.95,
+       1.2
+      ],
+      "sh": [
+       18.15,
+       11.75
+      ],
+      "st": [
+       6.65,
+       4.3
+      ],
+      "fl": [
+       10.6,
+       9.4
+      ],
+      "yc": [
+       0.8,
+       1.7
+      ],
+      "cn": [
+       6.1,
+       4.35
+      ],
+      "xg": [
+       2.64,
+       1.71
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/670.png",
    "ac": "https://crests.football-data.org/666.png",
@@ -97959,7 +105270,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.8
+      ],
+      "sh": [
+       12.1,
+       15.6
+      ],
+      "st": [
+       5.1,
+       5.65
+      ],
+      "fl": [
+       11.3,
+       10.95
+      ],
+      "yc": [
+       1.5,
+       1.45
+      ],
+      "cn": [
+       3.9,
+       5.2
+      ],
+      "xg": [
+       1.93,
+       2.25
+      ]
+     },
+     "a": {
+      "gf": [
+       1.45,
+       1.6
+      ],
+      "sh": [
+       11.2,
+       13.05
+      ],
+      "st": [
+       4.45,
+       4.9
+      ],
+      "fl": [
+       14.6,
+       11.7
+      ],
+      "yc": [
+       1.5,
+       2.25
+      ],
+      "cn": [
+       5.0,
+       5.65
+      ],
+      "xg": [
+       1.72,
+       1.93
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/576.png",
    "ac": "https://crests.football-data.org/519.png",
@@ -98471,7 +105852,77 @@
       3,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.12,
+       1.62
+      ],
+      "sh": [
+       18.25,
+       19.88
+      ],
+      "st": [
+       6.12,
+       6.12
+      ],
+      "fl": [
+       15.62,
+       11.5
+      ],
+      "yc": [
+       2.0,
+       2.25
+      ],
+      "cn": [
+       5.88,
+       7.0
+      ],
+      "xg": [
+       2.5,
+       2.59
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       1.35
+      ],
+      "sh": [
+       11.5,
+       14.3
+      ],
+      "st": [
+       3.55,
+       4.65
+      ],
+      "fl": [
+       11.35,
+       10.75
+      ],
+      "yc": [
+       1.4,
+       1.5
+      ],
+      "cn": [
+       3.45,
+       5.15
+      ],
+      "xg": [
+       1.5,
+       1.92
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/470.png",
    "ac": "https://crests.football-data.org/586.png",
@@ -99162,7 +106613,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.55,
+       1.0
+      ],
+      "sh": [
+       11.85,
+       12.2
+      ],
+      "st": [
+       4.45,
+       4.25
+      ],
+      "fl": [
+       10.75,
+       11.85
+      ],
+      "yc": [
+       1.9,
+       2.2
+      ],
+      "cn": [
+       4.45,
+       4.9
+      ],
+      "xg": [
+       1.75,
+       1.71
+      ]
+     },
+     "a": {
+      "gf": [
+       0.9,
+       1.35
+      ],
+      "sh": [
+       11.65,
+       14.65
+      ],
+      "st": [
+       3.75,
+       4.5
+      ],
+      "fl": [
+       11.2,
+       12.1
+      ],
+      "yc": [
+       1.65,
+       1.15
+      ],
+      "cn": [
+       4.1,
+       5.05
+      ],
+      "xg": [
+       1.56,
+       1.9
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/110.png",
    "ac": "https://crests.football-data.org/104.png",
@@ -99845,7 +107366,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.2,
+       2.1
+      ],
+      "sh": [
+       11.7,
+       15.4
+      ],
+      "st": [
+       4.25,
+       5.3
+      ],
+      "fl": [
+       11.0,
+       9.35
+      ],
+      "yc": [
+       2.15,
+       1.75
+      ],
+      "cn": [
+       3.95,
+       5.9
+      ],
+      "xg": [
+       1.69,
+       2.15
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       2.0
+      ],
+      "sh": [
+       14.25,
+       13.3
+      ],
+      "st": [
+       4.95,
+       4.75
+      ],
+      "fl": [
+       9.15,
+       10.2
+      ],
+      "yc": [
+       2.1,
+       2.15
+      ],
+      "cn": [
+       5.6,
+       5.3
+      ],
+      "xg": [
+       2.0,
+       1.9
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/28.png",
    "ac": "https://crests.football-data.org/1.png",
@@ -100384,7 +107975,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       2.6
+      ],
+      "sh": [
+       12.4,
+       15.8
+      ],
+      "st": [
+       4.9,
+       6.1
+      ],
+      "fl": [
+       13.4,
+       15.0
+      ],
+      "yc": [
+       2.7,
+       2.6
+      ],
+      "cn": [
+       5.1,
+       7.8
+      ],
+      "xg": [
+       1.89,
+       2.38
+      ]
+     },
+     "a": {
+      "gf": [
+       2.1,
+       1.05
+      ],
+      "sh": [
+       16.25,
+       12.9
+      ],
+      "st": [
+       6.65,
+       4.25
+      ],
+      "fl": [
+       9.2,
+       14.85
+      ],
+      "yc": [
+       2.05,
+       2.3
+      ],
+      "cn": [
+       6.05,
+       4.0
+      ],
+      "xg": [
+       2.54,
+       1.75
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5335.png",
    "ac": "https://crests.football-data.org/86.png",
@@ -101075,7 +108736,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.1
+      ],
+      "sh": [
+       11.35,
+       13.25
+      ],
+      "st": [
+       3.65,
+       3.95
+      ],
+      "fl": [
+       12.6,
+       10.8
+      ],
+      "yc": [
+       2.9,
+       2.1
+      ],
+      "cn": [
+       3.3,
+       5.5
+      ],
+      "xg": [
+       1.52,
+       1.69
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.45
+      ],
+      "sh": [
+       12.3,
+       14.9
+      ],
+      "st": [
+       4.05,
+       4.8
+      ],
+      "fl": [
+       13.6,
+       12.65
+      ],
+      "yc": [
+       2.25,
+       2.35
+      ],
+      "cn": [
+       4.65,
+       5.9
+      ],
+      "xg": [
+       1.67,
+       1.99
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/712.png",
    "ac": "https://crests.football-data.org/5529.png",
@@ -101766,7 +109497,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.1,
+       1.7
+      ],
+      "sh": [
+       15.65,
+       14.4
+      ],
+      "st": [
+       5.8,
+       5.35
+      ],
+      "fl": [
+       9.7,
+       10.1
+      ],
+      "yc": [
+       1.3,
+       1.0
+      ],
+      "cn": [
+       5.4,
+       5.6
+      ],
+      "xg": [
+       2.29,
+       2.11
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       2.3
+      ],
+      "sh": [
+       13.75,
+       16.6
+      ],
+      "st": [
+       4.45,
+       5.65
+      ],
+      "fl": [
+       10.7,
+       10.2
+      ],
+      "yc": [
+       1.8,
+       1.6
+      ],
+      "cn": [
+       4.85,
+       6.3
+      ],
+      "xg": [
+       1.84,
+       2.3
+      ]
+     },
+     "la": {
+      "gf": 1.66,
+      "sh": 14.3,
+      "st": 5.2,
+      "fl": 10.81,
+      "yc": 1.54,
+      "cn": 5.23
+     }
+    }
    },
    "hc": "https://crests.football-data.org/677.png",
    "ac": "https://crests.football-data.org/6806.png",
@@ -102449,7 +110250,77 @@
       1,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.7,
+       1.0
+      ],
+      "sh": [
+       12.65,
+       12.1
+      ],
+      "st": [
+       4.6,
+       4.0
+      ],
+      "fl": [
+       11.05,
+       10.35
+      ],
+      "yc": [
+       2.35,
+       1.5
+      ],
+      "cn": [
+       4.25,
+       5.65
+      ],
+      "xg": [
+       1.83,
+       1.65
+      ]
+     },
+     "a": {
+      "gf": [
+       1.8,
+       1.35
+      ],
+      "sh": [
+       12.85,
+       13.25
+      ],
+      "st": [
+       4.8,
+       4.4
+      ],
+      "fl": [
+       12.15,
+       10.55
+      ],
+      "yc": [
+       1.9,
+       1.75
+      ],
+      "cn": [
+       4.75,
+       4.55
+      ],
+      "xg": [
+       1.89,
+       1.81
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1045.png",
    "ac": "https://crests.football-data.org/548.png",
@@ -103140,7 +111011,77 @@
       2,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.3
+      ],
+      "sh": [
+       15.05,
+       12.7
+      ],
+      "st": [
+       5.05,
+       4.15
+      ],
+      "fl": [
+       12.05,
+       10.55
+      ],
+      "yc": [
+       1.75,
+       2.3
+      ],
+      "cn": [
+       5.95,
+       4.2
+      ],
+      "xg": [
+       2.07,
+       1.71
+      ]
+     },
+     "a": {
+      "gf": [
+       1.7,
+       0.7
+      ],
+      "sh": [
+       13.95,
+       9.7
+      ],
+      "st": [
+       4.65,
+       2.9
+      ],
+      "fl": [
+       10.5,
+       13.55
+      ],
+      "yc": [
+       1.25,
+       2.55
+      ],
+      "cn": [
+       5.2,
+       3.8
+      ],
+      "xg": [
+       1.91,
+       1.24
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/64.png",
    "ac": "https://crests.football-data.org/57.png",
@@ -103823,7 +111764,77 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.5,
+       1.8
+      ],
+      "sh": [
+       13.1,
+       15.0
+      ],
+      "st": [
+       5.3,
+       5.85
+      ],
+      "fl": [
+       9.75,
+       10.8
+      ],
+      "yc": [
+       2.0,
+       1.55
+      ],
+      "cn": [
+       4.9,
+       5.6
+      ],
+      "xg": [
+       2.03,
+       2.27
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.95
+      ],
+      "sh": [
+       10.85,
+       16.8
+      ],
+      "st": [
+       3.85,
+       5.65
+      ],
+      "fl": [
+       12.05,
+       12.55
+      ],
+      "yc": [
+       1.8,
+       2.45
+      ],
+      "cn": [
+       3.4,
+       6.9
+      ],
+      "xg": [
+       1.54,
+       2.31
+      ]
+     },
+     "la": {
+      "gf": 1.63,
+      "sh": 13.63,
+      "st": 4.86,
+      "fl": 10.47,
+      "yc": 1.84,
+      "cn": 4.95
+     }
+    }
    },
    "hc": "https://crests.football-data.org/19.png",
    "ac": "https://crests.football-data.org/7.png",
@@ -104514,7 +112525,77 @@
       1,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       1.55
+      ],
+      "sh": [
+       10.3,
+       12.8
+      ],
+      "st": [
+       3.55,
+       5.1
+      ],
+      "fl": [
+       12.8,
+       12.55
+      ],
+      "yc": [
+       1.85,
+       1.3
+      ],
+      "cn": [
+       3.9,
+       4.6
+      ],
+      "xg": [
+       1.44,
+       1.97
+      ]
+     },
+     "a": {
+      "gf": [
+       0.75,
+       1.35
+      ],
+      "sh": [
+       10.7,
+       13.2
+      ],
+      "st": [
+       3.0,
+       4.15
+      ],
+      "fl": [
+       9.8,
+       13.75
+      ],
+      "yc": [
+       1.65,
+       2.25
+      ],
+      "cn": [
+       3.95,
+       4.75
+      ],
+      "xg": [
+       1.31,
+       1.74
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5890.png",
    "ac": "https://crests.football-data.org/107.png",
@@ -105197,7 +113278,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.35,
+       1.45
+      ],
+      "sh": [
+       10.75,
+       13.6
+      ],
+      "st": [
+       4.1,
+       4.5
+      ],
+      "fl": [
+       13.7,
+       14.5
+      ],
+      "yc": [
+       2.4,
+       2.15
+      ],
+      "cn": [
+       4.2,
+       4.55
+      ],
+      "xg": [
+       1.6,
+       1.85
+      ]
+     },
+     "a": {
+      "gf": [
+       1.15,
+       1.5
+      ],
+      "sh": [
+       11.9,
+       13.55
+      ],
+      "st": [
+       3.45,
+       4.45
+      ],
+      "fl": [
+       11.75,
+       12.0
+      ],
+      "yc": [
+       1.95,
+       2.05
+      ],
+      "cn": [
+       4.4,
+       4.9
+      ],
+      "xg": [
+       1.49,
+       1.83
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/285.png",
    "ac": "https://crests.football-data.org/95.png",
@@ -105718,7 +113869,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.0,
+       2.11
+      ],
+      "sh": [
+       10.0,
+       14.33
+      ],
+      "st": [
+       3.11,
+       6.0
+      ],
+      "fl": [
+       14.89,
+       12.78
+      ],
+      "yc": [
+       1.89,
+       2.44
+      ],
+      "cn": [
+       3.11,
+       4.67
+      ],
+      "xg": [
+       1.31,
+       2.28
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       0.9
+      ],
+      "sh": [
+       11.75,
+       9.75
+      ],
+      "st": [
+       3.25,
+       3.1
+      ],
+      "fl": [
+       14.15,
+       14.05
+      ],
+      "yc": [
+       2.5,
+       2.5
+      ],
+      "cn": [
+       4.45,
+       4.95
+      ],
+      "xg": [
+       1.43,
+       1.29
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5575.png",
    "ac": "https://crests.football-data.org/5530.png",
@@ -106239,7 +114460,77 @@
       0,
       4
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.44,
+       1.22
+      ],
+      "sh": [
+       9.89,
+       18.44
+      ],
+      "st": [
+       3.44,
+       5.56
+      ],
+      "fl": [
+       13.78,
+       13.22
+      ],
+      "yc": [
+       3.0,
+       1.67
+      ],
+      "cn": [
+       2.33,
+       5.78
+      ],
+      "xg": [
+       1.39,
+       2.37
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.7
+      ],
+      "sh": [
+       10.35,
+       14.1
+      ],
+      "st": [
+       3.75,
+       4.85
+      ],
+      "fl": [
+       11.25,
+       12.65
+      ],
+      "yc": [
+       2.35,
+       1.45
+      ],
+      "cn": [
+       4.6,
+       5.75
+      ],
+      "xg": [
+       1.49,
+       1.97
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5527.png",
    "ac": "https://crests.football-data.org/496.png",
@@ -106930,7 +115221,77 @@
       0,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.65,
+       1.45
+      ],
+      "sh": [
+       15.3,
+       13.55
+      ],
+      "st": [
+       5.35,
+       4.4
+      ],
+      "fl": [
+       12.3,
+       11.0
+      ],
+      "yc": [
+       2.15,
+       1.95
+      ],
+      "cn": [
+       5.15,
+       3.75
+      ],
+      "xg": [
+       2.16,
+       1.82
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       1.55
+      ],
+      "sh": [
+       12.3,
+       13.45
+      ],
+      "st": [
+       4.05,
+       4.5
+      ],
+      "fl": [
+       14.45,
+       10.45
+      ],
+      "yc": [
+       2.2,
+       1.5
+      ],
+      "cn": [
+       3.9,
+       4.65
+      ],
+      "xg": [
+       1.67,
+       1.84
+      ]
+     },
+     "la": {
+      "gf": 1.41,
+      "sh": 12.62,
+      "st": 4.42,
+      "fl": 12.09,
+      "yc": 1.85,
+      "cn": 4.74
+     }
+    }
    },
    "hc": "https://crests.football-data.org/516.png",
    "ac": "https://crests.football-data.org/511.png",
@@ -107621,7 +115982,77 @@
       3,
       3
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       0.85
+      ],
+      "sh": [
+       16.95,
+       9.45
+      ],
+      "st": [
+       5.65,
+       2.75
+      ],
+      "fl": [
+       11.65,
+       9.7
+      ],
+      "yc": [
+       1.4,
+       1.95
+      ],
+      "cn": [
+       6.45,
+       3.55
+      ],
+      "xg": [
+       2.32,
+       1.19
+      ]
+     },
+     "a": {
+      "gf": [
+       1.6,
+       0.95
+      ],
+      "sh": [
+       14.85,
+       11.9
+      ],
+      "st": [
+       5.3,
+       3.35
+      ],
+      "fl": [
+       8.95,
+       9.65
+      ],
+      "yc": [
+       1.0,
+       1.8
+      ],
+      "cn": [
+       6.25,
+       3.65
+      ],
+      "xg": [
+       2.12,
+       1.47
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/109.png",
    "ac": "https://crests.football-data.org/113.png",
@@ -108312,7 +116743,77 @@
       2,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.5
+      ],
+      "sh": [
+       13.85,
+       9.75
+      ],
+      "st": [
+       4.4,
+       4.15
+      ],
+      "fl": [
+       12.45,
+       10.15
+      ],
+      "yc": [
+       1.7,
+       1.9
+      ],
+      "cn": [
+       6.55,
+       3.9
+      ],
+      "xg": [
+       1.84,
+       1.57
+      ]
+     },
+     "a": {
+      "gf": [
+       1.75,
+       1.85
+      ],
+      "sh": [
+       12.7,
+       15.85
+      ],
+      "st": [
+       4.6,
+       5.6
+      ],
+      "fl": [
+       12.7,
+       12.15
+      ],
+      "yc": [
+       2.5,
+       2.65
+      ],
+      "cn": [
+       5.9,
+       4.35
+      ],
+      "xg": [
+       1.83,
+       2.25
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/77.png",
    "ac": "https://crests.football-data.org/92.png",
@@ -109003,7 +117504,77 @@
       4,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.25,
+       1.25
+      ],
+      "sh": [
+       11.5,
+       10.35
+      ],
+      "st": [
+       3.8,
+       3.2
+      ],
+      "fl": [
+       12.7,
+       12.1
+      ],
+      "yc": [
+       2.5,
+       2.8
+      ],
+      "cn": [
+       4.7,
+       3.6
+      ],
+      "xg": [
+       1.56,
+       1.35
+      ]
+     },
+     "a": {
+      "gf": [
+       1.35,
+       0.95
+      ],
+      "sh": [
+       11.2,
+       10.05
+      ],
+      "st": [
+       4.05,
+       3.2
+      ],
+      "fl": [
+       12.55,
+       16.05
+      ],
+      "yc": [
+       2.25,
+       2.5
+      ],
+      "cn": [
+       6.0,
+       4.0
+      ],
+      "xg": [
+       1.61,
+       1.33
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5613.png",
    "ac": "https://crests.football-data.org/5531.png",
@@ -109686,7 +118257,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.55
+      ],
+      "sh": [
+       12.0,
+       15.45
+      ],
+      "st": [
+       4.45,
+       5.35
+      ],
+      "fl": [
+       10.6,
+       11.5
+      ],
+      "yc": [
+       1.85,
+       2.1
+      ],
+      "cn": [
+       3.9,
+       5.7
+      ],
+      "xg": [
+       1.76,
+       2.16
+      ]
+     },
+     "a": {
+      "gf": [
+       1.0,
+       1.5
+      ],
+      "sh": [
+       12.6,
+       14.5
+      ],
+      "st": [
+       3.7,
+       5.35
+      ],
+      "fl": [
+       11.8,
+       13.0
+      ],
+      "yc": [
+       2.05,
+       1.65
+      ],
+      "cn": [
+       4.25,
+       4.4
+      ],
+      "xg": [
+       1.59,
+       2.12
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/471.png",
    "ac": "https://crests.football-data.org/99.png",
@@ -110377,7 +119018,77 @@
       1,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.45,
+       1.45
+      ],
+      "sh": [
+       15.05,
+       14.35
+      ],
+      "st": [
+       4.7,
+       4.95
+      ],
+      "fl": [
+       11.4,
+       9.0
+      ],
+      "yc": [
+       1.3,
+       1.35
+      ],
+      "cn": [
+       5.0,
+       4.15
+      ],
+      "xg": [
+       1.97,
+       2.0
+      ]
+     },
+     "a": {
+      "gf": [
+       0.7,
+       1.5
+      ],
+      "sh": [
+       9.65,
+       14.85
+      ],
+      "st": [
+       2.8,
+       4.65
+      ],
+      "fl": [
+       10.95,
+       12.9
+      ],
+      "yc": [
+       1.5,
+       1.65
+      ],
+      "cn": [
+       3.5,
+       5.75
+      ],
+      "xg": [
+       1.21,
+       1.95
+      ]
+     },
+     "la": {
+      "gf": 1.28,
+      "sh": 12.76,
+      "st": 4.2,
+      "fl": 12.29,
+      "yc": 1.82,
+      "cn": 4.46
+     }
+    }
    },
    "hc": "https://crests.football-data.org/102.png",
    "ac": "https://crests.football-data.org/112.png",
@@ -111068,7 +119779,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.4,
+       1.6
+      ],
+      "sh": [
+       12.2,
+       15.8
+      ],
+      "st": [
+       4.25,
+       5.2
+      ],
+      "fl": [
+       11.2,
+       12.4
+      ],
+      "yc": [
+       2.35,
+       2.5
+      ],
+      "cn": [
+       4.3,
+       4.95
+      ],
+      "xg": [
+       1.71,
+       2.14
+      ]
+     },
+     "a": {
+      "gf": [
+       1.3,
+       1.45
+      ],
+      "sh": [
+       12.15,
+       14.85
+      ],
+      "st": [
+       4.85,
+       4.55
+      ],
+      "fl": [
+       9.6,
+       10.85
+      ],
+      "yc": [
+       2.0,
+       1.6
+      ],
+      "cn": [
+       4.55,
+       5.45
+      ],
+      "xg": [
+       1.87,
+       1.93
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.87,
+      "st": 4.28,
+      "fl": 10.94,
+      "yc": 1.91,
+      "cn": 4.96
+     }
+    }
    },
    "hc": "https://crests.football-data.org/67.png",
    "ac": "https://crests.football-data.org/62.png",
@@ -111607,7 +120388,77 @@
       0,
       2
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.3,
+       1.3
+      ],
+      "sh": [
+       12.0,
+       13.3
+      ],
+      "st": [
+       4.4,
+       4.3
+      ],
+      "fl": [
+       12.3,
+       11.9
+      ],
+      "yc": [
+       1.9,
+       2.1
+      ],
+      "cn": [
+       5.1,
+       5.2
+      ],
+      "xg": [
+       1.74,
+       1.78
+      ]
+     },
+     "a": {
+      "gf": [
+       1.05,
+       1.75
+      ],
+      "sh": [
+       12.05,
+       12.4
+      ],
+      "st": [
+       4.8,
+       4.05
+      ],
+      "fl": [
+       13.9,
+       11.8
+      ],
+      "yc": [
+       2.55,
+       2.1
+      ],
+      "cn": [
+       4.1,
+       5.1
+      ],
+      "xg": [
+       1.85,
+       1.67
+      ]
+     },
+     "la": {
+      "gf": 1.39,
+      "sh": 12.77,
+      "st": 4.43,
+      "fl": 12.54,
+      "yc": 2.24,
+      "cn": 4.85
+     }
+    }
    },
    "hc": "https://crests.football-data.org/560.png",
    "ac": "https://crests.football-data.org/79.png",
@@ -112290,7 +121141,77 @@
       0,
       1
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       2.55,
+       1.0
+      ],
+      "sh": [
+       18.15,
+       10.35
+      ],
+      "st": [
+       5.95,
+       3.55
+      ],
+      "fl": [
+       11.75,
+       15.95
+      ],
+      "yc": [
+       1.9,
+       3.1
+      ],
+      "cn": [
+       8.0,
+       2.8
+      ],
+      "xg": [
+       2.45,
+       1.44
+      ]
+     },
+     "a": {
+      "gf": [
+       1.25,
+       1.35
+      ],
+      "sh": [
+       11.45,
+       12.9
+      ],
+      "st": [
+       3.75,
+       4.45
+      ],
+      "fl": [
+       12.25,
+       12.45
+      ],
+      "yc": [
+       1.75,
+       2.0
+      ],
+      "cn": [
+       5.5,
+       3.85
+      ],
+      "xg": [
+       1.55,
+       1.8
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/1903.png",
    "ac": "https://crests.football-data.org/7822.png",
@@ -112981,7 +121902,77 @@
       5,
       0
      ]
-    ]
+    ],
+    "sx": {
+     "h": {
+      "gf": [
+       1.05,
+       1.2
+      ],
+      "sh": [
+       12.95,
+       11.5
+      ],
+      "st": [
+       3.95,
+       3.4
+      ],
+      "fl": [
+       13.55,
+       13.2
+      ],
+      "yc": [
+       2.1,
+       1.9
+      ],
+      "cn": [
+       4.35,
+       4.55
+      ],
+      "xg": [
+       1.67,
+       1.46
+      ]
+     },
+     "a": {
+      "gf": [
+       1.1,
+       1.35
+      ],
+      "sh": [
+       15.2,
+       9.6
+      ],
+      "st": [
+       4.45,
+       3.75
+      ],
+      "fl": [
+       14.6,
+       12.35
+      ],
+      "yc": [
+       2.3,
+       2.3
+      ],
+      "cn": [
+       4.95,
+       4.6
+      ],
+      "xg": [
+       1.92,
+       1.46
+      ]
+     },
+     "la": {
+      "gf": 1.36,
+      "sh": 12.16,
+      "st": 4.09,
+      "fl": 13.43,
+      "yc": 2.4,
+      "cn": 4.69
+     }
+    }
    },
    "hc": "https://crests.football-data.org/5533.png",
    "ac": "https://crests.football-data.org/5543.png",
