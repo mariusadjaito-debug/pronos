@@ -1,5 +1,5 @@
 {
- "updated": "28/10/2026 16:36 UTC",
+ "updated": "28/10/2026 18:27 UTC",
  "matches": [
   {
    "l": "Primeira Liga",
@@ -27509,8 +27509,11 @@
    "hc": "https://crests.football-data.org/98.png",
    "ac": "https://crests.football-data.org/103.png",
    "i": 558549,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      11.93,
@@ -28442,8 +28445,11 @@
    "hc": "https://crests.football-data.org/454.png",
    "ac": "https://crests.football-data.org/108.png",
    "i": 558550,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      11.49,
@@ -29383,8 +29389,11 @@
    "hc": "https://crests.football-data.org/112.png",
    "ac": "https://crests.football-data.org/115.png",
    "i": 558553,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      13.37,
@@ -134310,7 +134319,7 @@
   "shaktar": "https://crests.football-data.org/1887.png",
   "pae aek": "https://crests.football-data.org/1899.png",
   "sl. bratislava": "https://crests.football-data.org/7509.png",
-  "__europe": "compétitions trouvées : CL | CL (Ligue des champions) : accès OK · 9 match(s) dans les 7 jours · prochain match : 2026-11-03T17:45:00Z",
+  "__europe": "compétitions trouvées : CL, EL | CL (Ligue des champions) : REFUSÉ par la clé (erreur HTTP 429) | EL (Ligue Europa) : REFUSÉ par la clé (erreur HTTP 429)",
   "waterford": "https://r2.thesportsdb.com/images/media/team/badge/a1z2bm1765902989.png",
   "derry city": "https://r2.thesportsdb.com/images/media/team/badge/i5u42j1602256316.png",
   "galway": "https://r2.thesportsdb.com/images/media/team/badge/nil4001582565343.png",
