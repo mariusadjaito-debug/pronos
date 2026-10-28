@@ -1,82 +1,82 @@
-"""ℂ𝕒𝕝𝕔𝕦𝕝 « 𝕓𝕒𝕤𝕖 » (𝕡𝕪𝕥𝕙𝕠𝕟 𝕡𝕣𝕖𝕕𝕚𝕔𝕥𝟜.𝕡𝕪) : 𝕝𝕖 𝕞𝕠𝕕𝕖̀𝕝𝕖 𝕢𝕦𝕖 𝕝𝕖 𝕥𝕖𝕤𝕥 𝕤𝕦𝕣 𝕝𝕖 𝕡𝕒𝕤𝕤𝕖́ 𝕒 𝕧𝕒𝕝𝕚𝕕𝕖́.
-𝔹𝕦𝕥𝕤 𝕒𝕥𝕥𝕖𝕟𝕕𝕦𝕤 = 𝕗𝕠𝕣𝕔𝕖𝕤 𝕕'𝕒𝕥𝕥𝕒𝕢𝕦𝕖 𝕖𝕥 𝕕𝕖 𝕕𝕖́𝕗𝕖𝕟𝕤𝕖 𝕔𝕒𝕝𝕔𝕦𝕝𝕖́𝕖𝕤 𝕤𝕦𝕣 𝕋𝕆𝕌𝕊 𝕝𝕖𝕤 𝕞𝕒𝕥𝕔𝕙𝕤 𝕣𝕖́𝕔𝕖𝕟𝕥𝕤 (𝕕𝕠𝕞𝕚𝕔𝕚𝕝𝕖 𝕖𝕥 𝕖𝕩𝕥𝕖́𝕣𝕚𝕖𝕦𝕣 𝕖𝕟𝕤𝕖𝕞𝕓𝕝𝕖),
-𝕝𝕖𝕤 𝕡𝕝𝕦𝕤 𝕣𝕖́𝕔𝕖𝕟𝕥𝕤 𝕔𝕠𝕞𝕡𝕥𝕒𝕟𝕥 𝕕𝕒𝕧𝕒𝕟𝕥𝕒𝕘𝕖 (𝕦𝕟 𝕞𝕒𝕥𝕔𝕙 𝕡𝕖𝕣𝕕 𝕝𝕒 𝕞𝕠𝕚𝕥𝕚𝕖́ 𝕕𝕖 𝕤𝕠𝕟 𝕡𝕠𝕚𝕕𝕤 𝕥𝕠𝕦𝕤 𝕝𝕖𝕤 𝟙𝟠𝟘 𝕛𝕠𝕦𝕣𝕤).
-ℙ𝕒𝕤 𝕕𝕖 𝕗𝕠𝕣𝕞𝕖, 𝕕𝕖 𝕕𝕠𝕞𝕚𝕔𝕚𝕝𝕖 / 𝕖𝕩𝕥𝕖́𝕣𝕚𝕖𝕦𝕣 𝕒̀ 𝕡𝕒𝕣𝕥, 𝕕𝕖 𝕔𝕠𝕟𝕗𝕣𝕠𝕟𝕥𝕒𝕥𝕚𝕠𝕟𝕤, 𝕕'𝔼𝕝𝕠 𝕟𝕚 𝕕𝕖 𝕗𝕒𝕥𝕚𝕘𝕦𝕖 : 𝕝𝕖 𝕥𝕖𝕤𝕥 𝕞𝕠𝕟𝕥𝕣𝕖 𝕢𝕦'𝕚𝕝𝕤 𝕕𝕖́𝕘𝕣𝕒𝕕𝕖𝕟𝕥 𝕝𝕖 𝕔𝕒𝕝𝕔𝕦𝕝.
-𝕃𝕖𝕤 𝟛𝟘 𝕕𝕖𝕣𝕟𝕚𝕖𝕣𝕤 𝕞𝕒𝕥𝕔𝕙𝕤 𝕕𝕖 𝕔𝕙𝕒𝕢𝕦𝕖 𝕖́𝕢𝕦𝕚𝕡𝕖 𝕤𝕠𝕟𝕥 𝕖𝕟𝕧𝕠𝕪𝕖́𝕤 𝕒̀ 𝕝'𝕒𝕡𝕡𝕝𝕚𝕔𝕒𝕥𝕚𝕠𝕟 𝕡𝕠𝕦𝕣 𝕊𝕞𝕒𝕣𝕥ℙ𝕚𝕔𝕜 (𝕚𝕝𝕤 𝕟𝕖 𝕤𝕖𝕣𝕧𝕖𝕟𝕥 𝕡𝕒𝕤 𝕒𝕦 𝕔𝕒𝕝𝕔𝕦𝕝)."""
-𝕚𝕞𝕡𝕠𝕣𝕥 𝕡𝕣𝕖𝕕𝕚𝕔𝕥 𝕒𝕤 ℙ
-𝕚𝕞𝕡𝕠𝕣𝕥 𝕡𝕣𝕖𝕕𝕚𝕔𝕥𝟚 𝕒𝕤 𝕍
-𝕚𝕞𝕡𝕠𝕣𝕥 𝕡𝕣𝕖𝕕𝕚𝕔𝕥𝟛 𝕒𝕤 𝕍𝟛
+"""Calcul « base » (python predict4.py) : le modèle que le test sur le passé a validé.
+Buts attendus = forces d'attaque et de défense calculées sur TOUS les matchs récents (domicile et extérieur ensemble),
+les plus récents comptant davantage (un match perd la moitié de son poids tous les 180 jours).
+Pas de forme, de domicile / extérieur à part, de confrontations, d'Elo ni de fatigue : le test montre qu'ils dégradent le calcul.
+Les 30 derniers matchs de chaque équipe sont envoyés à l'application pour SmartPick (ils ne servent pas au calcul)."""
+import predict as P
+import predict2 as V
+import predict3 as V3
 
-ℙ.ℍ𝔸𝕃𝔽_𝕃𝕀𝔽𝔼 = 𝟙𝟠𝟘
-# 𝕔𝕠𝕝𝕠𝕟𝕟𝕖𝕤 (𝕕𝕠𝕞𝕚𝕔𝕚𝕝𝕖, 𝕖𝕩𝕥𝕖́𝕣𝕚𝕖𝕦𝕣) 𝕤𝕖𝕣𝕧𝕒𝕟𝕥 𝕒𝕦 𝕡𝕣𝕠𝕗𝕚𝕝 𝕕𝕖 𝕛𝕖𝕦 : 𝕓𝕦𝕥𝕤, 𝕥𝕚𝕣𝕤, 𝕥𝕚𝕣𝕤 𝕔𝕒𝕕𝕣𝕖́𝕤, 𝕗𝕒𝕦𝕥𝕖𝕤, 𝕔𝕒𝕣𝕥𝕠𝕟𝕤 𝕛𝕒𝕦𝕟𝕖𝕤, 𝕔𝕠𝕣𝕟𝕖𝕣𝕤
-ℙℝ𝕆𝔽 = {"𝕘𝕗": ("𝔽𝕋ℍ𝔾", "𝔽𝕋𝔸𝔾"), "𝕤𝕙": ("ℍ𝕊", "𝔸𝕊"), "𝕤𝕥": ("ℍ𝕊𝕋", "𝔸𝕊𝕋"), "𝕗𝕝": ("ℍ𝔽", "𝔸𝔽"), "𝕪𝕔": ("ℍ𝕐", "𝔸𝕐"), "𝕔𝕟": ("ℍℂ", "𝔸ℂ")}
-
-
-𝕕𝕖𝕗 _𝕡𝕣𝕠𝕗𝕚𝕝𝕖(𝕣𝕠𝕨𝕤, 𝕥):
-    """𝕄𝕠𝕪𝕖𝕟𝕟𝕖𝕤 𝕡𝕠𝕦𝕣 / 𝕔𝕠𝕟𝕥𝕣𝕖 𝕕'𝕦𝕟𝕖 𝕖́𝕢𝕦𝕚𝕡𝕖 𝕤𝕦𝕣 𝕤𝕖𝕤 𝕕𝕖𝕣𝕟𝕚𝕖𝕣𝕤 𝕞𝕒𝕥𝕔𝕙𝕤 + 𝕩𝔾 𝕖𝕤𝕥𝕚𝕞𝕖́ 𝕒̀ 𝕡𝕒𝕣𝕥𝕚𝕣 𝕕𝕖𝕤 𝕥𝕚𝕣𝕤 (𝟘,𝟛𝟙 𝕡𝕒𝕣 𝕥𝕚𝕣 𝕔𝕒𝕕𝕣𝕖́, 𝟘,𝟘𝟝 𝕡𝕒𝕣 𝕒𝕦𝕥𝕣𝕖 𝕥𝕚𝕣)."""
-    𝕠𝕦𝕥 = {}
-    𝕗𝕠𝕣 𝕜, (𝕙𝕔, 𝕒𝕔) 𝕚𝕟 ℙℝ𝕆𝔽.𝕚𝕥𝕖𝕞𝕤():
-        𝕡𝕠𝕦𝕣, 𝕔𝕠𝕟𝕥𝕣𝕖 = [], []
-        𝕗𝕠𝕣 _, 𝕣 𝕚𝕟 𝕣𝕠𝕨𝕤:
-            𝕩, 𝕪 = ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥(𝕙𝕔)), ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥(𝕒𝕔))
-            𝕚𝕗 𝕩 𝕚𝕤 ℕ𝕠𝕟𝕖 𝕠𝕣 𝕪 𝕚𝕤 ℕ𝕠𝕟𝕖:
-                𝕔𝕠𝕟𝕥𝕚𝕟𝕦𝕖
-            𝕙𝕠𝕞𝕖 = 𝕣["ℍ𝕠𝕞𝕖𝕋𝕖𝕒𝕞"] == 𝕥
-            𝕡𝕠𝕦𝕣.𝕒𝕡𝕡𝕖𝕟𝕕(𝕩 𝕚𝕗 𝕙𝕠𝕞𝕖 𝕖𝕝𝕤𝕖 𝕪)
-            𝕔𝕠𝕟𝕥𝕣𝕖.𝕒𝕡𝕡𝕖𝕟𝕕(𝕪 𝕚𝕗 𝕙𝕠𝕞𝕖 𝕖𝕝𝕤𝕖 𝕩)
-        𝕚𝕗 𝕝𝕖𝕟(𝕡𝕠𝕦𝕣) >= 𝟠:
-            𝕠𝕦𝕥[𝕜] = [𝕣𝕠𝕦𝕟𝕕(𝕤𝕦𝕞(𝕡𝕠𝕦𝕣) / 𝕝𝕖𝕟(𝕡𝕠𝕦𝕣), 𝟚), 𝕣𝕠𝕦𝕟𝕕(𝕤𝕦𝕞(𝕔𝕠𝕟𝕥𝕣𝕖) / 𝕝𝕖𝕟(𝕔𝕠𝕟𝕥𝕣𝕖), 𝟚)]
-    𝕚𝕗 "𝕤𝕙" 𝕚𝕟 𝕠𝕦𝕥 𝕒𝕟𝕕 "𝕤𝕥" 𝕚𝕟 𝕠𝕦𝕥:
-        𝕠𝕦𝕥["𝕩𝕘"] = [𝕣𝕠𝕦𝕟𝕕(.𝟛𝟙 * 𝕠𝕦𝕥["𝕤𝕥"][𝕚] + .𝟘𝟝 * (𝕠𝕦𝕥["𝕤𝕙"][𝕚] - 𝕠𝕦𝕥["𝕤𝕥"][𝕚]), 𝟚) 𝕗𝕠𝕣 𝕚 𝕚𝕟 (𝟘, 𝟙)]
-    𝕣𝕖𝕥𝕦𝕣𝕟 𝕠𝕦𝕥
+P.HALF_LIFE = 180
+# colonnes (domicile, extérieur) servant au profil de jeu : buts, tirs, tirs cadrés, fautes, cartons jaunes, corners
+PROF = {"gf": ("FTHG", "FTAG"), "sh": ("HS", "AS"), "st": ("HST", "AST"), "fl": ("HF", "AF"), "yc": ("HY", "AY"), "cn": ("HC", "AC")}
 
 
-𝕕𝕖𝕗 𝕓𝕦𝕚𝕝𝕕𝟜(𝕝𝕖𝕒𝕘𝕦𝕖, 𝕙𝕚𝕤𝕥, 𝕗𝕩, 𝕠𝕦𝕥, 𝕟𝕠𝕨):
-    𝕟𝟘 = 𝕝𝕖𝕟(𝕠𝕦𝕥)
-    𝕍.𝕓𝕦𝕚𝕝𝕕𝟚(𝕝𝕖𝕒𝕘𝕦𝕖, 𝕙𝕚𝕤𝕥, 𝕗𝕩, 𝕠𝕦𝕥, 𝕟𝕠𝕨)
-    𝕍𝟛._𝕣𝕖𝕘𝕚𝕤𝕥𝕖𝕣(𝕝𝕖𝕒𝕘𝕦𝕖, 𝕙𝕚𝕤𝕥)
-    𝕟𝕖𝕨 = {(𝕖["𝕙"], 𝕖["𝕒"], 𝕖["𝕕"]): 𝕖 𝕗𝕠𝕣 𝕖 𝕚𝕟 𝕠𝕦𝕥[𝕟𝟘:] 𝕚𝕗 "𝕗" 𝕚𝕟 𝕖}
-    𝕕𝕒𝕥𝕒 = [(𝟘.𝟝 ** ((𝕟𝕠𝕨 - 𝕕).𝕕𝕒𝕪𝕤 / ℙ.ℍ𝔸𝕃𝔽_𝕃𝕀𝔽𝔼), 𝕣["ℍ𝕠𝕞𝕖𝕋𝕖𝕒𝕞"], 𝕣["𝔸𝕨𝕒𝕪𝕋𝕖𝕒𝕞"], ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋ℍ𝔾"]), ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋𝔸𝔾"]))
-            𝕗𝕠𝕣 𝕕, 𝕣 𝕚𝕟 𝕙𝕚𝕤𝕥 𝕚𝕗 ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥("𝔽𝕋ℍ𝔾")) 𝕚𝕤 𝕟𝕠𝕥 ℕ𝕠𝕟𝕖 𝕒𝕟𝕕 ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥("𝔽𝕋𝔸𝔾")) 𝕚𝕤 𝕟𝕠𝕥 ℕ𝕠𝕟𝕖]
-    𝕚𝕗 𝕟𝕠𝕥 𝕟𝕖𝕨 𝕠𝕣 𝕝𝕖𝕟(𝕕𝕒𝕥𝕒) < 𝟝𝟘:
-        𝕣𝕖𝕥𝕦𝕣𝕟
-    𝕞𝕙, 𝕞𝕒, 𝕒𝕥𝕥, 𝕕𝕗𝕟 = ℙ.𝕗𝕚𝕥(𝕕𝕒𝕥𝕒)
-    𝕜𝕟𝕠𝕨𝕟 = {ℙ.𝕟𝕠𝕣𝕞(𝕥): 𝕥 𝕗𝕠𝕣 _, 𝕣 𝕚𝕟 𝕙𝕚𝕤𝕥 𝕗𝕠𝕣 𝕥 𝕚𝕟 (𝕣["ℍ𝕠𝕞𝕖𝕋𝕖𝕒𝕞"], 𝕣["𝔸𝕨𝕒𝕪𝕋𝕖𝕒𝕞"])}
-    𝕔𝕟𝕥, 𝕓𝕪𝕥𝕖𝕒𝕞 = {}, {}
-    𝕗𝕠𝕣 𝕕, 𝕣 𝕚𝕟 𝕤𝕠𝕣𝕥𝕖𝕕(𝕙𝕚𝕤𝕥, 𝕜𝕖𝕪=𝕝𝕒𝕞𝕓𝕕𝕒 𝕫: 𝕫[𝟘]):
-        𝕚𝕗 ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥("𝔽𝕋ℍ𝔾")) 𝕚𝕤 ℕ𝕠𝕟𝕖 𝕠𝕣 ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥("𝔽𝕋𝔸𝔾")) 𝕚𝕤 ℕ𝕠𝕟𝕖:
-            𝕔𝕠𝕟𝕥𝕚𝕟𝕦𝕖
-        𝕗𝕠𝕣 𝕥 𝕚𝕟 (𝕣["ℍ𝕠𝕞𝕖𝕋𝕖𝕒𝕞"], 𝕣["𝔸𝕨𝕒𝕪𝕋𝕖𝕒𝕞"]):
-            𝕔𝕟𝕥[𝕥] = 𝕔𝕟𝕥.𝕘𝕖𝕥(𝕥, 𝟘) + 𝟙
-            𝕓𝕪𝕥𝕖𝕒𝕞.𝕤𝕖𝕥𝕕𝕖𝕗𝕒𝕦𝕝𝕥(𝕥, []).𝕒𝕡𝕡𝕖𝕟𝕕((𝕕, 𝕣))
-    𝕝𝕒 = {}  # 𝕞𝕠𝕪𝕖𝕟𝕟𝕖𝕤 𝕕𝕦 𝕔𝕙𝕒𝕞𝕡𝕚𝕠𝕟𝕟𝕒𝕥 𝕡𝕒𝕣 𝕖́𝕢𝕦𝕚𝕡𝕖 𝕖𝕥 𝕡𝕒𝕣 𝕞𝕒𝕥𝕔𝕙 (𝕕𝕖𝕣𝕟𝕚𝕖𝕣𝕤 𝟜𝟘𝟘 𝕛𝕠𝕦𝕣𝕤)
-    𝕣𝕖𝕔𝕖𝕟𝕥 = [(𝕕, 𝕣) 𝕗𝕠𝕣 𝕕, 𝕣 𝕚𝕟 𝕙𝕚𝕤𝕥 𝕚𝕗 (𝕟𝕠𝕨 - 𝕕).𝕕𝕒𝕪𝕤 <= 𝟜𝟘𝟘]
-    𝕗𝕠𝕣 𝕜, (𝕙𝕔, 𝕒𝕔) 𝕚𝕟 ℙℝ𝕆𝔽.𝕚𝕥𝕖𝕞𝕤():
-        𝕧 = [𝕩 𝕗𝕠𝕣 _, 𝕣 𝕚𝕟 𝕣𝕖𝕔𝕖𝕟𝕥 𝕗𝕠𝕣 𝕩 𝕚𝕟 (ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥(𝕙𝕔)), ℙ.𝕟𝕦𝕞(𝕣.𝕘𝕖𝕥(𝕒𝕔))) 𝕚𝕗 𝕩 𝕚𝕤 𝕟𝕠𝕥 ℕ𝕠𝕟𝕖]
-        𝕚𝕗 𝕝𝕖𝕟(𝕧) > 𝟚𝟘𝟘:
-            𝕝𝕒[𝕜] = 𝕣𝕠𝕦𝕟𝕕(𝕤𝕦𝕞(𝕧) / 𝕝𝕖𝕟(𝕧), 𝟚)
-    𝕗𝕠𝕣 𝕞 𝕚𝕟 𝕗𝕩:
-        𝕖 = 𝕟𝕖𝕨.𝕘𝕖𝕥((𝕞["𝕙𝕤"], 𝕞["𝕒𝕤"], 𝕞["𝕕"]))
-        𝕚𝕗 𝕟𝕠𝕥 𝕖:
-            𝕔𝕠𝕟𝕥𝕚𝕟𝕦𝕖
-        𝕙, 𝕒 = ℙ.𝕞𝕒𝕥𝕔𝕙_𝕥𝕖𝕒𝕞(𝕞["𝕙"], 𝕜𝕟𝕠𝕨𝕟), ℙ.𝕞𝕒𝕥𝕔𝕙_𝕥𝕖𝕒𝕞(𝕞["𝕒"], 𝕜𝕟𝕠𝕨𝕟)
-        𝕚𝕗 𝕟𝕠𝕥 𝕙 𝕠𝕣 𝕟𝕠𝕥 𝕒 𝕠𝕣 𝕙 𝕟𝕠𝕥 𝕚𝕟 𝕒𝕥𝕥 𝕠𝕣 𝕒 𝕟𝕠𝕥 𝕚𝕟 𝕒𝕥𝕥:
-            𝕔𝕠𝕟𝕥𝕚𝕟𝕦𝕖
-        𝕖["𝕩"] = 𝕣𝕠𝕦𝕟𝕕(𝕞𝕙 * 𝕒𝕥𝕥[𝕙] * 𝕕𝕗𝕟[𝕒], 𝟚)
-        𝕖["𝕪"] = 𝕣𝕠𝕦𝕟𝕕(𝕞𝕒 * 𝕒𝕥𝕥[𝕒] * 𝕕𝕗𝕟[𝕙], 𝟚)
-        𝕖["𝕗"]["𝕟𝕞"] = [𝕔𝕟𝕥.𝕘𝕖𝕥(𝕙, 𝟘), 𝕔𝕟𝕥.𝕘𝕖𝕥(𝕒, 𝟘)]
-        𝕖.𝕡𝕠𝕡("𝕒𝕘", ℕ𝕠𝕟𝕖)
-        𝕫 = 𝕖.𝕤𝕖𝕥𝕕𝕖𝕗𝕒𝕦𝕝𝕥("𝕫", {})  # 𝟛𝟘 𝕕𝕖𝕣𝕟𝕚𝕖𝕣𝕤 𝕞𝕒𝕥𝕔𝕙𝕤 𝕕𝕖 𝕔𝕙𝕒𝕢𝕦𝕖 𝕖́𝕢𝕦𝕚𝕡𝕖, 𝕕𝕠𝕞𝕚𝕔𝕚𝕝𝕖 𝕖𝕥 𝕖𝕩𝕥𝕖́𝕣𝕚𝕖𝕦𝕣 𝕔𝕠𝕟𝕗𝕠𝕟𝕕𝕦𝕤 (𝕊𝕞𝕒𝕣𝕥ℙ𝕚𝕔𝕜)
-        𝕗𝕠𝕣 𝕚, 𝕥 𝕚𝕟 𝕖𝕟𝕦𝕞𝕖𝕣𝕒𝕥𝕖((𝕙, 𝕒)):
-            𝕝𝕒𝕤𝕥 = 𝕓𝕪𝕥𝕖𝕒𝕞.𝕘𝕖𝕥(𝕥, [])[-𝟛𝟘:]
-            𝕫["𝕥𝕙" 𝕚𝕗 𝕚 == 𝟘 𝕖𝕝𝕤𝕖 "𝕥𝕒"] = [[𝕚𝕟𝕥(ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋ℍ𝔾"])), 𝕚𝕟𝕥(ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋𝔸𝔾"]))] 𝕚𝕗 𝕣["ℍ𝕠𝕞𝕖𝕋𝕖𝕒𝕞"] == 𝕥
-                                           𝕖𝕝𝕤𝕖 [𝕚𝕟𝕥(ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋𝔸𝔾"])), 𝕚𝕟𝕥(ℙ.𝕟𝕦𝕞(𝕣["𝔽𝕋ℍ𝔾"]))] 𝕗𝕠𝕣 _, 𝕣 𝕚𝕟 𝕝𝕒𝕤𝕥]
-            𝕗𝕠𝕣 𝕜, 𝕙𝕔, 𝕒𝕔 𝕚𝕟 𝕍.𝕊𝕋𝔸𝕋𝕂:
-                𝕫.𝕤𝕖𝕥𝕕𝕖𝕗𝕒𝕦𝕝𝕥("𝕥𝕤", {}).𝕤𝕖𝕥𝕕𝕖𝕗𝕒𝕦𝕝𝕥(𝕜, [[], []])[𝕚] = 𝕍._𝕥𝕠𝕥𝕒𝕝𝕤(𝕝𝕒𝕤𝕥, 𝕙𝕔, 𝕒𝕔)
-        𝕫["𝕤𝕩"] = {"𝕙": _𝕡𝕣𝕠𝕗𝕚𝕝𝕖(𝕓𝕪𝕥𝕖𝕒𝕞.𝕘𝕖𝕥(𝕙, [])[-𝟛𝟘:], 𝕙), "𝕒": _𝕡𝕣𝕠𝕗𝕚𝕝𝕖(𝕓𝕪𝕥𝕖𝕒𝕞.𝕘𝕖𝕥(𝕒, [])[-𝟛𝟘:], 𝕒), "𝕝𝕒": 𝕝𝕒}
+def _profile(rows, t):
+    """Moyennes pour / contre d'une équipe sur ses derniers matchs + xG estimé à partir des tirs (0,31 par tir cadré, 0,05 par autre tir)."""
+    out = {}
+    for k, (hc, ac) in PROF.items():
+        pour, contre = [], []
+        for _, r in rows:
+            x, y = P.num(r.get(hc)), P.num(r.get(ac))
+            if x is None or y is None:
+                continue
+            home = r["HomeTeam"] == t
+            pour.append(x if home else y)
+            contre.append(y if home else x)
+        if len(pour) >= 8:
+            out[k] = [round(sum(pour) / len(pour), 2), round(sum(contre) / len(contre), 2)]
+    if "sh" in out and "st" in out:
+        out["xg"] = [round(.31 * out["st"][i] + .05 * (out["sh"][i] - out["st"][i]), 2) for i in (0, 1)]
+    return out
 
 
-ℙ.𝕓𝕦𝕚𝕝𝕕 = 𝕓𝕦𝕚𝕝𝕕𝟜
+def build4(league, hist, fx, out, now):
+    n0 = len(out)
+    V.build2(league, hist, fx, out, now)
+    V3._register(league, hist)
+    new = {(e["h"], e["a"], e["d"]): e for e in out[n0:] if "f" in e}
+    data = [(0.5 ** ((now - d).days / P.HALF_LIFE), r["HomeTeam"], r["AwayTeam"], P.num(r["FTHG"]), P.num(r["FTAG"]))
+            for d, r in hist if P.num(r.get("FTHG")) is not None and P.num(r.get("FTAG")) is not None]
+    if not new or len(data) < 50:
+        return
+    mh, ma, att, dfn = P.fit(data)
+    known = {P.norm(t): t for _, r in hist for t in (r["HomeTeam"], r["AwayTeam"])}
+    cnt, byteam = {}, {}
+    for d, r in sorted(hist, key=lambda z: z[0]):
+        if P.num(r.get("FTHG")) is None or P.num(r.get("FTAG")) is None:
+            continue
+        for t in (r["HomeTeam"], r["AwayTeam"]):
+            cnt[t] = cnt.get(t, 0) + 1
+            byteam.setdefault(t, []).append((d, r))
+    la = {}  # moyennes du championnat par équipe et par match (derniers 400 jours)
+    recent = [(d, r) for d, r in hist if (now - d).days <= 400]
+    for k, (hc, ac) in PROF.items():
+        v = [x for _, r in recent for x in (P.num(r.get(hc)), P.num(r.get(ac))) if x is not None]
+        if len(v) > 200:
+            la[k] = round(sum(v) / len(v), 2)
+    for m in fx:
+        e = new.get((m["hs"], m["as"], m["d"]))
+        if not e:
+            continue
+        h, a = P.match_team(m["h"], known), P.match_team(m["a"], known)
+        if not h or not a or h not in att or a not in att:
+            continue
+        e["x"] = round(mh * att[h] * dfn[a], 2)
+        e["y"] = round(ma * att[a] * dfn[h], 2)
+        e["f"]["nm"] = [cnt.get(h, 0), cnt.get(a, 0)]
+        e.pop("ag", None)
+        z = e.setdefault("z", {})  # 30 derniers matchs de chaque équipe, domicile et extérieur confondus (SmartPick)
+        for i, t in enumerate((h, a)):
+            last = byteam.get(t, [])[-30:]
+            z["th" if i == 0 else "ta"] = [[int(P.num(r["FTHG"])), int(P.num(r["FTAG"]))] if r["HomeTeam"] == t
+                                           else [int(P.num(r["FTAG"])), int(P.num(r["FTHG"]))] for _, r in last]
+            for k, hc, ac in V.STATK:
+                z.setdefault("ts", {}).setdefault(k, [[], []])[i] = V._totals(last, hc, ac)
+        z["sx"] = {"h": _profile(byteam.get(h, [])[-30:], h), "a": _profile(byteam.get(a, [])[-30:], a), "la": la}
 
-𝕚𝕗 __𝕟𝕒𝕞𝕖__ == "__𝕞𝕒𝕚𝕟__":
-    ℙ.𝕞𝕒𝕚𝕟()
+
+P.build = build4
+
+if __name__ == "__main__":
+    P.main()
