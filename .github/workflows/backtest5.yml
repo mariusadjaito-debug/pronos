@@ -1,0 +1,22 @@
+name: Test n°5 - quelle duree de memoire
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mesurer la memoire
+        run: python backtest5.py
+      - name: Enregistrer le rapport
+        run: |
+          git config user.name "pronos-bot"
+          git config user.email "pronos-bot@users.noreply.github.com"
+          git add rapport5.txt calibration_stats.json
+          git diff --staged --quiet || (git commit -m "Rapport n°5" && git pull --rebase origin main && git push)
