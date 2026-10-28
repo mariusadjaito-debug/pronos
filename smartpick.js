@@ -1,101 +1,101 @@
-/* 𝕤𝕞𝕒𝕣𝕥𝕡𝕚𝕔𝕜.𝕛𝕤 (𝕧𝟛) : 𝕊𝕞𝕒𝕣𝕥ℙ𝕚𝕔𝕜 = 𝕛𝕦𝕤𝕢𝕦'𝕒̀ 𝟜 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔𝕤 𝕡𝕒𝕣 𝕞𝕒𝕥𝕔𝕙, 𝕔𝕝𝕒𝕤𝕤𝕖́𝕤, 𝕒𝕧𝕖𝕔 𝕒𝕦 𝕞𝕒𝕩𝕚𝕞𝕦𝕞 𝟙 𝕖́𝕥𝕠𝕚𝕝𝕖, 𝕕𝕖́𝕥𝕖𝕔𝕥𝕚𝕠𝕟 𝕕𝕖𝕤 𝕔𝕠𝕟𝕥𝕣𝕒𝕕𝕚𝕔𝕥𝕚𝕠𝕟𝕤
-   𝕖𝕥 𝕢𝕦𝕒𝕝𝕚𝕥𝕖́ 𝕕𝕖𝕤 𝕕𝕠𝕟𝕟𝕖́𝕖𝕤. 𝕊𝕖́𝕝𝕖𝕔𝕥𝕖𝕦𝕣 𝕕𝕖 𝕝𝕚𝕘𝕟𝕖𝕤 𝕕𝕖 𝕤𝕥𝕒𝕥𝕚𝕤𝕥𝕚𝕢𝕦𝕖𝕤 : 𝔼́𝕢𝕦𝕚𝕝𝕚𝕓𝕣𝕖́ (≈ 𝟞𝟞 %) 𝕠𝕦 ℙ𝕣𝕦𝕕𝕖𝕟𝕥 (≈ 𝟠𝟝 %).
-   ℂ𝕙𝕒𝕢𝕦𝕖 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 𝕖𝕤𝕥 𝕟𝕠𝕥𝕖́ 𝕤𝕦𝕣 𝕡𝕝𝕦𝕤𝕚𝕖𝕦𝕣𝕤 𝕚𝕟𝕘𝕣𝕖́𝕕𝕚𝕖𝕟𝕥𝕤 : 𝕖́𝕢𝕦𝕚𝕡𝕖 𝟙, 𝕖́𝕢𝕦𝕚𝕡𝕖 𝟚, 𝕖𝕟𝕤𝕖𝕞𝕓𝕝𝕖 𝕕𝕖𝕤 𝕕𝕖𝕦𝕩 𝕖́𝕢𝕦𝕚𝕡𝕖𝕤, 𝕔𝕠𝕟𝕗𝕣𝕠𝕟𝕥𝕒𝕥𝕚𝕠𝕟𝕤 𝕕𝕚𝕣𝕖𝕔𝕥𝕖𝕤,
-   𝕞𝕒𝕥𝕔𝕙𝕤 𝕒̀ 𝕕𝕠𝕞𝕚𝕔𝕚𝕝𝕖 / 𝕒̀ 𝕝'𝕖𝕩𝕥𝕖́𝕣𝕚𝕖𝕦𝕣, 𝕤𝕥𝕪𝕝𝕖 𝕕𝕖 𝕛𝕖𝕦 𝕖𝕥 𝕩𝔾 𝕖𝕤𝕥𝕚𝕞𝕖́, 𝕞𝕠𝕪𝕖𝕟𝕟𝕖𝕤. 𝕊𝕖𝕦𝕝𝕖𝕤 𝕕𝕖𝕤 𝕝𝕚𝕘𝕟𝕖𝕤 𝕡𝕣𝕠𝕡𝕠𝕤𝕖́𝕖𝕤 𝕖𝕟 𝕘𝕖́𝕟𝕖́𝕣𝕒𝕝 𝕡𝕒𝕣 𝕝𝕖𝕤
-   𝕓𝕠𝕠𝕜𝕞𝕒𝕜𝕖𝕣𝕤 𝕤𝕠𝕟𝕥 𝕣𝕖𝕥𝕖𝕟𝕦𝕖𝕤, 𝕒𝕧𝕖𝕔 𝕦𝕟𝕖 𝕡𝕣𝕠𝕓𝕒𝕓𝕚𝕝𝕚𝕥𝕖́ 𝕢𝕦𝕚 𝕝𝕒𝕚𝕤𝕤𝕖 𝕦𝕟𝕖 𝕔𝕠𝕥𝕖 𝕚𝕟𝕥𝕖́𝕣𝕖𝕤𝕤𝕒𝕟𝕥𝕖 (𝕔𝕠𝕥𝕖 𝕛𝕦𝕤𝕥𝕖 𝕕'𝕖𝕟𝕧𝕚𝕣𝕠𝕟 𝟙,𝟜 𝕒̀ 𝟙,𝟡). */
-(𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟(){
-𝕔𝕠𝕟𝕤𝕥 𝕗𝕝=𝕤=>𝕡𝕒𝕣𝕤𝕖𝔽𝕝𝕠𝕒𝕥(𝕊𝕥𝕣𝕚𝕟𝕘(𝕤).𝕣𝕖𝕡𝕝𝕒𝕔𝕖(',','.')),𝕗𝕠=𝕡=>(𝟙/𝕡).𝕥𝕠𝔽𝕚𝕩𝕖𝕕(𝟚).𝕣𝕖𝕡𝕝𝕒𝕔𝕖('.',','),𝕒𝕧=𝕒=>𝕒.𝕣𝕖𝕕𝕦𝕔𝕖((𝕤,𝕧)=>𝕤+𝕧,𝟘)/𝕒.𝕝𝕖𝕟𝕘𝕥𝕙;
-𝕔𝕠𝕟𝕤𝕥 𝕤𝕥𝟘=𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕔𝕣𝕖𝕒𝕥𝕖𝔼𝕝𝕖𝕞𝕖𝕟𝕥('𝕤𝕥𝕪𝕝𝕖');𝕤𝕥𝟘.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥=`.𝕤𝕞𝕡𝕓{𝕓𝕠𝕣𝕕𝕖𝕣-𝕔𝕠𝕝𝕠𝕣:𝕣𝕘𝕓𝕒(𝟙𝟞𝟟,𝟙𝟛𝟡,𝟚𝟝𝟘,.𝟞𝟝)!𝕚𝕞𝕡𝕠𝕣𝕥𝕒𝕟𝕥;𝕓𝕒𝕔𝕜𝕘𝕣𝕠𝕦𝕟𝕕:𝕝𝕚𝕟𝕖𝕒𝕣-𝕘𝕣𝕒𝕕𝕚𝕖𝕟𝕥(𝟙𝟠𝟘𝕕𝕖𝕘,𝕣𝕘𝕓𝕒(𝟙𝟚𝟜,𝟝𝟠,𝟚𝟛𝟟,.𝟙𝟞),𝕣𝕘𝕓𝕒(𝟚,𝟙𝟠,𝟛𝟞,.𝟜𝟝))!𝕚𝕞𝕡𝕠𝕣𝕥𝕒𝕟𝕥}
-.𝕤𝕞𝕡𝕓 .𝕒𝕙 𝕤𝕡𝕒𝕟:𝕗𝕚𝕣𝕤𝕥-𝕔𝕙𝕚𝕝𝕕{𝕔𝕠𝕝𝕠𝕣:#𝕔𝟜𝕓𝟝𝕗𝕕}.𝕤𝕞𝕡𝕚{𝕡𝕒𝕕𝕕𝕚𝕟𝕘:𝟡𝕡𝕩 𝟘;𝕓𝕠𝕣𝕕𝕖𝕣-𝕥𝕠𝕡:𝟙𝕡𝕩 𝕤𝕠𝕝𝕚𝕕 𝕧𝕒𝕣(--𝕝𝕟)}.𝕤𝕞𝕡𝕥{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕗𝕝𝕖𝕩;𝕛𝕦𝕤𝕥𝕚𝕗𝕪-𝕔𝕠𝕟𝕥𝕖𝕟𝕥:𝕤𝕡𝕒𝕔𝕖-𝕓𝕖𝕥𝕨𝕖𝕖𝕟;𝕘𝕒𝕡:𝟙𝟘𝕡𝕩;𝕒𝕝𝕚𝕘𝕟-𝕚𝕥𝕖𝕞𝕤:𝕓𝕒𝕤𝕖𝕝𝕚𝕟𝕖}.𝕤𝕞𝕡𝕥 𝕤𝕥𝕣𝕠𝕟𝕘{𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:𝟙𝕣𝕖𝕞}.𝕤𝕞𝕡𝕥 𝕓{𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:𝟙.𝟙𝟝𝕣𝕖𝕞;𝕔𝕠𝕝𝕠𝕣:#𝕔𝟜𝕓𝟝𝕗𝕕;𝕨𝕙𝕚𝕥𝕖-𝕤𝕡𝕒𝕔𝕖:𝕟𝕠𝕨𝕣𝕒𝕡}
-.𝕤𝕞𝕡𝕤{𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:.𝟟𝟚𝕣𝕖𝕞;𝕔𝕠𝕝𝕠𝕣:𝕧𝕒𝕣(--𝕞𝕦);𝕞𝕒𝕣𝕘𝕚𝕟-𝕥𝕠𝕡:𝟛𝕡𝕩;𝕝𝕚𝕟𝕖-𝕙𝕖𝕚𝕘𝕙𝕥:𝟙.𝟜𝟝}.𝕤𝕞𝕡𝕘{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕗𝕝𝕖𝕩;𝕗𝕝𝕖𝕩-𝕨𝕣𝕒𝕡:𝕨𝕣𝕒𝕡;𝕘𝕒𝕡:𝟝𝕡𝕩;𝕞𝕒𝕣𝕘𝕚𝕟-𝕥𝕠𝕡:𝟞𝕡𝕩}.𝕤𝕞𝕡𝕘 𝕤𝕡𝕒𝕟{𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:.𝟞𝟞𝕣𝕖𝕞;𝕡𝕒𝕕𝕕𝕚𝕟𝕘:𝟚𝕡𝕩 𝟠𝕡𝕩;𝕓𝕠𝕣𝕕𝕖𝕣-𝕣𝕒𝕕𝕚𝕦𝕤:𝟡𝟡𝟡𝕡𝕩;𝕓𝕠𝕣𝕕𝕖𝕣:𝟙𝕡𝕩 𝕤𝕠𝕝𝕚𝕕 𝕧𝕒𝕣(--𝕝𝕟)}.𝕤𝕞𝕡𝕘 .𝕪{𝕔𝕠𝕝𝕠𝕣:#𝟜𝕒𝕕𝕖𝟠𝟘;𝕓𝕠𝕣𝕕𝕖𝕣-𝕔𝕠𝕝𝕠𝕣:𝕣𝕘𝕓𝕒(𝟟𝟜,𝟚𝟚𝟚,𝟙𝟚𝟠,.𝟝)}.𝕤𝕞𝕡𝕘 .𝕟{𝕔𝕠𝕝𝕠𝕣:#𝕗𝕗𝟡𝕒𝟡𝕒;𝕓𝕠𝕣𝕕𝕖𝕣-𝕔𝕠𝕝𝕠𝕣:𝕣𝕘𝕓𝕒(𝟚𝟝𝟝,𝟙𝟚𝟘,𝟙𝟚𝟘,.𝟝)}.𝕤𝕞𝕡𝕞{𝕞𝕒𝕣𝕘𝕚𝕟-𝕣𝕚𝕘𝕙𝕥:𝟜𝕡𝕩}.𝕤𝕞𝕡𝕞𝕠𝕕𝕖{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕗𝕝𝕖𝕩;𝕘𝕒𝕡:𝟞𝕡𝕩;𝕒𝕝𝕚𝕘𝕟-𝕚𝕥𝕖𝕞𝕤:𝕔𝕖𝕟𝕥𝕖𝕣;𝕞𝕒𝕣𝕘𝕚𝕟:𝟠𝕡𝕩 𝟘;𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:.𝟟𝟚𝕣𝕖𝕞;𝕔𝕠𝕝𝕠𝕣:𝕧𝕒𝕣(--𝕞𝕦)}.𝕤𝕞𝕡𝕞𝕠𝕕𝕖 𝕓𝕦𝕥𝕥𝕠𝕟{𝕡𝕒𝕕𝕕𝕚𝕟𝕘:𝟝𝕡𝕩 𝟙𝟚𝕡𝕩;𝕓𝕠𝕣𝕕𝕖𝕣-𝕣𝕒𝕕𝕚𝕦𝕤:𝟡𝟡𝟡𝕡𝕩;𝕓𝕠𝕣𝕕𝕖𝕣:𝟙𝕡𝕩 𝕤𝕠𝕝𝕚𝕕 𝕧𝕒𝕣(--𝕝𝕟);𝕓𝕒𝕔𝕜𝕘𝕣𝕠𝕦𝕟𝕕:𝕥𝕣𝕒𝕟𝕤𝕡𝕒𝕣𝕖𝕟𝕥;𝕔𝕠𝕝𝕠𝕣:𝕚𝕟𝕙𝕖𝕣𝕚𝕥;𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:.𝟟𝟚𝕣𝕖𝕞}.𝕤𝕞𝕡𝕞𝕠𝕕𝕖 𝕓𝕦𝕥𝕥𝕠𝕟.𝕠𝕟{𝕓𝕒𝕔𝕜𝕘𝕣𝕠𝕦𝕟𝕕:𝕣𝕘𝕓𝕒(𝟙𝟚𝟜,𝟝𝟠,𝟚𝟛𝟟,.𝟛𝟝);𝕓𝕠𝕣𝕕𝕖𝕣-𝕔𝕠𝕝𝕠𝕣:#𝕒𝟟𝟠𝕓𝕗𝕒;𝕔𝕠𝕝𝕠𝕣:#𝕗𝕗𝕗}
-.𝕞𝕊𝕗{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕟𝕠𝕟𝕖}𝕓𝕠𝕕𝕪.𝕤𝕞𝕡-𝕤𝕗 .𝕞𝔼𝕢{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕟𝕠𝕟𝕖}𝕓𝕠𝕕𝕪.𝕤𝕞𝕡-𝕤𝕗 .𝕞𝕊𝕗{𝕕𝕚𝕤𝕡𝕝𝕒𝕪:𝕚𝕟𝕝𝕚𝕟𝕖}.𝕤𝕞𝕡𝕢{𝕗𝕠𝕟𝕥-𝕤𝕚𝕫𝕖:.𝟟𝕣𝕖𝕞;𝕔𝕠𝕝𝕠𝕣:𝕧𝕒𝕣(--𝕞𝕦);𝕞𝕒𝕣𝕘𝕚𝕟-𝕥𝕠𝕡:𝟞𝕡𝕩;𝕝𝕚𝕟𝕖-𝕙𝕖𝕚𝕘𝕙𝕥:𝟙.𝟜𝟝}.𝕤𝕞𝕡𝕣{𝕔𝕠𝕝𝕠𝕣:#𝕔𝟜𝕓𝟝𝕗𝕕;𝕗𝕠𝕟𝕥-𝕨𝕖𝕚𝕘𝕙𝕥:𝟠𝟘𝟘;𝕞𝕒𝕣𝕘𝕚𝕟-𝕣𝕚𝕘𝕙𝕥:𝟞𝕡𝕩}`;𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕙𝕖𝕒𝕕.𝕒𝕡𝕡𝕖𝕟𝕕ℂ𝕙𝕚𝕝𝕕(𝕤𝕥𝟘);
-𝕔𝕠𝕟𝕤𝕥 𝕄𝕂='𝕡𝕣𝕠𝕟𝕠𝕤_𝕞𝕠𝕕𝕖_𝕧𝟙',𝕞𝕠𝕕𝕖=()=>{𝕥𝕣𝕪{𝕣𝕖𝕥𝕦𝕣𝕟 𝕝𝕠𝕔𝕒𝕝𝕊𝕥𝕠𝕣𝕒𝕘𝕖.𝕘𝕖𝕥𝕀𝕥𝕖𝕞(𝕄𝕂)==='𝕤𝕗'?'𝕤𝕗':'𝕖𝕢'}𝕔𝕒𝕥𝕔𝕙(𝕖){𝕣𝕖𝕥𝕦𝕣𝕟'𝕖𝕢'}};
-𝕔𝕠𝕟𝕤𝕥 𝕊𝕋ℕ={'ℂ𝕒𝕣𝕥.':'𝕜','ℂ𝕠𝕣𝕟.':'𝕣','𝕋𝕚𝕣𝕤 𝕔𝕒𝕕𝕣𝕖́𝕤':'𝕔','𝕋𝕚𝕣𝕤 𝕥𝕠𝕥𝕒𝕦𝕩':'𝕤','𝔽𝕒𝕦𝕥𝕖𝕤':'𝕗'};
-𝕔𝕠𝕟𝕤𝕥 ℝℕ𝔾={'ℂ𝕒𝕣𝕥.':[𝟚.𝟝,𝟞.𝟝],'ℂ𝕠𝕣𝕟.':[𝟟.𝟝,𝟙𝟚.𝟝],'𝕋𝕚𝕣𝕤 𝕔𝕒𝕕𝕣𝕖́𝕤':[𝟞.𝟝,𝟙𝟙.𝟝],'𝕋𝕚𝕣𝕤 𝕥𝕠𝕥𝕒𝕦𝕩':[𝟚𝟘.𝟝,𝟛𝟘.𝟝],'𝔽𝕒𝕦𝕥𝕖𝕤':[𝟚𝟘.𝟝,𝟛𝟘.𝟝]};
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕙𝕚𝕥(𝕥,𝕞,𝕒,𝕓){𝕝𝕖𝕥 𝕣;
-𝕚𝕗(𝕥==='𝕍𝕚𝕔𝕥𝕠𝕚𝕣𝕖 '+𝕞.𝕙+' (𝕍𝟙)')𝕣𝕖𝕥𝕦𝕣𝕟 𝕒>𝕓;𝕚𝕗(𝕥==='𝕍𝕚𝕔𝕥𝕠𝕚𝕣𝕖 '+𝕞.𝕒+' (𝕍𝟚)')𝕣𝕖𝕥𝕦𝕣𝕟 𝕓>𝕒;𝕚𝕗(𝕥==='𝕄𝕒𝕥𝕔𝕙 𝕟𝕦𝕝 (𝕏)')𝕣𝕖𝕥𝕦𝕣𝕟 𝕒===𝕓;
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℙ𝕝𝕦𝕤|𝕄𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤$/))𝕣𝕖𝕥𝕦𝕣𝕟 𝕣[𝟙]==='ℙ𝕝𝕦𝕤'?𝕒+𝕓>𝕗𝕝(𝕣[𝟚]):𝕒+𝕓<𝕗𝕝(𝕣[𝟚]);
-𝕚𝕗(𝕥==='𝕃𝕖𝕤 𝕕𝕖𝕦𝕩 𝕞𝕒𝕣𝕢𝕦𝕖𝕟𝕥 : 𝕠𝕦𝕚')𝕣𝕖𝕥𝕦𝕣𝕟 𝕒>𝟘&&𝕓>𝟘;𝕚𝕗(𝕥==='𝕃𝕖𝕤 𝕕𝕖𝕦𝕩 𝕞𝕒𝕣𝕢𝕦𝕖𝕟𝕥 : 𝕟𝕠𝕟')𝕣𝕖𝕥𝕦𝕣𝕟!(𝕒>𝟘&&𝕓>𝟘);
-𝕚𝕗(𝕥==='𝔻𝕠𝕦𝕓𝕝𝕖 𝕔𝕙𝕒𝕟𝕔𝕖 : '+𝕞.𝕙+' 𝕠𝕦 𝕟𝕦𝕝')𝕣𝕖𝕥𝕦𝕣𝕟 𝕒>=𝕓;𝕚𝕗(𝕥==='𝔻𝕠𝕦𝕓𝕝𝕖 𝕔𝕙𝕒𝕟𝕔𝕖 : 𝕟𝕦𝕝 𝕠𝕦 '+𝕞.𝕒)𝕣𝕖𝕥𝕦𝕣𝕟 𝕓>=𝕒;𝕚𝕗(𝕥==='𝔻𝕠𝕦𝕓𝕝𝕖 𝕔𝕙𝕒𝕟𝕔𝕖 : '+𝕞.𝕙+' 𝕠𝕦 '+𝕞.𝕒)𝕣𝕖𝕥𝕦𝕣𝕟 𝕒!==𝕓;
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^ℍ𝕒𝕟𝕕𝕚𝕔𝕒𝕡 (.+) ([+-])([\𝕕,]+)$/)){𝕔𝕠𝕟𝕤𝕥 𝕜=𝕗𝕝(𝕣[𝟛])*(𝕣[𝟚]==='-'?-𝟙:𝟙),𝕕=𝕣[𝟙]===𝕞.𝕙?𝕒-𝕓:𝕓-𝕒;𝕣𝕖𝕥𝕦𝕣𝕟 𝕕+𝕜>𝟘}
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(.+) : (𝕡𝕝𝕦𝕤|𝕞𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤?$/)){𝕔𝕠𝕟𝕤𝕥 𝕘=𝕣[𝟙]===𝕞.𝕙?𝕒:𝕣[𝟙]===𝕞.𝕒?𝕓:𝕟𝕦𝕝𝕝;𝕚𝕗(𝕘==𝕟𝕦𝕝𝕝)𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝;𝕣𝕖𝕥𝕦𝕣𝕟 𝕣[𝟚]==='𝕡𝕝𝕦𝕤'?𝕘>𝕗𝕝(𝕣[𝟛]):𝕘<𝕗𝕝(𝕣[𝟛])}
-𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕔𝕒𝕥(𝕥){𝕝𝕖𝕥 𝕣;
-𝕚𝕗(/^𝕍𝕚𝕔𝕥𝕠𝕚𝕣𝕖 .* \(𝕍[𝟙𝟚]\)$/.𝕥𝕖𝕤𝕥(𝕥)||𝕥==='𝕄𝕒𝕥𝕔𝕙 𝕟𝕦𝕝 (𝕏)')𝕣𝕖𝕥𝕦𝕣𝕟'𝕣';
-𝕚𝕗(/^𝔻𝕠𝕦𝕓𝕝𝕖 𝕔𝕙𝕒𝕟𝕔𝕖 : /.𝕥𝕖𝕤𝕥(𝕥))𝕣𝕖𝕥𝕦𝕣𝕟'𝕕';
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^ℍ𝕒𝕟𝕕𝕚𝕔𝕒𝕡 (.+) ([+-])([\𝕕,]+)$/)){𝕔𝕠𝕟𝕤𝕥 𝕜=𝕗𝕝(𝕣[𝟛]);𝕣𝕖𝕥𝕦𝕣𝕟 𝕜===.𝟝||𝕜===𝟙.𝟝?'𝕙':𝕟𝕦𝕝𝕝}
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℙ𝕝𝕦𝕤|𝕄𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤$/)){𝕔𝕠𝕟𝕤𝕥 𝕝=𝕗𝕝(𝕣[𝟚]);𝕣𝕖𝕥𝕦𝕣𝕟 𝕝>=𝟙.𝟝&&𝕝<=𝟜.𝟝?'𝕘':𝕟𝕦𝕝𝕝}
-𝕚𝕗(/^𝕃𝕖𝕤 𝕕𝕖𝕦𝕩 𝕞𝕒𝕣𝕢𝕦𝕖𝕟𝕥/.𝕥𝕖𝕤𝕥(𝕥))𝕣𝕖𝕥𝕦𝕣𝕟'𝕓';
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(.+) : (𝕡𝕝𝕦𝕤|𝕞𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤?$/)){𝕔𝕠𝕟𝕤𝕥 𝕝=𝕗𝕝(𝕣[𝟛]);𝕣𝕖𝕥𝕦𝕣𝕟 𝕝>=𝟙.𝟝&&𝕝<=𝟚.𝟝?'𝕥':𝕟𝕦𝕝𝕝}
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℂ𝕒𝕣𝕥\.|ℂ𝕠𝕣𝕟\.|𝕋𝕚𝕣𝕤 𝕔𝕒𝕕𝕣𝕖́𝕤|𝕋𝕚𝕣𝕤 𝕥𝕠𝕥𝕒𝕦𝕩|𝔽𝕒𝕦𝕥𝕖𝕤) : (𝕡𝕝𝕦𝕤|𝕞𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+)$/)){𝕔𝕠𝕟𝕤𝕥 𝕝=𝕗𝕝(𝕣[𝟛]),ℝ=ℝℕ𝔾[𝕣[𝟙]];𝕣𝕖𝕥𝕦𝕣𝕟 𝕝>=ℝ[𝟘]&&𝕝<=ℝ[𝟙]?'𝕤'+𝕊𝕋ℕ[𝕣[𝟙]]:𝕟𝕦𝕝𝕝}
-𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝}
-/* 𝕝𝕖𝕤 𝕚𝕟𝕘𝕣𝕖́𝕕𝕚𝕖𝕟𝕥𝕤 𝕕'𝕦𝕟 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 : [𝕝𝕚𝕓𝕖𝕝𝕝𝕖́, 𝕣𝕖́𝕦𝕤𝕤𝕚 (𝕥𝕣𝕦𝕖/𝕗𝕒𝕝𝕤𝕖) 𝕠𝕦 𝕟𝕦𝕝𝕝 𝕤𝕚 𝕟𝕠𝕟 𝕒𝕡𝕡𝕝𝕚𝕔𝕒𝕓𝕝𝕖] */
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕚𝕟𝕘𝕣(𝕞,𝕔,𝕤𝕪){𝕔𝕠𝕟𝕤𝕥 𝕫=𝕞.𝕫,𝕥=𝕔.𝕥,𝕡=𝕔.𝕡;𝕚𝕗(!𝕫)𝕣𝕖𝕥𝕦𝕣𝕟[];𝕔𝕠𝕟𝕤𝕥 𝕢=𝕒=>𝕒.𝕗𝕚𝕝𝕥𝕖𝕣(𝔹𝕠𝕠𝕝𝕖𝕒𝕟).𝕝𝕖𝕟𝕘𝕥𝕙/𝕒.𝕝𝕖𝕟𝕘𝕥𝕙,𝕠𝕦𝕥=[];𝕝𝕖𝕥 𝔸,𝔹,ℍ=𝕟𝕦𝕝𝕝,𝕍=𝕟𝕦𝕝𝕝,𝔸𝕍=𝕟𝕦𝕝𝕝;
-𝕔𝕠𝕟𝕤𝕥 𝕤𝕞=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℂ𝕒𝕣𝕥\.|ℂ𝕠𝕣𝕟\.|𝕋𝕚𝕣𝕤 𝕔𝕒𝕕𝕣𝕖́𝕤|𝕋𝕚𝕣𝕤 𝕥𝕠𝕥𝕒𝕦𝕩|𝔽𝕒𝕦𝕥𝕖𝕤) : (𝕡𝕝𝕦𝕤|𝕞𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+)$/);
-𝕚𝕗(𝕤𝕞){𝕔𝕠𝕟𝕤𝕥 𝕜=𝕊𝕋ℕ[𝕤𝕞[𝟙]],𝕫𝕫=(𝕫.𝕥𝕤&&𝕫.𝕥𝕤[𝕜])||𝕫[𝕜];𝕚𝕗(!𝕫𝕫)𝕣𝕖𝕥𝕦𝕣𝕟[];𝕔𝕠𝕟𝕤𝕥 𝕝=𝕗𝕝(𝕤𝕞[𝟛]),𝕗=𝕧=>𝕤𝕞[𝟚]==='𝕡𝕝𝕦𝕤'?𝕧>𝕝:𝕧<𝕝;𝔸=𝕫𝕫[𝟘].𝕞𝕒𝕡(𝕗);𝔹=𝕫𝕫[𝟙].𝕞𝕒𝕡(𝕗);
- 𝕚𝕗(𝕫[𝕜]&&𝕫.𝕥𝕤&&𝕫.𝕥𝕤[𝕜])𝕍=[𝕫[𝕜][𝟘].𝕞𝕒𝕡(𝕗),𝕫[𝕜][𝟙].𝕞𝕒𝕡(𝕗)];𝔸𝕍=[𝕫𝕫[𝟘],𝕫𝕫[𝟙],𝕝,𝕤𝕞[𝟚]==='𝕡𝕝𝕦𝕤']}
-𝕖𝕝𝕤𝕖{𝕔𝕠𝕟𝕤𝕥 𝕥𝕙=𝕫.𝕥𝕙||𝕫.𝕘𝕙,𝕥𝕒=𝕫.𝕥𝕒||𝕫.𝕘𝕒;𝕚𝕗(!𝕥𝕙||!𝕥𝕒)𝕣𝕖𝕥𝕦𝕣𝕟[];𝔸=𝕥𝕙.𝕞𝕒𝕡(𝕩=>𝕙𝕚𝕥(𝕥,𝕞,𝕩[𝟘],𝕩[𝟙]));𝔹=𝕥𝕒.𝕞𝕒𝕡(𝕩=>𝕙𝕚𝕥(𝕥,𝕞,𝕩[𝟙],𝕩[𝟘]));𝕚𝕗(𝔸.𝕚𝕟𝕔𝕝𝕦𝕕𝕖𝕤(𝕟𝕦𝕝𝕝))𝕣𝕖𝕥𝕦𝕣𝕟[];
- 𝕚𝕗(𝕫.𝕙𝕞&&𝕫.𝕙𝕞.𝕝𝕖𝕟𝕘𝕥𝕙>=𝟜)ℍ=𝕫.𝕙𝕞.𝕞𝕒𝕡(𝕩=>𝕙𝕚𝕥(𝕥,𝕞,𝕩[𝟘],𝕩[𝟙]));𝕚𝕗(𝕫.𝕘𝕙&&𝕫.𝕘𝕒&&𝕫.𝕥𝕙)𝕍=[𝕫.𝕘𝕙.𝕞𝕒𝕡(𝕩=>𝕙𝕚𝕥(𝕥,𝕞,𝕩[𝟘],𝕩[𝟙])),𝕫.𝕘𝕒.𝕞𝕒𝕡(𝕩=>𝕙𝕚𝕥(𝕥,𝕞,𝕩[𝟙],𝕩[𝟘]))];
- 𝕔𝕠𝕟𝕤𝕥 𝕘=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℙ𝕝𝕦𝕤|𝕄𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤$/);𝕚𝕗(𝕘)𝔸𝕍=[𝕥𝕙.𝕞𝕒𝕡(𝕩=>𝕩[𝟘]+𝕩[𝟙]),𝕥𝕒.𝕞𝕒𝕡(𝕩=>𝕩[𝟘]+𝕩[𝟙]),𝕗𝕝(𝕘[𝟚]),𝕘[𝟙]==='ℙ𝕝𝕦𝕤']}
-𝕚𝕗(𝔸.𝕝𝕖𝕟𝕘𝕥𝕙<𝟠||𝔹.𝕝𝕖𝕟𝕘𝕥𝕙<𝟠)𝕣𝕖𝕥𝕦𝕣𝕟[];
-𝕠𝕦𝕥.𝕡𝕦𝕤𝕙([𝕞.𝕙+' '+𝔸.𝕗𝕚𝕝𝕥𝕖𝕣(𝔹𝕠𝕠𝕝𝕖𝕒𝕟).𝕝𝕖𝕟𝕘𝕥𝕙+'/'+𝔸.𝕝𝕖𝕟𝕘𝕥𝕙,𝕢(𝔸)>=.𝟞],[𝕞.𝕒+' '+𝔹.𝕗𝕚𝕝𝕥𝕖𝕣(𝔹𝕠𝕠𝕝𝕖𝕒𝕟).𝕝𝕖𝕟𝕘𝕥𝕙+'/'+𝔹.𝕝𝕖𝕟𝕘𝕥𝕙,𝕢(𝔹)>=.𝟞],['𝔼𝕟𝕤𝕖𝕞𝕓𝕝𝕖',𝕢(𝔸.𝕔𝕠𝕟𝕔𝕒𝕥(𝔹))>=𝕡]);
-𝕠𝕦𝕥.𝕡𝕦𝕤𝕙(['ℂ𝕠𝕟𝕗𝕣𝕠𝕟𝕥𝕒𝕥𝕚𝕠𝕟𝕤',ℍ?𝕢(ℍ)>=.𝟝:𝕟𝕦𝕝𝕝]);
-𝕠𝕦𝕥.𝕡𝕦𝕤𝕙(['𝔻𝕠𝕞./𝕖𝕩𝕥.',𝕍&&𝕍[𝟘].𝕝𝕖𝕟𝕘𝕥𝕙>=𝟞&&𝕍[𝟙].𝕝𝕖𝕟𝕘𝕥𝕙>=𝟞?𝕢(𝕍[𝟘].𝕔𝕠𝕟𝕔𝕒𝕥(𝕍[𝟙]))>=𝕡-.𝟘𝟛:𝕟𝕦𝕝𝕝]);
-𝕠𝕦𝕥.𝕡𝕦𝕤𝕙(['𝕄𝕠𝕪𝕖𝕟𝕟𝕖𝕤',𝔸𝕍?(𝔸𝕍[𝟛]?𝕒𝕧(𝔸𝕍[𝟘])>=𝔸𝕍[𝟚]&&𝕒𝕧(𝔸𝕍[𝟙])>=𝔸𝕍[𝟚]:𝕒𝕧(𝔸𝕍[𝟘])<=𝔸𝕍[𝟚]&&𝕒𝕧(𝔸𝕍[𝟙])<=𝔸𝕍[𝟚]):𝕟𝕦𝕝𝕝]);
-𝕔𝕠𝕟𝕤𝕥 𝕓𝕟=𝕓𝕠𝕟𝕦𝕤(𝕞,𝕥,𝕤𝕪);𝕠𝕦𝕥.𝕡𝕦𝕤𝕙(['𝕊𝕥𝕪𝕝𝕖 / 𝕩𝔾',𝕓𝕟[𝟘]>𝟘?𝕥𝕣𝕦𝕖:(𝕓𝕟[𝟚]?𝕗𝕒𝕝𝕤𝕖:𝕟𝕦𝕝𝕝)]);𝕠𝕦𝕥.𝕨𝕙𝕪=𝕓𝕟[𝟙];𝕠𝕦𝕥.𝕢=𝕢(𝔸.𝕔𝕠𝕟𝕔𝕒𝕥(𝔹));𝕣𝕖𝕥𝕦𝕣𝕟 𝕠𝕦𝕥}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕤𝕥𝕪𝕝𝕖(𝕞){𝕔𝕠𝕟𝕤𝕥 𝕤=𝕞.𝕫&&𝕞.𝕫.𝕤𝕩;𝕚𝕗(!𝕤||!𝕤.𝕝𝕒||!𝕤.𝕙||!𝕤.𝕒)𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝;
-𝕔𝕠𝕟𝕤𝕥 𝕒𝕘=𝕡=>𝕡.𝕗𝕝&&𝕡.𝕪𝕔&&𝕤.𝕝𝕒.𝕗𝕝&&𝕤.𝕝𝕒.𝕪𝕔?(𝕡.𝕗𝕝[𝟘]/𝕤.𝕝𝕒.𝕗𝕝+𝟚*𝕡.𝕪𝕔[𝟘]/𝕤.𝕝𝕒.𝕪𝕔)/𝟛:𝕟𝕦𝕝𝕝,𝕘=𝕒𝕘(𝕤.𝕙),𝕙=𝕒𝕘(𝕤.𝕒),𝕝𝕒𝕓=𝕩=>𝕩==𝕟𝕦𝕝𝕝?'?':𝕩>=𝟙.𝟙𝟚?'𝕒𝕘𝕣𝕖𝕤𝕤𝕚𝕗':𝕩<=.𝟠𝟠?'𝕕𝕚𝕤𝕔𝕚𝕡𝕝𝕚𝕟𝕖́':'𝕟𝕠𝕣𝕞𝕒𝕝';
-𝕔𝕠𝕟𝕤𝕥 𝕩𝕥=𝕤.𝕙.𝕩𝕘&&𝕤.𝕒.𝕩𝕘?(𝕤.𝕙.𝕩𝕘[𝟘]+𝕤.𝕒.𝕩𝕘[𝟙])/𝟚+(𝕤.𝕒.𝕩𝕘[𝟘]+𝕤.𝕙.𝕩𝕘[𝟙])/𝟚:𝕟𝕦𝕝𝕝;𝕣𝕖𝕥𝕦𝕣𝕟{𝕘,𝕙,𝕝𝕘:𝕝𝕒𝕓(𝕘),𝕝𝕙:𝕝𝕒𝕓(𝕙),𝕩𝕥}}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕓𝕠𝕟𝕦𝕤(𝕞,𝕥,𝕤){𝕚𝕗(!𝕤)𝕣𝕖𝕥𝕦𝕣𝕟[𝟘,'',𝟘];𝕝𝕖𝕥 𝕣;
-𝕚𝕗(𝕣=𝕥.𝕞𝕒𝕥𝕔𝕙(/^(ℙ𝕝𝕦𝕤|𝕄𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) 𝕓𝕦𝕥𝕤$/)){𝕚𝕗(𝕤.𝕩𝕥==𝕟𝕦𝕝𝕝)𝕣𝕖𝕥𝕦𝕣𝕟[𝟘,'',𝟘];𝕔𝕠𝕟𝕤𝕥 𝕝=𝕗𝕝(𝕣[𝟚]),𝕠𝕜=𝕣[𝟙]==='ℙ𝕝𝕦𝕤'?𝕤.𝕩𝕥>=𝕝+.𝟚:𝕤.𝕩𝕥<=𝕝-.𝟚;𝕣𝕖𝕥𝕦𝕣𝕟[𝕠𝕜?.𝟘𝟛:𝟘,𝕠𝕜?'𝕩𝔾 𝕖𝕤𝕥𝕚𝕞𝕖́ 𝕕𝕦 𝕞𝕒𝕥𝕔𝕙 '+𝕤.𝕩𝕥.𝕥𝕠𝔽𝕚𝕩𝕖𝕕(𝟙).𝕣𝕖𝕡𝕝𝕒𝕔𝕖('.',','):'',𝟙]}
-𝕚𝕗(/^(ℂ𝕒𝕣𝕥\.|𝔽𝕒𝕦𝕥𝕖𝕤)/.𝕥𝕖𝕤𝕥(𝕥)){𝕚𝕗(𝕤.𝕘==𝕟𝕦𝕝𝕝||𝕤.𝕙==𝕟𝕦𝕝𝕝)𝕣𝕖𝕥𝕦𝕣𝕟[𝟘,'',𝟘];𝕔𝕠𝕟𝕤𝕥 𝕒=(𝕤.𝕘+𝕤.𝕙)/𝟚,𝕠𝕜=/: 𝕡𝕝𝕦𝕤/.𝕥𝕖𝕤𝕥(𝕥)?𝕒>=𝟙.𝟘𝟠:𝕒<=.𝟡𝟚;𝕣𝕖𝕥𝕦𝕣𝕟[𝕠𝕜?.𝟘𝟛:𝟘,𝕠𝕜?'𝕤𝕥𝕪𝕝𝕖 : '+𝕞.𝕙+' '+𝕤.𝕝𝕘+', '+𝕞.𝕒+' '+𝕤.𝕝𝕙:'',𝟙]}
-𝕣𝕖𝕥𝕦𝕣𝕟[𝟘,'',𝟘]}
-𝕔𝕠𝕟𝕤𝕥 𝕡𝕞𝕗=(𝕜,𝕝)=>{𝕝𝕖𝕥 𝕡=𝕄𝕒𝕥𝕙.𝕖𝕩𝕡(-𝕝);𝕗𝕠𝕣(𝕝𝕖𝕥 𝕚=𝟙;𝕚<=𝕜;𝕚++)𝕡*=𝕝/𝕚;𝕣𝕖𝕥𝕦𝕣𝕟 𝕡};
-/* 𝕡𝕣𝕠𝕓𝕒𝕓𝕚𝕝𝕚𝕥𝕖́ (𝕘𝕣𝕚𝕝𝕝𝕖 𝕕𝕖 ℙ𝕠𝕚𝕤𝕤𝕠𝕟) 𝕕'𝕦𝕟 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 𝕖𝕥 𝕕𝕖 𝕕𝕖𝕦𝕩 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔𝕤 𝕖𝕟𝕤𝕖𝕞𝕓𝕝𝕖 ; 𝕟𝕦𝕝𝕝 𝕤𝕚 𝕝𝕖 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 𝕟𝕖 𝕕𝕖́𝕡𝕖𝕟𝕕 𝕡𝕒𝕤 𝕕𝕦 𝕤𝕔𝕠𝕣𝕖 */
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕛𝕠𝕚𝕟𝕥(𝕞,𝕥𝟙,𝕥𝟚){𝕔𝕠𝕟𝕤𝕥 𝔾=[];𝕗𝕠𝕣(𝕝𝕖𝕥 𝕒=𝟘;𝕒<=𝟡;𝕒++)𝕗𝕠𝕣(𝕝𝕖𝕥 𝕓=𝟘;𝕓<=𝟡;𝕓++)𝔾.𝕡𝕦𝕤𝕙([𝕒,𝕓,𝕡𝕞𝕗(𝕒,𝕞.𝕩)*𝕡𝕞𝕗(𝕓,𝕞.𝕪)]);
-𝕔𝕠𝕟𝕤𝕥 𝕗𝟙=(𝕒,𝕓)=>𝕙𝕚𝕥(𝕥𝟙,𝕞,𝕒,𝕓),𝕗𝟚=(𝕒,𝕓)=>𝕙𝕚𝕥(𝕥𝟚,𝕞,𝕒,𝕓);𝕚𝕗(𝕗𝟙(𝟙,𝟙)===𝕟𝕦𝕝𝕝||𝕗𝟚(𝟙,𝟙)===𝕟𝕦𝕝𝕝)𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝;
-𝕝𝕖𝕥 𝕡𝟙=𝟘,𝕡𝟚=𝟘,𝕡𝟙𝟚=𝟘;𝔾.𝕗𝕠𝕣𝔼𝕒𝕔𝕙(([𝕒,𝕓,𝕡])=>{𝕔𝕠𝕟𝕤𝕥 𝕩=𝕗𝟙(𝕒,𝕓),𝕪=𝕗𝟚(𝕒,𝕓);𝕚𝕗(𝕩)𝕡𝟙+=𝕡;𝕚𝕗(𝕪)𝕡𝟚+=𝕡;𝕚𝕗(𝕩&&𝕪)𝕡𝟙𝟚+=𝕡});𝕣𝕖𝕥𝕦𝕣𝕟 𝕡𝟙>𝟘&&𝕡𝟚>𝟘?𝕡𝟙𝟚/(𝕡𝟙*𝕡𝟚):𝕟𝕦𝕝𝕝}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕕𝕒𝕥𝕒ℚ𝕦𝕒𝕝𝕚𝕥𝕪(𝕞){𝕔𝕠𝕟𝕤𝕥 𝕫=𝕞.𝕫;𝕚𝕗(!𝕫)𝕣𝕖𝕥𝕦𝕣𝕟 𝟘;𝕔𝕠𝕟𝕤𝕥 𝕥𝕙=𝕫.𝕥𝕙||𝕫.𝕘𝕙||[],𝕥𝕒=𝕫.𝕥𝕒||𝕫.𝕘𝕒||[],𝕙𝕞=𝕫.𝕙𝕞||[];
-𝕔𝕠𝕟𝕤𝕥 𝕞𝕥=𝕄𝕒𝕥𝕙.𝕞𝕚𝕟(𝟙,(𝕥𝕙.𝕝𝕖𝕟𝕘𝕥𝕙+𝕥𝕒.𝕝𝕖𝕟𝕘𝕥𝕙)/𝟞𝟘),𝕤𝕥𝕥=𝕫.𝕥𝕤&&𝕆𝕓𝕛𝕖𝕔𝕥.𝕜𝕖𝕪𝕤(𝕫.𝕥𝕤).𝕝𝕖𝕟𝕘𝕥𝕙>=𝟜?𝟙:(𝕫.𝕜||𝕫.𝕣?.𝟝:𝟘),𝕙𝟚=𝕄𝕒𝕥𝕙.𝕞𝕚𝕟(𝟙,𝕙𝕞.𝕝𝕖𝕟𝕘𝕥𝕙/𝟜),𝕤𝕩=𝕫.𝕤𝕩&&𝕫.𝕤𝕩.𝕙&&𝕫.𝕤𝕩.𝕙.𝕩𝕘?𝟙:𝟘;
-𝕣𝕖𝕥𝕦𝕣𝕟 .𝟜𝟝*𝕞𝕥+.𝟛*𝕤𝕥𝕥+.𝟙𝟝*𝕙𝟚+.𝟙*𝕤𝕩}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕡𝕚𝕔𝕜𝕤(𝕞){𝕚𝕗(!𝕨𝕚𝕟𝕕𝕠𝕨._𝕞𝕠)𝕣𝕖𝕥𝕦𝕣𝕟{𝕤𝕖𝕝:[],𝕔𝕠𝕞𝕡𝕒𝕣𝕖𝕕:𝟘,𝕕𝕢:𝟘,𝕤𝕥𝕒𝕣:𝕟𝕦𝕝𝕝};𝕔𝕠𝕟𝕤𝕥 𝔸=_𝕞𝕠.𝕒𝕝𝕝ℙ𝕚𝕔𝕜𝕤(𝕞);𝕚𝕗(𝔸.ℝ&&𝔸.ℝ.𝕝𝕚𝕧𝕖)𝕣𝕖𝕥𝕦𝕣𝕟{𝕤𝕖𝕝:[],𝕔𝕠𝕞𝕡𝕒𝕣𝕖𝕕:𝟘,𝕕𝕢:𝟘,𝕤𝕥𝕒𝕣:𝕟𝕦𝕝𝕝};𝕔𝕠𝕟𝕤𝕥 𝕤𝕪=𝕤𝕥𝕪𝕝𝕖(𝕞);
-𝕝𝕖𝕥 𝕔𝕒𝕟𝕕=𝔸.𝕒𝕝𝕝.𝕞𝕒𝕡(𝕔=>({𝕥:𝕔.𝕥,𝕡:𝕔.𝕡,𝕗𝕒𝕞:𝕔𝕒𝕥(𝕔.𝕥)})).𝕗𝕚𝕝𝕥𝕖𝕣(𝕔=>𝕔.𝕗𝕒𝕞);𝕔𝕠𝕟𝕤𝕥 𝕔𝕠𝕞𝕡𝕒𝕣𝕖𝕕=𝕔𝕒𝕟𝕕.𝕝𝕖𝕟𝕘𝕥𝕙;
-𝕝𝕖𝕥 𝕨𝕚𝕟=𝕔𝕒𝕟𝕕.𝕗𝕚𝕝𝕥𝕖𝕣(𝕔=>𝕔.𝕡>=.𝟝𝟚&&𝕔.𝕡<=.𝟟𝟚);𝕚𝕗(!𝕨𝕚𝕟.𝕝𝕖𝕟𝕘𝕥𝕙)𝕨𝕚𝕟=𝕔𝕒𝕟𝕕.𝕗𝕚𝕝𝕥𝕖𝕣(𝕔=>𝕔.𝕡>=.𝟝&&𝕔.𝕡<=.𝟠);
-𝕨𝕚𝕟.𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕔=>{𝕔𝕠𝕟𝕤𝕥 𝕘=𝕚𝕟𝕘𝕣(𝕞,𝕔,𝕤𝕪),𝕒𝕡=𝕘.𝕗𝕚𝕝𝕥𝕖𝕣(𝕩=>𝕩[𝟙]!==𝕟𝕦𝕝𝕝);𝕔.𝕘=𝕘;𝕔.𝕜=𝕒𝕡.𝕗𝕚𝕝𝕥𝕖𝕣(𝕩=>𝕩[𝟙]).𝕝𝕖𝕟𝕘𝕥𝕙;𝕔.𝕟=𝕒𝕡.𝕝𝕖𝕟𝕘𝕥𝕙;𝕔.𝕔𝕠𝕟𝕗=𝕔.𝕟?𝕔.𝕜/𝕔.𝕟:𝟘;𝕔.𝕢=𝕘.𝕢||𝟘;𝕔.𝕤𝕔=𝕔.𝕔𝕠𝕟𝕗*𝟙𝟘+(𝕔.𝕟?(𝕔.𝕢-𝕔.𝕡):𝟘)*𝟚-𝕄𝕒𝕥𝕙.𝕒𝕓𝕤(𝕔.𝕡-.𝟞𝟚)});
-𝕨𝕚𝕟.𝕤𝕠𝕣𝕥((𝕒,𝕓)=>𝕓.𝕤𝕔-𝕒.𝕤𝕔);𝕔𝕠𝕟𝕤𝕥 𝕤𝕖𝕝=[];
-𝕨𝕚𝕟.𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕔=>{𝕚𝕗(𝕤𝕖𝕝.𝕝𝕖𝕟𝕘𝕥𝕙>=𝟜||𝕤𝕖𝕝.𝕤𝕠𝕞𝕖(𝕩=>𝕩.𝕗𝕒𝕞===𝕔.𝕗𝕒𝕞))𝕣𝕖𝕥𝕦𝕣𝕟;
- /* 𝕔𝕠𝕟𝕥𝕣𝕒𝕕𝕚𝕔𝕥𝕚𝕠𝕟 𝕠𝕦 𝕣𝕖𝕕𝕠𝕟𝕕𝕒𝕟𝕔𝕖 𝕒𝕧𝕖𝕔 𝕦𝕟 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 𝕕𝕖́𝕛𝕒̀ 𝕣𝕖𝕥𝕖𝕟𝕦 : 𝕝𝕖𝕤 𝕕𝕖𝕦𝕩 𝕖́𝕧𝕖́𝕟𝕖𝕞𝕖𝕟𝕥𝕤 𝕤𝕠𝕟𝕥 𝕥𝕣𝕠𝕡 𝕝𝕚𝕖́𝕤 (𝕣𝕒𝕡𝕡𝕠𝕣𝕥 𝕕𝕖𝕤 𝕡𝕣𝕠𝕓𝕒𝕓𝕚𝕝𝕚𝕥𝕖́𝕤) */
- 𝕚𝕗(𝕤𝕖𝕝.𝕤𝕠𝕞𝕖(𝕩=>{𝕔𝕠𝕟𝕤𝕥 𝕣=𝕛𝕠𝕚𝕟𝕥(𝕞,𝕩.𝕥,𝕔.𝕥);𝕣𝕖𝕥𝕦𝕣𝕟 𝕣!==𝕟𝕦𝕝𝕝&&(𝕣<.𝟠||𝕣>𝟙.𝟛𝟝)}))𝕣𝕖𝕥𝕦𝕣𝕟;𝕤𝕖𝕝.𝕡𝕦𝕤𝕙(𝕔)});
-𝕔𝕠𝕟𝕤𝕥 𝕕𝕢=𝕕𝕒𝕥𝕒ℚ𝕦𝕒𝕝𝕚𝕥𝕪(𝕞);𝕝𝕖𝕥 𝕤𝕥𝕒𝕣=𝕟𝕦𝕝𝕝;
-𝕤𝕖𝕝.𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕔=>{𝕚𝕗(!𝕤𝕥𝕒𝕣&&𝕔.𝕟>=𝟝&&𝕔.𝕜===𝕔.𝕟&&𝕔.𝕡>=.𝟝𝟝&&𝕔.𝕡<=.𝟟𝟘&&𝕕𝕢>=.𝟟)𝕤𝕥𝕒𝕣=𝕔});
-𝕣𝕖𝕥𝕦𝕣𝕟{𝕤𝕖𝕝,𝕔𝕠𝕞𝕡𝕒𝕣𝕖𝕕,𝕕𝕢,𝕤𝕥𝕒𝕣}}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕓𝕠𝕩(𝕞,ℝ){𝕔𝕠𝕟𝕤𝕥 ℙ𝟚=ℝ.𝕤𝕖𝕝,𝕚𝕥=ℙ𝟚.𝕝𝕖𝕟𝕘𝕥𝕙?ℙ𝟚.𝕞𝕒𝕡((𝕔,𝕚)=>`<𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕚"><𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕥"><𝕤𝕥𝕣𝕠𝕟𝕘><𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕣">#${𝕚+𝟙}</𝕤𝕡𝕒𝕟>${ℝ.𝕤𝕥𝕒𝕣===𝕔?'⭐ ':''}${𝕔.𝕥}</𝕤𝕥𝕣𝕠𝕟𝕘><𝕓>${𝕄𝕒𝕥𝕙.𝕣𝕠𝕦𝕟𝕕(𝕔.𝕡*𝟙𝟘𝟘)} %</𝕓></𝕕𝕚𝕧><𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕤">𝕔𝕠𝕥𝕖 𝕛𝕦𝕤𝕥𝕖 ${𝕗𝕠(𝕔.𝕡)}${𝕔.𝕟?' · 𝕔𝕠𝕟𝕗𝕚𝕒𝕟𝕔𝕖 '+𝕔.𝕜+'/'+𝕔.𝕟:' · 𝕔𝕒𝕝𝕔𝕦𝕝 𝕤𝕖𝕦𝕝 (𝕡𝕒𝕤 𝕒𝕤𝕤𝕖𝕫 𝕕𝕖 𝕞𝕒𝕥𝕔𝕙𝕤 𝕡𝕠𝕦𝕣 𝕔𝕠𝕟𝕗𝕚𝕣𝕞𝕖𝕣)'}${𝕔.𝕘.𝕨𝕙𝕪?' · '+𝕔.𝕘.𝕨𝕙𝕪:''}</𝕕𝕚𝕧>${𝕔.𝕟?`<𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕘">${𝕔.𝕘.𝕗𝕚𝕝𝕥𝕖𝕣(𝕩=>𝕩[𝟙]!==𝕟𝕦𝕝𝕝).𝕞𝕒𝕡(𝕩=>`<𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="${𝕩[𝟙]?'𝕪':'𝕟'}">${𝕩[𝟙]?'✔':'✘'} ${𝕩[𝟘]}</𝕤𝕡𝕒𝕟>`).𝕛𝕠𝕚𝕟('')}</𝕕𝕚𝕧>`:''}</𝕕𝕚𝕧>`).𝕛𝕠𝕚𝕟(''):'<𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕤" 𝕤𝕥𝕪𝕝𝕖="𝕞𝕒𝕣𝕘𝕚𝕟:𝟞𝕡𝕩 𝟘">𝔸𝕦𝕔𝕦𝕟𝕖 𝕝𝕚𝕘𝕟𝕖 𝕤𝕥𝕒𝕟𝕕𝕒𝕣𝕕 𝕖𝕩𝕡𝕝𝕠𝕚𝕥𝕒𝕓𝕝𝕖 𝕡𝕠𝕦𝕣 𝕔𝕖 𝕞𝕒𝕥𝕔𝕙.</𝕕𝕚𝕧>';
-𝕣𝕖𝕥𝕦𝕣𝕟 `<𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕒𝕚 𝕤𝕞𝕡𝕓"><𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕒𝕙"><𝕤𝕡𝕒𝕟>🧠 𝕊𝕞𝕒𝕣𝕥ℙ𝕚𝕔𝕜</𝕤𝕡𝕒𝕟><𝕤𝕡𝕒𝕟>${ℙ𝟚.𝕝𝕖𝕟𝕘𝕥𝕙} 𝕣𝕖𝕥𝕖𝕟𝕦${ℙ𝟚.𝕝𝕖𝕟𝕘𝕥𝕙>𝟙?'𝕤':''} · ${ℝ.𝕔𝕠𝕞𝕡𝕒𝕣𝕖𝕕} 𝕞𝕒𝕣𝕔𝕙𝕖́𝕤 𝕔𝕠𝕞𝕡𝕒𝕣𝕖́𝕤</𝕤𝕡𝕒𝕟></𝕕𝕚𝕧>${𝕚𝕥}<𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕢">⭐ ${ℝ.𝕤𝕥𝕒𝕣?'𝕒𝕥𝕥𝕣𝕚𝕓𝕦𝕖́𝕖 𝕒𝕦 𝕟°'+(ℙ𝟚.𝕚𝕟𝕕𝕖𝕩𝕆𝕗(ℝ.𝕤𝕥𝕒𝕣)+𝟙)+' (𝕥𝕠𝕦𝕤 𝕝𝕖𝕤 𝕚𝕟𝕘𝕣𝕖́𝕕𝕚𝕖𝕟𝕥𝕤 𝕧𝕒𝕝𝕚𝕕𝕖́𝕤, 𝕕𝕠𝕟𝕟𝕖́𝕖𝕤 𝕤𝕦𝕗𝕗𝕚𝕤𝕒𝕟𝕥𝕖𝕤)':'𝕟𝕠𝕟 𝕒𝕥𝕥𝕣𝕚𝕓𝕦𝕖́𝕖 (𝕒𝕦𝕔𝕦𝕟 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔 𝕟𝕖 𝕧𝕒𝕝𝕚𝕕𝕖 𝕥𝕠𝕦𝕤 𝕝𝕖𝕤 𝕚𝕟𝕘𝕣𝕖́𝕕𝕚𝕖𝕟𝕥𝕤 𝕒𝕧𝕖𝕔 𝕕𝕖𝕤 𝕕𝕠𝕟𝕟𝕖́𝕖𝕤 𝕤𝕦𝕗𝕗𝕚𝕤𝕒𝕟𝕥𝕖𝕤)'}<𝕓𝕣>ℚ𝕦𝕒𝕝𝕚𝕥𝕖́ 𝕕𝕖𝕤 𝕕𝕠𝕟𝕟𝕖́𝕖𝕤 : ${𝕄𝕒𝕥𝕙.𝕣𝕠𝕦𝕟𝕕(ℝ.𝕕𝕢*𝟙𝟘𝟘)} % (𝕕𝕚𝕤𝕡𝕠𝕟𝕚𝕓𝕚𝕝𝕚𝕥𝕖́ 𝕖𝕥 𝕔𝕠𝕞𝕡𝕝𝕖́𝕥𝕦𝕕𝕖 𝕕𝕖𝕤 𝕤𝕥𝕒𝕥𝕚𝕤𝕥𝕚𝕢𝕦𝕖𝕤 : 𝕔𝕖 𝕟'𝕖𝕤𝕥 𝕡𝕒𝕤 𝕦𝕟𝕖 𝕡𝕣𝕠𝕓𝕒𝕓𝕚𝕝𝕚𝕥𝕖́ 𝕕𝕖 𝕣𝕖́𝕦𝕤𝕤𝕚𝕥𝕖)</𝕕𝕚𝕧><𝕕𝕚𝕧 𝕔𝕝𝕒𝕤𝕤="𝕒𝕤">𝕃𝕚𝕘𝕟𝕖𝕤 𝕡𝕣𝕠𝕡𝕠𝕤𝕖́𝕖𝕤 𝕖𝕟 𝕘𝕖́𝕟𝕖́𝕣𝕒𝕝 𝕡𝕒𝕣 𝕝𝕖𝕤 𝕓𝕠𝕠𝕜𝕞𝕒𝕜𝕖𝕣𝕤 · 𝕔𝕠𝕥𝕖 𝕛𝕦𝕤𝕥𝕖 𝕕'𝕖𝕟𝕧𝕚𝕣𝕠𝕟 𝟙,𝟜 𝕒̀ 𝟙,𝟡 · 𝕝𝕖𝕤 𝕔𝕠𝕟𝕥𝕣𝕒𝕕𝕚𝕔𝕥𝕚𝕠𝕟𝕤 𝕖𝕟𝕥𝕣𝕖 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔𝕤 𝕤𝕠𝕟𝕥 𝕖́𝕔𝕒𝕣𝕥𝕖́𝕖𝕤 · 𝕛𝕒𝕞𝕒𝕚𝕤 𝕦𝕟𝕖 𝕔𝕖𝕣𝕥𝕚𝕥𝕦𝕕𝕖.</𝕕𝕚𝕧></𝕕𝕚𝕧>`}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕞𝕒𝕥𝕔𝕙𝕆𝕗(𝕖𝕝){𝕔𝕠𝕟𝕤𝕥 𝕔=𝕖𝕝.𝕔𝕝𝕠𝕤𝕖𝕤𝕥('.𝕞𝕔');𝕚𝕗(𝕔&&𝕔.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕜){𝕔𝕠𝕟𝕤𝕥 𝕞=𝕄.𝕗𝕚𝕟𝕕(𝕩=>𝕚𝕕𝕆𝕗(𝕩)===𝕔.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕜);𝕚𝕗(𝕞)𝕣𝕖𝕥𝕦𝕣𝕟 𝕞}
-𝕔𝕠𝕟𝕤𝕥 𝕘=𝕖𝕝.𝕔𝕝𝕠𝕤𝕖𝕤𝕥('.𝕞𝕔𝕒𝕣𝕕');𝕚𝕗(𝕘){𝕔𝕠𝕟𝕤𝕥 𝕟=[...𝕘.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕟𝕞')].𝕞𝕒𝕡(𝕖=>𝕖.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕥𝕣𝕚𝕞()),𝕞=𝕄.𝕗𝕚𝕟𝕕(𝕩=>𝕩.𝕙===𝕟[𝟘]&&𝕩.𝕒===𝕟[𝟙]);𝕚𝕗(𝕞)𝕣𝕖𝕥𝕦𝕣𝕟 𝕞;𝕔𝕠𝕟𝕤𝕥 𝕤𝕧=𝕣𝕕().𝕗𝕚𝕟𝕕(𝕖=>𝕖.𝕞&&𝕖.𝕞.𝕙===𝕟[𝟘]&&𝕖.𝕞.𝕒===𝕟[𝟙]);𝕚𝕗(𝕤𝕧)𝕣𝕖𝕥𝕦𝕣𝕟 𝕤𝕧.𝕞}
-𝕣𝕖𝕥𝕦𝕣𝕟 𝕟𝕦𝕝𝕝}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕞𝕒𝕣𝕜(𝕣𝕠𝕠𝕥,ℙ𝟚){ℙ𝟚.𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕔=>{𝕔𝕠𝕟𝕤𝕥 𝕥=𝕔.𝕥.𝕥𝕠𝕃𝕠𝕨𝕖𝕣ℂ𝕒𝕤𝕖();
-𝕣𝕠𝕠𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕞𝕣').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕣=>{𝕔𝕠𝕟𝕤𝕥 𝕤=𝕣.𝕗𝕚𝕣𝕤𝕥𝔼𝕝𝕖𝕞𝕖𝕟𝕥ℂ𝕙𝕚𝕝𝕕;𝕚𝕗(!𝕤||𝕤.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕤𝕞𝕡𝕞'))𝕣𝕖𝕥𝕦𝕣𝕟;𝕚𝕗(𝕤.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕣𝕖𝕡𝕝𝕒𝕔𝕖(/^ℙ𝕝𝕦𝕤 𝕤𝕦̂𝕣 : /𝕚,'').𝕥𝕣𝕚𝕞().𝕥𝕠𝕃𝕠𝕨𝕖𝕣ℂ𝕒𝕤𝕖()===𝕥)𝕤.𝕚𝕟𝕤𝕖𝕣𝕥𝔸𝕕𝕛𝕒𝕔𝕖𝕟𝕥ℍ𝕋𝕄𝕃('𝕒𝕗𝕥𝕖𝕣𝕓𝕖𝕘𝕚𝕟','<𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕞">🧠</𝕤𝕡𝕒𝕟>')});
-𝕣𝕠𝕠𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕩').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕣=>{𝕔𝕠𝕟𝕤𝕥 𝕖𝕧=𝕣.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕖𝕧'),𝕡𝕧=𝕣.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕡𝕧𝟚');𝕚𝕗(!𝕖𝕧||!𝕡𝕧||𝕡𝕧.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕤𝕞𝕡𝕞'))𝕣𝕖𝕥𝕦𝕣𝕟;𝕔𝕠𝕟𝕤𝕥 𝕟𝕞=𝕖𝕧.𝕝𝕒𝕤𝕥ℂ𝕙𝕚𝕝𝕕&&𝕖𝕧.𝕝𝕒𝕤𝕥ℂ𝕙𝕚𝕝𝕕.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕥𝕣𝕚𝕞(),𝕥𝕩=[...𝕡𝕧.𝕔𝕙𝕚𝕝𝕕ℕ𝕠𝕕𝕖𝕤].𝕗𝕚𝕟𝕕(𝕟=>𝕟.𝕟𝕠𝕕𝕖𝕋𝕪𝕡𝕖===𝟛);𝕚𝕗(!𝕥𝕩)𝕣𝕖𝕥𝕦𝕣𝕟;
-𝕔𝕠𝕟𝕤𝕥 𝕤𝕚𝕕𝕖=𝕥𝕩.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕥𝕣𝕚𝕞();𝕚𝕗((𝕟𝕞+' : '+𝕤𝕚𝕕𝕖.𝕣𝕖𝕡𝕝𝕒𝕔𝕖(/^ℙ𝕝𝕦𝕤/,'𝕡𝕝𝕦𝕤').𝕣𝕖𝕡𝕝𝕒𝕔𝕖(/^𝕄𝕠𝕚𝕟𝕤/,'𝕞𝕠𝕚𝕟𝕤')).𝕥𝕠𝕃𝕠𝕨𝕖𝕣ℂ𝕒𝕤𝕖()===𝕥)𝕡𝕧.𝕚𝕟𝕤𝕖𝕣𝕥𝔸𝕕𝕛𝕒𝕔𝕖𝕟𝕥ℍ𝕋𝕄𝕃('𝕒𝕗𝕥𝕖𝕣𝕓𝕖𝕘𝕚𝕟','<𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="𝕤𝕞𝕡𝕞">🧠</𝕤𝕡𝕒𝕟>')})})}
-/* 𝕕𝕖𝕦𝕩 𝕝𝕚𝕘𝕟𝕖𝕤 𝕡𝕒𝕣 𝕖́𝕧𝕖́𝕟𝕖𝕞𝕖𝕟𝕥 𝕕𝕖 𝕤𝕥𝕒𝕥𝕚𝕤𝕥𝕚𝕢𝕦𝕖𝕤 : « 𝔼́𝕢𝕦𝕚𝕝𝕚𝕓𝕣𝕖́ » (𝕡𝕣𝕚𝕟𝕔𝕚𝕡𝕒𝕝𝕖) 𝕖𝕥 « ℙ𝕣𝕦𝕕𝕖𝕟𝕥 » (𝕡𝕝𝕦𝕤 𝕤𝕦̂𝕣𝕖) ; 𝕦𝕟𝕖 𝕤𝕖𝕦𝕝𝕖 𝕖𝕤𝕥 𝕒𝕗𝕗𝕚𝕔𝕙𝕖́𝕖 */
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕡𝕣𝕖𝕡(𝕣){𝕚𝕗(𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕤𝕞𝕡)𝕣𝕖𝕥𝕦𝕣𝕟;𝕔𝕠𝕟𝕤𝕥 𝕡𝕧=𝕣.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕡𝕧𝟚'),𝕒𝕝𝕥=𝕣.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕒𝕝𝕥𝟚');𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕤𝕞𝕡='𝟙';𝕚𝕗(!𝕡𝕧||!𝕒𝕝𝕥)𝕣𝕖𝕥𝕦𝕣𝕟;
-𝕔𝕠𝕟𝕤𝕥 𝕘=𝕒𝕝𝕥.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕞𝕒𝕥𝕔𝕙(/(𝕡𝕝𝕦𝕤|𝕞𝕠𝕚𝕟𝕤) 𝕕𝕖 ([\𝕕,]+) · (\𝕕+) % · 𝕔𝕠𝕥𝕖 ([\𝕕,]+)/𝕚);𝕚𝕗(!𝕘){𝕒𝕝𝕥.𝕣𝕖𝕞𝕠𝕧𝕖();𝕣𝕖𝕥𝕦𝕣𝕟}
-𝕔𝕠𝕟𝕤𝕥 𝕡𝕔𝕥=+𝕘[𝟛],𝕔𝕤=𝕡𝕔𝕥>=𝟠𝟘?'𝕠𝕜':𝕡𝕔𝕥>=𝟞𝟘?'𝕝𝕞':'𝕞𝕚𝕕',𝕝𝕧=𝕡𝕔𝕥>=𝟠𝟘?'𝕋𝕣𝕖̀𝕤 𝕤𝕦̂𝕣':𝕡𝕔𝕥>=𝟞𝟘?'𝕊𝕦̂𝕣':'𝕄𝕠𝕕𝕖́𝕣𝕖́',𝕔𝕖=(𝕣.𝕔𝕝𝕒𝕤𝕤ℕ𝕒𝕞𝕖.𝕞𝕒𝕥𝕔𝕙(/\𝕓(𝕠𝕜|𝕝𝕞|𝕞𝕚𝕕|𝕓𝕒𝕕)\𝕓/)||[])[𝟙]||'𝕝𝕞';
-𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕖𝕢=𝕔𝕖;𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕤𝕗=𝕔𝕤;𝕡𝕧.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕖𝕢=𝕡𝕧.𝕔𝕝𝕒𝕤𝕤ℕ𝕒𝕞𝕖;𝕡𝕧.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕤𝕗='𝕡𝕧𝟚 '+𝕔𝕤;𝕒𝕝𝕥.𝕣𝕖𝕞𝕠𝕧𝕖();
-𝕡𝕧.𝕚𝕟𝕟𝕖𝕣ℍ𝕋𝕄𝕃='<𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="𝕞𝔼𝕢">'+𝕡𝕧.𝕚𝕟𝕟𝕖𝕣ℍ𝕋𝕄𝕃+'</𝕤𝕡𝕒𝕟><𝕤𝕡𝕒𝕟 𝕔𝕝𝕒𝕤𝕤="𝕞𝕊𝕗">'+𝕘[𝟙][𝟘].𝕥𝕠𝕌𝕡𝕡𝕖𝕣ℂ𝕒𝕤𝕖()+𝕘[𝟙].𝕤𝕝𝕚𝕔𝕖(𝟙).𝕥𝕠𝕃𝕠𝕨𝕖𝕣ℂ𝕒𝕤𝕖()+' 𝕕𝕖 '+𝕘[𝟚]+'<𝕤𝕞𝕒𝕝𝕝>'+𝕡𝕔𝕥+' % · '+𝕝𝕧+' · 𝕔𝕠𝕥𝕖 '+𝕘[𝟜]+'</𝕤𝕞𝕒𝕝𝕝></𝕤𝕡𝕒𝕟>'}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕒𝕡𝕡𝕝𝕪𝕄𝕠𝕕𝕖(){𝕔𝕠𝕟𝕤𝕥 𝕤𝕗=𝕞𝕠𝕕𝕖()==='𝕤𝕗';𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕓𝕠𝕕𝕪.𝕔𝕝𝕒𝕤𝕤𝕃𝕚𝕤𝕥.𝕥𝕠𝕘𝕘𝕝𝕖('𝕤𝕞𝕡-𝕤𝕗',𝕤𝕗);
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕩[𝕕𝕒𝕥𝕒-𝕤𝕞𝕡]').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕣=>{𝕔𝕠𝕟𝕤𝕥 𝕔=𝕤𝕗?𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕤𝕗:𝕣.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕖𝕢;𝕚𝕗(!𝕔)𝕣𝕖𝕥𝕦𝕣𝕟;𝕣.𝕔𝕝𝕒𝕤𝕤ℕ𝕒𝕞𝕖='𝕤𝕩 '+𝕔;𝕔𝕠𝕟𝕤𝕥 𝕡𝕧=𝕣.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕡𝕧𝟚');𝕚𝕗(𝕡𝕧)𝕡𝕧.𝕔𝕝𝕒𝕤𝕤ℕ𝕒𝕞𝕖=𝕤𝕗?𝕡𝕧.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕤𝕗:𝕡𝕧.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕔𝕖𝕢});
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕞𝕡𝕞𝕠𝕕𝕖 𝕓𝕦𝕥𝕥𝕠𝕟').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕓=>𝕓.𝕔𝕝𝕒𝕤𝕤𝕃𝕚𝕤𝕥.𝕥𝕠𝕘𝕘𝕝𝕖('𝕠𝕟',𝕓.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕞===(𝕤𝕗?'𝕤𝕗':'𝕖𝕢')))}
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕖𝕟𝕙(){
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕥𝕡,.𝕤𝕡𝕓').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕖=>𝕖.𝕣𝕖𝕞𝕠𝕧𝕖());
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕟𝕠𝕥𝕖').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕟=>{𝕚𝕗(𝕟.𝕥𝕖𝕩𝕥ℂ𝕠𝕟𝕥𝕖𝕟𝕥.𝕤𝕥𝕒𝕣𝕥𝕤𝕎𝕚𝕥𝕙('⭐ = 𝕡𝕣𝕠𝕟𝕠𝕤𝕥𝕚𝕔'))𝕟.𝕣𝕖𝕞𝕠𝕧𝕖()});
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕒𝕚:𝕟𝕠𝕥(.𝕤𝕞𝕡𝕓)').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕒=>{𝕔𝕠𝕟𝕤𝕥 𝕣𝕠𝕠𝕥=𝕒.𝕡𝕒𝕣𝕖𝕟𝕥𝔼𝕝𝕖𝕞𝕖𝕟𝕥;𝕚𝕗(!𝕣𝕠𝕠𝕥||𝕣𝕠𝕠𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕤𝕞𝕡𝕓')||𝕣𝕠𝕠𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕝𝕧𝕟'))𝕣𝕖𝕥𝕦𝕣𝕟;𝕔𝕠𝕟𝕤𝕥 𝕞=𝕞𝕒𝕥𝕔𝕙𝕆𝕗(𝕒);𝕚𝕗(!𝕞)𝕣𝕖𝕥𝕦𝕣𝕟;
-𝕔𝕠𝕟𝕤𝕥 ℝ=𝕡𝕚𝕔𝕜𝕤(𝕞),𝕕=𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕔𝕣𝕖𝕒𝕥𝕖𝔼𝕝𝕖𝕞𝕖𝕟𝕥('𝕕𝕚𝕧');𝕕.𝕚𝕟𝕟𝕖𝕣ℍ𝕋𝕄𝕃=𝕓𝕠𝕩(𝕞,ℝ);𝕒.𝕒𝕗𝕥𝕖𝕣(𝕕.𝕗𝕚𝕣𝕤𝕥ℂ𝕙𝕚𝕝𝕕);𝕞𝕒𝕣𝕜(𝕣𝕠𝕠𝕥,ℝ.𝕤𝕖𝕝)});
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕥𝕩').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕩=>{𝕚𝕗(!𝕩.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣('.𝕤𝕞𝕡𝕞𝕠𝕕𝕖')){𝕔𝕠𝕟𝕤𝕥 𝕕=𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕔𝕣𝕖𝕒𝕥𝕖𝔼𝕝𝕖𝕞𝕖𝕟𝕥('𝕕𝕚𝕧');𝕕.𝕔𝕝𝕒𝕤𝕤ℕ𝕒𝕞𝕖='𝕤𝕞𝕡𝕞𝕠𝕕𝕖';𝕕.𝕚𝕟𝕟𝕖𝕣ℍ𝕋𝕄𝕃='<𝕤𝕡𝕒𝕟>𝕃𝕚𝕘𝕟𝕖𝕤 :</𝕤𝕡𝕒𝕟><𝕓𝕦𝕥𝕥𝕠𝕟 𝕕𝕒𝕥𝕒-𝕞="𝕖𝕢">𝔼́𝕢𝕦𝕚𝕝𝕚𝕓𝕣𝕖́ · ≈ 𝟞𝟞 %</𝕓𝕦𝕥𝕥𝕠𝕟><𝕓𝕦𝕥𝕥𝕠𝕟 𝕕𝕒𝕥𝕒-𝕞="𝕤𝕗">ℙ𝕣𝕦𝕕𝕖𝕟𝕥 · ≈ 𝟠𝟝 %</𝕓𝕦𝕥𝕥𝕠𝕟>';
- 𝕕.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('𝕓𝕦𝕥𝕥𝕠𝕟').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕓=>𝕓.𝕠𝕟𝕔𝕝𝕚𝕔𝕜=()=>{𝕥𝕣𝕪{𝕝𝕠𝕔𝕒𝕝𝕊𝕥𝕠𝕣𝕒𝕘𝕖.𝕤𝕖𝕥𝕀𝕥𝕖𝕞(𝕄𝕂,𝕓.𝕕𝕒𝕥𝕒𝕤𝕖𝕥.𝕞)}𝕔𝕒𝕥𝕔𝕙(𝕖){}𝕒𝕡𝕡𝕝𝕪𝕄𝕠𝕕𝕖()});𝕩.𝕚𝕟𝕤𝕖𝕣𝕥𝔹𝕖𝕗𝕠𝕣𝕖(𝕕,𝕩.𝕗𝕚𝕣𝕤𝕥ℂ𝕙𝕚𝕝𝕕)}});
-𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕢𝕦𝕖𝕣𝕪𝕊𝕖𝕝𝕖𝕔𝕥𝕠𝕣𝔸𝕝𝕝('.𝕤𝕩').𝕗𝕠𝕣𝔼𝕒𝕔𝕙(𝕡𝕣𝕖𝕡);𝕒𝕡𝕡𝕝𝕪𝕄𝕠𝕕𝕖()}
-𝕝𝕖𝕥 𝕥𝕞=𝟘;𝕔𝕠𝕟𝕤𝕥 𝕠𝕓=𝕟𝕖𝕨 𝕄𝕦𝕥𝕒𝕥𝕚𝕠𝕟𝕆𝕓𝕤𝕖𝕣𝕧𝕖𝕣(()=>{𝕔𝕝𝕖𝕒𝕣𝕋𝕚𝕞𝕖𝕠𝕦𝕥(𝕥𝕞);𝕥𝕞=𝕤𝕖𝕥𝕋𝕚𝕞𝕖𝕠𝕦𝕥(𝕖𝕟𝕙,𝟙𝟝𝟘)});
-𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟 𝕤𝕥𝕒𝕣𝕥(){𝕠𝕓.𝕠𝕓𝕤𝕖𝕣𝕧𝕖(𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕓𝕠𝕕𝕪,{𝕔𝕙𝕚𝕝𝕕𝕃𝕚𝕤𝕥:𝕥𝕣𝕦𝕖,𝕤𝕦𝕓𝕥𝕣𝕖𝕖:𝕥𝕣𝕦𝕖});𝕖𝕟𝕙()}
-𝕚𝕗(𝕕𝕠𝕔𝕦𝕞𝕖𝕟𝕥.𝕣𝕖𝕒𝕕𝕪𝕊𝕥𝕒𝕥𝕖==='𝕔𝕠𝕞𝕡𝕝𝕖𝕥𝕖')𝕤𝕖𝕥𝕋𝕚𝕞𝕖𝕠𝕦𝕥(𝕤𝕥𝕒𝕣𝕥,𝟜𝟘𝟘);𝕖𝕝𝕤𝕖 𝕒𝕕𝕕𝔼𝕧𝕖𝕟𝕥𝕃𝕚𝕤𝕥𝕖𝕟𝕖𝕣('𝕝𝕠𝕒𝕕',()=>𝕤𝕖𝕥𝕋𝕚𝕞𝕖𝕠𝕦𝕥(𝕤𝕥𝕒𝕣𝕥,𝟜𝟘𝟘));
+/* smartpick.js (v3) : SmartPick = jusqu'à 4 pronostics par match, classés, avec au maximum 1 étoile, détection des contradictions
+   et qualité des données. Sélecteur de lignes de statistiques : Équilibré (≈ 66 %) ou Prudent (≈ 85 %).
+   Chaque pronostic est noté sur plusieurs ingrédients : équipe 1, équipe 2, ensemble des deux équipes, confrontations directes,
+   matchs à domicile / à l'extérieur, style de jeu et xG estimé, moyennes. Seules des lignes proposées en général par les
+   bookmakers sont retenues, avec une probabilité qui laisse une cote intéressante (cote juste d'environ 1,4 à 1,9). */
+(function(){
+const fl=s=>parseFloat(String(s).replace(',','.')),fo=p=>(1/p).toFixed(2).replace('.',','),av=a=>a.reduce((s,v)=>s+v,0)/a.length;
+const st0=document.createElement('style');st0.textContent=`.smpb{border-color:rgba(167,139,250,.65)!important;background:linear-gradient(180deg,rgba(124,58,237,.16),rgba(2,18,36,.45))!important}
+.smpb .ah span:first-child{color:#c4b5fd}.smpi{padding:9px 0;border-top:1px solid var(--ln)}.smpt{display:flex;justify-content:space-between;gap:10px;align-items:baseline}.smpt strong{font-size:1rem}.smpt b{font-size:1.15rem;color:#c4b5fd;white-space:nowrap}
+.smps{font-size:.72rem;color:var(--mu);margin-top:3px;line-height:1.45}.smpg{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}.smpg span{font-size:.66rem;padding:2px 8px;border-radius:999px;border:1px solid var(--ln)}.smpg .y{color:#4ade80;border-color:rgba(74,222,128,.5)}.smpg .n{color:#ff9a9a;border-color:rgba(255,120,120,.5)}.smpm{margin-right:4px}.smpmode{display:flex;gap:6px;align-items:center;margin:8px 0;font-size:.72rem;color:var(--mu)}.smpmode button{padding:5px 12px;border-radius:999px;border:1px solid var(--ln);background:transparent;color:inherit;font-size:.72rem}.smpmode button.on{background:rgba(124,58,237,.35);border-color:#a78bfa;color:#fff}
+.mSf{display:none}body.smp-sf .mEq{display:none}body.smp-sf .mSf{display:inline}.smpq{font-size:.7rem;color:var(--mu);margin-top:6px;line-height:1.45}.smpr{color:#c4b5fd;font-weight:800;margin-right:6px}`;document.head.appendChild(st0);
+const MK='pronos_mode_v1',mode=()=>{try{return localStorage.getItem(MK)==='sf'?'sf':'eq'}catch(e){return'eq'}};
+const STN={'Cart.':'k','Corn.':'r','Tirs cadrés':'c','Tirs totaux':'s','Fautes':'f'};
+const RNG={'Cart.':[2.5,6.5],'Corn.':[7.5,12.5],'Tirs cadrés':[6.5,11.5],'Tirs totaux':[20.5,30.5],'Fautes':[20.5,30.5]};
+function hit(t,m,a,b){let r;
+if(t==='Victoire '+m.h+' (V1)')return a>b;if(t==='Victoire '+m.a+' (V2)')return b>a;if(t==='Match nul (X)')return a===b;
+if(r=t.match(/^(Plus|Moins) de ([\d,]+) buts$/))return r[1]==='Plus'?a+b>fl(r[2]):a+b<fl(r[2]);
+if(t==='Les deux marquent : oui')return a>0&&b>0;if(t==='Les deux marquent : non')return!(a>0&&b>0);
+if(t==='Double chance : '+m.h+' ou nul')return a>=b;if(t==='Double chance : nul ou '+m.a)return b>=a;if(t==='Double chance : '+m.h+' ou '+m.a)return a!==b;
+if(r=t.match(/^Handicap (.+) ([+-])([\d,]+)$/)){const k=fl(r[3])*(r[2]==='-'?-1:1),d=r[1]===m.h?a-b:b-a;return d+k>0}
+if(r=t.match(/^(.+) : (plus|moins) de ([\d,]+) buts?$/)){const g=r[1]===m.h?a:r[1]===m.a?b:null;if(g==null)return null;return r[2]==='plus'?g>fl(r[3]):g<fl(r[3])}
+return null}
+function cat(t){let r;
+if(/^Victoire .* \(V[12]\)$/.test(t)||t==='Match nul (X)')return'r';
+if(/^Double chance : /.test(t))return'd';
+if(r=t.match(/^Handicap (.+) ([+-])([\d,]+)$/)){const k=fl(r[3]);return k===.5||k===1.5?'h':null}
+if(r=t.match(/^(Plus|Moins) de ([\d,]+) buts$/)){const l=fl(r[2]);return l>=1.5&&l<=4.5?'g':null}
+if(/^Les deux marquent/.test(t))return'b';
+if(r=t.match(/^(.+) : (plus|moins) de ([\d,]+) buts?$/)){const l=fl(r[3]);return l>=1.5&&l<=2.5?'t':null}
+if(r=t.match(/^(Cart\.|Corn\.|Tirs cadrés|Tirs totaux|Fautes) : (plus|moins) de ([\d,]+)$/)){const l=fl(r[3]),R=RNG[r[1]];return l>=R[0]&&l<=R[1]?'s'+STN[r[1]]:null}
+return null}
+/* les ingrédients d'un pronostic : [libellé, réussi (true/false) ou null si non applicable] */
+function ingr(m,c,sy){const z=m.z,t=c.t,p=c.p;if(!z)return[];const q=a=>a.filter(Boolean).length/a.length,out=[];let A,B,H=null,V=null,AV=null;
+const sm=t.match(/^(Cart\.|Corn\.|Tirs cadrés|Tirs totaux|Fautes) : (plus|moins) de ([\d,]+)$/);
+if(sm){const k=STN[sm[1]],zz=(z.ts&&z.ts[k])||z[k];if(!zz)return[];const l=fl(sm[3]),f=v=>sm[2]==='plus'?v>l:v<l;A=zz[0].map(f);B=zz[1].map(f);
+ if(z[k]&&z.ts&&z.ts[k])V=[z[k][0].map(f),z[k][1].map(f)];AV=[zz[0],zz[1],l,sm[2]==='plus']}
+else{const th=z.th||z.gh,ta=z.ta||z.ga;if(!th||!ta)return[];A=th.map(x=>hit(t,m,x[0],x[1]));B=ta.map(x=>hit(t,m,x[1],x[0]));if(A.includes(null))return[];
+ if(z.hm&&z.hm.length>=4)H=z.hm.map(x=>hit(t,m,x[0],x[1]));if(z.gh&&z.ga&&z.th)V=[z.gh.map(x=>hit(t,m,x[0],x[1])),z.ga.map(x=>hit(t,m,x[1],x[0]))];
+ const g=t.match(/^(Plus|Moins) de ([\d,]+) buts$/);if(g)AV=[th.map(x=>x[0]+x[1]),ta.map(x=>x[0]+x[1]),fl(g[2]),g[1]==='Plus']}
+if(A.length<8||B.length<8)return[];
+out.push([m.h+' '+A.filter(Boolean).length+'/'+A.length,q(A)>=.6],[m.a+' '+B.filter(Boolean).length+'/'+B.length,q(B)>=.6],['Ensemble',q(A.concat(B))>=p]);
+out.push(['Confrontations',H?q(H)>=.5:null]);
+out.push(['Dom./ext.',V&&V[0].length>=6&&V[1].length>=6?q(V[0].concat(V[1]))>=p-.03:null]);
+out.push(['Moyennes',AV?(AV[3]?av(AV[0])>=AV[2]&&av(AV[1])>=AV[2]:av(AV[0])<=AV[2]&&av(AV[1])<=AV[2]):null]);
+const bn=bonus(m,t,sy);out.push(['Style / xG',bn[0]>0?true:(bn[2]?false:null)]);out.why=bn[1];out.q=q(A.concat(B));return out}
+function style(m){const s=m.z&&m.z.sx;if(!s||!s.la||!s.h||!s.a)return null;
+const ag=p=>p.fl&&p.yc&&s.la.fl&&s.la.yc?(p.fl[0]/s.la.fl+2*p.yc[0]/s.la.yc)/3:null,g=ag(s.h),h=ag(s.a),lab=x=>x==null?'?':x>=1.12?'agressif':x<=.88?'discipliné':'normal';
+const xt=s.h.xg&&s.a.xg?(s.h.xg[0]+s.a.xg[1])/2+(s.a.xg[0]+s.h.xg[1])/2:null;return{g,h,lg:lab(g),lh:lab(h),xt}}
+function bonus(m,t,s){if(!s)return[0,'',0];let r;
+if(r=t.match(/^(Plus|Moins) de ([\d,]+) buts$/)){if(s.xt==null)return[0,'',0];const l=fl(r[2]),ok=r[1]==='Plus'?s.xt>=l+.2:s.xt<=l-.2;return[ok?.03:0,ok?'xG estimé du match '+s.xt.toFixed(1).replace('.',','):'',1]}
+if(/^(Cart\.|Fautes)/.test(t)){if(s.g==null||s.h==null)return[0,'',0];const a=(s.g+s.h)/2,ok=/: plus/.test(t)?a>=1.08:a<=.92;return[ok?.03:0,ok?'style : '+m.h+' '+s.lg+', '+m.a+' '+s.lh:'',1]}
+return[0,'',0]}
+const pmf=(k,l)=>{let p=Math.exp(-l);for(let i=1;i<=k;i++)p*=l/i;return p};
+/* probabilité (grille de Poisson) d'un pronostic et de deux pronostics ensemble ; null si le pronostic ne dépend pas du score */
+function joint(m,t1,t2){const G=[];for(let a=0;a<=9;a++)for(let b=0;b<=9;b++)G.push([a,b,pmf(a,m.x)*pmf(b,m.y)]);
+const f1=(a,b)=>hit(t1,m,a,b),f2=(a,b)=>hit(t2,m,a,b);if(f1(1,1)===null||f2(1,1)===null)return null;
+let p1=0,p2=0,p12=0;G.forEach(([a,b,p])=>{const x=f1(a,b),y=f2(a,b);if(x)p1+=p;if(y)p2+=p;if(x&&y)p12+=p});return p1>0&&p2>0?p12/(p1*p2):null}
+function dataQuality(m){const z=m.z;if(!z)return 0;const th=z.th||z.gh||[],ta=z.ta||z.ga||[],hm=z.hm||[];
+const mt=Math.min(1,(th.length+ta.length)/60),stt=z.ts&&Object.keys(z.ts).length>=4?1:(z.k||z.r?.5:0),h2=Math.min(1,hm.length/4),sx=z.sx&&z.sx.h&&z.sx.h.xg?1:0;
+return .45*mt+.3*stt+.15*h2+.1*sx}
+function picks(m){if(!window._mo)return{sel:[],compared:0,dq:0,star:null};const A=_mo.allPicks(m);if(A.R&&A.R.live)return{sel:[],compared:0,dq:0,star:null};const sy=style(m);
+let cand=A.all.map(c=>({t:c.t,p:c.p,fam:cat(c.t)})).filter(c=>c.fam);const compared=cand.length;
+let win=cand.filter(c=>c.p>=.52&&c.p<=.72);if(!win.length)win=cand.filter(c=>c.p>=.5&&c.p<=.8);
+win.forEach(c=>{const g=ingr(m,c,sy),ap=g.filter(x=>x[1]!==null);c.g=g;c.k=ap.filter(x=>x[1]).length;c.n=ap.length;c.conf=c.n?c.k/c.n:0;c.q=g.q||0;c.sc=c.conf*10+(c.n?(c.q-c.p):0)*2-Math.abs(c.p-.62)});
+win.sort((a,b)=>b.sc-a.sc);const sel=[];
+win.forEach(c=>{if(sel.length>=4||sel.some(x=>x.fam===c.fam))return;
+ /* contradiction ou redondance avec un pronostic déjà retenu : les deux événements sont trop liés (rapport des probabilités) */
+ if(sel.some(x=>{const r=joint(m,x.t,c.t);return r!==null&&(r<.8||r>1.35)}))return;sel.push(c)});
+const dq=dataQuality(m);let star=null;
+sel.forEach(c=>{if(!star&&c.n>=5&&c.k===c.n&&c.p>=.55&&c.p<=.70&&dq>=.7)star=c});
+return{sel,compared,dq,star}}
+function box(m,R){const P2=R.sel,it=P2.length?P2.map((c,i)=>`<div class="smpi"><div class="smpt"><strong><span class="smpr">#${i+1}</span>${R.star===c?'⭐ ':''}${c.t}</strong><b>${Math.round(c.p*100)} %</b></div><div class="smps">cote juste ${fo(c.p)}${c.n?' · confiance '+c.k+'/'+c.n:' · calcul seul (pas assez de matchs pour confirmer)'}${c.g.why?' · '+c.g.why:''}</div>${c.n?`<div class="smpg">${c.g.filter(x=>x[1]!==null).map(x=>`<span class="${x[1]?'y':'n'}">${x[1]?'✔':'✘'} ${x[0]}</span>`).join('')}</div>`:''}</div>`).join(''):'<div class="smps" style="margin:6px 0">Aucune ligne standard exploitable pour ce match.</div>';
+return `<div class="ai smpb"><div class="ah"><span>🧠 SmartPick</span><span>${P2.length} retenu${P2.length>1?'s':''} · ${R.compared} marchés comparés</span></div>${it}<div class="smpq">⭐ ${R.star?'attribuée au n°'+(P2.indexOf(R.star)+1)+' (tous les ingrédients validés, données suffisantes)':'non attribuée (aucun pronostic ne valide tous les ingrédients avec des données suffisantes)'}<br>Qualité des données : ${Math.round(R.dq*100)} % (disponibilité et complétude des statistiques : ce n'est pas une probabilité de réussite)</div><div class="as">Lignes proposées en général par les bookmakers · cote juste d'environ 1,4 à 1,9 · les contradictions entre pronostics sont écartées · jamais une certitude.</div></div>`}
+function matchOf(el){const c=el.closest('.mc');if(c&&c.dataset.k){const m=M.find(x=>idOf(x)===c.dataset.k);if(m)return m}
+const g=el.closest('.mcard');if(g){const n=[...g.querySelectorAll('.nm')].map(e=>e.textContent.trim()),m=M.find(x=>x.h===n[0]&&x.a===n[1]);if(m)return m;const sv=rd().find(e=>e.m&&e.m.h===n[0]&&e.m.a===n[1]);if(sv)return sv.m}
+return null}
+function mark(root,P2){P2.forEach(c=>{const t=c.t.toLowerCase();
+root.querySelectorAll('.mr').forEach(r=>{const s=r.firstElementChild;if(!s||s.querySelector('.smpm'))return;if(s.textContent.replace(/^Plus sûr : /i,'').trim().toLowerCase()===t)s.insertAdjacentHTML('afterbegin','<span class="smpm">🧠</span>')});
+root.querySelectorAll('.sx').forEach(r=>{const ev=r.querySelector('.ev'),pv=r.querySelector('.pv2');if(!ev||!pv||pv.querySelector('.smpm'))return;const nm=ev.lastChild&&ev.lastChild.textContent.trim(),tx=[...pv.childNodes].find(n=>n.nodeType===3);if(!tx)return;
+const side=tx.textContent.trim();if((nm+' : '+side.replace(/^Plus/,'plus').replace(/^Moins/,'moins')).toLowerCase()===t)pv.insertAdjacentHTML('afterbegin','<span class="smpm">🧠</span>')})})}
+/* deux lignes par événement de statistiques : « Équilibré » (principale) et « Prudent » (plus sûre) ; une seule est affichée */
+function prep(r){if(r.dataset.smp)return;const pv=r.querySelector('.pv2'),alt=r.querySelector('.alt2');r.dataset.smp='1';if(!pv||!alt)return;
+const g=alt.textContent.match(/(plus|moins) de ([\d,]+) · (\d+) % · cote ([\d,]+)/i);if(!g){alt.remove();return}
+const pct=+g[3],cs=pct>=80?'ok':pct>=60?'lm':'mid',lv=pct>=80?'Très sûr':pct>=60?'Sûr':'Modéré',ce=(r.className.match(/\b(ok|lm|mid|bad)\b/)||[])[1]||'lm';
+r.dataset.ceq=ce;r.dataset.csf=cs;pv.dataset.ceq=pv.className;pv.dataset.csf='pv2 '+cs;alt.remove();
+pv.innerHTML='<span class="mEq">'+pv.innerHTML+'</span><span class="mSf">'+g[1][0].toUpperCase()+g[1].slice(1).toLowerCase()+' de '+g[2]+'<small>'+pct+' % · '+lv+' · cote '+g[4]+'</small></span>'}
+function applyMode(){const sf=mode()==='sf';document.body.classList.toggle('smp-sf',sf);
+document.querySelectorAll('.sx[data-smp]').forEach(r=>{const c=sf?r.dataset.csf:r.dataset.ceq;if(!c)return;r.className='sx '+c;const pv=r.querySelector('.pv2');if(pv)pv.className=sf?pv.dataset.csf:pv.dataset.ceq});
+document.querySelectorAll('.smpmode button').forEach(b=>b.classList.toggle('on',b.dataset.m===(sf?'sf':'eq')))}
+function enh(){
+document.querySelectorAll('.stp,.spb').forEach(e=>e.remove());
+document.querySelectorAll('.note').forEach(n=>{if(n.textContent.startsWith('⭐ = pronostic'))n.remove()});
+document.querySelectorAll('.ai:not(.smpb)').forEach(a=>{const root=a.parentElement;if(!root||root.querySelector('.smpb')||root.querySelector('.lvn'))return;const m=matchOf(a);if(!m)return;
+const R=picks(m),d=document.createElement('div');d.innerHTML=box(m,R);a.after(d.firstChild);mark(root,R.sel)});
+document.querySelectorAll('.stx').forEach(x=>{if(!x.querySelector('.smpmode')){const d=document.createElement('div');d.className='smpmode';d.innerHTML='<span>Lignes :</span><button data-m="eq">Équilibré · ≈ 66 %</button><button data-m="sf">Prudent · ≈ 85 %</button>';
+ d.querySelectorAll('button').forEach(b=>b.onclick=()=>{try{localStorage.setItem(MK,b.dataset.m)}catch(e){}applyMode()});x.insertBefore(d,x.firstChild)}});
+document.querySelectorAll('.sx').forEach(prep);applyMode()}
+let tm=0;const ob=new MutationObserver(()=>{clearTimeout(tm);tm=setTimeout(enh,150)});
+function start(){ob.observe(document.body,{childList:true,subtree:true});enh()}
+if(document.readyState==='complete')setTimeout(start,400);else addEventListener('load',()=>setTimeout(start,400));
 })();
