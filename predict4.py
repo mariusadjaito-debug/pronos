@@ -1,13 +1,25 @@
 """Calcul « base » (python predict4.py) : le modèle que le test sur le passé a validé.
-Buts attendus = forces d'attaque et de défense calculées sur TOUS les matchs récents (domicile et extérieur ensemble),
-les plus récents comptant davantage (un match perd la moitié de son poids tous les 180 jours).
+Buts attendus = forces d'attaque et de défense calculées sur les matchs récents (domicile et extérieur ensemble),
+les plus récents comptant davantage (un match perd la moitié de son poids tous les 180 jours), jamais plus d'un an.
 Pas de forme, de domicile / extérieur à part, de confrontations, d'Elo ni de fatigue : le test montre qu'ils dégradent le calcul.
-Les 30 derniers matchs de chaque équipe sont envoyés à l'application pour SmartPick (ils ne servent pas au calcul)."""
+Les 30 derniers matchs de chaque équipe sont envoyés à l'application pour NIPER PRO (ils ne servent pas au calcul)."""
 import predict as P
 import predict2 as V
 import predict3 as V3
 
 P.HALF_LIFE = 180
+MAX_DAYS = 365  # plus aucun match de plus d'un an dans le calcul (environ 40 matchs par équipe, jamais plus de 100)
+_fit = P.fit
+
+
+def _fit_recent(data):
+    """Ne garde que les matchs récents : le poids d'un match encode son âge (moitié tous les HALF_LIFE jours)."""
+    seuil = 0.5 ** (MAX_DAYS / P.HALF_LIFE)
+    recent = [x for x in data if x[0] >= seuil]
+    return _fit(recent if len(recent) >= 150 else data)
+
+
+P.fit = _fit_recent
 # colonnes (domicile, extérieur) servant au profil de jeu : buts, tirs, tirs cadrés, fautes, cartons jaunes, corners
 PROF = {"gf": ("FTHG", "FTAG"), "sh": ("HS", "AS"), "st": ("HST", "AST"), "fl": ("HF", "AF"), "yc": ("HY", "AY"), "cn": ("HC", "AC")}
 
@@ -66,7 +78,7 @@ def build4(league, hist, fx, out, now):
         e["y"] = round(ma * att[a] * dfn[h], 2)
         e["f"]["nm"] = [cnt.get(h, 0), cnt.get(a, 0)]
         e.pop("ag", None)
-        z = e.setdefault("z", {})  # 30 derniers matchs de chaque équipe, domicile et extérieur confondus (SmartPick)
+        z = e.setdefault("z", {})  # 30 derniers matchs de chaque équipe, domicile et extérieur confondus (NIPER PRO)
         for i, t in enumerate((h, a)):
             last = byteam.get(t, [])[-30:]
             z["th" if i == 0 else "ta"] = [[int(P.num(r["FTHG"])), int(P.num(r["FTAG"]))] if r["HomeTeam"] == t
