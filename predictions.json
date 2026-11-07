@@ -1,5 +1,5 @@
 {
- "updated": "07/11/2026 10:46 UTC",
+ "updated": "07/11/2026 17:09 UTC",
  "matches": [
   {
    "l": "Argentine",
@@ -32817,8 +32817,11 @@
    "hc": "https://crests.football-data.org/341.png",
    "ac": "https://crests.football-data.org/73.png",
    "i": 560632,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      12.57,
@@ -33570,8 +33573,11 @@
    "hc": "https://crests.football-data.org/404.png",
    "ac": "https://crests.football-data.org/76.png",
    "i": 561933,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      10.28,
@@ -34511,8 +34517,11 @@
    "hc": "https://crests.football-data.org/325.png",
    "ac": "https://crests.football-data.org/70.png",
    "i": 561938,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      14.9,
@@ -35452,8 +35461,11 @@
    "hc": "https://crests.football-data.org/387.png",
    "ac": "https://crests.football-data.org/68.png",
    "i": 561939,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    5
+   ],
    "e": {
     "s": [
      11.09,
@@ -35944,8 +35956,11 @@
    "hc": "https://crests.football-data.org/84.png",
    "ac": "https://crests.football-data.org/5335.png",
    "i": 564744,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      15.45,
@@ -40326,8 +40341,11 @@
    "hc": "https://crests.football-data.org/586.png",
    "ac": "https://crests.football-data.org/5890.png",
    "i": 558532,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      13.01,
@@ -41016,8 +41034,11 @@
    "hc": "https://crests.football-data.org/104.png",
    "ac": "https://crests.football-data.org/470.png",
    "i": 558534,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      16.91,
@@ -48429,8 +48450,11 @@
    "hc": "https://crests.football-data.org/57.png",
    "ac": "https://crests.football-data.org/322.png",
    "i": 560640,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      16.66,
@@ -49370,8 +49394,11 @@
    "hc": "https://crests.football-data.org/63.png",
    "ac": "https://crests.football-data.org/67.png",
    "i": 560633,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      16.96,
@@ -50123,8 +50150,11 @@
    "hc": "https://crests.football-data.org/69.png",
    "ac": "https://crests.football-data.org/1126.png",
    "i": 561929,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      17.1,
@@ -51056,8 +51086,11 @@
    "hc": "https://crests.football-data.org/715.png",
    "ac": "https://crests.football-data.org/328.png",
    "i": 561930,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    5,
+    4
+   ],
    "e": {
     "s": [
      18.5,
@@ -51989,8 +52022,11 @@
    "hc": "https://crests.football-data.org/348.png",
    "ac": "https://crests.football-data.org/356.png",
    "i": 561931,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      12.06,
@@ -52930,8 +52966,11 @@
    "hc": "https://crests.football-data.org/346.png",
    "ac": "https://crests.football-data.org/343.png",
    "i": 561934,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      12.06,
@@ -53683,8 +53722,11 @@
    "hc": "https://crests.football-data.org/59.png",
    "ac": "https://crests.football-data.org/563.png",
    "i": 561935,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      10.82,
@@ -54624,8 +54666,11 @@
    "hc": "https://crests.football-data.org/74.png",
    "ac": "https://crests.football-data.org/384.png",
    "i": 561936,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    3,
+    0
+   ],
    "e": {
     "s": [
      14.47,
@@ -55557,8 +55602,11 @@
    "hc": "https://crests.football-data.org/1081.png",
    "ac": "https://crests.football-data.org/340.png",
    "i": 561937,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      13.54,
@@ -56490,8 +56538,11 @@
    "hc": "https://crests.football-data.org/332.png",
    "ac": "https://crests.football-data.org/72.png",
    "i": 561940,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      13.8,
@@ -73454,8 +73505,11 @@
    "hc": "https://crests.football-data.org/80.png",
    "ac": "https://crests.football-data.org/560.png",
    "i": 564745,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      20.5,
@@ -75320,8 +75374,11 @@
    "hc": "https://crests.football-data.org/1920.png",
    "ac": "https://crests.football-data.org/1912.png",
    "i": 558844,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    2,
+    2
+   ],
    "e": {
     "s": [
      14.24,
@@ -81295,8 +81352,11 @@
    "hc": "https://crests.football-data.org/112.png",
    "ac": "https://crests.football-data.org/103.png",
    "i": 558535,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      9.72,
