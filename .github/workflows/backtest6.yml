@@ -1,0 +1,22 @@
+name: Test n°6 - lignes des statistiques
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mesurer les statistiques
+        run: python backtest6.py
+      - name: Enregistrer le rapport
+        run: |
+          git config user.name "pronos-bot"
+          git config user.email "pronos-bot@users.noreply.github.com"
+          git add rapport6.txt
+          git diff --staged --quiet || (git commit -m "Rapport n°6" && git pull --rebase origin main && git push)
