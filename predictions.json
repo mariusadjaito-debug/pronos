@@ -1,424 +1,6 @@
 {
- "updated": "07/11/2026 17:09 UTC",
+ "updated": "07/11/2026 21:12 UTC",
  "matches": [
-  {
-   "l": "Argentine",
-   "h": "Aldosivi",
-   "a": "River Plate",
-   "d": "2026-11-05T18:00:00Z",
-   "x": 0.77,
-   "y": 1.51,
-   "f": {
-    "fh": "DDDVD",
-    "fa": "VNVVD",
-    "h2": [
-     0,
-     0,
-     1,
-     1
-    ],
-    "at": [
-     0.8,
-     1.21
-    ],
-    "df": [
-     1.25,
-     0.8
-    ],
-    "n": [
-     10,
-     10
-    ],
-    "nm": [
-     63,
-     117
-    ]
-   },
-   "z": {
-    "gh": [
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      0
-     ]
-    ],
-    "ga": [
-     [
-      2,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      3,
-      0
-     ],
-     [
-      0,
-      1
-     ]
-    ],
-    "hm": [
-     [
-      1,
-      3
-     ]
-    ],
-    "th": [
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      3,
-      4
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      2
-     ]
-    ],
-    "ts": {
-     "s": [
-      [],
-      []
-     ],
-     "c": [
-      [],
-      []
-     ],
-     "f": [
-      [],
-      []
-     ],
-     "k": [
-      [],
-      []
-     ],
-     "r": [
-      [],
-      []
-     ]
-    },
-    "ta": [
-     [
-      0,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      3,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      2,
-      3
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      3,
-      0
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      1
-     ]
-    ],
-    "sx": {
-     "h": {
-      "gf": [
-       0.73,
-       1.43
-      ]
-     },
-     "a": {
-      "gf": [
-       1.43,
-       0.83
-      ]
-     },
-     "la": {
-      "gf": 1.06
-     }
-    }
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
-   "i": null,
-   "st": "fin",
-   "sc": [
-    0,
-    2
-   ],
-   "e": {}
-  },
   {
    "l": "Argentine",
    "h": "Gimnasia L.P.",
@@ -45484,8 +45066,11 @@
    "hc": "https://crests.football-data.org/721.png",
    "ac": "https://crests.football-data.org/16.png",
    "i": 565848,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    5,
+    2
+   ],
    "e": {
     "s": [
      20.93,
@@ -46156,8 +45741,11 @@
    "hc": "https://crests.football-data.org/4.png",
    "ac": "https://crests.football-data.org/719.png",
    "i": 565850,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    1
+   ],
    "e": {
     "s": [
      19.71,
@@ -47097,8 +46685,11 @@
    "hc": "https://crests.football-data.org/15.png",
    "ac": "https://crests.football-data.org/5.png",
    "i": 565851,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      12.65,
@@ -47769,8 +47360,11 @@
    "hc": "https://crests.football-data.org/29.png",
    "ac": "https://crests.football-data.org/19.png",
    "i": 565853,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    2
+   ],
    "e": {
     "s": [
      16.26,
@@ -73505,7 +73099,7 @@
    "hc": "https://crests.football-data.org/80.png",
    "ac": "https://crests.football-data.org/560.png",
    "i": 564745,
-   "st": "live",
+   "st": "fin",
    "sc": [
     0,
     0
@@ -75374,7 +74968,7 @@
    "hc": "https://crests.football-data.org/1920.png",
    "ac": "https://crests.football-data.org/1912.png",
    "i": 558844,
-   "st": "live",
+   "st": "fin",
    "sc": [
     2,
     2
@@ -81352,10 +80946,10 @@
    "hc": "https://crests.football-data.org/112.png",
    "ac": "https://crests.football-data.org/103.png",
    "i": 558535,
-   "st": "live",
+   "st": "fin",
    "sc": [
-    0,
-    0
+    1,
+    2
    ],
    "e": {
     "s": [
@@ -84849,8 +84443,11 @@
    "hc": "https://crests.football-data.org/351.png",
    "ac": "https://crests.football-data.org/65.png",
    "i": 560641,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    3,
+    1
+   ],
    "e": {
     "s": [
      12.53,
@@ -85790,8 +85387,11 @@
    "hc": "https://crests.football-data.org/79.png",
    "ac": "https://crests.football-data.org/77.png",
    "i": 564739,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      10.75,
@@ -86731,8 +86331,11 @@
    "hc": "https://crests.football-data.org/10.png",
    "ac": "https://crests.football-data.org/12.png",
    "i": 565849,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      17.62,
@@ -90246,8 +89849,11 @@
    "hc": "https://crests.football-data.org/680.png",
    "ac": "https://crests.football-data.org/6806.png",
    "i": 558841,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    3,
+    1
+   ],
    "e": {
     "s": [
      16.24,
@@ -92136,8 +91742,11 @@
    "hc": "https://crests.football-data.org/519.png",
    "ac": "https://crests.football-data.org/1045.png",
    "i": 559637,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    1
+   ],
    "e": {
     "s": [
      10.74,
@@ -93069,8 +92678,11 @@
    "hc": "https://crests.football-data.org/7822.png",
    "ac": "https://crests.football-data.org/6618.png",
    "i": 567347,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      14.08,
@@ -99519,8 +99131,11 @@
    "hc": "https://crests.football-data.org/100.png",
    "ac": "https://crests.football-data.org/471.png",
    "i": 558531,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    3,
+    0
+   ],
    "e": {
     "s": [
      18.38,
@@ -102100,8 +101715,11 @@
    "hc": "https://crests.football-data.org/95.png",
    "ac": "https://crests.football-data.org/86.png",
    "i": 564741,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    2
+   ],
    "e": {
     "s": [
      12.16,
@@ -103033,8 +102651,11 @@
    "hc": "https://crests.football-data.org/670.png",
    "ac": "https://crests.football-data.org/718.png",
    "i": 558843,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      15.62,
@@ -104671,8 +104292,11 @@
    "hc": "https://crests.football-data.org/524.png",
    "ac": "https://crests.football-data.org/531.png",
    "i": 559635,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      17.35,
@@ -105612,8 +105236,11 @@
    "hc": "https://crests.football-data.org/498.png",
    "ac": "https://crests.football-data.org/583.png",
    "i": 567350,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      18.83,
