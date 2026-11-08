@@ -1,449 +1,6 @@
 {
- "updated": "08/11/2026 08:16 UTC",
+ "updated": "08/11/2026 16:26 UTC",
  "matches": [
-  {
-   "l": "Roumanie",
-   "h": "UTA Arad",
-   "a": "Petrolul",
-   "d": "2026-11-06T15:30:00Z",
-   "x": 1.56,
-   "y": 0.87,
-   "f": {
-    "fh": "VDVVD",
-    "fa": "VDNVN",
-    "h2": [
-     6,
-     2,
-     0,
-     8
-    ],
-    "at": [
-     0.98,
-     0.92
-    ],
-    "df": [
-     0.91,
-     1.0
-    ],
-    "n": [
-     10,
-     10
-    ],
-    "nm": [
-     117,
-     116
-    ]
-   },
-   "z": {
-    "gh": [
-     [
-      5,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      5,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      0
-     ]
-    ],
-    "ga": [
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      4
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      3,
-      1
-     ]
-    ],
-    "hm": [
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      1
-     ]
-    ],
-    "th": [
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      2,
-      4
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      5,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      4
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      0,
-      0
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      5,
-      1
-     ],
-     [
-      2,
-      4
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      2
-     ]
-    ],
-    "ts": {
-     "s": [
-      [],
-      []
-     ],
-     "c": [
-      [],
-      []
-     ],
-     "f": [
-      [],
-      []
-     ],
-     "k": [
-      [],
-      []
-     ],
-     "r": [
-      [],
-      []
-     ]
-    },
-    "ta": [
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      2
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      5
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      0,
-      1
-     ],
-     [
-      0,
-      4
-     ],
-     [
-      1,
-      0
-     ],
-     [
-      2,
-      1
-     ],
-     [
-      0,
-      2
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      2,
-      2
-     ],
-     [
-      2,
-      0
-     ],
-     [
-      1,
-      3
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      3,
-      1
-     ],
-     [
-      1,
-      1
-     ]
-    ],
-    "sx": {
-     "h": {
-      "gf": [
-       1.3,
-       1.27
-      ]
-     },
-     "a": {
-      "gf": [
-       1.2,
-       1.3
-      ]
-     },
-     "la": {
-      "gf": 1.29
-     }
-    }
-   },
-   "hc": "https://r2.thesportsdb.com/images/media/team/badge/m310bo1638479358.png",
-   "ac": "https://r2.thesportsdb.com/images/media/team/badge/mnrlrs1787680001.png",
-   "i": null,
-   "st": "pre",
-   "sc": null,
-   "e": {}
-  },
   {
    "l": "Turquie",
    "h": "Gaziantep",
@@ -120884,8 +120441,11 @@
    "hc": "https://crests.football-data.org/673.png",
    "ac": "https://crests.football-data.org/675.png",
    "i": 558840,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    5,
+    3
+   ],
    "e": {
     "s": [
      13.66,
@@ -121825,8 +121385,11 @@
    "hc": "https://crests.football-data.org/113.png",
    "ac": "https://crests.football-data.org/110.png",
    "i": 558533,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      15.0,
@@ -126046,8 +125609,11 @@
    "hc": "https://crests.football-data.org/285.png",
    "ac": "https://crests.football-data.org/90.png",
    "i": 564738,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    2
+   ],
    "e": {
     "s": [
      13.68,
@@ -130650,8 +130216,11 @@
    "hc": "https://crests.football-data.org/666.png",
    "ac": "https://crests.football-data.org/678.png",
    "i": 558839,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    2
+   ],
    "e": {
     "s": [
      18.12,
@@ -133335,8 +132904,11 @@
    "hc": "https://crests.football-data.org/529.png",
    "ac": "https://crests.football-data.org/521.png",
    "i": 559636,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      14.56,
@@ -134276,8 +133848,11 @@
    "hc": "https://crests.football-data.org/354.png",
    "ac": "https://crests.football-data.org/64.png",
    "i": 560635,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    3
+   ],
    "e": {
     "s": [
      11.18,
@@ -135209,8 +134784,11 @@
    "hc": "https://crests.football-data.org/71.png",
    "ac": "https://crests.football-data.org/61.png",
    "i": 560636,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    0
+   ],
    "e": {
     "s": [
      11.84,
@@ -136142,8 +135720,11 @@
    "hc": "https://crests.football-data.org/349.png",
    "ac": "https://crests.football-data.org/bournemouth.png",
    "i": 560637,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      11.51,
@@ -137083,8 +136664,11 @@
    "hc": "https://crests.football-data.org/397.png",
    "ac": "https://crests.football-data.org/402.png",
    "i": 560638,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    2,
+    0
+   ],
    "e": {
     "s": [
      17.32,
@@ -138024,8 +137608,11 @@
    "hc": "https://crests.football-data.org/107.png",
    "ac": "https://crests.football-data.org/98.png",
    "i": 558536,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      10.96,
@@ -138957,8 +138544,11 @@
    "hc": "https://crests.football-data.org/5911.png",
    "ac": "https://crests.football-data.org/102.png",
    "i": 558538,
-   "st": "pre",
-   "sc": null,
+   "st": "fin",
+   "sc": [
+    0,
+    1
+   ],
    "e": {
     "s": [
      14.47,
@@ -141238,8 +140828,11 @@
    "hc": "https://crests.football-data.org/1.png",
    "ac": "https://crests.football-data.org/3.png",
    "i": 565855,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    1,
+    2
+   ],
    "e": {
     "s": [
      15.19,
@@ -146122,8 +145715,11 @@
    "hc": "https://crests.football-data.org/92.png",
    "ac": "https://crests.football-data.org/87.png",
    "i": 564743,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      15.87,
@@ -153222,8 +152818,11 @@
    "hc": "https://crests.football-data.org/682.png",
    "ac": "https://crests.football-data.org/677.png",
    "i": 558837,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    1,
+    1
+   ],
    "e": {
     "s": [
      16.16,
@@ -153939,8 +153538,11 @@
    "hc": "https://crests.football-data.org/1909.png",
    "ac": "https://crests.football-data.org/674.png",
    "i": 558842,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    3
+   ],
    "e": {
     "s": [
      11.25,
@@ -157728,8 +157330,11 @@
    "hc": "https://crests.football-data.org/535.png",
    "ac": "https://crests.football-data.org/548.png",
    "i": 559631,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      11.59,
@@ -158669,8 +158274,11 @@
    "hc": "https://crests.football-data.org/512.png",
    "ac": "https://crests.football-data.org/523.png",
    "i": 559632,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      13.24,
@@ -159602,8 +159210,11 @@
    "hc": "https://crests.football-data.org/533.png",
    "ac": "https://crests.football-data.org/525.png",
    "i": 559633,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    0
+   ],
    "e": {
     "s": [
      14.33,
@@ -160543,8 +160154,11 @@
    "hc": "https://crests.football-data.org/532.png",
    "ac": "https://crests.football-data.org/522.png",
    "i": 559634,
-   "st": "pre",
-   "sc": null,
+   "st": "live",
+   "sc": [
+    0,
+    1
+   ],
    "e": {
     "s": [
      12.76,
