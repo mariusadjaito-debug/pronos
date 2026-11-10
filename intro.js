@@ -8,7 +8,7 @@ html #sp.ci::after{background:radial-gradient(120% 85% at 50% 52%,transparent 55
 .ci-bg{position:absolute;inset:0;overflow:hidden;background:#020b2c}
 .ci-zoom{position:absolute;inset:-5%;transform-origin:50% 76%;will-change:transform;animation:ciDrift 9s linear forwards;animation-delay:calc(0ms - var(--o))}
 .ci-img{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 90%,#1b5fd6,#041348 60%,#010716),#031242;background-size:cover;will-change:clip-path,filter,opacity,transform;animation:ciRev 5s cubic-bezier(.22,.7,.2,1) forwards;animation-delay:calc(0ms - var(--o))}
-.ci-img.ok{background:url(stade.jpg) center/cover no-repeat,#031242}
+.ci-img.ok{background:var(--st) center/cover no-repeat,#031242}
 @keyframes ciRev{0%{clip-path:circle(0% at 50% 82%);opacity:0;filter:brightness(.25) blur(10px);transform:scale(1.3)}25%{opacity:1}100%{clip-path:circle(150% at 50% 82%);opacity:1;filter:brightness(1) blur(0);transform:scale(1)}}
 @keyframes ciDrift{to{transform:scale(1.08)}}
 .ci-fl{position:absolute;left:0;right:0;bottom:16%;height:30%;background:radial-gradient(18% 40% at 12% 60%,rgba(255,255,255,.9),transparent 70%),radial-gradient(18% 40% at 50% 70%,rgba(190,225,255,.9),transparent 70%),radial-gradient(18% 40% at 88% 60%,rgba(255,255,255,.9),transparent 70%);mix-blend-mode:screen;opacity:0;animation:ciFl 3.4s ease-out forwards;animation-delay:calc(900ms - var(--o))}
@@ -32,11 +32,14 @@ const lk=document.createElement('link');lk.rel='stylesheet';lk.href='https://fon
 const sp=document.getElementById('sp');
 if(!sp||!document.documentElement.classList.contains('spl'))return;
 let started=0;
-function go(ok){if(started)return;started=1;
+function apply(url){const e=document.querySelector('.ci-img');if(e){sp.style.setProperty('--st','url('+url+')');e.classList.add('ok')}}
+function go(ok,url){if(started){if(ok)apply(url);return}started=1;
 const an=(document.getAnimations?document.getAnimations():[]).find(a=>a.animationName==='lzm'),off=an?Math.round(an.currentTime||0):0;
 sp.className=(sp.className+' ci').trim();sp.style.setProperty('--o',off+'ms');
 const nm='<span class="ci-ex">M.Adj.Pro</span><span class="ci-fr"><b>M.Adj.</b><b class="pr">Pro</b></span>';
-sp.innerHTML=`<div class="ci-bg"><div class="ci-zoom"><div class="ci-img${ok?' ok':''}"></div></div><div class="ci-fl"></div></div><div class="ci-n"><div class="ci-nm">${nm}</div></div><button class="ci-k">Passer ›</button>`;
-sp.querySelector('.ci-k').onclick=()=>{sp.classList.add('out');document.documentElement.classList.remove('spl');setTimeout(()=>sp.remove(),800)}}
-const im=new Image();im.onload=()=>go(true);im.onerror=()=>go(false);im.src='stade.jpg';setTimeout(()=>go(false),1100);
+sp.innerHTML=`<div class="ci-bg"><div class="ci-zoom"><div class="ci-img"></div></div><div class="ci-fl"></div></div><div class="ci-n"><div class="ci-nm">${nm}</div></div><button class="ci-k">Passer ›</button>`;
+if(ok)apply(url);sp.querySelector('.ci-k').onclick=()=>{sp.classList.add('out');document.documentElement.classList.remove('spl');setTimeout(()=>sp.remove(),800)}}
+const RAW='https://raw.githubusercontent.com/mariusadjaito-debug/pronos/main/stade.jpg';
+function charge(url,sinon){const im=new Image();im.onload=()=>go(true,url);im.onerror=sinon;im.src=url}
+charge('stade.jpg',()=>charge(RAW,()=>go(false)));setTimeout(()=>go(false),1800);
 })();
