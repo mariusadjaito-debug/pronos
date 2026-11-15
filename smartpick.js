@@ -60,27 +60,27 @@ for(let l=Math.floor(mu)-4;l<=Math.floor(mu)+4;l++){const line=l+.5;if(line<Rg[0
 return best}
 /* ---------- forme offensive / défensive et match ouvert ou fermé (analyse profonde) ---------- */
 const pmfP=(k,l)=>{let p=Math.exp(-l);for(let i=1;i<=k;i++)p*=l/i;return p};
-function dist(m,A,B){const N=9,mod=Array(N+1).fill(0);for(let a=0;a<=N;a++)for(let b=0;b<=N;b++){const t=Math.min(N,a+b);mod[t]+=pmfP(a,m.x)*pmfP(b,m.y)}
-const vals=A.slice(-30).map(x=>x[0]+x[1]).concat(B.slice(-30).map(x=>x[0]+x[1])),w=vals.map((v,i)=>({v,w:(i%Math.max(1,vals.length/2|0))>=Math.max(1,vals.length/2|0)-10?2:1}));
-const emp=Array(N+1).fill(0);let tw=0;w.forEach(o=>{emp[Math.min(N,o.v)]+=o.w;tw+=o.w});emp.forEach((_,i)=>emp[i]/=tw||1);return mod.map((p,i)=>.5*p+.5*emp[i])}
+function dist(m,tA,tB,tH){const N=9,mod=Array(N+1).fill(0);for(let a=0;a<=N;a++)for(let b=0;b<=N;b++){const t=Math.min(N,a+b);mod[t]+=pmfP(a,m.x)*pmfP(b,m.y)}
+const emp=Array(N+1).fill(0);let tw=0;[[tA,1],[tB,1],[tH,1.5]].forEach(([arr,w])=>arr.forEach(v=>{emp[Math.min(N,v)]+=w;tw+=w}));emp.forEach((_,i)=>emp[i]/=tw||1);return mod.map((p,i)=>.5*p+.5*emp[i])}
 function team(name,P,la){if(!P||P.length<5)return null;const L=P.slice(-10),gf=L.map(x=>x[0]),ga=L.map(x=>x[1]),mf=av(gf),mg=av(ga);
 const att=mf/la-1,def=la/Math.max(.2,mg)-1,cvf=sd(gf)/Math.max(.5,mf),cvg=sd(ga)/Math.max(.5,mg),n=Math.min(1,L.length/10);
 return{name,att,def,cA:n*(1-Math.min(.6,cvf/2)),cD:n*(1-Math.min(.6,cvg/2)),tot:L.map(x=>x[0]+x[1]),btts:L.map(x=>x[0]>0&&x[1]>0),cs:L.map(x=>x[1]===0),fts:L.map(x=>x[0]===0),gf:mf,ga:mg}}
-function formStats(m){const z=m.z;if(!z)return null;const R=rec(m),la=(z.sx&&z.sx.la&&z.sx.la.gf)||1.35,A=team(m.h,R.A,la),B=team(m.a,R.B,la);if(!A||!B)return null;
-const D=dist(m,R.A,R.B),E=D.reduce((s,p,i)=>s+p*i,0),ge=k=>D.slice(k).reduce((s,p)=>s+p,0);
+function formStats(m){const z=m.z;if(!z)return null;const R=rec(m),GH=(z.gh&&z.gh.length>=5?z.gh:R.A).slice(-10),GA=(z.ga&&z.ga.length>=5?z.ga:R.B).slice(-10),HM=(z.hm||[]).slice(-10),la=(z.sx&&z.sx.la&&z.sx.la.gf)||1.35;
+const A=team(m.h,GH,la),B=team(m.a,GA,la);if(!A||!B)return null;const tH=HM.map(x=>x[0]+x[1]);
+const D=dist(m,A.tot,B.tot,tH),E=D.reduce((s,p,i)=>s+p*i,0),gt=k=>D.slice(Math.floor(k)+1).reduce((s,p)=>s+p,0);
 let sc=0;const vote=(v,w)=>{sc+=v*w};
-vote(E>=2.9?1:E<=2.3?-1:0,2);vote(ge(3)>=.5?1:ge(3)<=.33?-1:0,2);
+vote(E>=2.9?1:E<=2.3?-1:0,2);vote(gt(2.5)>=.5?1:gt(2.5)<=.33?-1:0,2);
 const m10=av(A.tot.concat(B.tot));vote(m10>=3?1:m10<=2.2?-1:0,1);
 const bt=av(A.btts.concat(B.btts).map(v=>v?1:0));vote(bt>=.6?1:bt<=.35?-1:0,1);
 vote(A.att>=.1&&B.att>=.1&&A.def<=0&&B.def<=0?1:A.att<=-.1&&B.att<=-.1&&A.def>=.1&&B.def>=.1?-1:0,1);
-const sx=z.sx&&z.sx.h&&z.sx.a&&z.sx.h.xg&&z.sx.a.xg?(z.sx.h.xg[0]+z.sx.a.xg[1])/2+(z.sx.a.xg[0]+z.sx.h.xg[1])/2:null;if(sx!=null)vote(sx>=2.8?1:sx<=2.2?-1:0,1);
+const sx=z.sx&&z.sx.h&&z.sx.a?z.sx:null,xg=sx&&sx.h.xg&&sx.a.xg?(sx.h.xg[0]+sx.a.xg[1])/2+(sx.a.xg[0]+sx.h.xg[1])/2:null;if(xg!=null)vote(xg>=2.8?1:xg<=2.2?-1:0,1);
+const sot=sx&&sx.h.st&&sx.a.st?(sx.h.st[0]+sx.a.st[1])/2+(sx.a.st[0]+sx.h.st[1])/2:null;if(sot!=null)vote(sot>=9.5?1:sot<=7?-1:0,1);
 const low=av(A.tot.concat(B.tot).map(v=>v<=1?1:0));vote(low>=.5?-1:low<=.2?1:0,1);
-const kind=sc>=3?'open':sc<=-3?'closed':'bal',conf=Math.min(1,Math.abs(sc)/6);
-let txt,cov;
-if(kind==='open'){let k=1;for(const c of[4,3,2,1])if(ge(c)>=.7){k=c;break}cov=ge(k);txt='Match ouvert : '+k+' but'+(k>1?'s':'')+' ou plus ('+Math.round(cov*100)+' %)'}
-else if(kind==='closed'){let k=3;for(const c of[1,2,3])if(1-ge(c+1)>=.7){k=c;break}cov=1-ge(k+1);txt='Match fermé : '+k+' but'+(k>1?'s':'')+' ou moins ('+Math.round(cov*100)+' %)'}
-else{let best=null;for(let a=0;a<=5;a++)for(let b=a+1;b<=6;b++){const c=D.slice(a,b+1).reduce((s,p)=>s+p,0);if(c>=.7&&(!best||b-a<best.b-best.a||(b-a===best.b-best.a&&c>best.c)))best={a,b,c}}
- best=best||{a:1,b:3,c:D.slice(1,4).reduce((s,p)=>s+p,0)};txt='Match équilibré : '+best.a+' à '+best.b+' buts ('+Math.round(best.c*100)+' %)'}
+if(tH.length>=4){const hm=av(tH);vote(hm>=3?1:hm<=2.2?-1:0,1)}
+const kind=sc>=4?'open':sc<=-4?'closed':'bal',conf=Math.min(1,Math.abs(sc)/7);let txt;
+if(kind==='open'){let k=1.5;for(const c of[4.5,3.5,2.5,1.5])if(gt(c)>=.62){k=c;break}txt='Match ouvert : plus de '+String(k).replace('.',',')+' buts ('+Math.round(gt(k)*100)+' %)'}
+else if(kind==='closed'){let k=4.5;for(const c of[2.5,3.5,4.5])if(1-gt(c)>=.7){k=c;break}txt='Match fermé : moins de '+String(k).replace('.',',')+' buts ('+Math.round((1-gt(k))*100)+' %)'}
+else{let best=null;[[0,2,'0 à 2 buts'],[1,3,'1 à 3 buts'],[2,4,'2 à 4 buts']].forEach(([a,b,l])=>{const c=D.slice(a,b+1).reduce((s,p)=>s+p,0);if(!best||c>best.c)best={l,c}});txt='Match équilibré : '+best.l+' ('+Math.round(best.c*100)+' %)'}
 return{A,B,kind,conf,txt,E,sc}}
 function seg(c){const n=Math.round(Math.max(0,Math.min(1,c))*5);return '<span class="fm-cf">'+[0,1,2,3,4].map(i=>'<i class="'+(i<n?'on':'')+'"></i>').join('')+'</span>'}
 function bar(p){const w=Math.max(4,Math.min(100,50+p*100)),c=p>=.1?'#4ade80':p<=-.1?'#ff6b6b':'#4da3ff';return `<div class="fm-bar"><i style="width:${w}%;background:${c}"></i></div>`}
@@ -107,7 +107,7 @@ A0.all.forEach(c=>{const fam=cat(c.t);if(!fam||fam==='s'||c.p<.64||c.p>.82)retur
   if(ov?!(mA>l&&mB>l):!(mA<l&&mB<l))return;if(Math.abs(av(ta.concat(tb))-av(all))>1.2*s)return;
   const d=ov?Math.min(mA,mB)-l:l-Math.max(mA,mB);margin=Math.max(0,Math.min(2,d/s))/2;stab=1-Math.min(1,s/(av(all)||1))}
  cand.push({t:c.t,p:c.p,fam,pb:(2*c.p+e10A+e10B+e30A+e30B)/6,f10A:e10A,f10B:e10B,margin,stab})});
-_mo.rowsOf(m).forEach(r=>{const s=statChoice(m,r);if(!s||s.p<.64)return;const arr=(z.ts&&z.ts[s.k])||z[s.k],A=arr[0],B=arr[1],over=s.side==='Plus',cn=a=>a.filter(v=>over?v>s.line:v<s.line).length;
+_mo.rowsOf(m).forEach(r=>{const s=statChoice(m,r);if(!s||s.p<.64||s.k==='k')return;const arr=(z.ts&&z.ts[s.k])||z[s.k],A=arr[0],B=arr[1],over=s.side==='Plus',cn=a=>a.filter(v=>over?v>s.line:v<s.line).length;
  const e10A=shr(cn(A.slice(-10)),10,s.p),e10B=shr(cn(B.slice(-10)),10,s.p),e30A=shr(cn(A),A.length,s.p),e30B=shr(cn(B),B.length,s.p);if(e10A<.68||e10B<.68||e30A<.6||e30B<.6)return;
  const a10=s.A10,b10=s.B10,mA=av(a10),mB=av(b10),all=A.concat(B),sdv=sd(all)||1,d=over?Math.min(mA,mB)-s.line:s.line-Math.max(mA,mB);if(d<=0)return;
  if(Math.abs(av(a10.concat(b10))-av(all))>1.2*sdv)return;
@@ -115,7 +115,7 @@ _mo.rowsOf(m).forEach(r=>{const s=statChoice(m,r);if(!s||s.p<.64)return;const ar
 const ok=cand.filter(c=>c.pb>=.7);ok.forEach(c=>{c.ev=.4*(c.f10A+c.f10B)/2+.3*c.margin+.2*c.stab+.1*Q.q});ok.sort((a,b)=>b.ev-a.ev);
 const sel=[];ok.forEach(c=>{if(sel.length>=3||sel.some(x=>x.fam===c.fam))return;if(sel.some(x=>{const r=joint(m,x.t,c.t);return r!==null&&(r<.8||r>1.35)}))return;sel.push(c)});
 if(!sel.length)return null;return{sel,star:sel[0].ev>=.75&&sel[0].margin>=.35?sel[0]:null,q:Q.q}}
-function nipHTML(N){const rows=N.sel.map(c=>{const L=lvl(c.pb);return `<div class="nip-r"><strong>${N.star===c?'⭐ ':''}${c.t}</strong><b class="n-${L[0]}">${Math.round(c.pb*100)} %</b></div>`}).join('');
+function nipHTML(N){const rows=N.sel.map(c=>{const L=lvl(c.pb);return `<div class="nip-r" data-t="${c.t.replace(/"/g,'&quot;')}"><strong>${N.star===c?'⭐ ':''}${c.t}</strong><b class="n-${L[0]}">${Math.round(c.pb*100)} %</b></div>`}).join('');
 return `<div class="ai nip" data-cl="nip"><div class="cl-h"><span class="nip-t">NIPER PRO</span><span class="cl-r"><span class="nip-q">Données ${Math.round(N.q*100)} %</span><span class="cl-a">▾</span></span></div><div class="cl-b">${rows}</div></div>`}
 /* ---------- contexte : quel match, quelle analyse enregistrée ---------- */
 function ctx(el){const c=el.closest('.mc');
@@ -128,7 +128,9 @@ const m=M.find(x=>x.h===n[0]&&x.a===n[1]);return m?{m,entry:null,key:idOf(m)}:nu
 const CACHE=new Map(),PEND=new Map();
 function compute(m,key){const ck=key+'|'+m.x+'|'+m.y+'|'+((m.z&&m.z.th&&m.z.th.length)||0);if(CACHE.has(ck))return CACHE.get(ck);
 const F=formStats(m),N=niper(m,F),o={n:N?nipHTML(N):'',f:F?formHTML(F):''};CACHE.set(ck,o);return o}
-function persist(entry,data){try{const arr=rd(),i=arr.findIndex(e=>e.id===entry.id&&e.t===entry.t);if(i>=0&&!arr[i].nip){arr[i].nip=data;wr(arr)}}catch(e){}}
+const VER=5;
+function stale(c){const n=c.entry&&c.entry.nip;if(!n||n.v===VER)return false;try{const cur=M.find(x=>idOf(x)===c.entry.id);return !!cur&&stOf(cur).s==='pre'}catch(e){return false}}
+function persist(entry,data){try{const arr=rd(),i=arr.findIndex(e=>e.id===entry.id&&e.t===entry.t);if(i>=0&&(!arr[i].nip||arr[i].nip.v!==VER)){arr[i].nip=data;wr(arr)}}catch(e){}}
 /* ---------- repli / dépli ---------- */
 const OPEN=new Set();
 function bindToggle(e){const h=e.querySelector('.cl-h');if(!h||h.dataset.b)return;h.dataset.b=1;h.onclick=()=>{e.classList.toggle('cl-open');e.classList.contains('cl-open')?OPEN.add(e.dataset.ck):OPEN.delete(e.dataset.ck)};if(OPEN.has(e.dataset.ck))e.classList.add('cl-open')}
@@ -144,26 +146,30 @@ box.querySelectorAll('.sx:not(.h)').forEach(r=>{const ev=r.querySelector('.ev'),
 sortRows(box)}
 function sortRows(box){const rs=[...box.querySelectorAll('.sx:not(.h)')];if(rs.length<2)return;const par=rs[0].parentElement,anchor=rs[rs.length-1].nextSibling;
 rs.sort((a,b)=>(+b.dataset.pb||0)-(+a.dataset.pb||0));rs.forEach(r=>par.insertBefore(r,anchor))}
+function verdict(){document.querySelectorAll('.nip[data-cl=nip] .nip-r[data-t]:not([data-v])').forEach(r=>{const c=ctx(r);if(!c||!c.entry)return;const cur=M.find(x=>idOf(x)===c.entry.id);if(!cur)return;let o;try{o=stOf(cur)}catch(e){return}
+ if(!o||o.s!=='fin'||o.est||!o.g||o.g[0]==null||o.g[1]==null)return;r.dataset.v='1';const h=hit(r.dataset.t,c.m,+o.g[0],+o.g[1]),b=r.querySelector('b');
+ if(h===null){b.insertAdjacentHTML('afterend','<span class="nip-v" style="font-size:.7rem;opacity:.7">à vérifier</span>');return}
+ b.insertAdjacentHTML('afterend','<span class="nip-v" style="font-weight:800;color:'+(h?'#4ade80':'#ff6b6b')+'">'+(h?'✔ réussi':'✘ perdu')+' · '+o.g[0]+'-'+o.g[1]+'</span>')})}
 function clean(){document.querySelectorAll('.stp,.spb,.smpb,.smpmode,.alt2').forEach(e=>e.remove());
 document.querySelectorAll('.sx').forEach(r=>{const ev=r.querySelector('.ev');if(ev&&/hors-jeu/i.test(ev.textContent))r.remove()});
 document.querySelectorAll('.note').forEach(n=>{if(/^Lignes choisies d/.test(n.textContent)||n.textContent.startsWith('⭐ = pronostic'))n.remove()})}
 let busy=0;
-function enh(){if(busy)return;busy=1;try{clean();
+function enh(){if(busy)return;busy=1;try{clean();verdict();
 document.querySelectorAll('.ai:not(.nip)').forEach(a=>{const root=a.parentElement;if(!root||root.dataset.nipd||root.querySelector('.lvn'))return;const c=ctx(a);if(!c)return;root.dataset.nipd='1';const m=c.m,mk=c.key;
  const as=a.querySelector('.as');if(as){const cj=(as.textContent.match(/Cote juste ([\d,]+)/)||[])[1],alts=[...as.querySelectorAll('.alt')].map(x=>x.outerHTML).join('');as.innerHTML=(cj?'Cote juste '+cj:'')+(alts?' · '+alts:'')}
  const ah=a.querySelector('.ah');if(ah&&!a.dataset.clk){a.dataset.ck=mk+'|ia';a.dataset.clk='1';a.classList.add('cl-wrap');const body=document.createElement('div');body.className='cl-b';if(as)body.appendChild(as);a.appendChild(body);
   const x=document.createElement('span');x.className='cl-a';x.textContent='▾';ah.classList.add('cl-h');ah.appendChild(x);bindToggle(a)}
- const sv=c.entry&&c.entry.nip,data=sv||compute(m,mk);let after=a;
+ const sv=c.entry&&c.entry.nip&&!stale(c)?c.entry.nip:null,data=sv||compute(m,mk);let after=a;
  [data.n,data.f].forEach((h,i)=>{if(!h)return;const d=document.createElement('div');d.innerHTML=h;const e=d.firstChild;e.dataset.ck=mk+'|'+(i?'fm':'nip');after.after(e);after=e;bindToggle(e)});
  const el=[...root.children].find(x=>x.firstElementChild&&/Éléments pris en compte/i.test(x.firstElementChild.textContent));
  if(el&&!el.dataset.clk){el.dataset.ck=mk+'|el';collapsible(el,el.firstElementChild)}
  const stx=root.parentElement&&root.parentElement.querySelector('.stx')||root.querySelector('.stx');
  if(stx){if(sv&&sv.s){stx.innerHTML=sv.s;stx.dataset.nip2='1';clean()}else{stx.dataset.nip2='1';statRows(stx,m)}}
- root.dataset.key=mk;if(c.entry&&!c.entry.nip){PEND.set(c.entry.id+'|'+c.entry.t,data);root.dataset.pend='1'}});
+ root.dataset.key=mk;if(c.entry&&(!c.entry.nip||stale(c))){PEND.set(c.entry.id+'|'+c.entry.t,data);root.dataset.pend='1'}});
 /* enregistrement : on garde exactement ce qui s'affiche, une fois pour toutes */
-document.querySelectorAll('[data-pend]').forEach(root=>{const c=ctx(root);if(!c||!c.entry||c.entry.nip)return;const stx=(root.parentElement&&root.parentElement.querySelector('.stx'))||root.querySelector('.stx'),d=PEND.get(c.entry.id+'|'+c.entry.t);if(!d){root.removeAttribute('data-pend');return}
- persist(c.entry,{n:d.n,f:d.f,s:stx?stx.innerHTML:''});root.removeAttribute('data-pend')});
-document.querySelectorAll('.stx:not([data-nip2])').forEach(x=>{const c=ctx(x);if(c){x.dataset.nip2='1';const sv=c.entry&&c.entry.nip;if(sv&&sv.s){x.innerHTML=sv.s;clean()}else statRows(x,c.m)}})}
+document.querySelectorAll('[data-pend]').forEach(root=>{const c=ctx(root);if(!c||!c.entry||(c.entry.nip&&c.entry.nip.v===VER))return;const stx=(root.parentElement&&root.parentElement.querySelector('.stx'))||root.querySelector('.stx'),d=PEND.get(c.entry.id+'|'+c.entry.t);if(!d){root.removeAttribute('data-pend');return}
+ persist(c.entry,{v:VER,n:d.n,f:d.f,s:stx?stx.innerHTML:''});root.removeAttribute('data-pend')});
+document.querySelectorAll('.stx:not([data-nip2])').forEach(x=>{const c=ctx(x);if(c){x.dataset.nip2='1';const sv=c.entry&&c.entry.nip&&!stale(c)?c.entry.nip:null;if(sv&&sv.s){x.innerHTML=sv.s;clean()}else statRows(x,c.m)}})}
 finally{busy=0}}
 const ob=new MutationObserver(()=>enh());
 function start(){ob.observe(document.body,{childList:true,subtree:true});enh()}
