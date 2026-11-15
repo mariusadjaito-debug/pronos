@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Test des sources</title>
+<style>body{margin:0;padding:16px;background:#07101f;color:#e8f0ff;font:15px/1.5 system-ui,sans-serif}h1{font-size:1.1rem}pre{white-space:pre-wrap;word-break:break-word;background:#0d1b33;padding:12px;border-radius:10px}.ok{color:#4ade80}.ko{color:#ff6b6b}button{padding:10px 16px;border-radius:10px;border:0;background:#16a34a;color:#fff;font-size:1rem}</style></head>
+<body><h1>Test des sources (mêmes appels que ton application 2)</h1><button id="go">Relancer le test</button><pre id="o">Test en cours…</pre>
+<script>
+const out=document.getElementById('o');let lines=[];
+const log=(t,c)=>{lines.push(c?'<span class="'+c+'">'+t+'</span>':t);out.innerHTML=lines.join('\n')};
+async function get(url,headers){const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),12000);
+ try{const r=await fetch(url,{headers:headers||{Accept:'application/json'},cache:'no-store',signal:ctl.signal});if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}
+ catch(e){throw new Error(e.name==='AbortError'?'délai dépassé':e.message)}finally{clearTimeout(tm)}}
+const ymd=new Date().toISOString().slice(0,10).replaceAll('-','');
+const leagueOf=e=>{const c=(e.competitions||[])[0]||{};return (e.league&&e.league.name)||(c.league&&c.league.name)||(e.season&&e.season.name)||'?'};
+async function espn(){log('\n1) ESPN : tous les matchs du jour');let d=null;
+ for(const u of ['https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard?dates='+ymd+'&limit=1000','https://site.web.api.espn.com/apis/site/v2/sports/soccer/scoreboard?region=us&lang=en&contentorigin=espn&dates='+ymd+'&limit=1000']){
+  try{d=await get(u);log('   ✔ répond ('+u.split('/')[2]+')','ok');break}catch(e){log('   ✘ '+u.split('/')[2]+' : '+e.message,'ko')}}
+ if(!d){return}
+ const ev=d.events||[];const L={};ev.forEach(e=>{const n=leagueOf(e);L[n]=(L[n]||0)+1});
+ const nat=Object.keys(L).filter(n=>/nations league|friendl/i.test(n));
+ log('   '+ev.length+' matchs, '+Object.keys(L).length+' compétitions','ok');log('   Ligue des Nations / amicaux : '+(nat.length?nat.map(n=>n+' ('+L[n]+')').join(' ; '):'aucun'));
+ const fin=ev.find(e=>((e.status||{}).type||{}).state==='post');
+ if(!fin){log('   (aucun match terminé dans la liste, test des statistiques ignoré)');return}
+ const cs=fin.competitions[0].competitors;log('   Match testé : '+(cs[0].team||{}).displayName+' - '+(cs[1].team||{}).displayName+' ('+leagueOf(fin)+')');
+ try{const s=await get('https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary?event='+fin.id);const t=((s.boxscore||{}).teams)||[];const st=(t[0]||{}).statistics||[];
+  log('   '+(st.length?'✔':'✘')+' statistiques du match : '+st.length+(st.length?' ('+st.slice(0,12).map(x=>x.name||x.label).join(', ')+')':''),st.length?'ok':'ko')}
+ catch(e){log('   ✘ statistiques : '+e.message,'ko')}}
+async function fotmob(){log('\n2) FotMob : tous les matchs du jour');
+ try{const d=await get('https://www.fotmob.com/api/matches?date='+ymd+'&timezone=UTC&ccode3=CI',{Accept:'application/json'});const L=d.leagues||[];const n=L.reduce((s,l)=>s+((l.matches||[]).length),0);
+  log('   ✔ '+n+' matchs, '+L.length+' compétitions','ok')}
+ catch(e){log('   ✘ '+e.message,'ko')}}
+async function tsdb(){log('\n3) TheSportsDB : matchs du jour');
+ try{const d=await get('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+new Date().toISOString().slice(0,10)+'&s=Soccer');log('   ✔ '+((d.events||[]).length)+' matchs','ok')}
+ catch(e){log('   ✘ '+e.message,'ko')}}
+async function run(){lines=[];log('Date : '+new Date().toLocaleString('fr-FR')+' | page : '+location.host);
+ await espn();await fotmob();await tsdb();log('\nTerminé. Envoie une capture de cette page.')}
+document.getElementById('go').onclick=run;run();
+</script></body></html>
