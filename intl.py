@@ -13,7 +13,8 @@ import predict as P
 import predict4 as V4
 
 RESULTS = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
-ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={a}-{b}&limit=200"
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={day}"
+ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/summary?event={id}"
 COMPETITIONS = {"uefa.nations": "Ligue des Nations", "fifa.friendly": "Matchs amicaux"}
 HALF_LIFE, WINDOW = 365, 1460  # jours
 STATE = {"pre": "pre", "in": "live", "post": "fin"}
@@ -86,32 +87,59 @@ def history(now):
     return recs
 
 
-def fx_list(now):
-    """Matchs des 30 dernières heures aux 7 prochains jours : [{slug, league, d, home, away, st, sc, neutral}] + diagnostic."""
-    a, b = now - timedelta(days=2), now + timedelta(days=7)
-    res, diag = [], []
-    for slug, league in COMPETITIONS.items():
+def probe(slug, now):
+    """Diagnostic : ESPN donne-t-il des statistiques (tirs, corners, fautes) pour un match terminé récent ?"""
+    for off in range(-1, -6, -1):
         try:
-            data = json.loads(P.fetch(ESPN.format(slug=slug, a=f"{a:%Y%m%d}", b=f"{b:%Y%m%d}")))
+            data = json.loads(P.fetch(ESPN.format(slug=slug, day=f"{now + timedelta(days=off):%Y%m%d}")))
         except Exception as e:
-            diag.append(f"{slug}: indisponible ({e})")
-            continue
-        n = 0
+            return f"{slug} stats : erreur {str(e)[:40]}"
         for ev in data.get("events", []):
+            if ev.get("status", {}).get("type", {}).get("state") == "post":
+                try:
+                    d = json.loads(P.fetch(ESPN_SUMMARY.format(slug=slug, id=ev["id"])))
+                    st = d["boxscore"]["teams"][0]["statistics"]
+                    return f"{slug} stats : {len(st)} (" + ", ".join(str(x.get("name", "?")) for x in st[:10]) + ")"
+                except Exception as e:
+                    return f"{slug} stats : aucune ({str(e)[:40]})"
+    return f"{slug} stats : aucun match terminé trouvé"
+
+
+def fx_list(now):
+    """Matchs d'hier aux 7 prochains jours, un jour à la fois (la forme la plus sûre pour ESPN) : liste + diagnostic."""
+    res, diag, seen = [], [], set()
+    for slug, league in COMPETITIONS.items():
+        n, err = 0, ""
+        for off in range(-1, 8):
+            day = f"{now + timedelta(days=off):%Y%m%d}"
             try:
-                comp = ev["competitions"][0]
-                cs = {c["homeAway"]: c for c in comp["competitors"]}
-                st = STATE.get(ev["status"]["type"]["state"])
-                if not st:
-                    continue
-                d = ev["date"] if len(ev["date"]) > 17 else ev["date"].replace("Z", ":00Z")
-                sc = None if st == "pre" else [int(float(cs["home"].get("score") or 0)), int(float(cs["away"].get("score") or 0))]
-                res.append({"league": league, "d": d, "h": cs["home"]["team"]["displayName"], "a": cs["away"]["team"]["displayName"],
-                            "st": st, "sc": sc, "neutral": bool(comp.get("neutralSite"))})
-                n += 1
-            except (KeyError, IndexError, ValueError):
+                data = json.loads(P.fetch(ESPN.format(slug=slug, day=day)))
+            except Exception as e:
+                err = err or str(e)[:60]
                 continue
-        diag.append(f"{slug}: {n} matchs")
+            for ev in data.get("events", []):
+                try:
+                    if (slug, ev["id"]) in seen:
+                        continue
+                    comp = ev["competitions"][0]
+                    cs = {c["homeAway"]: c for c in comp["competitors"]}
+                    st = STATE.get(ev["status"]["type"]["state"])
+                    if not st:
+                        continue
+                    d = ev["date"] if len(ev["date"]) > 17 else ev["date"].replace("Z", ":00Z")
+                    sc = None if st == "pre" else [int(float(cs["home"].get("score") or 0)), int(float(cs["away"].get("score") or 0))]
+                    res.append({"league": league, "d": d, "h": cs["home"]["team"]["displayName"], "a": cs["away"]["team"]["displayName"],
+                                "st": st, "sc": sc, "neutral": bool(comp.get("neutralSite"))})
+                    seen.add((slug, ev["id"]))
+                    n += 1
+                except (KeyError, IndexError, ValueError):
+                    continue
+        diag.append(f"{slug}: {n} matchs" + (f" (erreur : {err})" if err else ""))
+    for slug in ("uefa.nations", "bra.1", "mex.1"):
+        try:
+            diag.append(probe(slug, now))
+        except Exception as e:
+            diag.append(f"{slug} stats : erreur {str(e)[:40]}")
     return res, diag
 
 
