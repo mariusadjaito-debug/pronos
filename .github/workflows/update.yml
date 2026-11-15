@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Calculer les pronostics
-        run: python predict4.py
+        run: python predict5.py
         env:
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
       - name: Enregistrer le résultat
@@ -22,4 +22,4 @@ jobs:
           git config user.name "pronos-bot"
           git config user.email "pronos-bot@users.noreply.github.com"
           git add predictions.json
-          git diff --staged --quiet || (git commit -m "Mise à jour des pronostics" && git pull --rebase origin main && git push)
+          git diff --staged --quiet || (git commit -m "Mise à jour des pronostics" && git push)
