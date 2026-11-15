@@ -1,0 +1,191 @@
+name: Construire l'application Android (APK)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: android-actions/setup-android@v3
+      - name: Installer les composants Android
+        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+      - name: Préparer le projet
+        run: |
+          mkdir -p apk/www
+          cd apk
+          cat > package.json <<'EOF'
+          {
+            "name": "madj-pro",
+            "version": "1.0.0",
+            "private": true,
+            "dependencies": { "@capacitor/android": "^6.2.0", "@capacitor/core": "^6.2.0" },
+            "devDependencies": { "@capacitor/assets": "^3.0.5", "@capacitor/cli": "^6.2.0" }
+          }
+          EOF
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.madjpro.app",
+            "appName": "M.Adj.Pro",
+            "webDir": "www",
+            "backgroundColor": "#07101f",
+            "server": {
+              "url": "https://mariusadjaito-debug.github.io/pronos/",
+              "errorPath": "offline.html",
+              "androidScheme": "https",
+              "allowNavigation": ["mariusadjaito-debug.github.io"]
+            },
+            "android": { "backgroundColor": "#07101f" }
+          }
+          EOF
+          cat > www/index.html <<'EOF'
+          <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=https://mariusadjaito-debug.github.io/pronos/"><title>M.Adj.Pro</title></head><body style="background:#07101f"></body></html>
+          EOF
+          cat > www/offline.html <<'EOF'
+          <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>M.Adj.Pro</title>
+          <style>body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;background:radial-gradient(120% 80% at 50% 20%,#1b4fb8,#07101f 70%);color:#fff;font:18px system-ui,sans-serif;text-align:center;padding:24px}h1{margin:0;font-size:2rem;letter-spacing:.05em}a{padding:14px 28px;border-radius:14px;background:#16a34a;color:#fff;text-decoration:none;font-weight:700}</style></head>
+          <body><h1>M.Adj.Pro</h1><p>Pas de connexion internet.<br>Vérifie ton réseau puis réessaie.</p><a href="https://mariusadjaito-debug.github.io/pronos/">Réessayer</a></body></html>
+          EOF
+          cat > make_icon.py <<'PYEOF'
+          """Fabrique le logo M.Adj.Pro : fond bleu stade, M en relief et ballon doré. Écrit assets/*.png (1024 et 2732)."""
+          import math
+          import os
+          from PIL import Image, ImageChops, ImageDraw, ImageFilter
+
+          S = 2048  # dessin en grand, réduit ensuite pour des bords lisses
+          GOLD1, GOLD2 = (255, 226, 120), (214, 150, 20)
+
+
+          def lerp(a, b, t):
+              return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+
+
+          def background(size):
+              """Dégradé radial bleu (comme le ciel du stade) + faisceaux de projecteurs."""
+              img = Image.new("RGB", (size, size))
+              px = img.load()
+              cx, cy, R = size * .5, size * .36, size * .78
+              for y in range(size):
+                  for x in range(size):
+                      d = min(1.0, math.hypot(x - cx, (y - cy) * 1.05) / R)
+                      px[x, y] = lerp((38, 112, 240), (3, 12, 44), d ** .85)
+              rays = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              rd = ImageDraw.Draw(rays)
+              for ax, w in ((.18, .10), (.5, .13), (.82, .10)):
+                  rd.polygon([(size * ax - size * .02, 0), (size * ax + size * .02, 0), (size * (ax + (ax - .5) * .55) + size * w, size), (size * (ax + (ax - .5) * .55) - size * w, size)], fill=(255, 255, 255, 26))
+              rays = rays.filter(ImageFilter.GaussianBlur(size * .012))
+              img.paste(rays, (0, 0), rays)
+              return img.convert("RGBA")
+
+
+          def m_points(size):
+              L, R, top, bottom, valley = size * .25, size * .75, size * .285, size * .725, size * .59
+              t = size * .112
+              return [(L + t / 2, bottom), (L + t / 2, top), (size * .5, valley), (R - t / 2, top), (R - t / 2, bottom)], int(t)
+
+
+          def foreground(size):
+              """M blanc en relief + ballon doré, sur fond transparent (zone sûre au centre)."""
+              img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              pts, w = m_points(size)
+              # relief : copies décalées vers le bas, de plus en plus sombres
+              depth = int(size * .028)
+              for i in range(depth, 0, -1):
+                  layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+                  ImageDraw.Draw(layer).line([(x, y + i) for x, y in pts], fill=lerp((12, 48, 130), (6, 24, 80), i / depth) + (255,), width=w, joint="curve")
+                  img.alpha_composite(layer)
+              # ombre portée
+              sh = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              ImageDraw.Draw(sh).line([(x, y + depth + size * .012) for x, y in pts], fill=(0, 0, 0, 120), width=w, joint="curve")
+              sh = sh.filter(ImageFilter.GaussianBlur(size * .014))
+              base = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              base.alpha_composite(sh)
+              base.alpha_composite(img)
+              img = base
+              # face avant : dégradé vertical blanc -> bleu clair
+              mask = Image.new("L", (size, size), 0)
+              ImageDraw.Draw(mask).line(pts, fill=255, width=w, joint="curve")
+              grad = Image.new("RGBA", (size, size))
+              gp = grad.load()
+              for y in range(size):
+                  c = lerp((255, 255, 255), (170, 205, 255), min(1, max(0, (y - size * .28) / (size * .5))))
+                  for x in range(size):
+                      gp[x, y] = c + (255,)
+              face = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              face.paste(grad, (0, 0), mask)
+              img.alpha_composite(face)
+              # ballon doré dans le creux du M
+              bx, by, br = size * .5, size * .385, size * .085
+              ball = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              bd = ImageDraw.Draw(ball)
+              for i in range(int(br), 0, -1):
+                  k = 1 - i / br
+                  bd.ellipse([bx - i + br * .22 * k, by - i - br * .2 * k, bx + i + br * .22 * k, by + i - br * .2 * k], fill=lerp(GOLD2, GOLD1, k ** .8) + (255,))
+              bd.ellipse([bx - br, by - br, bx + br, by + br], outline=(120, 70, 0, 255), width=max(2, int(size * .004)))
+              pent = [(bx + math.cos(math.radians(-90 + 72 * i)) * br * .42, by + math.sin(math.radians(-90 + 72 * i)) * br * .42) for i in range(5)]
+              bd.polygon(pent, fill=(90, 52, 0, 255))
+              for i in range(5):
+                  a = math.radians(-90 + 72 * i)
+                  bd.line([(bx + math.cos(a) * br * .42, by + math.sin(a) * br * .42), (bx + math.cos(a) * br * .94, by + math.sin(a) * br * .94)], fill=(120, 70, 0, 255), width=max(2, int(size * .0045)))
+              gloss = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+              ImageDraw.Draw(gloss).ellipse([bx - br * .6, by - br * .78, bx - br * .05, by - br * .3], fill=(255, 255, 255, 120))
+              ball.alpha_composite(gloss.filter(ImageFilter.GaussianBlur(size * .004)))
+              glow = ball.filter(ImageFilter.GaussianBlur(size * .02))
+              img.alpha_composite(glow)
+              img.alpha_composite(ball)
+              return img
+
+
+          def save(img, path, size):
+              img.resize((size, size), Image.LANCZOS).save(path)
+
+
+          os.makedirs("assets", exist_ok=True)
+          bg, fg = background(S), foreground(S)
+          full = bg.copy()
+          full.alpha_composite(fg)
+          save(full.convert("RGB"), "assets/icon-only.png", 1024)
+          save(fg, "assets/icon-foreground.png", 1024)
+          save(bg.convert("RGB"), "assets/icon-background.png", 1024)
+          # écran de démarrage : fond sombre et logo au centre
+          for name, dark in (("splash.png", False), ("splash-dark.png", True)):
+              sp = Image.new("RGB", (2732, 2732), (4, 14, 48) if dark else (7, 22, 70))
+              logo = full.resize((900, 900), Image.LANCZOS).convert("RGBA")
+              m = Image.new("L", (900, 900), 0)
+              ImageDraw.Draw(m).rounded_rectangle([0, 0, 899, 899], radius=200, fill=255)
+              sp.paste(logo.convert("RGB"), (916, 916), m)
+              sp.save("assets/" + name)
+          print("logo créé")
+          PYEOF
+      - name: Dessiner le logo
+        run: |
+          cd apk
+          pip install pillow
+          python3 make_icon.py
+      - name: Créer le projet Android
+        run: |
+          cd apk
+          npm install
+          npx cap add android
+          npx @capacitor/assets generate --android
+          sed -i 's|<activity|<activity android:screenOrientation="portrait"|' android/app/src/main/AndroidManifest.xml
+      - name: Construire l'APK
+        run: |
+          cd apk/android
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+      - name: Publier le fichier APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp apk/android/app/build/outputs/apk/debug/app-debug.apk M-Adj-Pro.apk
+          gh release create "apk-${{ github.run_number }}" M-Adj-Pro.apk --title "M.Adj.Pro - APK n°${{ github.run_number }}" --notes "Application Android M.Adj.Pro. Ouvre ce fichier sur ton téléphone pour l'installer."
