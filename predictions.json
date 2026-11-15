@@ -1,5 +1,5 @@
 {
- "updated": "15/11/2026 02:59 UTC",
+ "updated": "15/11/2026 07:31 UTC",
  "matches": [
   {
    "l": "La Liga 2",
@@ -84709,6 +84709,7 @@
   "galway": "https://r2.thesportsdb.com/images/media/team/badge/nil4001582565343.png",
   "st. patricks": "https://r2.thesportsdb.com/images/media/team/badge/bbh2qc1788970563.png",
   "dundalk": "https://r2.thesportsdb.com/images/media/team/badge/uzyrla1770290793.png",
-  "sao paulo": "https://r2.thesportsdb.com/images/media/team/badge/sxpupx1473538135.png"
+  "sao paulo": "https://r2.thesportsdb.com/images/media/team/badge/sxpupx1473538135.png",
+  "__intl": "sélections : aucun match (uefa.nations: indisponible (HTTP Error 400: Bad Request) ; fifa.friendly: indisponible (HTTP Error 400: Bad Request))"
  }
 }
