@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Test SofaScore</title>
+<style>body{margin:0;padding:16px;background:#07101f;color:#e8f0ff;font:15px/1.5 system-ui,sans-serif}h1{font-size:1.1rem}pre{white-space:pre-wrap;word-break:break-word;background:#0d1b33;padding:12px;border-radius:10px}.ok{color:#4ade80}.ko{color:#ff6b6b}button{padding:10px 16px;border-radius:10px;border:0;background:#16a34a;color:#fff;font-size:1rem}</style></head>
+<body><h1>Test SofaScore depuis ce téléphone</h1><button id="go">Relancer le test</button><pre id="o">Test en cours…</pre>
+<script>
+const BASES=['https://api.sofascore.com/api/v1','https://www.sofascore.com/api/v1','https://api.sofascore.app/api/v1'];
+const out=document.getElementById('o');let lines=[];
+const log=(t,c)=>{lines.push(c?'<span class="'+c+'">'+t+'</span>':t);out.innerHTML=lines.join('\n')};
+async function get(base,path){const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),8000);
+ try{const r=await fetch(base+path,{headers:{Accept:'application/json'},mode:'cors',credentials:'omit',cache:'no-store',signal:ctl.signal});
+  const txt=await r.text();let j=null;try{j=JSON.parse(txt)}catch(e){}
+  if(!r.ok)throw new Error('HTTP '+r.status);if(!j)throw new Error('réponse illisible');return j}
+ catch(e){throw new Error(e.name==='AbortError'?'délai dépassé (8 s)':e.message)}finally{clearTimeout(tm)}}
+async function any(path){let last='';for(const b of BASES){try{const t0=Date.now(),j=await get(b,path);return{j,b,ms:Date.now()-t0}}catch(e){last=b.replace('https://','')+' : '+e.message;log('   ✘ '+last,'ko')}}throw new Error('aucune route ne répond')}
+async function run(){lines=[];log('Date : '+new Date().toLocaleString('fr-FR'));
+ const d=new Date().toISOString().slice(0,10);let evs=[];
+ log('\n1) Matchs du jour ('+d+')');
+ try{const {j,b,ms}=await any('/sport/football/scheduled-events/'+d);evs=j.events||[];log('   ✔ '+evs.length+' matchs reçus ('+ms+' ms, '+b.replace('https://','')+')','ok');
+  const nl=evs.filter(e=>/nations league/i.test(JSON.stringify((e.tournament||{}).uniqueTournament||e.tournament||{})));
+  log('   Ligue des Nations : '+nl.length+' match(s)'+(nl.length?' → '+nl.slice(0,4).map(e=>e.homeTeam.name+' - '+e.awayTeam.name).join(' ; '):''));
+  const t={};evs.forEach(e=>{const n=((e.tournament||{}).uniqueTournament||{}).name||'?';t[n]=(t[n]||0)+1});log('   Compétitions : '+Object.keys(t).length)}
+ catch(e){log('   ✘ '+e.message,'ko');log('\nRÉSULTAT : ✘ SofaScore ne répond pas depuis ce téléphone avec cette page','ko');return}
+ log('\n2) Statistiques d\'un match terminé');
+ const fin=evs.find(e=>e.status&&e.status.type==='finished'&&e.hasEventPlayerStatistics!==undefined)||evs.find(e=>e.status&&e.status.type==='finished');
+ if(!fin){log('   (aucun match terminé trouvé aujourd\'hui, test ignoré)')}else{
+  try{const {j}=await any('/event/'+fin.id+'/statistics');const all=(j.statistics||[]).find(p=>String(p.period).toUpperCase()==='ALL')||(j.statistics||[])[0];
+   const items=[];const walk=x=>{if(!x||typeof x!=='object')return;if(Array.isArray(x))return x.forEach(walk);if(x.key&&(x.homeValue!=null||x.awayValue!=null))items.push(x);['groups','statisticsItems'].forEach(k=>x[k]&&walk(x[k]))};walk(all);
+   const want={fouls:'Fautes',cornerKicks:'Corners',totalShotsOnGoal:'Tirs totaux',shotsOnGoal:'Tirs cadrés',yellowCards:'Jaunes',expectedGoals:'xG'};
+   log('   Match : '+fin.homeTeam.name+' - '+fin.awayTeam.name+' ('+items.length+' statistiques)');
+   log('   clés reçues : '+items.slice(0,14).map(i=>i.key).join(', '));
+   Object.keys(want).forEach(k=>{const it=items.find(i=>i.key===k);log('   '+(it?'✔':'✘')+' '+want[k]+(it?' : '+it.homeValue+' - '+it.awayValue:''),it?'ok':'ko')})}
+  catch(e){log('   ✘ '+e.message,'ko')}}
+ log('\n3) Derniers matchs d\'une équipe');
+ try{const tm=evs[0].homeTeam;const {j}=await any('/team/'+tm.id+'/events/last/0');const L=(j.events||[]).filter(e=>e.status&&e.status.type==='finished');
+  log('   ✔ '+tm.name+' : '+L.length+' matchs terminés reçus','ok');let n=0;
+  for(const e of L.slice(0,3)){try{const {j:s}=await any('/event/'+e.id+'/statistics');if((s.statistics||[]).length)n++}catch(x){}}
+  log('   Statistiques disponibles pour '+n+' des 3 derniers matchs testés',n?'ok':'ko')}
+ catch(e){log('   ✘ '+e.message,'ko')}
+ log('\nRÉSULTAT : ✔ SofaScore répond depuis ce téléphone. Envoie une capture de cette page.','ok')}
+document.getElementById('go').onclick=run;run();
+</script></body></html>
