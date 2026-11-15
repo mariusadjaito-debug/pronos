@@ -1,8 +1,8 @@
 """Calcul « base » (python predict4.py) : le modèle que le test sur le passé a validé.
-Buts attendus = forces d'attaque et de défense calculées sur les matchs récents (domicile et extérieur ensemble),
-les plus récents comptant davantage (un match perd la moitié de son poids tous les 180 jours), jamais plus d'un an.
+Buts attendus = forces d'attaque et de défense calculées sur TOUS les matchs récents (domicile et extérieur ensemble),
+les plus récents comptant davantage (un match perd la moitié de son poids tous les 180 jours).
 Pas de forme, de domicile / extérieur à part, de confrontations, d'Elo ni de fatigue : le test montre qu'ils dégradent le calcul.
-Les 30 derniers matchs de chaque équipe sont envoyés à l'application pour NIPER PRO (ils ne servent pas au calcul)."""
+Les 20 derniers matchs de chaque équipe sont envoyés à l'application pour les signes ⭐ (ils ne servent pas au calcul)."""
 import predict as P
 import predict2 as V
 import predict3 as V3
@@ -43,7 +43,20 @@ def _profile(rows, t):
     return out
 
 
+# cartons = jaunes + rouges (comme sur les sites de résultats)
+V.STATK = [(k, "HYR", "AYR") if k == "k" else (k, hc, ac) for k, hc, ac in V.STATK]
+
+
+def _cartons(hist):
+    for _, r in hist:
+        for nouv, jaune, rouge in (("HYR", "HY", "HR"), ("AYR", "AY", "AR")):
+            j = P.num(r.get(jaune))
+            if j is not None:
+                r[nouv] = str(j + (P.num(r.get(rouge)) or 0))
+
+
 def build4(league, hist, fx, out, now):
+    _cartons(hist)
     n0 = len(out)
     V.build2(league, hist, fx, out, now)
     V3._register(league, hist)
@@ -78,7 +91,7 @@ def build4(league, hist, fx, out, now):
         e["y"] = round(ma * att[a] * dfn[h], 2)
         e["f"]["nm"] = [cnt.get(h, 0), cnt.get(a, 0)]
         e.pop("ag", None)
-        z = e.setdefault("z", {})  # 30 derniers matchs de chaque équipe, domicile et extérieur confondus (NIPER PRO)
+        z = e.setdefault("z", {})  # 20 derniers matchs de chaque équipe, domicile et extérieur confondus (signes ⭐)
         for i, t in enumerate((h, a)):
             last = byteam.get(t, [])[-30:]
             z["th" if i == 0 else "ta"] = [[int(P.num(r["FTHG"])), int(P.num(r["FTAG"]))] if r["HomeTeam"] == t
