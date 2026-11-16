@@ -1,4 +1,4 @@
-"""Matchs de sélections nationales (Ligue des Nations, amicaux) : buts probables seulement, sans statistiques (aucune donnée gratuite).
+"""Matchs de sélections nationales (Ligue des Nations, CAN, coupes, amicaux) : buts probables seulement, sans statistiques (aucune donnée gratuite).
 Historique : résultats internationaux publics (martj42/international_results). Matchs du jour : ESPN (flux public gratuit, sans clé).
 Chaque pays est ramené à un nom unique ; le nom affiché est en français ; le drapeau sert de logo."""
 import csv
@@ -15,7 +15,16 @@ import predict4 as V4
 RESULTS = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={day}"
 ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/summary?event={id}"
-COMPETITIONS = {"uefa.nations": "Ligue des Nations", "fifa.friendly": "Matchs amicaux"}
+COMPETITIONS = {
+    "uefa.nations": "Ligue des Nations", "fifa.friendly": "Matchs amicaux",
+    "caf.nations": "Coupe d'Afrique des Nations (CAN)", "caf.nations_qual": "Qualifications CAN",
+    "fifa.world": "Coupe du monde", "fifa.worldq.caf": "Éliminatoires Coupe du monde (Afrique)",
+    "fifa.worldq.uefa": "Éliminatoires Coupe du monde (Europe)", "fifa.worldq.conmebol": "Éliminatoires Coupe du monde (Amérique du Sud)",
+    "fifa.worldq.afc": "Éliminatoires Coupe du monde (Asie)", "fifa.worldq.concacaf": "Éliminatoires Coupe du monde (CONCACAF)",
+    "uefa.euro": "Euro", "uefa.euroq": "Qualifications Euro", "conmebol.america": "Copa América",
+    "concacaf.gold": "Gold Cup", "concacaf.nations.league": "Ligue des Nations CONCACAF",
+    "afc.asian.cup": "Coupe d'Asie des Nations", "fifa.arab.cup": "Coupe arabe de la FIFA",
+}
 HALF_LIFE, WINDOW = 365, 1460  # jours
 STATE = {"pre": "pre", "in": "live", "post": "fin"}
 # nom du fichier de résultats : (nom affiché en français, code du drapeau)
@@ -45,7 +54,33 @@ TEAMS = {
     "Venezuela": ("Venezuela", "ve"), "Bolivia": ("Bolivie", "bo"), "Costa Rica": ("Costa Rica", "cr"), "Panama": ("Panama", "pa"),
     "Jamaica": ("Jamaïque", "jm"), "Honduras": ("Honduras", "hn"),
 }
-ALIAS = {"czechia": "Czech Republic", "turkiye": "Turkey", "ireland": "Republic of Ireland", "eire": "Republic of Ireland",
+TEAMS.update({
+    "Angola": ("Angola", "ao"), "Benin": ("Bénin", "bj"), "Botswana": ("Botswana", "bw"), "Burkina Faso": ("Burkina Faso", "bf"),
+    "Burundi": ("Burundi", "bi"), "Cape Verde": ("Cap-Vert", "cv"), "Central African Republic": ("Centrafrique", "cf"),
+    "Chad": ("Tchad", "td"), "Comoros": ("Comores", "km"), "Congo": ("Congo", "cg"), "DR Congo": ("RD Congo", "cd"),
+    "Djibouti": ("Djibouti", "dj"), "Equatorial Guinea": ("Guinée équatoriale", "gq"), "Eritrea": ("Érythrée", "er"),
+    "Eswatini": ("Eswatini", "sz"), "Ethiopia": ("Éthiopie", "et"), "Gabon": ("Gabon", "ga"), "Gambia": ("Gambie", "gm"),
+    "Guinea": ("Guinée", "gn"), "Guinea-Bissau": ("Guinée-Bissau", "gw"), "Kenya": ("Kenya", "ke"), "Lesotho": ("Lesotho", "ls"),
+    "Liberia": ("Libéria", "lr"), "Libya": ("Libye", "ly"), "Madagascar": ("Madagascar", "mg"), "Malawi": ("Malawi", "mw"),
+    "Mali": ("Mali", "ml"), "Mauritania": ("Mauritanie", "mr"), "Mauritius": ("Maurice", "mu"), "Mozambique": ("Mozambique", "mz"),
+    "Namibia": ("Namibie", "na"), "Niger": ("Niger", "ne"), "Rwanda": ("Rwanda", "rw"), "Sierra Leone": ("Sierra Leone", "sl"),
+    "Somalia": ("Somalie", "so"), "South Africa": ("Afrique du Sud", "za"), "South Sudan": ("Soudan du Sud", "ss"),
+    "Sudan": ("Soudan", "sd"), "Tanzania": ("Tanzanie", "tz"), "Togo": ("Togo", "tg"), "Uganda": ("Ouganda", "ug"),
+    "Zambia": ("Zambie", "zm"), "Zimbabwe": ("Zimbabwe", "zw"), "Sao Tome and Principe": ("Sao Tomé-et-Principe", "st"),
+    "Seychelles": ("Seychelles", "sc"), "China PR": ("Chine", "cn"), "India": ("Inde", "in"), "Indonesia": ("Indonésie", "id"),
+    "Iraq": ("Irak", "iq"), "Jordan": ("Jordanie", "jo"), "Kuwait": ("Koweït", "kw"), "Lebanon": ("Liban", "lb"),
+    "Oman": ("Oman", "om"), "Palestine": ("Palestine", "ps"), "Syria": ("Syrie", "sy"), "Thailand": ("Thaïlande", "th"),
+    "Uzbekistan": ("Ouzbékistan", "uz"), "United Arab Emirates": ("Émirats arabes unis", "ae"), "Vietnam": ("Vietnam", "vn"),
+    "Bahrain": ("Bahreïn", "bh"), "Malaysia": ("Malaisie", "my"), "Yemen": ("Yémen", "ye"), "Singapore": ("Singapour", "sg"),
+    "New Zealand": ("Nouvelle-Zélande", "nz"), "Haiti": ("Haïti", "ht"), "Cuba": ("Cuba", "cu"),
+    "Trinidad and Tobago": ("Trinité-et-Tobago", "tt"), "El Salvador": ("Salvador", "sv"), "Guatemala": ("Guatemala", "gt"),
+    "Suriname": ("Suriname", "sr"), "Curaçao": ("Curaçao", "cw"), "Tahiti": ("Tahiti", "pf"), "Cook Islands": ("Îles Cook", "ck"),
+})
+ALIAS = {"congo dr": "DR Congo", "democratic republic of congo": "DR Congo", "dem rep congo": "DR Congo", "cabo verde": "Cape Verde",
+         "china": "China PR", "swaziland": "Eswatini", "the gambia": "Gambia", "republic of congo": "Congo", "uae": "United Arab Emirates",
+         "trinidad tobago": "Trinidad and Tobago", "curacao": "Curaçao", "sao tome principe": "Sao Tome and Principe",
+         "guinea bissau": "Guinea-Bissau",
+         "czechia": "Czech Republic", "turkiye": "Turkey", "ireland": "Republic of Ireland", "eire": "Republic of Ireland",
          "bosnia herzegovina": "Bosnia and Herzegovina", "bosnia": "Bosnia and Herzegovina", "macedonia": "North Macedonia",
          "usa": "United States", "united states of america": "United States", "korea republic": "South Korea",
          "cote d ivoire": "Ivory Coast", "russia federation": "Russia", "faroe": "Faroe Islands"}
@@ -116,6 +151,8 @@ def fx_list(now):
                 data = json.loads(P.fetch(ESPN.format(slug=slug, day=day)))
             except Exception as e:
                 err = err or str(e)[:60]
+                if off == -1:
+                    break
                 continue
             for ev in data.get("events", []):
                 try:
@@ -135,7 +172,7 @@ def fx_list(now):
                 except (KeyError, IndexError, ValueError):
                     continue
         diag.append(f"{slug}: {n} matchs" + (f" (erreur : {err})" if err else ""))
-    for slug in ("uefa.nations", "bra.1", "mex.1"):
+    for slug in ("uefa.nations", "caf.nations"):
         try:
             diag.append(probe(slug, now))
         except Exception as e:
