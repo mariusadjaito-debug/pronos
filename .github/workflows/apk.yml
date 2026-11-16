@@ -1,6 +1,10 @@
 name: Construire l'application Android (APK)
 on:
   workflow_dispatch:
+    inputs:
+      nom:
+        description: "Nom de l'application sous l'icône"
+        default: "NIPER PRO"
 permissions:
   contents: write
 jobs:
@@ -16,6 +20,22 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
+      - name: Clé de signature stable
+        run: |
+          mkdir -p "$HOME/.android"
+          if [ -f apk-key/debug.keystore ]; then
+            cp apk-key/debug.keystore "$HOME/.android/debug.keystore"
+          else
+            mkdir -p apk-key
+            keytool -genkeypair -keystore apk-key/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 36500 -dname "CN=M.Adj.Pro,O=M.Adj.Pro,C=FR"
+            cp apk-key/debug.keystore "$HOME/.android/debug.keystore"
+            git config user.name "pronos-bot"
+            git config user.email "pronos-bot@users.noreply.github.com"
+            git add apk-key/debug.keystore
+            git commit -m "Clé de signature de l'application Android"
+            git pull --rebase origin main
+            git push
+          fi
       - name: Préparer Android
         run: |
           export ANDROID_HOME="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
@@ -34,6 +54,8 @@ jobs:
           yes | "$SDKM" --licenses > /dev/null || true
           "$SDKM" "platforms;android-34" "build-tools;34.0.0"
       - name: Préparer le projet
+        env:
+          NOM: ${{ github.event.inputs.nom }}
         run: |
           mkdir -p apk/www
           cd apk
@@ -61,6 +83,7 @@ jobs:
             "android": { "backgroundColor": "#07101f" }
           }
           EOF
+          python3 -c "import json,os;p='capacitor.config.json';c=json.load(open(p,encoding='utf-8'));c['appName']=os.environ.get('NOM') or 'NIPER PRO';json.dump(c,open(p,'w',encoding='utf-8'),ensure_ascii=False,indent=2)"
           cat > www/index.html <<'EOF'
           <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=https://mariusadjaito-debug.github.io/pronos/"><title>M.Adj.Pro</title></head><body style="background:#07101f"></body></html>
           EOF
@@ -70,114 +93,50 @@ jobs:
           <body><h1>M.Adj.Pro</h1><p>Pas de connexion internet.<br>Vérifie ton réseau puis réessaie.</p><a href="https://mariusadjaito-debug.github.io/pronos/">Réessayer</a></body></html>
           EOF
           cat > make_icon.py <<'PYEOF'
-          """Fabrique le logo M.Adj.Pro : fond bleu stade, M en relief et ballon doré. Écrit assets/*.png (1024 et 2732)."""
-          import math
+          """Logo de l'application : utilise l'image du dossier logo/ (ballon d'or), la centre sur fond noir et fabrique toutes les tailles."""
+          import glob
           import os
-          from PIL import Image, ImageChops, ImageDraw, ImageFilter
+          from PIL import Image, ImageDraw, ImageFilter
 
-          S = 2048  # dessin en grand, réduit ensuite pour des bords lisses
-          GOLD1, GOLD2 = (255, 226, 120), (214, 150, 20)
-
-
-          def lerp(a, b, t):
-              return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
-
-
-          def background(size):
-              """Dégradé radial bleu (comme le ciel du stade) + faisceaux de projecteurs."""
-              img = Image.new("RGB", (size, size))
-              px = img.load()
-              cx, cy, R = size * .5, size * .36, size * .78
-              for y in range(size):
-                  for x in range(size):
-                      d = min(1.0, math.hypot(x - cx, (y - cy) * 1.05) / R)
-                      px[x, y] = lerp((38, 112, 240), (3, 12, 44), d ** .85)
-              rays = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              rd = ImageDraw.Draw(rays)
-              for ax, w in ((.18, .10), (.5, .13), (.82, .10)):
-                  rd.polygon([(size * ax - size * .02, 0), (size * ax + size * .02, 0), (size * (ax + (ax - .5) * .55) + size * w, size), (size * (ax + (ax - .5) * .55) - size * w, size)], fill=(255, 255, 255, 26))
-              rays = rays.filter(ImageFilter.GaussianBlur(size * .012))
-              img.paste(rays, (0, 0), rays)
-              return img.convert("RGBA")
+          noir = (0, 0, 0)
+          fichiers = [f for f in sorted(glob.glob("../logo/*")) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
+          if fichiers:
+              src = Image.open(fichiers[0]).convert("RGBA")
+              print("logo utilisé :", fichiers[0], src.size)
+              c = min(src.size)
+              src = src.crop(((src.width - c) // 2, (src.height - c) // 2, (src.width + c) // 2, (src.height + c) // 2))
+          else:
+              print("aucune image dans logo/ : ballon doré simple")
+              src = Image.new("RGBA", (1024, 1024), noir + (255,))
+              d = ImageDraw.Draw(src)
+              for i in range(400, 0, -4):
+                  k = i / 400
+                  d.ellipse([512 - i, 512 - i, 512 + i, 512 + i], fill=(int(255 - 60 * k), int(215 - 90 * k), int(70 - 60 * k), 255))
 
 
-          def m_points(size):
-              L, R, top, bottom, valley = size * .25, size * .75, size * .285, size * .725, size * .59
-              t = size * .112
-              return [(L + t / 2, bottom), (L + t / 2, top), (size * .5, valley), (R - t / 2, top), (R - t / 2, bottom)], int(t)
+          def badge(taille):
+              """L'image en rond, bords lisses."""
+              big = src.resize((taille * 3, taille * 3), Image.LANCZOS)
+              mask = Image.new("L", (taille * 3, taille * 3), 0)
+              ImageDraw.Draw(mask).ellipse([0, 0, taille * 3 - 1, taille * 3 - 1], fill=255)
+              big.putalpha(mask)
+              return big.resize((taille, taille), Image.LANCZOS)
 
 
-          def foreground(size):
-              """M blanc en relief + ballon doré, sur fond transparent (zone sûre au centre)."""
-              img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              pts, w = m_points(size)
-              # relief : copies décalées vers le bas, de plus en plus sombres
-              depth = int(size * .028)
-              for i in range(depth, 0, -1):
-                  layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-                  ImageDraw.Draw(layer).line([(x, y + i) for x, y in pts], fill=lerp((12, 48, 130), (6, 24, 80), i / depth) + (255,), width=w, joint="curve")
-                  img.alpha_composite(layer)
-              # ombre portée
-              sh = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              ImageDraw.Draw(sh).line([(x, y + depth + size * .012) for x, y in pts], fill=(0, 0, 0, 120), width=w, joint="curve")
-              sh = sh.filter(ImageFilter.GaussianBlur(size * .014))
-              base = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              base.alpha_composite(sh)
-              base.alpha_composite(img)
-              img = base
-              # face avant : dégradé vertical blanc -> bleu clair
-              mask = Image.new("L", (size, size), 0)
-              ImageDraw.Draw(mask).line(pts, fill=255, width=w, joint="curve")
-              grad = Image.new("RGBA", (size, size))
-              gp = grad.load()
-              for y in range(size):
-                  c = lerp((255, 255, 255), (170, 205, 255), min(1, max(0, (y - size * .28) / (size * .5))))
-                  for x in range(size):
-                      gp[x, y] = c + (255,)
-              face = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              face.paste(grad, (0, 0), mask)
-              img.alpha_composite(face)
-              # ballon doré dans le creux du M
-              bx, by, br = size * .5, size * .385, size * .085
-              ball = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              bd = ImageDraw.Draw(ball)
-              for i in range(int(br), 0, -1):
-                  k = 1 - i / br
-                  bd.ellipse([bx - i + br * .22 * k, by - i - br * .2 * k, bx + i + br * .22 * k, by + i - br * .2 * k], fill=lerp(GOLD2, GOLD1, k ** .8) + (255,))
-              bd.ellipse([bx - br, by - br, bx + br, by + br], outline=(120, 70, 0, 255), width=max(2, int(size * .004)))
-              pent = [(bx + math.cos(math.radians(-90 + 72 * i)) * br * .42, by + math.sin(math.radians(-90 + 72 * i)) * br * .42) for i in range(5)]
-              bd.polygon(pent, fill=(90, 52, 0, 255))
-              for i in range(5):
-                  a = math.radians(-90 + 72 * i)
-                  bd.line([(bx + math.cos(a) * br * .42, by + math.sin(a) * br * .42), (bx + math.cos(a) * br * .94, by + math.sin(a) * br * .94)], fill=(120, 70, 0, 255), width=max(2, int(size * .0045)))
-              gloss = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-              ImageDraw.Draw(gloss).ellipse([bx - br * .6, by - br * .78, bx - br * .05, by - br * .3], fill=(255, 255, 255, 120))
-              ball.alpha_composite(gloss.filter(ImageFilter.GaussianBlur(size * .004)))
-              glow = ball.filter(ImageFilter.GaussianBlur(size * .02))
-              img.alpha_composite(glow)
-              img.alpha_composite(ball)
+          def sur_fond(taille_canevas, taille_badge, fond):
+              img = Image.new("RGBA", (taille_canevas, taille_canevas), fond)
+              b = badge(taille_badge)
+              p = (taille_canevas - taille_badge) // 2
+              img.alpha_composite(b, (p, p))
               return img
 
 
-          def save(img, path, size):
-              img.resize((size, size), Image.LANCZOS).save(path)
-
-
           os.makedirs("assets", exist_ok=True)
-          bg, fg = background(S), foreground(S)
-          full = bg.copy()
-          full.alpha_composite(fg)
-          save(full.convert("RGB"), "assets/icon-only.png", 1024)
-          save(fg, "assets/icon-foreground.png", 1024)
-          save(bg.convert("RGB"), "assets/icon-background.png", 1024)
-          # écran de démarrage : fond sombre et logo au centre
-          for name, dark in (("splash.png", False), ("splash-dark.png", True)):
-              sp = Image.new("RGB", (2732, 2732), (4, 14, 48) if dark else (7, 22, 70))
-              logo = full.resize((900, 900), Image.LANCZOS).convert("RGBA")
-              m = Image.new("L", (900, 900), 0)
-              ImageDraw.Draw(m).rounded_rectangle([0, 0, 899, 899], radius=200, fill=255)
-              sp.paste(logo.convert("RGB"), (916, 916), m)
-              sp.save("assets/" + name)
+          sur_fond(1024, 940, noir + (255,)).convert("RGB").save("assets/icon-only.png")
+          sur_fond(1024, 700, (0, 0, 0, 0)).save("assets/icon-foreground.png")
+          Image.new("RGB", (1024, 1024), noir).save("assets/icon-background.png")
+          for nom in ("splash.png", "splash-dark.png"):
+              sur_fond(2732, 1000, noir + (255,)).convert("RGB").save("assets/" + nom)
           print("logo créé")
           PYEOF
       - name: Dessiner le logo
@@ -192,6 +151,22 @@ jobs:
           npx cap add android
           npx @capacitor/assets generate --android
           sed -i 's|<activity|<activity android:screenOrientation="portrait"|' android/app/src/main/AndroidManifest.xml
+          F="$(find android/app/src/main/java -name MainActivity.java | head -1)"
+          echo "MainActivity : $F"
+          cat > "$F" <<'EOF'
+          package com.madjpro.app;
+
+          import android.os.Bundle;
+          import com.getcapacitor.BridgeActivity;
+
+          public class MainActivity extends BridgeActivity {
+              @Override
+              public void onCreate(Bundle savedInstanceState) {
+                  super.onCreate(savedInstanceState);
+                  getBridge().getWebView().getSettings().setTextZoom(100);
+              }
+          }
+          EOF
       - name: Construire l'APK
         run: |
           cd apk/android
