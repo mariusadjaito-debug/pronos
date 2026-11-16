@@ -16,9 +16,23 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-      - uses: android-actions/setup-android@v3
-      - name: Installer les composants Android
-        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+      - name: Préparer Android
+        run: |
+          export ANDROID_HOME="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$ANDROID_HOME" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=$ANDROID_HOME" >> "$GITHUB_ENV"
+          SDKM="$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager 2>/dev/null | head -1)"
+          if [ -z "$SDKM" ]; then
+            mkdir -p "$ANDROID_HOME/cmdline-tools"
+            curl -sL -o /tmp/cmd.zip https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            unzip -q /tmp/cmd.zip -d /tmp/cmd
+            mkdir -p "$ANDROID_HOME/cmdline-tools/latest"
+            cp -r /tmp/cmd/cmdline-tools/* "$ANDROID_HOME/cmdline-tools/latest/"
+            SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          fi
+          echo "sdkmanager : $SDKM"
+          yes | "$SDKM" --licenses > /dev/null || true
+          "$SDKM" "platforms;android-34" "build-tools;34.0.0"
       - name: Préparer le projet
         run: |
           mkdir -p apk/www
