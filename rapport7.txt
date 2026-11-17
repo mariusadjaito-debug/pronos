@@ -1,0 +1,29 @@
+RAPPORT n°7 : NIPER PRO RÉUSSIT-IL VRAIMENT ?
+17/11/2026 07:35 UTC
+
+Matchs avec données suffisantes : 3052 ; matchs où NIPER PRO s'affiche : 3035 (99 %)
+Pronostics NIPER PRO : 8773 | annoncé 79 % | RÉEL 79 %
+Calcul seul (sans les filtres NIPER PRO), mêmes marchés, mêmes matchs : 32188 | annoncé 74 % | réel 74 %
+Mêmes marchés sans filtres, avec une probabilité proche (79 % ± 5) : réel 77 % (si NIPER PRO fait mieux, ses filtres servent à quelque chose)
+
+Par niveau annoncé :
+   Très sûr (80 % et +) : 3790 pronostics, annoncé 83 %, réel 82 %
+   Sûr (60 à 79 %) : 4983 pronostics, annoncé 77 %, réel 76 %
+
+⭐ : 2084 pronostics, réel 80 % | sans ⭐ : 6689, réel 78 %
+
+Par famille de marché :
+   b : 20 pronostics, annoncé 73 %, réel 75 %
+   d : 1642 pronostics, annoncé 77 %, réel 76 %
+   g : 341 pronostics, annoncé 80 %, réel 77 %
+   h : 1373 pronostics, annoncé 80 %, réel 81 %
+   sc : 1053 pronostics, annoncé 81 %, réel 80 %
+   sf : 1156 pronostics, annoncé 81 %, réel 83 %
+   sr : 893 pronostics, annoncé 80 %, réel 78 %
+   ss : 990 pronostics, annoncé 78 %, réel 79 %
+   t : 1303 pronostics, annoncé 79 %, réel 77 %
+
+Fiche entière gagnante (tous les pronostics réussis) : 52 % des fiches (3035 fiches)
+Premier pronostic de la fiche réussi : 80 %
+
+Verdict : les pourcentages de NIPER PRO sont honnêtes (réel proche de l'annoncé ou meilleur)
