@@ -114,7 +114,7 @@ _mo.rowsOf(m).forEach(r=>{const s=statChoice(m,r);if(!s||s.p<.64||s.k==='k')retu
  s.pb=(2*s.p+e10A+e10B+e30A+e30B)/6;s.f10A=e10A;s.f10B=e10B;s.margin=Math.max(0,Math.min(2,d/sdv))/2;s.stab=1-Math.min(1,sdv/(av(all)||1));cand.push(s)});
 const ok=cand.filter(c=>c.pb>=.7);ok.forEach(c=>{c.ev=.4*(c.f10A+c.f10B)/2+.3*c.margin+.2*c.stab+.1*Q.q});ok.sort((a,b)=>b.ev-a.ev);
 const sel=[];ok.forEach(c=>{if(sel.length>=3||sel.some(x=>x.fam===c.fam))return;if(sel.some(x=>{const r=joint(m,x.t,c.t);return r!==null&&(r<.8||r>1.35)}))return;sel.push(c)});
-if(!sel.length)return null;return{sel,star:sel[0].ev>=.75&&sel[0].margin>=.35?sel[0]:null,q:Q.q}}
+if(!sel.length)return null;return{sel,best:sel.reduce((a,b)=>b.pb>a.pb?b:a),star:null,q:Q.q}}
 function nipHTML(N){const rows=N.sel.map(c=>{const L=lvl(c.pb);return `<div class="nip-r" data-t="${c.t.replace(/"/g,'&quot;')}"><strong>${N.star===c?'⭐ ':''}${c.t}</strong><b class="n-${L[0]}">${Math.round(c.pb*100)} %</b></div>`}).join('');
 return `<div class="ai nip" data-cl="nip"><div class="cl-h"><span class="nip-t">NIPER PRO</span><span class="cl-r"><span class="nip-q">Données ${Math.round(N.q*100)} %</span><span class="cl-a">▾</span></span></div><div class="cl-b">${rows}</div></div>`}
 /* ---------- contexte : quel match, quelle analyse enregistrée ---------- */
@@ -125,10 +125,17 @@ const b=g.querySelector('[onclick*="delAn("]'),ix=b?+((b.getAttribute('onclick')
 if(e)return{m:e.m,entry:e,key:e.id};
 const n=[...g.querySelectorAll('.nm')].map(x=>x.textContent.trim()),e2=arr.find(x=>x.m&&x.m.h===n[0]&&x.m.a===n[1]);if(e2)return{m:e2.m,entry:e2,key:e2.id};
 const m=M.find(x=>x.h===n[0]&&x.a===n[1]);return m?{m,entry:null,key:idOf(m)}:null}
-const CACHE=new Map(),PEND=new Map();
-function compute(m,key){const ck=key+'|'+m.x+'|'+m.y+'|'+((m.z&&m.z.th&&m.z.th.length)||0);if(CACHE.has(ck))return CACHE.get(ck);
-const F=formStats(m),N=niper(m,F),o={n:N?nipHTML(N):'',f:F?formHTML(F):''};CACHE.set(ck,o);return o}
-const VER=5;
+const CACHE=new Map(),PEND=new Map(),DAYC=new Map();
+/* ⭐ = les meilleurs pronostics de la journée (classés par probabilité confirmée), pas un seuil fixe */
+function dayStar(m,N){let dk;try{dk=String(dOf(m.d))}catch(e){return false}
+const ck=dk+'|'+M.length;let L=DAYC.get(ck);
+if(!L){L=[];M.forEach(x=>{try{if(String(dOf(x.d))!==dk||stOf(x).s!=='pre')return;const n=niper(x,formStats(x));if(n)L.push({id:x.h+'|'+x.a+'|'+x.d,pb:n.best.pb,ev:n.best.ev})}catch(e){}});
+ L.sort((a,b)=>b.pb-a.pb||b.ev-a.ev);DAYC.set(ck,L)}
+const k=Math.min(6,Math.max(1,Math.round(L.length*.15))),i=L.findIndex(z=>z.id===m.h+'|'+m.a+'|'+m.d);
+return i>=0&&i<k&&N.best.pb>=.78}
+function compute(m,key){const ck=key+'|'+m.x+'|'+m.y+'|'+M.length+'|'+((m.z&&m.z.th&&m.z.th.length)||0);if(CACHE.has(ck))return CACHE.get(ck);
+const F=formStats(m),N=niper(m,F);if(N&&dayStar(m,N))N.star=N.best;const o={n:N?nipHTML(N):'',f:F?formHTML(F):''};CACHE.set(ck,o);return o}
+const VER=6;
 function stale(c){const n=c.entry&&c.entry.nip;if(!n||n.v===VER)return false;try{const cur=M.find(x=>idOf(x)===c.entry.id);return !!cur&&stOf(cur).s==='pre'}catch(e){return false}}
 function persist(entry,data){try{const arr=rd(),i=arr.findIndex(e=>e.id===entry.id&&e.t===entry.t);if(i>=0&&(!arr[i].nip||arr[i].nip.v!==VER)){arr[i].nip=data;wr(arr)}}catch(e){}}
 /* ---------- repli / dépli ---------- */
