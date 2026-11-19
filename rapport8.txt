@@ -1,0 +1,47 @@
+RAPPORT n°8 : COTES 1,40 À 2,00 (PROBABILITÉ 50 À 71 %)
+19/11/2026 21:03 UTC
+
+Pronostics testés : 83853 (marchés de buts et lignes de statistiques, probabilité 50 à 71 %)
+
+1) Le calcul seul, par tranche de cote (annoncé = probabilité du calcul, réel = réussi) :
+   cote 1,40-1,50 : 18252 pronostics | annoncé 69 % | réel 68 %
+   cote 1,50-1,60 : 16180 pronostics | annoncé 65 % | réel 64 %
+   cote 1,60-1,70 : 14324 pronostics | annoncé 61 % | réel 60 %
+   cote 1,70-1,85 : 18879 pronostics | annoncé 56 % | réel 57 %
+   cote 1,85-2,00 : 16218 pronostics | annoncé 52 % | réel 52 %
+
+2) Les règles d'accord des deux équipes (réel / nombre), comparées aux pronostics sans règle de la même tranche :
+   A = chaque équipe confirme le pronostic sur ses 10 et 30 derniers matchs ; B = confirmation nette (+5 points) ;
+   C = B + confrontations directes + domicile/extérieur + moyennes + cohérence ouvert/fermé
+   cote 1,40-1,50 : sans règle 68 % | A 74 % (3386) | B 76 % (1645) | C 76 % (1545)
+   cote 1,50-1,60 : sans règle 64 % | A 73 % (2794) | B 76 % (1254) | C 76 % (1170)
+   cote 1,60-1,70 : sans règle 60 % | A 68 % (2358) | B 68 % (1721) | C 68 % (1596)
+   cote 1,70-1,85 : sans règle 57 % | A 65 % (3770) | B 67 % (1658) | C 67 % (1525)
+   cote 1,85-2,00 : sans règle 52 % | A 60 % (2580) | B 61 % (1892) | C 62 % (1653)
+
+   Gain global de la règle (réel de la règle moins réel des pronostics sans règle de même probabilité) :
+   A : 14888 pronostics, réel 68 %, gain +7.6 points
+   B : 8170 pronostics, réel 69 %, gain +9.2 points
+   C : 7489 pronostics, réel 69 %, gain +9.5 points
+
+3) Plus les équipes confirment le pronostic, mieux il réussit ? (accord moyen moins la probabilité du calcul) :
+   accord moins de -5 points : 24825 pronostics | annoncé 61 % | réel 53 %
+   accord de -5 à 0 : 19048 pronostics | annoncé 61 % | réel 59 %
+   accord de 0 à +5 : 19016 pronostics | annoncé 61 % | réel 62 %
+   accord +5 et plus : 20964 pronostics | annoncé 60 % | réel 68 %
+
+4) Par famille de marché (règle C) :
+   b : 129 pronostics | annoncé 55 % | réel 52 %
+   d : 234 pronostics | annoncé 60 % | réel 67 %
+   g : 327 pronostics | annoncé 62 % | réel 71 %
+   h : 449 pronostics | annoncé 60 % | réel 68 %
+   sc : 1237 pronostics | annoncé 61 % | réel 68 %
+   sf : 1292 pronostics | annoncé 61 % | réel 72 %
+   sr : 1153 pronostics | annoncé 60 % | réel 64 %
+   ss : 2302 pronostics | annoncé 60 % | réel 73 %
+   t : 365 pronostics | annoncé 60 % | réel 66 %
+
+5) Un seul pronostic par match (le mieux confirmé, règle C, cote environ 1,4 à 1,7) :
+   2197 pronostics | annoncé 64 % | réel 73 % | cote juste moyenne 1.57
+
+Lecture : si « réel » est proche de « annoncé », le calcul est juste dans cette zone ; si les règles A, B, C font mieux que « sans règle », elles aident vraiment à choisir.
