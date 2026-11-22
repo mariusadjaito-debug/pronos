@@ -1,0 +1,44 @@
+RAPPORT n°9 : ÉTUDE DU MOTEUR DE BUTS
+22/11/2026 14:07 UTC
+
+Matchs comparés : 3224 (les mêmes pour toutes les variantes). Perte logarithmique moyenne : plus c'est bas, meilleur est le moteur.
+
+A) Mémoire : fenêtre (jours ≈ matchs par équipe) et oubli (demi-vie)
+   fenêtre    oubli   |  1X2    plus/moins 2,5   deux équipes marquent   score exact
+    290 j (~30)   120 j | 1.0125   0.6923          0.6903               2.9537
+    290 j (~30)   240 j | 1.0099   0.6938          0.6917               2.9523
+    290 j (~30)   aucun | 1.0091   0.6967          0.6940               2.9549
+    365 j (~38)   120 j | 1.0091   0.6905          0.6888               2.9467
+    365 j (~38)   240 j | 1.0061   0.6914          0.6895               2.9438
+    365 j (~38)   aucun | 1.0059   0.6935          0.6910               2.9461
+    480 j (~50)   120 j | 1.0070   0.6896          0.6882               2.9427
+    480 j (~50)   240 j | 1.0032   0.6899          0.6886               2.9375
+    480 j (~50)   aucun | 1.0025   0.6917          0.6899               2.9386
+    575 j (~60)   120 j | 1.0069   0.6896          0.6882               2.9422
+    575 j (~60)   240 j | 1.0030   0.6902          0.6886               2.9371
+    575 j (~60)   aucun | 1.0029   0.6928          0.6901               2.9393
+    770 j (~80)   120 j | 1.0065   0.6895          0.6881               2.9416
+    770 j (~80)   240 j | 1.0022   0.6897          0.6884               2.9357
+    770 j (~80)   aucun | 1.0015   0.6917          0.6898               2.9370
+   Meilleure variante (somme des pertes) : fenêtre 770 jours (~80 matchs par équipe), oubli 240
+
+B) Confrontations directes (matchs ayant au moins 3 confrontations récentes) :
+   sans confrontations       : 1475 matchs | 1X2 1.0101 | 2,5 0.6879 | deux marquent 0.6876 | score exact 2.9739
+   confrontations à moitié   : 1475 matchs | 1X2 1.0082 | 2,5 0.6889 | deux marquent 0.6898 | score exact 2.9756
+   confrontations en plein   : 1475 matchs | 1X2 1.0143 | 2,5 0.6957 | deux marquent 0.6961 | score exact 2.9970
+
+C) Forme des scores avec la mémoire de 365 jours et demi-vie 240 jours :
+   modèle de score                         | 1X2     2,5     deux marquent  score exact | score n°1 | dans les 3 premiers
+   indépendants                            | 1.0061  0.6914  0.6895        2.9438      | 11.5 %   | 31.0 %
+   Dixon-Coles -0,10                       | 1.0064  0.6914  0.6879        2.9446      | 12.1 %   | 30.6 %
+   Dixon-Coles -0,05                       | 1.0059  0.6914  0.6886        2.9435      | 11.9 %   | 31.0 %
+   dispersion 15                           | 1.0068  0.6915  0.6925        2.9514      | 10.8 %   | 30.8 %
+   dispersion 8                            | 1.0076  0.6921  0.6964        2.9622      | 10.7 %   | 30.6 %
+   Dixon-Coles -0,05 + dispersion 15       | 1.0064  0.6915  0.6913        2.9512      | 11.7 %   | 30.6 %
+
+   Matchs très ouverts (buts attendus 3,2 ou plus) : le moteur propose-t-il toujours 2-1, 1-1 ou 0-0 ?
+   indépendants : 608 matchs ; score n°1 parmi 0-0, 1-1, 1-0, 0-1, 2-1, 1-2 : 74 % ; réel avec 3 buts ou plus : 63 % ; réussite du score n°1 : 10.9 %
+   Dixon-Coles -0,05 + dispersion 15 : 608 matchs ; score n°1 parmi 0-0, 1-1, 1-0, 0-1, 2-1, 1-2 : 69 % ; réel avec 3 buts ou plus : 63 % ; réussite du score n°1 : 11.2 %
+
+   4 buts ou plus : annoncé / réel (indépendants) : 30.0 % / 31.2 %
+   4 buts ou plus : annoncé / réel (Dixon-Coles -0,05 + dispersion 15) : 30.1 % / 31.2 %
