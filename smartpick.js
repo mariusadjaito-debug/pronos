@@ -41,6 +41,13 @@ if(/^Les deux marquent/.test(t))return'b';
 if(r=t.match(/^(.+) : (plus|moins) de ([\d,]+) buts?$/)){const l=fl(r[3]);return l>=1.5&&l<=2.5?'t':null}
 return null}
 const pmf=(k,l)=>{let p=Math.exp(-l);for(let i=1;i<=k;i++)p*=l/i;return p};
+/* grille de scores avec la même correction des petits scores (Dixon-Coles) que l'analyse */
+const RHOS=-.06;
+function gridDC(x,y,N){const G=[];let s=0;for(let i=0;i<=N;i++){G[i]=[];for(let j=0;j<=N;j++){let p=pmf(i,x)*pmf(j,y);if(i<2&&j<2)p*=i===0&&j===0?1-x*y*RHOS:i===0&&j===1?1+x*RHOS:i===1&&j===0?1+y*RHOS:1-RHOS;G[i][j]=p;s+=p}}for(let i=0;i<=N;i++)for(let j=0;j<=N;j++)G[i][j]/=s;return G}
+/* fourchette de buts : le plus petit intervalle de buts totaux qui couvre au moins 70 % des cas */
+function fourchette(m){if(!(m.x>0&&m.y>0))return null;const G=gridDC(m.x,m.y,9),T=Array(10).fill(0);for(let i=0;i<=9;i++)for(let j=0;j<=9;j++)if(i+j<=9)T[i+j]+=G[i][j];
+let best=null;for(let a=0;a<=7;a++)for(let b=a;b<=8;b++){const c=T.slice(a,b+1).reduce((u,v)=>u+v,0);if(c>=.7&&(!best||b-a<best.b-best.a||(b-a===best.b-best.a&&c>best.c)))best={a,b,c}}
+return best?(best.a===best.b?best.a+' but'+(best.a>1?'s':''):best.a+' à '+best.b+' buts')+' · '+Math.round(best.c*100)+' %':null}
 function joint(m,t1,t2){const f1=(a,b)=>hit(t1,m,a,b),f2=(a,b)=>hit(t2,m,a,b);if(f1(1,1)===null||f2(1,1)===null)return null;let p1=0,p2=0,p12=0;
 for(let a=0;a<=9;a++)for(let b=0;b<=9;b++){const p=pmf(a,m.x)*pmf(b,m.y),x=f1(a,b),y=f2(a,b);if(x)p1+=p;if(y)p2+=p;if(x&&y)p12+=p}return p1>0&&p2>0?p12/(p1*p2):null}
 
@@ -163,6 +170,8 @@ document.querySelectorAll('.note').forEach(n=>{if(/^Lignes choisies d/.test(n.te
 let busy=0;
 function enh(){if(busy)return;busy=1;try{clean();verdict();
 document.querySelectorAll('.ai:not(.nip)').forEach(a=>{const root=a.parentElement;if(!root||root.dataset.nipd||root.querySelector('.lvn'))return;const c=ctx(a);if(!c)return;root.dataset.nipd='1';const m=c.m,mk=c.key;
+ const sr=[...root.querySelectorAll('.mr')].find(e=>/3 scores probables/.test(e.textContent));
+ if(sr&&!(sr.nextElementSibling&&sr.nextElementSibling.dataset.fch)){const f=fourchette(m);if(f){const d0=document.createElement('div');d0.className='mr';d0.dataset.fch='1';d0.innerHTML='<span>Fourchette de buts</span><span>'+f+'</span>';sr.after(d0)}}
  const as=a.querySelector('.as');if(as){const cj=(as.textContent.match(/Cote juste ([\d,]+)/)||[])[1],alts=[...as.querySelectorAll('.alt')].map(x=>x.outerHTML).join('');as.innerHTML=(cj?'Cote juste '+cj:'')+(alts?' · '+alts:'')}
  const ah=a.querySelector('.ah');if(ah&&!a.dataset.clk){a.dataset.ck=mk+'|ia';a.dataset.clk='1';a.classList.add('cl-wrap');const body=document.createElement('div');body.className='cl-b';if(as)body.appendChild(as);a.appendChild(body);
   const x=document.createElement('span');x.className='cl-a';x.textContent='▾';ah.classList.add('cl-h');ah.appendChild(x);bindToggle(a)}

@@ -10,6 +10,7 @@ import predict3 as V3
 P.HALF_LIFE = 180
 MAX_DAYS = 365  # plus aucun match de plus d'un an dans le calcul (environ 40 matchs par équipe, jamais plus de 100)
 _fit = P.fit
+GOAL_DAYS, GOAL_HL = 770, 240  # buts : environ 80 matchs par équipe, oubli lent (test n°9)
 
 
 def _fit_recent(data):
@@ -61,11 +62,11 @@ def build4(league, hist, fx, out, now):
     V.build2(league, hist, fx, out, now)
     V3._register(league, hist)
     new = {(e["h"], e["a"], e["d"]): e for e in out[n0:] if "f" in e}
-    data = [(0.5 ** ((now - d).days / P.HALF_LIFE), r["HomeTeam"], r["AwayTeam"], P.num(r["FTHG"]), P.num(r["FTAG"]))
-            for d, r in hist if P.num(r.get("FTHG")) is not None and P.num(r.get("FTAG")) is not None]
+    data = [(0.5 ** ((now - d).days / GOAL_HL), r["HomeTeam"], r["AwayTeam"], P.num(r["FTHG"]), P.num(r["FTAG"]))
+            for d, r in hist if P.num(r.get("FTHG")) is not None and P.num(r.get("FTAG")) is not None and (now - d).days <= GOAL_DAYS]
     if not new or len(data) < 50:
         return
-    mh, ma, att, dfn = P.fit(data)
+    mh, ma, att, dfn = _fit(data)
     known = {P.norm(t): t for _, r in hist for t in (r["HomeTeam"], r["AwayTeam"])}
     cnt, byteam = {}, {}
     for d, r in sorted(hist, key=lambda z: z[0]):
