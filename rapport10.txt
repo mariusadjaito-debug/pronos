@@ -1,0 +1,38 @@
+RAPPORT n°10 : UNE IA DE SÉLECTION BAT-ELLE LES RÈGLES ?
+26/11/2026 10:00 UTC
+
+Pronostics : 125116 (apprentissage 74470, test sur des matchs plus récents jamais vus 50646).
+
+1) Qualité des prévisions sur le test (plus la perte et l'erreur sont basses, mieux c'est ; AUC : 0,5 = hasard, 1 = parfait) :
+   probabilité seule (calibrée)        : perte 0.6326 | erreur 0.2208 | AUC 0.6088
+   régression avec tous les signaux    : perte 0.6245 | erreur 0.2172 | AUC 0.6318
+   IA (arbres) avec tous les signaux   : perte 0.6255 | erreur 0.2176 | AUC 0.6303
+
+2) L'IA dit-elle vrai ? (probabilité annoncée par l'IA / réussite réelle) :
+   moins de 50 % : 4748 pronostics | annoncé 45.3 % | réel 46.7 %
+   50 à 60 %     : 11431 pronostics | annoncé 55.4 % | réel 54.4 %
+   60 à 70 %     : 15219 pronostics | annoncé 65.2 % | réel 64.9 %
+   70 à 80 %     : 14753 pronostics | annoncé 74.6 % | réel 73.9 %
+   80 % et plus  : 4495 pronostics | annoncé 83.2 % | réel 80.1 %
+
+3) Un seul pronostic par match, cote juste 1,4 à 1,7 (probabilité du calcul de 58 à 71 %) : réussite réelle selon la méthode de choix :
+   au hasard (moyenne des candidats)       : 1369 matchs | cote juste moyenne 1.54 | annoncé par le calcul 64.7 % | RÉEL 64.2 %
+   le plus probable selon le calcul        : 1369 matchs | cote juste moyenne 1.42 | annoncé par le calcul 70.5 % | RÉEL 69.8 %
+   règle C du test n°8 (meilleur accord)   : 880 matchs | cote juste moyenne 1.56 | annoncé par le calcul 63.9 % | RÉEL 73.6 %
+   régression                              : 1369 matchs | cote juste moyenne 1.46 | annoncé par le calcul 68.6 % | RÉEL 76.3 %
+   IA (arbres)                             : 1369 matchs | cote juste moyenne 1.46 | annoncé par le calcul 68.6 % | RÉEL 76.5 %
+
+4) Les meilleurs pronostics de la journée selon l'IA (15 % des matchs de chaque jour, un pronostic par match, cote juste 1,4 à 1,7) :
+   236 pronostics | cote juste moyenne 1.44 | annoncé par l'IA 80.4 % | RÉEL 78.0 %
+
+5) Ce que la régression juge le plus important (poids après mise à l'échelle) :
+   logit p                     : +0.242
+   cote                        : +0.151
+   e10 B                       : +0.128
+   e30 A                       : +0.117
+   e10 A                       : +0.095
+   p                           : +0.092
+   confrontations              : +0.092
+   moyennes ok                 : +0.061
+
+Lecture : si la perte et l'erreur de l'IA sont plus basses que celles de « probabilité seule », l'IA ajoute de l'information. Si le RÉEL du point 3 ou 4 est plus haut pour l'IA que pour le calcul ou la règle C, elle choisit mieux.
